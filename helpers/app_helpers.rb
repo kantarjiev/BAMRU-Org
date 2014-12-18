@@ -9,4 +9,8 @@ module AppHelpers
       <a href='#{target}' class='#{cls}' onfocus='blur();'>#{label}</a><br/>
     HTML
   end
+
+  def blog_url
+    "http://bamru.blogspot.com"
+  end
 end

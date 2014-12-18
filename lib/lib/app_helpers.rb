@@ -283,10 +283,6 @@ module Sinatra
       "<a href='/admin_delete/#{eventid}'>delete</a>"
     end
 
-    def blog_url
-      "http://bamru.blogspot.com"
-    end
-
     def admin_link(target, label)
       link = "<a href='#{target}'>#{label}</a>"
       target == current_page ? label : link
