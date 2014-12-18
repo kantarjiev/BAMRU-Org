@@ -31,33 +31,41 @@ Maintaining the website is a team effort with multiple roles.
 | JS Coder   | Client-Side Javascript for interactive components   |
 | Ruby Coder | Server-Side Ruby for site generation and automation |
 
-## Tools and Skills
+## Required Tools
+         
+| Tool                                | Required By     |
+| ----                                | -----------     |
+| Internet connection                 | All             |
+| Web Browser                         | All             |
+| GitHub for [Mac][1] or [Windows][2] | Copywriter {1}  |
+| Ubuntu or Mac computer              | Designer, Coder |
 
-To be productive, you will the following tools and skills:
+[1]: https://windows.github.com
+[2]: https://mac.github.com/
 
-### Tools
+{1} Copywriting can be done using a browser, or using the GitHub software for Mac or Windows.
 
-* Ubuntu or Mac computer
-* Good internet connection
+## Required Skills
 
-### Required Skills
-
-* Command Line Savvy
-* Text Editor Skills
-* Knowledge of [Git](http://git-scm.com) & [GitHub](http://github.com)
-
-### Nice-To-Have Skills
-
-* Ruby
-* Middleman / Rails
-* Markdown / ERB / Slim
-* CSS
-* JavaScript / Coffeescript
-* ReactJS / Reflux
+| Skill              | Required By     |
+| -----              | -----------     |
+| English Grammar    | Copywriter      |
+| Markdown           | Copywriter      |
+| ERB / Slim         | Designer, Coder |
+| Middleman          | Designer, Coder |
+| Command Line Savvy | Designer, Coder |
+| Text Editor Skills | Designer, Coder |
+| Git & GitHub       | Designer, Coder |
+| CSS                | Designer        |
+| Photoshop          | Designer        |
+| JavaScript         | JS Coder        |
+| CoffeeScript       | JS Coder        |
+| ReactJS / Reflux   | JS Coder        |
+| Ruby               | Ruby Coder      |
 
 ## Environment Setup
 
-TBD
+[How to be a CopyWriter](./docs/copywrite.md)
 
 ## Repo Setup
 
