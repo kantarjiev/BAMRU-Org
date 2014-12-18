@@ -6,7 +6,7 @@ module AppHelpers
   def menu_link(target, label)
     cls = current_page.destination_path == target ? "nav4" : "nav1"
     <<-HTML
-      <a href='/#{target}' class='#{cls}' onfocus='blur();'>#{label}</a><br/>
+      <a href='#{target}' class='#{cls}' onfocus='blur();'>#{label}</a><br/>
     HTML
   end
 end
