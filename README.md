@@ -1,4 +1,4 @@
-# BAMRU.org Static Pages
+# BAMRU.org Static Website
 
 ## Overview
 
@@ -21,6 +21,15 @@ Using MiddleMan, the editing workflow generally follows this cycle:
 ## Who Can Edit
 
 Any BAMRU Member or Supporter is welcome to do hands-on editing.  Contact Andy L. for info on current needs.  [Fork](http://help.github.com/articles/fork-a-repo) this repository if you would like to experiment.
+
+Maintaining the website is a team effort with multiple roles.
+
+| Role       | Responsibility                                      |
+| ----       | --------------                                      |
+| Copywriter | Make textual edits                                  |
+| Designer   | Create site styling, edit graphics                  |
+| JS Coder   | Client-Side Javascript for interactive components   |
+| Ruby Coder | Server-Side Ruby for site generation and automation |
 
 ## Tools and Skills
 
