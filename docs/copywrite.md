@@ -1,4 +1,5 @@
-# Test File
+# How to be a CopyWriter
 
-This file will have instructions for CopyWriters.
+Under contstruction.
 
+View the [README](../README.md)
