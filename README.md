@@ -2,11 +2,13 @@
 
 ## Overview
 
-BAMRU.org is a public-facing website composed of static assets. (html, css, images, javascript).
+BAMRU.org is a public-facing website composed of static assets. (html, css, images, javascript).  A live version of this website is at TBD.
 
-A site generator called [MiddleMan](http://middlemanapp.com) is used to generate the static assets.
+A site generator called [MiddleMan](http://middlemanapp.com) is used to generate the static assets from page templates.
 
-The static assets can be served from any webserver.  For convenience and cost-savings, we use GitHub pages as the server host.
+Templates are in plain-text formats like [Markdown](http://en.wikipedia.org/wiki/Markdown), [ERB](http://en.wikipedia.org/wiki/ERuby) and [Slim](http://slim-lang.com).
+
+The static assets can be served from any webserver.  For convenience and cost-savings, we use [GitHub Pages](https://pages.github.com) as the server host.
 
 Using MiddleMan, the editing workflow generally follows this cycle:
 
@@ -18,34 +20,31 @@ Using MiddleMan, the editing workflow generally follows this cycle:
 
 ## Who Can Edit
 
-TBD
-
-
-
-
+Any BAMRU Member or Supporter is welcome to do hands-on editing.  Contact Andy L. for info on current needs.  [Fork](http://help.github.com/articles/fork-a-repo) this repository at any time if you would like to experiment.
 
 ## Tools and Skills
 
-To be productive, you will the following tools and skills
+To be productive, you will the following tools and skills:
 
-Tools:
+### Tools
 
 * Ubuntu or Mac computer
 * Good internet connection
 
-Required Skills:
+### Required Skills
 
 * Command Line Savvy
 * Text Editor Skills
-* Knowledge of Git / GitHub
+* Knowledge of [Git](http://git-scm.com) & [GitHub](http://github.com)
 
-Nice-To-Have Skills:
+### Nice-To-Have Skills
 
 * Ruby
 * Middleman / Rails
-* Slim & Markdown
+* Markdown / ERB / Slim
 * CSS
 * JavaScript / Coffeescript
+* ReactJS / Reflux
 
 ## Environment Setup
 
@@ -65,8 +64,8 @@ First step is to make sure there is a gh-pages branch which holds the HTML outpu
 
 This site depends on Ruby 2.1.5 and the `middleman` gem.
 
-    ruby-install ruby 2.1.2
-    cd <dir>/mvcondo
+    ruby-install ruby 2.1.5
+    cd <dir>/BAMRU-Org
     gem install bundler
     bundle
 
@@ -76,7 +75,7 @@ Project input is read from the `source` directory.
 
 To run the generator:
 
-    cd <dir>/mvcondo
+    cd <dir>/BAMRU-Org
     bundle exec middleman build
 
 Project output is written to the `build` directory.
@@ -88,7 +87,7 @@ The project is hosted on github pages.  Output HTML is stored on the
 
 To deploy:
 
-    cd <dir>/mvcondo
+    cd <dir>/BAMRU-Org
     rm -rf /tmp/output
     cp -r output /tmp
     git checkout gh-pages
@@ -99,7 +98,7 @@ To deploy:
     git push
     git checkout master
 
-See `Github Pages` to learn more.
+See [Github Pages](http://pages.github.com) to learn more.
 
 ## Rake Tasks
 

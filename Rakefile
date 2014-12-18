@@ -36,9 +36,6 @@ namespace :site do
     cmd = "bundle exec middleman build"
     log cmd
     system cmd
-    system "echo mesa-verde-condo.com > out/CNAME"
-    system "cp out/index.html out/cl.html"
-    system "cp out/index.html out/mp.html"
   end
 
   desc "Deploy the Site"
