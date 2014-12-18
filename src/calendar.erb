@@ -9,9 +9,9 @@ the right); others are open only to BAMRU trainees and members.&nbsp;
 See the descriptions of individual events for further information.<br>
 <br>
 <form action="/calendar">
-  Showing events 
-  from <%=event_range_select(@start,@finish,"start")%>
-  to <%=event_range_select(@start,@finish,"finish")%>
+  Showing events
+  from <%#event_range_select(@start,@finish,"start")%>
+  to <%#event_range_select(@start,@finish,"finish")%>
   <input type="submit" value="Change">
 </form>
 
@@ -22,7 +22,7 @@ See the descriptions of individual events for further information.<br>
   <td width=75 valign="top"></td>
   <td width=35 valign="top"></td>
 </tr>
-  <%=calendar_table(Event.meetings.between(@start, @finish), "GENERAL")%>
+  <%#calendar_table(Event.meetings.between(@start, @finish), "GENERAL")%>
 
   <tr bgcolor="#FFFFFF">
     <td width=296 valign="top"><font class=summary><br>
@@ -30,7 +30,7 @@ See the descriptions of individual events for further information.<br>
     <td width=75 valign="top"></td>
     <td width=35 valign="top"></td>
   </tr>
-  <%= calendar_table(Event.trainings.between(@start, @finish)) %>
+  <%# calendar_table(Event.trainings.between(@start, @finish)) %>
 
 
   <tr bgcolor="#FFFFFF">
@@ -40,7 +40,7 @@ See the descriptions of individual events for further information.<br>
     <td width=35 valign="top"></td>
   </tr>
 
-  <%=calendar_table(Event.others.between(@start,@finish))%>
+  <%#calendar_table(Event.others.between(@start,@finish))%>
 
 </table>
 
@@ -86,14 +86,14 @@ See the descriptions of individual events for further information.<br>
 <p>&nbsp;</p>
 <p><span class="capsblue"><a name="TRAININGS"></a>TRAININGS</span></p>
 
-<%= detail_table(Event.trainings.between(@start,@finish)) %>
+<%# detail_table(Event.trainings.between(@start,@finish)) %>
 
 
 <p>&nbsp;</p>
 <p><span class="capsblue"><a name="COMMUNITY"></a>COMMUNITY EVENTS</span></p>
 
 
-<%= detail_table(Event.others.between(@start,@finish)) %>
+<%# detail_table(Event.others.between(@start,@finish)) %>
 
 <p>&nbsp;</p>
 <p><span class='capsblue'>EMERGENCY SERVICES BUREAU CALENDAR</span></p>BAMRU is one of several specialized units comprising the San Mateo Sheriff's Office<a href='http://www.co.sanmateo.ca.us/portal/site/sheriffs/menuitem.b7e419e678ddeb0274452b31d17332a0/?vgnextoid=9609dd7c41211210VgnVCM1000001d37230aRCRD&amp;cpsextcurrchannel=1' class='navover'>Emergency Services Bureau</a> (ESB).&nbsp; The full<a href='http://www.google.com/calendar/embed?src=9tgs9ebm67lij6b4b07vi3fbak@group.calendar.google.com&amp;ctz=America/Los_Angeles' class='navover'>ESB Calendar</a> shows BAMRU events along with those of other units.<br>
