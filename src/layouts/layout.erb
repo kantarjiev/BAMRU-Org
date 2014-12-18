@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Mesa Verde Condo For Rent!" />
+<meta name="keywords" content="Mesa Verde Condo Cortez Colorado Rent Vacation House Cabin" />
+<%= stylesheet_link_tag "normalize", "default" %>
+<%= javascript_include_tag "all" %>
+<title><%= current_page.data.title || "Mesa Verde Condo" %></title>
+</head>
+<body>
+<div id="container" >
+
+  <div id="header">
+    <h1><a href="index.html">Mesa Verde Condo</a></h1>
+    <h2><%= current_page.data.subhead || "Hello Subhead" %></h2>
+  </div>
+
+  <div id="navigation">
+    <div class="webgen-menu-vert webgen-menu">
+      <ul>
+        <%= nav 'index.html'    , 'Home' %>
+        <%= nav 'pictures.html' , 'Pictures' %>
+        <%= nav 'links.html'    , 'Links' %>
+        <%= nav 'contact.html'  , 'Contacts' %>
+      </ul>
+    </div>
+  </div>
+
+  <div id="content">
+    <%= yield %>
+  </div>
+
+  <div id="subcontent">
+    <div>
+      <center>
+      </center>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>&copy; 2008-2014 Mesa Verde Condo | Design by Andreas Viklund</p>
+  </div>
+
+</div>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-53451953-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
