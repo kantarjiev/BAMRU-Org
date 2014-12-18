@@ -34,82 +34,45 @@ class BamruApp < Sinatra::Base
   end
 
   get '/bamruinfo' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "Information about BAMRU"
-    @hdr_img   = "images/approach.jpg"
     @right_nav = right_nav(:bamruinfo)
     @left_txt  = quote
-    erb :bamruinfo
   end
 
   get '/join' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "Joining BAMRU"
-    @hdr_img   = "images/helo.jpg"
     @right_nav = right_nav(:join)
     @right_txt = quote
-    erb :join
   end
 
   get '/sgallery' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "BAMRU Photo Gallery"
-    @hdr_img   = "images/hills.jpg"
     @right_nav = right_nav(:sgallery)
     @right_txt = PHOTO_RIGHT
     @left_txt  = PHOTO_LEFT
-    erb :sgallery
   end
 
   get '/meeting_locations' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "BAMRU Meeting Location"
-    @hdr_img   = "images/mtn_2.jpg"
     @right_nav = right_nav(:meeting_locations)
     @right_txt = quote
-    erb :meeting_locations
   end
 
   get '/sarlinks' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "Links to SAR-related sites"
-    @hdr_img   = "images/glacier.jpg"
     @right_nav = right_nav(:sarlinks)
     @right_txt = quote
-    erb :sarlinks
   end
 
   get '/donate' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "Donate to BAMRU"
-    @hdr_img   = "images/glacier.jpg"
     @right_nav = right_nav(:donate)
     @right_txt = quote
     @left_txt  = DONATE_LEFT
-    erb :donate
   end
 
   get '/contact' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "BAMRU Contacts"
-    @hdr_img   = "images/HawthornLZ.jpg"
     @right_nav = right_nav(:contact)
     @right_txt = quote
-    erb :contact
   end
 
   # ----- CALENDAR PAGES -----
 
   get '/calendar' do
-    expires 60, :public, :must_revalidate
-    last_modified last_db_update_date
     # establish the start and finish range
     @start  = Event.date_parse(select_start_date)
     @finish = Event.date_parse(select_finish_date)
@@ -118,8 +81,8 @@ class BamruApp < Sinatra::Base
     session[:start]  = @start
     session[:finish] = @finish
     # setup the display variables
-    @title     = "BAMRU Calendar"
-    @hdr_img   = "images/mtn.jpg"
+    @title     =
+    @hdr_img   =
     @right_nav = right_nav(:calendar)
     @right_txt = erb GUEST_POLICY, :layout => false
     @left_txt  = quote
