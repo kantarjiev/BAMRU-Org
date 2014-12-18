@@ -24,13 +24,13 @@
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
 helpers do
-  def nav(path, lbl)
-    if current_page.path == path
-      "<li class='webgen-menu-item-selected'><span>#{lbl}</span></li>"
-    else
-      "<li><a href='#{path}'>#{lbl}</a></li>"
-    end
-  end
+  # def nav(path, lbl)
+  #   if current_page.path == path
+  #     "<li class='webgen-menu-item-selected'><span>#{lbl}</span></li>"
+  #   else
+  #     "<li><a href='#{path}'>#{lbl}</a></li>"
+  #   end
+  # end
 end
 
 set :source     , 'src'

@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.1.5"
 
-gem "middleman", "~> 3.3.7"
+gem "middleman", "~> 3.3.6"
 
 gem "middleman-slim" # slim templates
 gem "RedCloth"       # texttile templates
