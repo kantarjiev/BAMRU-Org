@@ -4,8 +4,6 @@
 
 BAMRU.org is a public-facing website composed of static assets. (html, css, images, javascript).  A live version of this website is at http://andyl.github.io/BAMRU-Org/.
 
-Any BAMRU Member or Supporter is welcome to do hands-on editing.  Contact Andy L. for info on current needs.  [Fork](http://help.github.com/articles/fork-a-repo) this repository if you would like to experiment.
-
 Maintaining the website is a team effort with multiple roles.
 
 | Role       | Responsibility                                      |
@@ -14,6 +12,8 @@ Maintaining the website is a team effort with multiple roles.
 | Designer   | Create site styling, edit graphics                  |
 | JS Coder   | Client-Side Javascript for interactive components   |
 | Ruby Coder | Server-Side Ruby for site generation and automation |
+
+Any BAMRU Member or Supporter is welcome to do hands-on editing.  Contact Andy L. for info on current needs.  [Fork](http://help.github.com/articles/fork-a-repo) this repository if you would like to experiment.
 
 ## Editing Workflow
 
@@ -39,8 +39,10 @@ The workflow for Designers and Coders generally follows this cycle:
 | ----                                | -----------     |
 | Internet connection                 | All             |
 | Web Browser                         | All             |
+| GitHub Account                      | All             |
 | GitHub for [Mac][1] or [Windows][2] | Copywriter      |
 | Ubuntu or Mac computer              | Designer, Coder |
+| Ruby                                | Designer, Coder |
 
 [1]: https://windows.github.com
 [2]: https://mac.github.com/
@@ -66,6 +68,7 @@ The workflow for Designers and Coders generally follows this cycle:
 ## More Information
 
 [BAMRU.org Development Environment](./docs/dev_environment.md)
+
 [How to be a CopyWriter](./docs/copywrite.md)
 
 
