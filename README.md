@@ -2,7 +2,7 @@
 
 ## Overview
 
-BAMRU.org is a public-facing website composed of static assets. (html, css, images, javascript).  A live version of this website is at TBD.
+BAMRU.org is a public-facing website composed of static assets. (html, css, images, javascript).  A live version of this website is at http://andyl.github.io/BAMRU-Org/.
 
 A site generator called [MiddleMan](http://middlemanapp.com) is used to generate the static assets from page templates.
 
@@ -20,7 +20,7 @@ Using MiddleMan, the editing workflow generally follows this cycle:
 
 ## Who Can Edit
 
-Any BAMRU Member or Supporter is welcome to do hands-on editing.  Contact Andy L. for info on current needs.  [Fork](http://help.github.com/articles/fork-a-repo) this repository at any time if you would like to experiment.
+Any BAMRU Member or Supporter is welcome to do hands-on editing.  Contact Andy L. for info on current needs.  [Fork](http://help.github.com/articles/fork-a-repo) this repository if you would like to experiment.
 
 ## Tools and Skills
 
@@ -57,8 +57,8 @@ Before starting, you must have update rights on the repo.
 First step is to make sure there is a gh-pages branch which holds the HTML output.
 
     git clone git@github.com:andyl/BAMRU-Org.git    # clone the repo
-    git branches -a                                 # show all branches
-    git checkout -b gh-pages origin/gh-pages        # make a local copy of the 'gh-pages' branch
+    git branches -a                                 # show all branches - make sure there is a `gh-pages` branch
+    git checkout -b gh-pages origin/gh-pages        # make a local copy of the `gh-pages` branch
 
 ## Support Software
 
@@ -69,7 +69,7 @@ This site depends on Ruby 2.1.5 and the `middleman` gem.
     gem install bundler
     bundle
 
-## Editing and Building the Site
+## Building the Site
 
 Project input is read from the `source` directory.
 
@@ -78,14 +78,13 @@ To run the generator:
     cd <dir>/BAMRU-Org
     bundle exec middleman build
 
-Project output is written to the `build` directory.
+Project output is written to the `out` directory.
 
 ## Deploying the Site
 
-The project is hosted on github pages.  Output HTML is stored on the
-`gh-pages` branch.
+The project is hosted on github pages.  Output HTML is stored on the `gh-pages` branch.
 
-To deploy:
+The manual deploy process looks like this:
 
     cd <dir>/BAMRU-Org
     rm -rf /tmp/output
@@ -98,11 +97,15 @@ To deploy:
     git push
     git checkout master
 
-See [Github Pages](http://pages.github.com) to learn more.
+See [GitHub Pages](http://pages.github.com) to learn more.
 
 ## Rake Tasks
 
-    rake build        # run the build command
-    rake deploy       # run the deploy script 
+The build and deploy tasks have been automated using a Ruby tool called [Rake](http://en.wikipedia.org/wiki/Rake_%28software%29).
 
-  
+To view all of the Rake options, type `rake -T`.
+
+Most important Rake tasks include:
+
+    rake site:generate     # run the build command
+    rake site:deploy       # run the deploy script 
