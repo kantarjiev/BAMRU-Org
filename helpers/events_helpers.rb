@@ -81,9 +81,13 @@ module EventsHelpers
       #{event["title"]}</span></span><br/>
       <span class="news10"> <font color="#888888">#{event["location"]}<br>
       #{date_display(event)}<br>      Leaders: #{event["leaders"]}<br><br></font></span>
-      #{event["description"]}<br>
+      #{clean_description(event)}<br>
       <font class="caps"><img src="images/assets/dots.gif" width="134" height="10"></font></p>
     ERB
+  end
+
+  def clean_description(event)
+    event["description"].gsub(/[\@\&\:\/\%\=\&]/,' ').gsub("\n", ' ')
   end
 
   def date_display(event)
