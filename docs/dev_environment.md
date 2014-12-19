@@ -59,5 +59,5 @@ To view all of the Rake options, type `rake -T`.
 
 Most important Rake tasks include:
 
-    rake site:generate     # run the build command
-    rake site:deploy       # run the deploy script 
+    rake site:build      # run the build command
+    rake site:deploy     # run the deploy script 

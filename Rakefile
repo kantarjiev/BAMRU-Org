@@ -5,8 +5,14 @@ require 'yaml'
 
 # ----- utility methods -----
 
+LOGLEN = 75
+
 def log(text)
-  puts "--- #{text} ---".ljust(75,'-').yellow
+  puts "--- #{text} ---".ljust(LOGLEN,'-').yellow
+end
+
+def info(text)
+  puts " #{text} ".center(LOGLEN, '-').yellow
 end
 
 def normalized_lang(input)
@@ -17,9 +23,9 @@ end
 # ----- rake tasks -----
 
 namespace :dev do
-  desc "Show test old"
+  desc "Test task"
   task :test do
-    system "date"
+    info Time.now
   end
 
   desc "Live server for development"
@@ -31,8 +37,8 @@ namespace :dev do
 end
 
 namespace :site do
-  desc "Generate the Site"
-  task :generate do
+  desc "Build the Site"
+  task :build do
     cmd = "bundle exec middleman build"
     log cmd
     system cmd
@@ -62,19 +68,18 @@ namespace :site do
   end
 end
 
-namespace :cl do
-  desc "Pull old from CL"
+namespace :data do
+  desc "Pull event data from BAMRU.net"
   task :pull do
-    require_relative './lib/cl_pull'
-    include ClPull
+    require_relative './lib/data_pull'
+    include DataPull
     execute
   end
+end
 
-  desc "Generate HTML page from CL old"
-  task :generate do
-    require_relative './lib/cl_generate'
-    include ClGenerate
-    write_history
-    write_current
+namespace :gcal do
+  desc "Sync event data with Gcal"
+  task :sync do
+    info "gcal:sync - Under Construction"
   end
 end

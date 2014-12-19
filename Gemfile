@@ -8,6 +8,9 @@ gem "middleman", "~> 3.3.6"
 gem "middleman-slim" # slim
 gem "RedCloth"       # textile
 
+# ----- account usr/pwd in ENV -----
+gem "dotenv"
+
 # ----- development utilities -----
 gem "whenever"       # cron scheduling
 gem "colored"        # colored terminal output
