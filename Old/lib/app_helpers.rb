@@ -105,27 +105,8 @@ module Sinatra
       "<a href='#{url}'>#{url}</a>"
     end
 
-    def format_leaders(event)
-      return event.leaders if event.kind == 'meeting'
-      event.leaders.split(',').first.split(' ').last.split('/').first
-    end
 
-    def detail_table(events)
-      events.map {|e| detail_row(e)}.join
-    end
 
-    def detail_row(event)
-      <<-ERB
-      <p/>
-      <span class="caps"><a id="#{event.id}"></a><span class="nav3">
-      #{event.title}</span></span><br/>
-      <span class="news10"> <font color="#888888">#{event.location}<br>
-      #{event.date_display(true)}<br>      Leaders: #{event.leaders}<br><br></font></span>
-  #{event.description}<br>
-  <font class="caps"><img src="assets/dots.gif" width="134" height="10"></font></p>
-
-      ERB
-    end
 
     def event_table(events)
       output = ""
