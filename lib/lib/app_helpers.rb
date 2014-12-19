@@ -5,13 +5,7 @@ require 'rack'
 module Sinatra
   module AppHelpers
 
-    QUOTES       = YAML.load_file(BASE_DIR + "/old/quotes.yaml")
-    RIGHT_NAV    = YAML.load_file(BASE_DIR + "/old/right_nav.yaml")
-    GUEST_POLICY = File.read(BASE_DIR + "/old/guest_policy.erb")
-    BIG_MAP      = File.read(BASE_DIR + "/old/big_map.erb")
-    PHOTO_LEFT   = File.read(DATA_DIR + "/photo_caption_left.html")
-    PHOTO_RIGHT  = File.read(DATA_DIR + "/photo_caption_right.html")
-    DONATE_LEFT  = File.read(DATA_DIR + "/donate_left.html")
+
 
     def protected!
       unless authorized?
@@ -111,17 +105,7 @@ module Sinatra
       "<a href='#{url}'>#{url}</a>"
     end
 
-    def quote
-      index = rand(QUOTES.length)
-      <<-HTML
-        <br/><p/>
-        <img src="assets/axe.gif" border="0">
-        <div class='quote_box'>
-          <div class='quote'>"#{QUOTES[index][:text]}"</div>
-          <div class='caps'>- #{QUOTES[index][:auth]}</div>
-        </div>
-      HTML
-    end
+
 
     def calendar_table(events, link="")
       alt = false
@@ -334,19 +318,6 @@ module Sinatra
       ]
       r1 = opt1.map {|i| admin_link(i.first, i.last)}.join(' | ')
       "<hr>#{r1}"
-    end
-
-    def right_link(target, label, fmt="nav3")
-      "<a href='#{target}' class='#{fmt}' onfocus='blur();'>#{label}</a><br/>"
-    end
-
-    def right_nav(page)
-      fmt = "nav4"
-      RIGHT_NAV[page].reduce("") do |a, v|
-        val = RIGHT_NAV[page].nil? ? "" : right_link(v.last, v.first, fmt)
-        fmt = "nav3"
-        a << val
-      end
     end
 
     def geo_start(action)

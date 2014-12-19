@@ -12,64 +12,6 @@ require base_dir + '/config/environment'
 class BamruApp < Sinatra::Base
   helpers Sinatra::AppHelpers
 
-  use Sinatra::CacheAssets, :max_age => 180000
-
-  configure do
-    enable :sessions         # to store login state and calendar search settings
-    use Rack::Flash          # for error and success messages
-    set :erb, :trim => '-'   # strip whitespace when using <% -%>
-    set :static, true
-    set :views,         File.expand_path(File.dirname(__FILE__)) + '/views'
-    set :public_folder, File.expand_path(File.dirname(__FILE__)) + '/public'
-    set :session_secret, "34kjafoai3rafjal3iralhhtei8asdf8asfl3f3wla8"
-    set :raise_errors,    false
-    set :show_exceptions, false
-  end
-
-  # ----- PUBLIC PAGES -----
-
-  # home page is static html...
-  get '/' do
-    redirect "/index.html"
-  end
-
-  get '/bamruinfo' do
-    @right_nav = right_nav(:bamruinfo)
-    @left_txt  = quote
-  end
-
-  get '/join' do
-    @right_nav = right_nav(:join)
-    @right_txt = quote
-  end
-
-  get '/sgallery' do
-    @right_nav = right_nav(:sgallery)
-    @right_txt = PHOTO_RIGHT
-    @left_txt  = PHOTO_LEFT
-  end
-
-  get '/meeting_locations' do
-    @right_nav = right_nav(:meeting_locations)
-    @right_txt = quote
-  end
-
-  get '/sarlinks' do
-    @right_nav = right_nav(:sarlinks)
-    @right_txt = quote
-  end
-
-  get '/donate' do
-    @right_nav = right_nav(:donate)
-    @right_txt = quote
-    @left_txt  = DONATE_LEFT
-  end
-
-  get '/contact' do
-    @right_nav = right_nav(:contact)
-    @right_txt = quote
-  end
-
   # ----- CALENDAR PAGES -----
 
   get '/calendar' do
@@ -80,13 +22,6 @@ class BamruApp < Sinatra::Base
     # remember start/finish settings by saving them in the session
     session[:start]  = @start
     session[:finish] = @finish
-    # setup the display variables
-    @title     =
-    @hdr_img   =
-    @right_nav = right_nav(:calendar)
-    @right_txt = erb GUEST_POLICY, :layout => false
-    @left_txt  = quote
-    erb :calendar
   end
 
   get '/calendar2' do
@@ -223,26 +158,6 @@ class BamruApp < Sinatra::Base
     erb :sponsors
   end
 
-  get '/caltopo' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "CalTopo"
-    @hdr_img   = "images/glacier.jpg"
-    @right_nav = right_nav(:donate)
-    @right_txt = quote
-    erb :caltopo
-  end
-
-  get '/backlog' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
-    @title     = "Equipment Backlog"
-    @hdr_img   = "images/glacier.jpg"
-    @right_nav = right_nav(:donate)
-    @right_txt = quote
-    erb :backlog
-  end
-
   get '/projects' do
     expires 180000, :public, :must_revalidate
     last_modified last_modification_date
@@ -264,20 +179,6 @@ class BamruApp < Sinatra::Base
     Event.delete_all
     array.each { |event| Event.create(Hash[*headers.zip(event).flatten]) }
     "OK"
-  end
-
-  # ----- ADMIN PAGES -----
-
-  before '/admin*' do
-    protected!
-  end
-
-  get '/admin' do
-    redirect '/admin_home'
-  end
-
-  get '/admin_home' do
-    erb :admin_home, :layout => :admin_x_layout
   end
 
   # ----- Error handling -----

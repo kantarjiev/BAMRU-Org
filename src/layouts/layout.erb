@@ -41,7 +41,7 @@
                 <br>
                 <br>
                 <br>
-                <%# @left_txt %>
+                <%= eval_cmd(current_page.data.left_txt) %>
               </p>
               <br>
             </td>
@@ -55,10 +55,10 @@
         <table cellpadding="6">
           <tr>
             <td>
-              <%# @right_nav %>
+              <%= eval_cmd(current_page.data.right_nav) %>
               <img src="images/assets/dots.gif" width="134" height="10" border="0"><br>
               <p/>
-              <%# @right_txt %>
+              <%= eval_cmd(current_page.data.right_txt) %>
             </td>
           </tr>
         </table>
