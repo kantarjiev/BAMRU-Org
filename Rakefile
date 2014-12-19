@@ -1,5 +1,7 @@
 # vim ft=ruby
 
+::MM_ROOT ||= __dir__
+
 require 'colored'
 require 'yaml'
 
@@ -69,11 +71,16 @@ namespace :site do
 end
 
 namespace :data do
-  desc "Pull event data from BAMRU.net"
-  task :pull do
-    require_relative './lib/data_pull'
-    include DataPull
-    execute
+  desc "Download event data from BAMRU.net"
+  task :download do
+    require 'open-uri'
+    url = "http://bamru.net/public/calendar.csv"
+    csv_text = open(url).read.delete("^\u{0000}-\u{007F}")
+    out_file = "data/calendar_downloaded.csv"
+    File.open(out_file, 'w') {|f| f.puts csv_text}
+    msg = `wc -l #{out_file}`.strip.chomp.split(' ')
+    log "BAMRU.net event data has been downloaded"
+    log "#{msg[0]} records saved to #{msg[1]}"
   end
 end
 

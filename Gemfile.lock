@@ -136,6 +136,7 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
+  activesupport
   colored
   dotenv
   middleman (~> 3.3.6)

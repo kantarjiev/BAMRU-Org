@@ -8,6 +8,9 @@ gem "middleman", "~> 3.3.6"
 gem "middleman-slim" # slim
 gem "RedCloth"       # textile
 
+# ----- utility extensions -----
+gem "activesupport" # date methods (1.week...), .blank?, .present? ...
+
 # ----- account usr/pwd in ENV -----
 gem "dotenv"
 

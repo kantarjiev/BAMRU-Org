@@ -148,24 +148,19 @@ class BamruApp < Sinatra::Base
     @hdr_img   = "images/approach.jpg"
     @right_nav = erb(:thermometer, :layout => false)
     @left_txt  = quote
-    erb :truck2013
   end
 
   get '/sponsors' do
     @title     = "BAMRU Sponsors"
     @hdr_img   = "images/approach.jpg"
     @right_nav = quote
-    erb :sponsors
   end
 
   get '/projects' do
-    expires 180000, :public, :must_revalidate
-    last_modified last_modification_date
     @title     = "Web Projects"
     @hdr_img   = "images/glacier.jpg"
     @right_nav = right_nav(:donate)
     @right_txt = quote
-    erb :web_projects
   end
 
   # ----- CSV Resync -----

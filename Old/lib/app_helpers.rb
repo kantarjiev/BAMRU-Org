@@ -105,38 +105,6 @@ module Sinatra
       "<a href='#{url}'>#{url}</a>"
     end
 
-
-
-    def calendar_table(events, link="")
-      alt = false
-      first = true
-      events.map do |e|
-        alt = ! alt
-        color = alt ? "#EEEEE" : "#FFFFF"
-        val = calendar_row(e, link, color, first)
-        first = false
-        val
-      end.join
-    end
-
-    def calendar_row(event, link = '', color='#EEEEEE', first = false)
-      link = event.id if link.empty?
-      <<-ERB
-      <tr bgcolor="#{color}">
-        <td valign="top" class=summary>&nbsp;
-             <a href="##{link}" class=summary>#{event.title}</a>
-             <span class=copy>#{event.location}</span>
-        </td>
-        <td valign="top" NOWRAP class=summary>
-          #{event.date_display(first)}
-        </td>
-        <td valign="top" NOWRAP class=summary>
-          #{format_leaders(event)}
-        </td>
-      </tr>
-      ERB
-    end
-
     def format_leaders(event)
       return event.leaders if event.kind == 'meeting'
       event.leaders.split(',').first.split(' ').last.split('/').first

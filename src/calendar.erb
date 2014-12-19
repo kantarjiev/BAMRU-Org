@@ -10,18 +10,15 @@ right_txt: GUEST_POLICY
 
 <table cellpadding="6" bgcolor="#FFFFFF" width="423" height=400>
 <tr>
-<td valign="top"> <font class="caps"><font style="color: #3366CC">BAMRU Calendar</font></font><br>Our general meetings are open to the public.&nbsp; Some trainings
+<td valign="top"> <font class="caps"><font style="color: #3366CC">BAMRU Calendar</font></font><br>
+Our general meetings are open to the public. Some trainings
 are open to guests who have attended the general meeting preceding
 the training (see <a href="#GUEST" class="summary">Guest Policy</a> to
 the right); others are open only to BAMRU trainees and members.&nbsp;
 See the descriptions of individual events for further information.<br>
 <br>
-<form action="/calendar">
-  Showing events
-  from <%#event_range_select(@start,@finish,"start")%>
-  to <%#event_range_select(@start,@finish,"finish")%>
-  <input type="submit" value="Change">
-</form>
+
+Showing scheduled events from <%= range_start %> to <%= range_end %>.
 
 <table cellpadding="1" cellspacing=0 bgcolor="#FFFFFF" width="406"><tr bgcolor="#FFFFFF">
   <td width=296 valign="top"><font class=summary><br>
@@ -30,7 +27,7 @@ See the descriptions of individual events for further information.<br>
   <td width=75 valign="top"></td>
   <td width=35 valign="top"></td>
 </tr>
-  <%#calendar_table(Event.meetings.between(@start, @finish), "GENERAL")%>
+  <%= calendar_table(event_meetings, "GENERAL")%>
 
   <tr bgcolor="#FFFFFF">
     <td width=296 valign="top"><font class=summary><br>

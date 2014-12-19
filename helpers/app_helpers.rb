@@ -1,3 +1,5 @@
+require 'active_support'
+
 BASE_DIR = MM_ROOT
 
 module AppHelpers
@@ -11,7 +13,7 @@ module AppHelpers
   # BIG_MAP      = File.read(BASE_DIR + "/old/big_map.erb")
 
   def eval_cmd(string)
-    return "" if string.nil? || string == ""
+    return "" if string.blank?
     begin
       eval string
     rescue
