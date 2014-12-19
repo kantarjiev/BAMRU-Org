@@ -4,6 +4,11 @@
 
 require 'colored'
 require 'yaml'
+require 'dotenv'
+
+Dotenv.load
+
+load "./lib/tasks/gcal.rake"
 
 # ----- utility methods -----
 
@@ -84,9 +89,3 @@ namespace :data do
   end
 end
 
-namespace :gcal do
-  desc "Sync event data with Gcal"
-  task :sync do
-    info "gcal:sync - Under Construction"
-  end
-end

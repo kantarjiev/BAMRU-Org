@@ -31,6 +31,8 @@ set :js_dir     , 'javascripts'
 set :css_dir    , 'stylesheets'
 set :images_dir , 'images'
 
+activate :dotenv
+
 configure :build do
   # For example, change the Compass output style for deployment
   # activate :minify_css
