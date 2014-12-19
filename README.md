@@ -2,7 +2,9 @@
 
 ## Overview
 
-BAMRU.org is a public-facing website composed of static assets. (html, css, images, javascript).  A live version of this website is at http://andyl.github.io/BAMRU-Org/.
+BAMRU.org is a public-facing website composed of static assets. (html,
+css, images, javascript).  A live version of this website is at
+http://andyl.github.io/BAMRU-Org/.
 
 Maintaining the website is a team effort with multiple roles.
 
@@ -13,21 +15,32 @@ Maintaining the website is a team effort with multiple roles.
 | JS Coder   | Client-Side Javascript for interactive components   |
 | Ruby Coder | Server-Side Ruby for site generation and automation |
 
-Any BAMRU Member or Supporter is welcome to do hands-on editing.  Contact Andy L. for info on current needs.  [Fork](http://help.github.com/articles/fork-a-repo) this repository if you would like to experiment.
+Any BAMRU Member or Supporter is welcome to do hands-on editing.
+Contact Andy L. for info on current needs.
+[Fork](http://help.github.com/articles/fork-a-repo) this repository if
+you would like to experiment.
 
 ## Editing Workflow
 
-A site generator called [MiddleMan](http://middlemanapp.com) is used to generate the static assets from page templates.
+A site generator called [MiddleMan](http://middlemanapp.com) is used
+to generate the static assets from page templates.
 
-Templates are in plain-text formats like [Markdown](http://en.wikipedia.org/wiki/Markdown), [ERB](http://en.wikipedia.org/wiki/ERuby) and [Slim](http://slim-lang.com).
+Templates are in plain-text formats like
+[Markdown](http://en.wikipedia.org/wiki/Markdown),
+[ERB](http://en.wikipedia.org/wiki/ERuby) and
+[Slim](http://slim-lang.com).
 
-The static assets can be served from any webserver.  For convenience and cost-savings, we use [GitHub Pages](https://pages.github.com) as the server host.
+The static assets can be served from any webserver.  For convenience
+and cost-savings, we use [GitHub Pages](https://pages.github.com) as
+the server host.
 
-Copywriting can be done using a browser, or using the free GitHub software for [Mac][1] or [Windows][2]. 
+Copywriting can be done using a browser, or using the free GitHub
+software for [Mac][1] or [Windows][2]. 
 
 The workflow for Designers and Coders generally follows this cycle:
 
-1) Set up the required tools and repositories.  Get access to the BAMRU.org repo.
+1) Set up the required tools and repositories.  Get access to the
+BAMRU.org repo.
 
 2) Clone the repo, make edits and test locally.
 
