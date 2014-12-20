@@ -4,9 +4,6 @@
 
 require 'colored'
 require 'yaml'
-require 'dotenv'
-
-Dotenv.load
 
 load "./lib/tasks/gcal.rake"
 
@@ -49,6 +46,7 @@ namespace :site do
     cmd = "bundle exec middleman build"
     log cmd
     system cmd
+    system "echo bamru.org > out/CNAME"
   end
 
   desc "Deploy the Site"

@@ -1,5 +1,17 @@
-require 'gcal4ruby'
 require 'yaml'
+require 'dotenv'
+require 'google_calendar'
+
+Dotenv.load
+
+CLIENT_ID="676559655687-3cgu2akc11avh0v2m4gcpq75eq6ch5u9.apps.googleusercontent.com"
+EMAIL_ADDRESS="676559655687-3cgu2akc11avh0v2m4gcpq75eq6ch5u9@developer.gserviceaccount.com"
+CERTIFICATE_FINGERPRINTS="40baa90084f23b15ff65144a62a1e64578b805f7"
+CALENDAR_ID="bamru.calendar@gmail.com"
+
+REDIRECT_URL="urn:ietf:wg:oauth:2.0:oob" # this is what Google uses for 'applications'
+
+
 
 class GcalSync
 
@@ -13,7 +25,7 @@ class GcalSync
 
   def self.authenticate_and_return_gcal_service
     service = Service.new
-    service.authenticate(GCAL_USER, GCAL_PASS)
+    service.authenticate(ENV['GCAL_USER'], ENV['GCAL_PASS'])
     service
   end
 

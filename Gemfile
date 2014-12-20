@@ -9,10 +9,9 @@ gem "middleman-slim" # slim
 gem "RedCloth"       # textile
 
 # ----- utility extensions -----
-gem "activesupport" # date methods (1.week...), .blank?, .present? ...
-
-# ----- account usr/pwd in ENV -----
-gem "dotenv"
+gem "dotenv"             # store user/pwd in .env
+gem "activesupport"      # date methods (1.week...), .blank?, .present? ...
+gem "google-api-client"  # wrapper for google calendar
 
 # ----- development utilities -----
 gem "whenever"       # cron scheduling

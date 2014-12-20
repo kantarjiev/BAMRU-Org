@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+require 'pp'
+require 'pry'
+require 'google/api_client'
+
+client = Google::APIClient.new(application_name: "test", application_version: "0.0.1")
+cal    = client.discovered_api('calendar', 'v3')
+id     = "bamru.calendar@gmail.com"
+key    = Google::APIClient::KeyUtils.load_from_pkcs12('./keys/bamru.p12', 'notasecret')
+client.authorization = Signet::OAuth2::Client.new(
+  token_credential_uri: 'https://accounts.google.com/o/oauth2/token',
+  audience:    'https://accounts.google.com/o/oauth2/token',
+  scope:       'https://www.googleapis.com/auth/calendar',
+  issuer:      '676559655687-3cgu2akc11avh0v2m4gcpq75eq6ch5u9@developer.gserviceaccount.com',
+  signing_key: key
+)
+client.authorization.fetch_access_token!
+cal_data   = client.execute(api_method: cal.calendars.get, parameters: {'calendarId' => id})
+event_list = client.execute(api_method: cal.events.list,   parameters: {'calendarId' => id})
+event_hash = JSON.parse(event_list.body.scrub)
+events     = event_hash["items"]
+
+binding.pry
+puts "FINI"

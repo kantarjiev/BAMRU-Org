@@ -105,9 +105,6 @@ module Sinatra
       "<a href='#{url}'>#{url}</a>"
     end
 
-
-
-
     def event_table(events)
       output = ""
       alt   = true
