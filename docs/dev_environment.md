@@ -1,20 +1,24 @@
 # BAMRU.org Development Environment
 
-This information is relevant to Designers and Coders, as outlined in the [README](../README.md) file.
+This information is relevant to Designers and Coders, as outlined in the
+[README](../README.md) file.
 
 ## Repo Setup
 
-Before starting, you must have update rights on the repo.
+Before starting, you must have update rights on the repo.  See AndyL for
+this.
 
-First step is to make sure there is a gh-pages branch which holds the HTML output.
+Clone the repo and make sure there is a gh-pages branch which holds the HTML output.
 
-    git clone git@github.com:andyl/BAMRU-Org.git    # clone the repo
-    git branches -a                                 # show all branches - make sure there is a `gh-pages` branch
-    git checkout -b gh-pages origin/gh-pages        # make a local copy of the `gh-pages` branch
+    git clone git@github.com:andyl/BAMRU-Org.git # clone the repo
+    git branches -a                              # show all branches - look for `gh-pages`
+    git checkout -b gh-pages origin/gh-pages     # make a local copy of `gh-pages` 
 
 ## Support Software
 
-This site depends on Ruby 2.1.5 and the `middleman` gem.
+This site depends on Ruby 2.1.5.  Use a Ruby version manager like `RVM`,
+`rbenv` or `chruby` to setup Ruby.  Once ruby is configured, install the
+bundled Ruby Gems (including `Middleman`)
 
     ruby-install ruby 2.1.5
     cd <dir>/BAMRU-Org
@@ -23,7 +27,7 @@ This site depends on Ruby 2.1.5 and the `middleman` gem.
 
 ## Building the Site
 
-Project input is read from the `source` directory.
+Project input is read from the `src` directory.
 
 To run the generator:
 
@@ -34,7 +38,8 @@ Project output is written to the `out` directory.
 
 ## Deploying the Site
 
-The project is hosted on github pages.  Output HTML is stored on the `gh-pages` branch.
+The project is hosted on github pages.  Output HTML is stored on the
+`gh-pages` branch.
 
 The manual deploy process looks like this:
 
@@ -53,7 +58,8 @@ See [GitHub Pages](http://pages.github.com) to learn more.
 
 ## Rake Tasks
 
-The build and deploy tasks have been automated using a Ruby tool called [Rake](http://en.wikipedia.org/wiki/Rake_%28software%29).
+The build and deploy tasks have been automated using a Ruby tool called
+[Rake](http://en.wikipedia.org/wiki/Rake_%28software%29).
 
 To view all of the Rake options, type `rake -T`.
 
