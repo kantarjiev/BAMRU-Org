@@ -12,7 +12,7 @@ class GcalData
     ISSUER   = '676559655687-3cgu2akc11avh0v2m4gcpq75eq6ch5u9@developer.gserviceaccount.com'
     GAPI     = Google::APIClient
     CID      = "bamru.calendar@gmail.com"
-    KEYFILE  = './keys/bamru.p12'
+    KEYFILE  = './gcal_keys/bamru.p12'
 
     class << self
       def execute

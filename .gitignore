@@ -1,5 +1,5 @@
 .idea
 .env
-keys
-keys/
-keys/*
+gcal_keys
+gcal_keys/
+gcal_keys/*

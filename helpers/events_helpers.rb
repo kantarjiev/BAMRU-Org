@@ -6,6 +6,7 @@ require_relative "../lib/date_range"
 
 module EventsHelpers
 
+  # ----- display functions -----
   def range_start
     DateRange.start_month
   end
@@ -13,6 +14,8 @@ module EventsHelpers
   def range_finish
     DateRange.finish_month
   end
+
+  # ----- scopes -----
 
   def event_meetings
     events.meetings
@@ -26,22 +29,7 @@ module EventsHelpers
     events.others
   end
 
-  def event_display(event)
-    start = Time.parse(event.start)
-    year  = first_in_year?(event) ? ", #{start.strftime('%Y')}" : ""
-    "#{start.strftime('%b')} #{start.strftime('%d')}#{year}"
-  end
-
-  def first_in_year?(event)
-    get_year = ->(ev) { ev.start.split('-').first }
-    prior = event.prior
-    return true if prior.blank?
-    get_year.call(event) != get_year.call(prior)
-  end
-
-  def format_leaders(event)
-    event.leaders.split(',').first.split(' ').last.split('/').first
-  end
+  # ----- event rendering -----
 
   def calendar_table(events, link="")
     alt = false
@@ -53,6 +41,16 @@ module EventsHelpers
       first = false
       val
     end.join
+  end
+
+  def detail_table(events)
+    events.values.map {|e| detail_row(e)}.join
+  end
+
+  private
+
+  def events
+    @events_obj ||= Event::Store.new(BNET_DATA_YAML_FILE)
   end
 
   def calendar_row(event, link = '', color='#EEEEEE', first = false)
@@ -73,10 +71,6 @@ module EventsHelpers
     ERB
   end
 
-  def detail_table(events)
-    events.values.map {|e| detail_row(e)}.join
-  end
-
   def detail_row(event)
     <<-ERB
       <p/>
@@ -89,6 +83,23 @@ module EventsHelpers
     ERB
   end
 
+  def event_display(event)
+    start = Time.parse(event.start)
+    year  = first_in_year?(event) ? ", #{start.strftime('%Y')}" : ""
+    "#{start.strftime('%b')} #{start.strftime('%d')}#{year}"
+  end
+
+  def first_in_year?(event)
+    get_year = ->(ev) { ev.start.split('-').first }
+    prior = event.prior
+    return true if prior.blank?
+    get_year.call(event) != get_year.call(prior)
+  end
+
+  def format_leaders(event)
+    event.leaders.split(',').first.split(' ').last.split('/').first
+  end
+
   def clean_description(event)
     event.description.gsub(/[\@\&\:\/\%\=\&]/,' ').gsub("\n", ' ')
   end
@@ -98,11 +109,5 @@ module EventsHelpers
     finish = event.finish
     return "#{start} - #{finish}" if finish != start && finish.present?
     start
-  end
-
-  private
-
-  def events
-    @events_obj ||= Event::Store.new(BNET_DATA_YAML_FILE)
   end
 end

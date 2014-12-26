@@ -47,6 +47,9 @@ guard :rspec, cmd: "clear; bundle exec rspec -c --fail-fast" do
   ruby = dsl.ruby
   dsl.watch_spec_files_for(ruby.lib_files)
 
+  # Helper Files
+  watch(%r{^helpers/(.+)\.rb$}) { |m| "spec/helpers/#{m[1]}_spec.rb"}
+
   # Rakefile
   watch("Rakefile") { "spec/rake/base_spec.rb" }
 end

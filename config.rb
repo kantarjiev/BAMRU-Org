@@ -31,7 +31,7 @@ set :js_dir     , 'javascripts'
 set :css_dir    , 'stylesheets'
 set :images_dir , 'images'
 
-activate :dotenv, env: 'keys/env'
+activate :dotenv, env: 'gcal_keys/env'
 
 configure :build do
   # For example, change the Compass output style for deployment

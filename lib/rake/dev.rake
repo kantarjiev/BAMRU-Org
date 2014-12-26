@@ -7,12 +7,16 @@ namespace :dev do
   end
 
   desc "Run all specs"
-  task :spec do
-    system "bundle exec rspec -c"
+  task :rspec do
+    cmd = "bundle exec rspec -c"
+    log cmd
+    system cmd
   end
 
   desc "Start Guard spec runner"
   task :guard do
-    system "bundle exec guard"
+    cmd = "bundle exec guard"
+    log cmd
+    system cmd
   end
 end

@@ -1,25 +1,17 @@
 require 'active_support'
 
-BASE_DIR = MM_ROOT
+require 'yaml'
 
 module AppHelpers
 
-  QUOTES       = YAML.load_file(BASE_DIR + "/assets/quotes.yaml")
-  RIGHT_NAV    = YAML.load_file(BASE_DIR + "/assets/right_nav.yaml")
-  GUEST_POLICY = File.read(BASE_DIR      + "/assets/guest_policy.html")
-  PHOTO_LEFT   = File.read(BASE_DIR      + "/assets/photo_caption_left.html")
-  PHOTO_RIGHT  = File.read(BASE_DIR      + "/assets/photo_caption_right.html")
-  DONATE_LEFT  = File.read(BASE_DIR      + "/assets/donate_left.html")
-  # BIG_MAP      = File.read(BASE_DIR + "/old/big_map.erb")
+  QUOTES       = YAML.load_file(MM_ROOT + "/assets/quotes.yaml")
+  RIGHT_NAV    = YAML.load_file(MM_ROOT + "/assets/right_nav.yaml")
+  GUEST_POLICY = File.read(MM_ROOT      + "/assets/guest_policy.html")
+  PHOTO_LEFT   = File.read(MM_ROOT      + "/assets/photo_caption_left.html")
+  PHOTO_RIGHT  = File.read(MM_ROOT      + "/assets/photo_caption_right.html")
+  DONATE_LEFT  = File.read(MM_ROOT      + "/assets/donate_left.html")
 
-  def eval_cmd(string)
-    return "" if string.blank?
-    begin
-      eval string
-    rescue
-      "Unrecognized command: #{string}"
-    end
-  end
+  # ----- misc helpers -----
 
   def dot_hr
     '<img src="images/assets/dots.gif" width="134" height="10" border="0"><br>'
@@ -37,6 +29,15 @@ module AppHelpers
   end
 
   # ----- sidebar helpers -----
+
+  def eval_cmd(string)
+    return "" if string.blank?
+    begin
+      eval string
+    rescue
+      "Unrecognized command: #{string}"
+    end
+  end
 
   def quote
     index = rand(QUOTES.length)

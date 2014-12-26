@@ -23,11 +23,6 @@ describe Event::Store do
     it { should respond_to :destroy_all  }
   end
 
-  describe "Class Methods" do
-    specify { expect(klas).to respond_to :range_start        }
-    specify { expect(klas).to respond_to :range_end          }
-  end
-
   describe "Store Operations" do
     before(:each) { `rm -f #{TEST_FILE}` }
 
