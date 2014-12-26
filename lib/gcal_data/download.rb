@@ -1,18 +1,13 @@
 require 'json'
 require 'pry'
-require 'google/api_client'
 require_relative '../gcal_data'
+require_relative '../gcal_client'
 require_relative '../rake/loggers'
 
 class GcalData
   class Download
 
     extend Rake::Loggers
-
-    ISSUER   = '676559655687-3cgu2akc11avh0v2m4gcpq75eq6ch5u9@developer.gserviceaccount.com'
-    GAPI     = Google::APIClient
-    CID      = "bamru.calendar@gmail.com"
-    KEYFILE  = './gcal_keys/bamru.p12'
 
     class << self
       def execute
@@ -27,19 +22,8 @@ class GcalData
       private
 
       def download_latest_json
-        opts   = {application_name: "test", application_version: "0.0.1"}
-        client = GAPI.new(opts)
-        cal    = client.discovered_api('calendar', 'v3')
-        key    = GAPI::KeyUtils.load_from_pkcs12(KEYFILE, 'notasecret')
-        client.authorization = Signet::OAuth2::Client.new(
-          token_credential_uri: 'https://accounts.google.com/o/oauth2/token',
-          audience:    'https://accounts.google.com/o/oauth2/token',
-          scope:       'https://www.googleapis.com/auth/calendar',
-          issuer:      ISSUER,
-          signing_key: key
-        )
-        client.authorization.fetch_access_token!
-        event_list = client.execute(method_opts(cal.events.list))
+        client     = GcalClient.new
+        event_list = client.list_events
         event_hash = JSON.parse(event_list.body.scrub)
         JSON.pretty_generate(event_hash["items"]) + "\n"
       end
@@ -61,13 +45,6 @@ class GcalData
 
       def old_text
         File.exist?(GCAL_DATA_JSON_FILE) ? File.read(GCAL_DATA_JSON_FILE) : ""
-      end
-
-      def method_opts(method)
-        {
-          api_method: method,
-          parameters: {'calendarId' => CID}
-        }
       end
     end
   end
