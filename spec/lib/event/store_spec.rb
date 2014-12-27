@@ -21,6 +21,10 @@ describe Event::Store do
     it { should respond_to :find         }
     it { should respond_to :create       }
     it { should respond_to :destroy_all  }
+    it { should respond_to :meetings     }
+    it { should respond_to :trainings    }
+    it { should respond_to :others       }
+    it { should respond_to :starts_on    }
   end
 
   describe "Store Operations" do

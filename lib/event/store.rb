@@ -23,7 +23,7 @@ class Event::Store
     @store.transaction do
       @store[:data] ||= {}
       keys = val_arr.map do |val|
-        key = val.hash.to_s.reverse[0..10].reverse
+        key = val.hash.to_s
         @store[:data][key] = val
         key
       end
@@ -53,6 +53,10 @@ class Event::Store
 
   def others
     @others ||= match("kind", "community")
+  end
+
+  def starts_on(date)
+    match("start", date)
   end
 
   private

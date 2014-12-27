@@ -1,3 +1,4 @@
+require 'digest'
 require 'active_support'
 require 'active_support/core_ext'
 
@@ -12,14 +13,14 @@ class Event
     FIELDS.each {|f| instance_variable_set "@#{f}", i_opts.fetch(f, "TBD")}
   end
 
+  # ----- instance methods -----
+
   def id
     hash
   end
 
-  # ----- instance methods -----
-
   def hash
-    signature.hash
+    Digest::SHA256.hexdigest(signature).reverse[0..5].reverse
   end
 
   def signature

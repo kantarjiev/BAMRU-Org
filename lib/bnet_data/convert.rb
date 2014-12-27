@@ -3,6 +3,7 @@ require_relative "../bnet_data"
 require_relative "../rake/loggers"
 require_relative "../event"
 require_relative "../event/store"
+require_relative "../date_range"
 
 class BnetData
   class Convert
@@ -27,13 +28,17 @@ class BnetData
       return [] unless File.exist?(@from)
       csv_events = []
       CSV.foreach(@from, headers: true) do |row|
+        next if row["start"] < DateRange.start_str
+        next if row["start"] > DateRange.finish_str
         csv_events << row
       end
       csv_events
     end
 
     def events
-      csv_events.map { |event| Event.new(event) }
+      csv_events.map do |event|
+        Event.new(event)
+      end
     end
   end
 end

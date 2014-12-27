@@ -1,6 +1,6 @@
 ---
 :data:
-  '32916145534': !ruby/object:Event
+  '488984': !ruby/object:Event
     kind: TBD
     title: BAMRU Mtg.
     location: 17930 Lake Chabot Road, Castro Valley, CA 94546
@@ -11,7 +11,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '89921034839': !ruby/object:Event
+  76570c: !ruby/object:Event
     kind: TBD
     title: Personal Rock Skills
     location: Indian Rock, Tahoe Area
@@ -22,7 +22,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '66825782998': !ruby/object:Event
+  7723ad: !ruby/object:Event
     kind: TBD
     title: BAMRU Mtg.
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -33,7 +33,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '58635852124': !ruby/object:Event
+  84d4e2: !ruby/object:Event
     kind: TBD
     title: BAMRU Mtg.
     location: 17930 Lake Chabot Road, Castro Valley, CA 94546
@@ -44,7 +44,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  08410126479: !ruby/object:Event
+  caee18: !ruby/object:Event
     kind: TBD
     title: Basic Technical Rescue
     location: TBA
@@ -55,7 +55,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  01148222620: !ruby/object:Event
+  5491e8: !ruby/object:Event
     kind: TBD
     title: BAMRU Mtg.
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -66,7 +66,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '93089452235': !ruby/object:Event
+  5109de: !ruby/object:Event
     kind: TBD
     title: Advanced Technical Rescue
     location: Yosemite
@@ -77,7 +77,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '42943990273': !ruby/object:Event
+  12281d: !ruby/object:Event
     kind: TBD
     title: HMB Pumpkin Festival
     location: Half Moon Bay
@@ -88,7 +88,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '50339590920': !ruby/object:Event
+  17dede: !ruby/object:Event
     kind: TBD
     title: BAMRU Mtg.
     location: 17930 Lake Chabot Road, Castro Valley, CA 94546
@@ -99,7 +99,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '21553500170': !ruby/object:Event
+  cd6809: !ruby/object:Event
     kind: TBD
     title: BAMRU Mtg.
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -110,7 +110,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '46794982893': !ruby/object:Event
+  031d46: !ruby/object:Event
     kind: TBD
     title: WS-100
     location: Auburn, CA
@@ -121,7 +121,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '78928992792': !ruby/object:Event
+  a1158e: !ruby/object:Event
     kind: TBD
     title: SO Driver's Cert Classroom
     location: Redwood City
@@ -132,7 +132,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '32404078684': !ruby/object:Event
+  c5e2cb: !ruby/object:Event
     kind: TBD
     title: SO Driver's Cert Practical
     location: Redwood City
@@ -143,7 +143,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '21289610188': !ruby/object:Event
+  73b8ae: !ruby/object:Event
     kind: TBD
     title: SAREX 2012
     location: Coloma, CA
@@ -154,7 +154,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '15797574769': !ruby/object:Event
+  8d23ed: !ruby/object:Event
     kind: TBD
     title: Operations Leader Training
     location: Redwood City
@@ -165,7 +165,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '99126939594': !ruby/object:Event
+  bbb01d: !ruby/object:Event
     kind: TBD
     title: BAMRU Holiday Party
     location: TBA
@@ -176,7 +176,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '23220254983': !ruby/object:Event
+  a692bd: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 17930 Lake Chabot Road, Castro Valley, CA 94546
@@ -187,7 +187,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '89304609609': !ruby/object:Event
+  ea8cc1: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 17930 Lake Chabot Road, Castro Valley, CA 94546
@@ -198,7 +198,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '41771558681': !ruby/object:Event
+  580d16: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -209,7 +209,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '92788478289': !ruby/object:Event
+  3217a1: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 17930 Lake Chabot Road, Castro Valley, CA 94546
@@ -220,7 +220,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '19185237068': !ruby/object:Event
+  46620a: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -231,7 +231,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '37140545961': !ruby/object:Event
+  f30756: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 17930 Lake Chabot Road, Castro Valley, CA 94546
@@ -242,7 +242,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '85938690664': !ruby/object:Event
+  158e15: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -253,7 +253,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '69507638964': !ruby/object:Event
+  ddcb0a: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 17930 Lake Chabot Road, Castro Valley, CA 94546
@@ -264,7 +264,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '35679006381': !ruby/object:Event
+  6bd59c: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -275,7 +275,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '30917174956': !ruby/object:Event
+  e24943: !ruby/object:Event
     kind: TBD
     title: BAMRU Dues Renewal
     location: TBA
@@ -286,7 +286,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '72442561128': !ruby/object:Event
+  '705739': !ruby/object:Event
     kind: TBD
     title: BAMRU Dues Renewal
     location: TBA
@@ -297,7 +297,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '04642510523': !ruby/object:Event
+  820df9: !ruby/object:Event
     kind: TBD
     title: BASARC Meeting
     location: EBRP
@@ -308,7 +308,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '96376355080': !ruby/object:Event
+  b4eaeb: !ruby/object:Event
     kind: TBD
     title: BASARC Meeting
     location: Sonoma
@@ -319,7 +319,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '47436329010': !ruby/object:Event
+  c44525: !ruby/object:Event
     kind: TBD
     title: BASARC Meeting
     location: Napa
@@ -330,7 +330,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '16316428477': !ruby/object:Event
+  27e74a: !ruby/object:Event
     kind: TBD
     title: MLPI/BASARC Management
     location: Sonoma
@@ -341,7 +341,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '44613965023': !ruby/object:Event
+  7a1c0e: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -352,7 +352,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '42622340411': !ruby/object:Event
+  2cead9: !ruby/object:Event
     kind: TBD
     title: Mock Search
     location: 37.2758,-122.2911 ( Memorial County Park )
@@ -363,7 +363,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '57010169664': !ruby/object:Event
+  3157ad: !ruby/object:Event
     kind: TBD
     title: Intro to Snow Camping
     location: 39.3577,-120.3655 ( Castle Peak )
@@ -374,7 +374,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '27782142157': !ruby/object:Event
+  abb91c: !ruby/object:Event
     kind: TBD
     title: Drivers Ed Practical
     location: 400 County Center Parking Lot
@@ -385,7 +385,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '44432769192': !ruby/object:Event
+  6f7e93: !ruby/object:Event
     kind: TBD
     title: Winter Litter Packaging
     location: 37.4324,-122.1531 ( Palo Alto )
@@ -396,7 +396,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '52261735431': !ruby/object:Event
+  fa5991: !ruby/object:Event
     kind: TBD
     title: Rescue System Practice
     location: 37.4323,-122.1532 ( Palo Alto )
@@ -407,7 +407,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  05252937997: !ruby/object:Event
+  4be81b: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -418,7 +418,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '65034636967': !ruby/object:Event
+  005ba9: !ruby/object:Event
     kind: TBD
     title: MLPI/BASARC Mgmt
     location: Sonoma
@@ -429,7 +429,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '19011519299': !ruby/object:Event
+  1ef7d7: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
     location: 37.7404,-122.4296 ( San Francisco )
@@ -440,7 +440,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  05593384669: !ruby/object:Event
+  f70e84: !ruby/object:Event
     kind: TBD
     title: Drivers Ed Class
     location: 400 County Cntr Jury Room
@@ -451,7 +451,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '99059324577': !ruby/object:Event
+  bff9f2: !ruby/object:Event
     kind: TBD
     title: Snow Rescue Training
     location: 39.328,-120.1833 ( Truckee Area )
@@ -462,7 +462,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  00532909451: !ruby/object:Event
+  2a5c65: !ruby/object:Event
     kind: TBD
     title: Snow Rescue Training
     location: 39.328,-120.1833 ( Truckee Area )
@@ -473,7 +473,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '66425505226': !ruby/object:Event
+  8e0c6c: !ruby/object:Event
     kind: TBD
     title: Skills Night
     location: TBA
@@ -484,7 +484,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '60177696712': !ruby/object:Event
+  603cf0: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Mount Langley'
     location: Lone Pine, CA
@@ -495,7 +495,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '48763428681': !ruby/object:Event
+  3b0fc5: !ruby/object:Event
     kind: TBD
     title: Ham Cram
     location: Los Altos
@@ -506,7 +506,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '23186413716': !ruby/object:Event
+  f819e3: !ruby/object:Event
     kind: TBD
     title: Cache Clean Out
     location: 37.4901,-122.23 ( Redwood City )
@@ -517,7 +517,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '31675359742': !ruby/object:Event
+  02c28d: !ruby/object:Event
     kind: TBD
     title: 'Skills Night: Purcell Prusiks'
     location: Daly CIty
@@ -528,7 +528,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '67160326810': !ruby/object:Event
+  7b907f: !ruby/object:Event
     kind: TBD
     title: Snow & Ice Re-Accreditation
     location: 37.7798,-119.0754 ( June Lake )
@@ -539,7 +539,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '61309221605': !ruby/object:Event
+  024c21: !ruby/object:Event
     kind: TBD
     title: Trainee Cohort Announced
     location: TBA
@@ -550,7 +550,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '27829821024': !ruby/object:Event
+  f11255: !ruby/object:Event
     kind: TBD
     title: CPR/AED
     location: 400 County Center, Redwood City
@@ -561,7 +561,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '44032331966': !ruby/object:Event
+  5e4335: !ruby/object:Event
     kind: TBD
     title: CPR/AED
     location: 400 County Center, Redwood City
@@ -572,7 +572,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '66004183785': !ruby/object:Event
+  066828: !ruby/object:Event
     kind: TBD
     title: SAR Basic
     location: 37.4324,-122.2915 ( Huddart Park )
@@ -583,7 +583,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '43891079219': !ruby/object:Event
+  b27569: !ruby/object:Event
     kind: TBD
     title: Winter Skills
     location: 39.3664,-120.352 ( Castle Peak )
@@ -594,7 +594,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '35956691264': !ruby/object:Event
+  38602d: !ruby/object:Event
     kind: TBD
     title: BASARC Interview Techniques
     location: Concord, CA
@@ -605,7 +605,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '64988043574': !ruby/object:Event
+  77432f: !ruby/object:Event
     kind: TBD
     title: Presidential Security Detail
     location: Atherton
@@ -616,7 +616,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '18028099071': !ruby/object:Event
+  1834f8: !ruby/object:Event
     kind: TBD
     title: Personal Rock Skills
     location: Tahoe
@@ -627,7 +627,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '19002075954': !ruby/object:Event
+  c57295: !ruby/object:Event
     kind: TBD
     title: Navigation Skills
     location: Montebello OSP
@@ -638,7 +638,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '32323579786': !ruby/object:Event
+  2e6f8d: !ruby/object:Event
     kind: TBD
     title: Trainee Interviews -- Day 1
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -649,7 +649,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '58798797316': !ruby/object:Event
+  d74455: !ruby/object:Event
     kind: TBD
     title: Trainee Interviews -- Day 2
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -660,7 +660,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '65704818745': !ruby/object:Event
+  948eea: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Mt. Lassen'
     location: Red Bluff, CA
@@ -671,7 +671,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  03925222618: !ruby/object:Event
+  3d27ca: !ruby/object:Event
     kind: TBD
     title: Trainee Interviews -- Day 3
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -682,7 +682,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '93165975094': !ruby/object:Event
+  f916bf: !ruby/object:Event
     kind: TBD
     title: Pacific Coast Dream Machines
     location: Half Moon Bay Airport
@@ -693,7 +693,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '54071347130': !ruby/object:Event
+  5573f9: !ruby/object:Event
     kind: TBD
     title: 'Skills Night: Web Tools'
     location: 37.4886,-122.2308 ( Redwood City )
@@ -704,7 +704,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '91691093765': !ruby/object:Event
+  12ee0a: !ruby/object:Event
     kind: TBD
     title: Navigation Skills Classroom
     location: Jury Assembly Room
@@ -715,7 +715,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '35156471990': !ruby/object:Event
+  8a9550: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Chiquito Pass'
     location: Oakhurst, CA
@@ -726,7 +726,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '10940183403': !ruby/object:Event
+  53ec31: !ruby/object:Event
     kind: TBD
     title: Western States 100
     location: Auburn, CA
@@ -737,7 +737,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '56551106180': !ruby/object:Event
+  e78ab7: !ruby/object:Event
     kind: TBD
     title: Super Sports Day
     location: Woodside High School
@@ -748,7 +748,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '35790063493': !ruby/object:Event
+  ba1da5: !ruby/object:Event
     kind: TBD
     title: BASARC Meeting
     location: 37.716,-121.8846 ( 4985 Broder Blvd. Dublin, CA )
@@ -759,7 +759,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '85902230210': !ruby/object:Event
+  03a5cd: !ruby/object:Event
     kind: TBD
     title: SAREX
     location: Monterey
@@ -770,7 +770,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '23375230652': !ruby/object:Event
+  c24e42: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Ritter/Banner'
     location: Mammoth Lakes, CA
@@ -781,7 +781,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '33477591557': !ruby/object:Event
+  602cbd: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Mt. Laurel'
     location: Bishop, CA
@@ -792,7 +792,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '52094394670': !ruby/object:Event
+  b66d72: !ruby/object:Event
     kind: TBD
     title: Scout-O-Rama
     location: History Park, San Jose
@@ -803,7 +803,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '52704940872': !ruby/object:Event
+  d99b3c: !ruby/object:Event
     kind: TBD
     title: Hug-a-tree at SMCSO STAR Camp
     location: Loma Mar, CA
@@ -814,7 +814,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '71278447411': !ruby/object:Event
+  32ed52: !ruby/object:Event
     kind: TBD
     title: Mass Casualty Incidents
     location: Burlingame
@@ -825,7 +825,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '50582012893': !ruby/object:Event
+  a4883a: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Shasta'
     location: Shasta City, CA
@@ -836,7 +836,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '29994232138': !ruby/object:Event
+  5eb0ea: !ruby/object:Event
     kind: TBD
     title: Small Alpine Training - Winnemucca Lake
     location: 38.6697,-119.9936 ( Carson Pass )
@@ -847,7 +847,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '18362379433': !ruby/object:Event
+  9e3e37: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
     location: Berkeley
@@ -858,7 +858,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '25208017780': !ruby/object:Event
+  2d41be: !ruby/object:Event
     kind: TBD
     title: Presidential Visit Security Detail
     location: Portola Valley
@@ -869,7 +869,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '27371140968': !ruby/object:Event
+  71b5c7: !ruby/object:Event
     kind: TBD
     title: BASARC Meeting
     location: San Mateo County Center, Building 455, Room 101
@@ -880,7 +880,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '30602263611': !ruby/object:Event
+  a29df6: !ruby/object:Event
     kind: TBD
     title: 'Skills day: Personal rock skills practice'
     location: Redwood City Jury Parking Garage
@@ -891,7 +891,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '37905551957': !ruby/object:Event
+  dc6ceb: !ruby/object:Event
     kind: TBD
     title: Drivers Ed Classroom
     location: 455 County Center
@@ -902,7 +902,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  05657263900: !ruby/object:Event
+  c1179f: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Mt Agassiz'
     location: 37.1116,-118.5309 ( Big Pine, CA )
@@ -913,7 +913,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '74859315543': !ruby/object:Event
+  4bc57e: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
     location: San Francisco
@@ -924,7 +924,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '57211094779': !ruby/object:Event
+  7ab33d: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Bear Creek Spire'
     location: Tom's Place, CA
@@ -935,7 +935,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '13683600373': !ruby/object:Event
+  804baa: !ruby/object:Event
     kind: TBD
     title: 'Skills Night: GPS Tricks'
     location: Berkeley
@@ -946,7 +946,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '54656820399': !ruby/object:Event
+  f7707e: !ruby/object:Event
     kind: TBD
     title: Tenaya Canyon
     location: Yosemite
@@ -957,7 +957,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '96112137803': !ruby/object:Event
+  '272976': !ruby/object:Event
     kind: TBD
     title: Skills afternoon - tech rescue
     location: RWC
@@ -968,7 +968,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '87133954276': !ruby/object:Event
+  1bc0bf: !ruby/object:Event
     kind: TBD
     title: Basic Technical Rescue
     location: RWC/Castle Rock
@@ -979,7 +979,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '38911578350': !ruby/object:Event
+  9ab394: !ruby/object:Event
     kind: TBD
     title: 'Skills Night: Mapping'
     location: Berkeley
@@ -990,7 +990,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '56963278798': !ruby/object:Event
+  '656089': !ruby/object:Event
     kind: TBD
     title: Technical Rescue Evolutions Training
     location: Yosemite
@@ -1001,7 +1001,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '21476534041': !ruby/object:Event
+  8a2330: !ruby/object:Event
     kind: TBD
     title: Skills Night - Tech Rescue Efficiency
     location: Palo Alto
@@ -1012,7 +1012,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '18920353169': !ruby/object:Event
+  b4fd0f: !ruby/object:Event
     kind: TBD
     title: Medical Skills
     location: Huddart Park
@@ -1023,7 +1023,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '42898449683': !ruby/object:Event
+  f5de96: !ruby/object:Event
     kind: TBD
     title: Skills weekend
     location: Huddart Park
@@ -1034,7 +1034,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '83445834850': !ruby/object:Event
+  35bb93: !ruby/object:Event
     kind: TBD
     title: Operations Leader Training
     location: Redwood City
@@ -1045,7 +1045,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '85700139111': !ruby/object:Event
+  5caa72: !ruby/object:Event
     kind: TBD
     title: 'Small Alpine: Slabs of Insanity'
     location: Desolation Wilderness
@@ -1056,7 +1056,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  04514129137: !ruby/object:Event
+  8ffc2f: !ruby/object:Event
     kind: TBD
     title: Contributing to ISRID and Lost Person Behavior
     location: Berkeley
@@ -1067,7 +1067,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '67399739325': !ruby/object:Event
+  a7fb45: !ruby/object:Event
     kind: TBD
     title: Skills Night
     location: San Francisco
@@ -1078,7 +1078,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '26517882166': !ruby/object:Event
+  01ba1f: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
     location: TBA
@@ -1089,7 +1089,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  01283831488: !ruby/object:Event
+  f3394f: !ruby/object:Event
     kind: TBD
     title: Trainee Interviews -- Day 1
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -1100,7 +1100,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  04198082460: !ruby/object:Event
+  5d0968: !ruby/object:Event
     kind: TBD
     title: Trainee Interviews -- Day 2
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -1111,7 +1111,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '67890405927': !ruby/object:Event
+  7e4ce9: !ruby/object:Event
     kind: TBD
     title: Trainee Interviews -- Day 3
     location: 455 County Center Room 101, Redwood City, CA 94063
@@ -1122,7 +1122,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  00340892623: !ruby/object:Event
+  3f1019: !ruby/object:Event
     kind: TBD
     title: Western States 100
     location: Auburn, CA
@@ -1133,7 +1133,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '73202213732': !ruby/object:Event
+  555c37: !ruby/object:Event
     kind: TBD
     title: Trainee Applications Due
     location: TBA
@@ -1144,7 +1144,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '87150418749': !ruby/object:Event
+  c53154: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
     location: TBA
@@ -1155,7 +1155,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '79014747207': !ruby/object:Event
+  '573348': !ruby/object:Event
     kind: TBD
     title: Holiday Party
     location: TBA
@@ -1166,7 +1166,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '62634596921': !ruby/object:Event
+  802cff: !ruby/object:Event
     kind: TBD
     title: BAMRU Dues Renewal
     location: TBA
@@ -1177,7 +1177,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '58847420365': !ruby/object:Event
+  99d371: !ruby/object:Event
     kind: TBD
     title: Western States UltraMarathon
     location: 38.9917,-120.9245 ( Auburn )
@@ -1188,7 +1188,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '60700113342': !ruby/object:Event
+  14e79b: !ruby/object:Event
     kind: TBD
     title: BASARC Meeting
     location: 50 Glacier Drive, Martinez
@@ -1199,7 +1199,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '52402563390': !ruby/object:Event
+  5fe2dd: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
     location: TBA
@@ -1210,7 +1210,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '36146274769': !ruby/object:Event
+  2c3298: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Meeting
     location: TBA
@@ -1221,7 +1221,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '61415106866': !ruby/object:Event
+  c7b035: !ruby/object:Event
     kind: TBD
     title: Intro to Snow Camping
     location: TBA
@@ -1232,7 +1232,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '99623211334': !ruby/object:Event
+  bc108a: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Meeting
     location: San Francisco
@@ -1243,7 +1243,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '76479588236': !ruby/object:Event
+  376fc2: !ruby/object:Event
     kind: TBD
     title: IKAR/MRA Conference
     location: Lake Tahoe, CA
@@ -1254,7 +1254,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '61407074839': !ruby/object:Event
+  fc2d79: !ruby/object:Event
     kind: TBD
     title: General Meeting  (not 3rd Monday)
     location: 37.4888,-122.2305 ( Redwood City Jury Assembly Room )
@@ -1265,7 +1265,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '41751333165': !ruby/object:Event
+  28bca4: !ruby/object:Event
     kind: TBD
     title: General Meeting (Not 3rd Monday)
     location: 37.7207,-122.0962 ( Castro Valley Nike Classroom )
@@ -1276,7 +1276,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '35943602717': !ruby/object:Event
+  '527720': !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 37.4889,-122.2305 ( Redwood City County Room 101 )
@@ -1287,7 +1287,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '52229620878': !ruby/object:Event
+  '668068': !ruby/object:Event
     kind: TBD
     title: General Meeting (not 3rd Monday)
     location: 37.7207,-122.0962 (  Castro Valley Nike Classroom )
@@ -1298,7 +1298,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  04144825545: !ruby/object:Event
+  666c9b: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 37.4888,-122.2305 ( Redwood City County Room 101 )
@@ -1309,7 +1309,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '78491015116': !ruby/object:Event
+  b59f47: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 37.7207,-122.0962 ( Castro Valley Nike Classroom )
@@ -1320,7 +1320,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '79510380765': !ruby/object:Event
+  5a0ae5: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 37.4888,-122.2305 ( Redwood City County Room 101 )
@@ -1331,7 +1331,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '63260860440': !ruby/object:Event
+  13eab1: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 37.7207,-122.0962 ( Castro Valley Nike Classroom )
@@ -1342,7 +1342,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '35225733990': !ruby/object:Event
+  2162db: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 37.4888,-122.2305 ( Redwood City Jury Assembly Room )
@@ -1353,7 +1353,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '17656650068': !ruby/object:Event
+  107bab: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 37.7207,-122.0962 ( Castro Valley Nike Classroom )
@@ -1364,7 +1364,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '33312270424': !ruby/object:Event
+  3225e5: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 37.4888,-122.2305 ( Redwood City Jury Assembly Room )
@@ -1375,7 +1375,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '81382526150': !ruby/object:Event
+  7a3de2: !ruby/object:Event
     kind: TBD
     title: BASARC MLPI (weekend 1)
     location: TBA
@@ -1386,7 +1386,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '48444456297': !ruby/object:Event
+  c353d6: !ruby/object:Event
     kind: TBD
     title: BASARC MLPI (weekend 2)
     location: TBA
@@ -1397,7 +1397,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '99409636905': !ruby/object:Event
+  ca91a7: !ruby/object:Event
     kind: TBD
     title: BASARC Alzheimers Training
     location: TBA
@@ -1408,7 +1408,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '16274258466': !ruby/object:Event
+  4b2e91: !ruby/object:Event
     kind: TBD
     title: MLPI Skills Day
     location: San Pedro County Park
@@ -1419,7 +1419,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '60518046537': !ruby/object:Event
+  4a20b9: !ruby/object:Event
     kind: TBD
     title: Snow Skills
     location: 39.3163,-120.3338 ( Donner Summit )
@@ -1430,7 +1430,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '36405377328': !ruby/object:Event
+  ac0046: !ruby/object:Event
     kind: TBD
     title: Search Management
     location: Pulgas Ridge OSP, Redwood City
@@ -1441,7 +1441,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '43733578015': !ruby/object:Event
+  32ec5c: !ruby/object:Event
     kind: TBD
     title: Guest Mock Search
     location: Redwood Memorial Park
@@ -1452,7 +1452,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '89046929171': !ruby/object:Event
+  701c8d: !ruby/object:Event
     kind: TBD
     title: Small Alpine- Mt. Langley
     location: TBA
@@ -1463,7 +1463,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '85657006188': !ruby/object:Event
+  0ef5b4: !ruby/object:Event
     kind: TBD
     title: Search Practice
     location: El Corte de Madera Open Space
@@ -1474,7 +1474,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '74973245417': !ruby/object:Event
+  c550a5: !ruby/object:Event
     kind: TBD
     title: Operations Leader Training
     location: Room 101, Redwood City
@@ -1485,7 +1485,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '24598856103': !ruby/object:Event
+  91447c: !ruby/object:Event
     kind: TBD
     title: Pizza and Skills Night
     location: 38 Fair Ave. San Francisco, CA
@@ -1496,7 +1496,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '46440240527': !ruby/object:Event
+  5448e0: !ruby/object:Event
     kind: TBD
     title: Advanced Technical Rescue
     location: Yosemite
@@ -1507,7 +1507,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '40298984792': !ruby/object:Event
+  4bdbf9: !ruby/object:Event
     kind: TBD
     title: Intro to Snow Camping
     location: TBA
@@ -1518,7 +1518,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '84305323600': !ruby/object:Event
+  bbe0a0: !ruby/object:Event
     kind: TBD
     title: Medical Skills
     location: TBA
@@ -1529,7 +1529,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '62099642047': !ruby/object:Event
+  cc5880: !ruby/object:Event
     kind: TBD
     title: SAREX
     location: Napa County
@@ -1540,7 +1540,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  09461173631: !ruby/object:Event
+  896c6b: !ruby/object:Event
     kind: TBD
     title: Small Alpine - Desolation
     location: Desolation Wilderness
@@ -1551,7 +1551,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  04224326854: !ruby/object:Event
+  6a8b60: !ruby/object:Event
     kind: TBD
     title: Alcatraz High Angle Ivy Removal
     location: Alcatraz
@@ -1562,7 +1562,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '15044591089': !ruby/object:Event
+  cb06de: !ruby/object:Event
     kind: TBD
     title: Guiding line practice
     location: Albany
@@ -1573,7 +1573,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '60486231450': !ruby/object:Event
+  c258b5: !ruby/object:Event
     kind: TBD
     title: CPR/ AED/ First Aid Recert
     location: Room 101, 455 County Center
@@ -1584,7 +1584,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '64217941783': !ruby/object:Event
+  370fc6: !ruby/object:Event
     kind: TBD
     title: SARTopo Training
     location: San Francisco
@@ -1595,7 +1595,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '89257974058': !ruby/object:Event
+  059a08: !ruby/object:Event
     kind: TBD
     title: MLPI Interviewing Techniques
     location: Marin County
@@ -1606,7 +1606,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '52093270565': !ruby/object:Event
+  4cbd1a: !ruby/object:Event
     kind: TBD
     title: Skills weekend
     location: TBA
@@ -1617,7 +1617,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '49246312717': !ruby/object:Event
+  ff7ecb: !ruby/object:Event
     kind: TBD
     title: Technical rescue evolutions
     location: Pinnacles NP
@@ -1628,7 +1628,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '27674997227': !ruby/object:Event
+  5f69dc: !ruby/object:Event
     kind: TBD
     title: Explorers Academy
     location: Huddart Park
@@ -1639,7 +1639,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '34811759633': !ruby/object:Event
+  8d448b: !ruby/object:Event
     kind: TBD
     title: SO Driver's Practical
     location: Redwood City Jury Parking Lot
@@ -1650,7 +1650,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '28414209733': !ruby/object:Event
+  6c1ada: !ruby/object:Event
     kind: TBD
     title: 'Drivers Training: Classroom'
     location: 455 County Center
@@ -1661,7 +1661,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '63327099519': !ruby/object:Event
+  4bac1e: !ruby/object:Event
     kind: TBD
     title: Technical Rescue Evolutions
     location: Berkeley - Cragmont
@@ -1672,7 +1672,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '42311498210': !ruby/object:Event
+  c3fc59: !ruby/object:Event
     kind: TBD
     title: DO training skills night
     location: 44 Shakespeare St Daly City CA
@@ -1683,7 +1683,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-  '84416064641': !ruby/object:Event
+  8636c7: !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: 455 County Center Room 101, Redwood City, CA 94063

@@ -22,4 +22,5 @@ gem "google-api-client" # wrapper for google calendar
 gem "whenever"       # cron scheduling
 gem "colored"        # colored terminal output
 gem "rake"           # command processing
-gem "pry"            # debugger / IRB console
+gem "pry"            # IRB console
+gem "pry-byebug"     # debugger
