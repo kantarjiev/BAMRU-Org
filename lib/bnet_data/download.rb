@@ -1,5 +1,5 @@
 require "open-uri"
-require_relative "../bnet_data"
+require_relative "../base"
 require_relative "../rake/loggers"
 
 class BnetData

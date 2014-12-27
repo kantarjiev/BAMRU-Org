@@ -1,5 +1,5 @@
 require 'json'
-require_relative "../gcal_data"
+require_relative "../base"
 require_relative "../rake/loggers"
 require_relative "../event"
 require_relative "../event/store"

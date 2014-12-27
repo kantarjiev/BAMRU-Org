@@ -1,7 +1,7 @@
 require          "active_support"
 require_relative "../lib/event"
 require_relative "../lib/event/store"
-require_relative "../lib/bnet_data"
+require_relative "../lib/base"
 require_relative "../lib/date_range"
 
 module EventsHelpers

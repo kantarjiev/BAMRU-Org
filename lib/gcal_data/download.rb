@@ -1,6 +1,6 @@
 require 'json'
 require 'pry'
-require_relative '../gcal_data'
+require_relative '../base'
 require_relative '../gcal_client'
 require_relative '../rake/loggers'
 
