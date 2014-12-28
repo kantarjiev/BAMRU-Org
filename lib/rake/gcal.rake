@@ -1,5 +1,6 @@
 require_relative "../gcal_data/download"
 require_relative "../gcal_data/convert"
+require_relative "../gcal_sync"
 
 namespace :data do
 
@@ -50,6 +51,11 @@ namespace :data do
     desc "Download Gcal Data"
     task :download do
       GcalData::Download.execute
+    end
+
+    desc "Sync all Gcal Data"
+    task :sync do
+      GcalSync.new.sync
     end
   end
 end

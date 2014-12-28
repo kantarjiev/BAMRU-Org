@@ -24,3 +24,4 @@ gem "colored"        # colored terminal output
 gem "rake"           # command processing
 gem "pry"            # IRB console
 gem "pry-byebug"     # debugger
+gem "hirb"           # console formatter

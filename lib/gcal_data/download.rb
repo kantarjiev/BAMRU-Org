@@ -25,6 +25,8 @@ class GcalData
         client     = GcalClient.new
         event_list = client.list_events
         event_hash = JSON.parse(event_list.body.scrub)
+        error_msg  = "ERROR: failed to download Google data\n#{event_hash}"
+        raise error_msg if event_hash["items"].nil?
         JSON.pretty_generate(event_hash["items"]) + "\n"
       end
 

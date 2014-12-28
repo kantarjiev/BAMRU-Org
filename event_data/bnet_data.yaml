@@ -15,6 +15,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   c3fc59: !ruby/object:Event
     kind: training
     title: DO training skills night
@@ -30,6 +31,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   4bac1e: !ruby/object:Event
     kind: training
     title: Technical Rescue Evolutions
@@ -44,6 +46,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   8dd012: !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -55,6 +58,7 @@
     lat: '37.4888'
     lon: "-122.2305"
     prior: TBD
+    gcal_id: TBD
   2e62bf: !ruby/object:Event
     kind: training
     title: Skills weekend
@@ -70,6 +74,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   6c1ada: !ruby/object:Event
     kind: training
     title: 'Drivers Training: Classroom'
@@ -82,6 +87,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   8d448b: !ruby/object:Event
     kind: training
     title: SO Driver's Practical
@@ -95,6 +101,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   ff7ecb: !ruby/object:Event
     kind: training
     title: Technical rescue evolutions
@@ -110,6 +117,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   21cb9a: !ruby/object:Event
     kind: meeting
     title: Snow Camping Pre-Trip Meeting
@@ -122,6 +130,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   fe833c: !ruby/object:Event
     kind: community
     title: Holiday Party
@@ -135,6 +144,7 @@
     lat: '37.3926'
     lon: "-122.0745"
     prior: TBD
+    gcal_id: TBD
   802cff: !ruby/object:Event
     kind: community
     title: BAMRU Dues Renewal
@@ -146,6 +156,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   a5da53: !ruby/object:Event
     kind: training
     title: Intro to Snow Camping
@@ -159,6 +170,7 @@
     lat: '38.6873'
     lon: "-119.9862"
     prior: TBD
+    gcal_id: TBD
   e887e9: !ruby/object:Event
     kind: meeting
     title: General Meeting  (not 3rd Monday)
@@ -170,6 +182,7 @@
     lat: '37.4888'
     lon: "-122.2305"
     prior: TBD
+    gcal_id: TBD
   7affdc: !ruby/object:Event
     kind: meeting
     title: Qrtly Leadership Mtg
@@ -181,6 +194,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   e441c8: !ruby/object:Event
     kind: training
     title: Snow Skills
@@ -193,6 +207,7 @@
     lat: '39.3163'
     lon: "-120.3338"
     prior: TBD
+    gcal_id: TBD
   f555c9: !ruby/object:Event
     kind: training
     title: Recert skills night
@@ -204,6 +219,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   15c6d4: !ruby/object:Event
     kind: training
     title: Bay Area Joint MRA training
@@ -216,6 +232,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   539f92: !ruby/object:Event
     kind: training
     title: Guest Mock Search G
@@ -228,6 +245,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   b2cc97: !ruby/object:Event
     kind: meeting
     title: General Meeting (Not 3rd Monday)
@@ -239,6 +257,7 @@
     lat: '37.7207'
     lon: "-122.0962"
     prior: TBD
+    gcal_id: TBD
   930cfd: !ruby/object:Event
     kind: training
     title: BASARC MLPI (weekend 1)
@@ -253,6 +272,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   c011be: !ruby/object:Event
     kind: training
     title: Recert skills night
@@ -264,6 +284,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   1e31d6: !ruby/object:Event
     kind: training
     title: 'CRMRA Recert Prep Training '
@@ -275,6 +296,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   a3db02: !ruby/object:Event
     kind: training
     title: BASARC MLPI (weekend 2)
@@ -289,6 +311,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   49cb2d: !ruby/object:Event
     kind: training
     title: Tech Rescue Re-Accreditation
@@ -300,6 +323,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   80d9ae: !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -311,6 +335,7 @@
     lat: '37.4889'
     lon: "-122.2305"
     prior: TBD
+    gcal_id: TBD
   f470ff: !ruby/object:Event
     kind: training
     title: Glacier/ Crevasse Rescue
@@ -322,6 +347,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   1dbf37: !ruby/object:Event
     kind: meeting
     title: General Meeting (not 3rd Monday)
@@ -333,6 +359,7 @@
     lat: '37.7207'
     lon: "-122.0962"
     prior: TBD
+    gcal_id: TBD
   c50c0f: !ruby/object:Event
     kind: training
     title: SAR Basic *G
@@ -347,6 +374,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   953a51: !ruby/object:Event
     kind: community
     title: Trainee Applications Due
@@ -358,6 +386,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   a862cc: !ruby/object:Event
     kind: meeting
     title: Qrtly Leadership Mtg
@@ -369,6 +398,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   95fcb8: !ruby/object:Event
     kind: meeting
     title: Trainee Interviews -- Day 1
@@ -380,6 +410,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   1a3cf1: !ruby/object:Event
     kind: meeting
     title: Trainee Interviews -- Day 2
@@ -391,6 +422,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   afe17c: !ruby/object:Event
     kind: community
     title: Trainee Class Announced
@@ -402,6 +434,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   fe328c: !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -413,6 +446,7 @@
     lat: '37.4889'
     lon: "-122.2305"
     prior: TBD
+    gcal_id: TBD
   954c46: !ruby/object:Event
     kind: training
     title: Tracking/ Nav Skills Night
@@ -424,6 +458,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   7c61a7: !ruby/object:Event
     kind: training
     title: Tracking Skills *
@@ -439,6 +474,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   b69bfa: !ruby/object:Event
     kind: training
     title: Navigation Skills *G
@@ -450,6 +486,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   74553c: !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -461,6 +498,7 @@
     lat: '37.7207'
     lon: "-122.0962"
     prior: TBD
+    gcal_id: TBD
   '191179': !ruby/object:Event
     kind: training
     title: Personal Rock Skills *
@@ -477,6 +515,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   2fc070: !ruby/object:Event
     kind: community
     title: Western States 100
@@ -489,6 +528,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   e9a741: !ruby/object:Event
     kind: training
     title: DO Skills Night *
@@ -504,6 +544,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   e4f366: !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -515,6 +556,7 @@
     lat: '37.4888'
     lon: "-122.2305"
     prior: TBD
+    gcal_id: TBD
   db6e86: !ruby/object:Event
     kind: training
     title: Low Angle Rescue *
@@ -527,6 +569,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   15d14b: !ruby/object:Event
     kind: training
     title: Search Practice *
@@ -538,6 +581,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   a369d5: !ruby/object:Event
     kind: meeting
     title: Qrtly Leadership Mtg
@@ -549,6 +593,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   4a3e81: !ruby/object:Event
     kind: training
     title: DO Skills Night *
@@ -564,6 +609,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   4efdd6: !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -575,6 +621,7 @@
     lat: '37.7207'
     lon: "-122.0962"
     prior: TBD
+    gcal_id: TBD
   e8b2d2: !ruby/object:Event
     kind: training
     title: Basic Technical Rescue *
@@ -588,6 +635,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   36fc4a: !ruby/object:Event
     kind: training
     title: Search Management/ OP 0
@@ -601,6 +649,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   17d942: !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -612,6 +661,7 @@
     lat: '37.4888'
     lon: "-122.2305"
     prior: TBD
+    gcal_id: TBD
   06cc15: !ruby/object:Event
     kind: community
     title: Early Elections Close
@@ -623,6 +673,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   89149b: !ruby/object:Event
     kind: training
     title: Search Practice G
@@ -634,6 +685,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   3a9257: !ruby/object:Event
     kind: training
     title: Operations Leader Training
@@ -646,6 +698,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   '847400': !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -657,6 +710,7 @@
     lat: '37.7207'
     lon: "-122.0962"
     prior: TBD
+    gcal_id: TBD
   ae13bd: !ruby/object:Event
     kind: training
     title: Medical Skills *G
@@ -672,6 +726,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   5c4f24: !ruby/object:Event
     kind: community
     title: Elections Close
@@ -683,6 +738,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   fc891e: !ruby/object:Event
     kind: meeting
     title: General Meeting
@@ -694,6 +750,7 @@
     lat: '37.4888'
     lon: "-122.2305"
     prior: TBD
+    gcal_id: TBD
   5ce965: !ruby/object:Event
     kind: training
     title: Adv. Search Strategy/ Tracking/ Low angle obstacle course *
@@ -706,6 +763,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   3fd563: !ruby/object:Event
     kind: training
     title: Practice Search *G
@@ -717,6 +775,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   cf4829: !ruby/object:Event
     kind: community
     title: Holiday Party
@@ -728,6 +787,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   cef767: !ruby/object:Event
     kind: meeting
     title: General Meeting (not 3rd Monday)
@@ -739,6 +799,7 @@
     lat: '37.7207'
     lon: "-122.0962"
     prior: TBD
+    gcal_id: TBD
   387c0a: !ruby/object:Event
     kind: community
     title: BAMRU Dues Renewal
@@ -750,6 +811,7 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD
   8160e6: !ruby/object:Event
     kind: training
     title: Skills weekend/ Make up training *
@@ -766,3 +828,4 @@
     lat: 
     lon: 
     prior: TBD
+    gcal_id: TBD

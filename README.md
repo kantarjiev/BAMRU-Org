@@ -80,9 +80,13 @@ BAMRU.org repo.
 
 ## More Information
 
-[BAMRU.org Development Environment](./docs/dev_environment.md)
+[How to be a Copy Editor](./docs/copy_editor.md)
 
-[How to be a CopyWriter](./docs/copywrite.md)
+[About the Development Environment](./docs/dev_environment.md)
+
+[Integrating with Google Calendar](./docs/google_calendar.md)
+
+[Running the Sync Demon](./docs/sync_demon.md)
 
 
 

@@ -96,6 +96,7 @@ GEM
     haml (4.0.6)
       tilt
     hike (1.2.3)
+    hirb (0.7.2)
     hitimes (1.2.2)
     hooks (0.4.0)
       uber (~> 0.0.4)
@@ -228,6 +229,7 @@ DEPENDENCIES
   dotenv
   google-api-client
   guard-rspec
+  hirb
   middleman (~> 3.3.6)
   middleman-slim
   pry

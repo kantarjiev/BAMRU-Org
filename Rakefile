@@ -17,3 +17,7 @@ require "./lib/rake/loggers"
 # ----- utility methods -----
 
 include Rake::Loggers
+
+log "Environment: #{MM_ENV}"
+
+# ----- fini -----

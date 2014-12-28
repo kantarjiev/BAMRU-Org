@@ -1,7 +1,10 @@
 require_relative "./base"
 require_relative "./gcal_client"
+require_relative './rake/loggers'
 
 class GcalSync
+
+  extend Rake::Loggers
 
   # ----- support methods -----
   def client
@@ -10,12 +13,12 @@ class GcalSync
 
   # ----- list of events to be created/deleted -----
 
-  def pending_delete
-    GCAL_STORE.all.keys - BNET_STORE.all.keys
+  def pending_create
+    @pending_create ||= (BNET_STORE.all.keys - GCAL_STORE.all.keys)
   end
 
-  def pending_create
-    BNET_STORE.all.keys - GCAL_STORE.all.keys
+  def pending_delete
+    @pending_delete ||= (GCAL_STORE.all.keys - BNET_STORE.all.keys)
   end
 
   # ------ create and delete individual events -----
@@ -32,57 +35,28 @@ class GcalSync
   # ----- create / delete pending items -----
 
   def create_pending
-    pending_create.each { |evid| create(BNET_STORE.all[evid]) }
+    log "creating #{pending_create.length} events"
+    pending_create.each do |evid|
+      result = create(BNET_STORE.all[evid])
+      puts result.response.body
+      print '.'.green
+    end
+    puts ' '
   end
 
   def delete_pending
-    pending_delete.each {|evid| delete(GCAL_STORE.all[evid].gcal_id)}
+    log "deleting #{pending_delete.length} events"
+    pending_delete.each do |evid|
+      print '.'.green
+      delete(GCAL_STORE.all[evid].gcal_id)
+    end
+    puts ' '
   end
 
-  # # ----- delete all -----
-  #
-  # def gcal_delete_all
-  #   service = authenticate_and_return_gcal_service
-  #   cal     = service.calendars.first
-  #   cal.events.each do |event|
-  #     puts "Deleting #{event.title}"
-  #     event.delete
-  #   end
-  #   "OK"
-  # end
-  #
-  # def add_all_current_actions_to_gcal
-  #   service = authenticate_and_return_gcal_service
-  #   get_current_actions_from_database.each do |action|
-  #     if action.kind != "operation"
-  #       puts "Adding #{action.title} (#{action.id})"
-  #       event = Event.new(service)
-  #       save_event_to_gcal(service, event, action)
-  #     end
-  #   end
-  #   "OK"
-  # end
-  #
-  # def sync
-  #   2.times { delete_all_gcal_events }
-  #   add_all_current_actions_to_gcal
-  # end
-  #
-  # def create_event(action)
-  #   return if action.kind == "operation"
-  #   service = authenticate_and_return_gcal_service
-  #   event   = Event.new(service)
-  #   puts "Creating #{action.id}"
-  #   save_event_to_gcal(service, event, action)
-  # end
-  #
-  # def update_event(action)
-  #   return if action.kind == "operation"
-  #   delete_event(action.id)
-  #   create_event(action)
-  # end
+  # ----- sync everything -----
 
-  private
-
-
+  def sync
+    delete_pending
+    create_pending
+  end
 end

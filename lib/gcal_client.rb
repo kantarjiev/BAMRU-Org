@@ -1,3 +1,4 @@
+require 'json'
 require 'dotenv'
 require 'google/api_client'
 require_relative "./base"
@@ -14,41 +15,47 @@ class GcalClient
   CAL_ID   = ENV["#{MM_ENV.upcase}_CAL_ID"]
   KEYFILE  = "./gcal_keys/bamru_#{MM_ENV}.p12"
 
+  # ----- instance methods -----
+
   def list_events
     opts = {
       api_method: google_calendar.events.list,
       parameters: {'calendarId' => CAL_ID}
     }
-    google_client.execute(opts)
-    sleep 0.33
+    google_exec(opts)
   end
 
   def delete_event(google_event_id)
     opts = {
       api_method: google_calendar.events.delete,
-      parameters: {'calenderId' => CAL_ID, 'eventId' => google_event_id}
+      parameters: {'calendarId' => CAL_ID, 'eventId' => google_event_id}
     }
-    google_client.execute(opts)
-    sleep 0.33
+    google_exec(opts)
   end
 
-  def create_event(event)
-    event = {
-      'summary'     => event.title,
-      'description' => event.description,
-      'start'       => start_for(event),
-      'finish'      => finish_for(event),
+  def create_event(event_input)
+    event_opts = {
+      'summary'     => event_input.title,
+      'description' => event_input.description,
+      'location'    => event_input.location,
+      'start'       => start_for(event_input),
+      'end'         => end_for(event_input),
     }
     opts = {
       api_method: google_calendar.events.insert,
       parameters: {'calendarId' => CAL_ID},
-      body:       [event.to_json]
+      body:       JSON.dump(event_opts),
+      headers:    {'Content-Type' => 'application/json'}
     }
-    google_client.execute(opts)
-    sleep 0.33
+    google_exec(opts)
   end
 
   private
+
+  def google_exec(opts)
+    sleep 0.33
+    google_client.execute(opts)
+  end
 
   # ----- google handles -----
 
@@ -60,7 +67,7 @@ class GcalClient
     @authenticated_calendar ||= create_authenticated_calendar
   end
 
-  # ----- calendar factories -----
+  # ----- factories -----
 
   def create_authenticated_client
     opts   = {application_name: "test", application_version: "0.0.1"}
@@ -81,7 +88,22 @@ class GcalClient
     google_client.discovered_api('calendar', 'v3')
   end
 
-  # ----- event creation -----
+  # ----- date utilities -----
 
+  def start_for(event)
+    if event.kind == 'meeting'
+      {"dateTime" => "#{event.start}T19:30:00-07:00"}
+    else
+      {"date" => event.start}
+    end
+  end
 
+  def end_for(event)
+    fin_date = event.finish.blank? ? event.start : event.finish
+    if event.kind == 'meeting'
+      {"dateTime" => "#{fin_date}T21:30:00-07:00"}
+    else
+      {"date" => fin_date}
+    end
+  end
 end

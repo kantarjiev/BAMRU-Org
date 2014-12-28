@@ -2,10 +2,10 @@ require 'colored'
 
 module Rake
   module Loggers
-    LOGLEN = 75
+    LOGLEN = 80
 
     def log(text)
-      puts "--- #{text} ---".ljust(LOGLEN,'-').yellow
+      puts "-- #{text} --".ljust(LOGLEN,'-').yellow
     end
 
     def info(text)
