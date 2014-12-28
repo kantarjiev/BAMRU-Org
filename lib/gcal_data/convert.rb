@@ -31,14 +31,12 @@ class GcalData
     def events
       json_events.map do |hsh|
         hsh_start = hsh["start"]
-        hsh_end   = hsh["end"]
-        start  = hsh_start["date"] || hsh_start["dateTime"].split('T').first
-        finish = hsh_end["date"]   || hsh_end["dateTime"].split('T').first
-        opts = {
+        start = hsh_start["date"] || hsh_start["dateTime"].split('T').first
+        opts  = {
+          gcal_id:  hsh["id"],
           location: hsh["location"],
           title:    hsh["summary"],
-          start:    start,
-          finish:   finish
+          start:    start
         }
         Event.new(opts)
       end

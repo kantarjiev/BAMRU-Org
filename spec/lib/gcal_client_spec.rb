@@ -11,5 +11,7 @@ describe GcalClient do
 
   describe "Instance Methods" do
     it { should respond_to :list_events                }
+    it { should respond_to :create_event               }
+    it { should respond_to :delete_event               }
   end
 end

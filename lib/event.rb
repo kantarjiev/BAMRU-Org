@@ -4,7 +4,7 @@ require 'active_support/core_ext'
 
 class Event
 
-  FIELDS = %i(kind title location leaders start finish description lat lon prior)
+  FIELDS = %i(kind title location leaders start finish description lat lon prior gcal_id)
 
   attr_accessor *FIELDS
 

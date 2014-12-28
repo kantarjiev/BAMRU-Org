@@ -2,7 +2,7 @@
 
 # test at spec/rake/base_spec.rb
 
-::MM_ROOT ||= __dir__
+require "./lib/base"
 
 require 'colored'
 require 'yaml'
@@ -17,8 +17,3 @@ require "./lib/rake/loggers"
 # ----- utility methods -----
 
 include Rake::Loggers
-
-def normalized_lang(input)
-  return "en" if input == ''
-  input.gsub('.','')
-end

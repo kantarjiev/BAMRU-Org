@@ -1,17 +1,56 @@
+require 'dotenv'
 require 'google/api_client'
+require_relative "./base"
 
 class GcalClient
 
-  ISSUER   = '676559655687-3cgu2akc11avh0v2m4gcpq75eq6ch5u9@developer.gserviceaccount.com'
+  env_file = File.expand_path("../gcal_keys/env", __dir__)
+  raise "No Gcal Keys" unless File.exists?(env_file)
+
+  Dotenv.load env_file
+
   GAPI     = Google::APIClient
-  CID      = "bamru.calendar@gmail.com"
-  KEYFILE  = './gcal_keys/bamru.p12'
+  ISSUER   = ENV["#{MM_ENV.upcase}_ISSUER"]
+  CAL_ID   = ENV["#{MM_ENV.upcase}_CAL_ID"]
+  KEYFILE  = "./gcal_keys/bamru_#{MM_ENV}.p12"
 
   def list_events
-    google_client.execute(method_opts(google_calendar.events.list))
+    opts = {
+      api_method: google_calendar.events.list,
+      parameters: {'calendarId' => CAL_ID}
+    }
+    google_client.execute(opts)
+    sleep 0.33
+  end
+
+  def delete_event(google_event_id)
+    opts = {
+      api_method: google_calendar.events.delete,
+      parameters: {'calenderId' => CAL_ID, 'eventId' => google_event_id}
+    }
+    google_client.execute(opts)
+    sleep 0.33
+  end
+
+  def create_event(event)
+    event = {
+      'summary'     => event.title,
+      'description' => event.description,
+      'start'       => start_for(event),
+      'finish'      => finish_for(event),
+    }
+    opts = {
+      api_method: google_calendar.events.insert,
+      parameters: {'calendarId' => CAL_ID},
+      body:       [event.to_json]
+    }
+    google_client.execute(opts)
+    sleep 0.33
   end
 
   private
+
+  # ----- google handles -----
 
   def google_client
     @authenticated_client ||= create_authenticated_client
@@ -21,12 +60,7 @@ class GcalClient
     @authenticated_calendar ||= create_authenticated_calendar
   end
 
-  def method_opts(method)
-    {
-      api_method: method,
-      parameters: {'calendarId' => CID}
-    }
-  end
+  # ----- calendar factories -----
 
   def create_authenticated_client
     opts   = {application_name: "test", application_version: "0.0.1"}
@@ -46,4 +80,8 @@ class GcalClient
   def create_authenticated_calendar
     google_client.discovered_api('calendar', 'v3')
   end
+
+  # ----- event creation -----
+
+
 end

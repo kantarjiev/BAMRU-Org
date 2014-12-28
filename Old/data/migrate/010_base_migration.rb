@@ -1,6 +1,6 @@
 class BaseMigration < ActiveRecord::Migration
   def self.up
-    create_table :events do |t|
+    create_table :event_data do |t|
       t.string   :digest
       t.string   :kind,     :default => "other"
       t.string   :title

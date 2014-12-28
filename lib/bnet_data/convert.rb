@@ -1,9 +1,9 @@
 require 'csv'
 require_relative "../base"
-require_relative "../rake/loggers"
 require_relative "../event"
 require_relative "../event/store"
 require_relative "../date_range"
+require_relative "../rake/loggers"
 
 class BnetData
   class Convert
