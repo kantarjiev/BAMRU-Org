@@ -2,9 +2,9 @@ require "spec_helper"
 
 if File.exist?(ENV_FILE)
 
-  require "#{LIB}/gcal_data/download"
+  require "#{LIB}/data/gcal/download"
 
-  describe GcalData::Download do
+  describe Data::Gcal::Download do
     let(:klas) { described_class }
     subject    { klas.new        }
 

@@ -9,8 +9,7 @@ require 'yaml'
 
 load "./lib/rake/dev.rake"
 load "./lib/rake/site.rake"
-load "./lib/rake/bnet.rake"
-load "./lib/rake/gcal.rake"
+load "./lib/rake/data.rake"
 
 require "./lib/rake/loggers"
 

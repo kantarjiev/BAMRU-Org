@@ -1,7 +1,7 @@
 require "spec_helper"
-require "#{LIB}/bnet_data/convert"
+require "#{LIB}/data/gcal/convert"
 
-describe BnetData::Convert do
+describe Data::Gcal::Convert do
   let(:klas) { described_class }
   subject    { klas.new        }
 
@@ -13,9 +13,9 @@ describe BnetData::Convert do
     it { should respond_to :execute }
   end
 
-  describe "_csv_events" do
+  describe "_json_events" do
     it "returns an array" do
-      expect(subject.send(:csv_events)).to be_an(Array)
+      expect(subject.send(:json_events)).to be_an(Array)
     end
   end
 

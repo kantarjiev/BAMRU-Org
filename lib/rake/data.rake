@@ -1,8 +1,25 @@
 require_relative "../base"
 
+require_relative "../data/bnet/download"
+require_relative "../data/bnet/convert"
+
+namespace :data do
+  namespace :bnet do
+    desc "Download event data from BAMRU.net"
+    task :download do
+      BnetData::Download.execute
+    end
+
+    desc "Convert BNET csv data to YAML"
+    task :convert do
+      BnetData::Convert.new.execute
+    end
+  end
+end
+
 if File.exist?(ENV_FILE)
-  require_relative "../gcal_data/convert"
-  require_relative "../gcal_data/download"
+  require_relative "../data/gcal/download"
+  require_relative "../data/gcal/convert"
   require_relative "../gcal_sync"
 
   namespace :data do

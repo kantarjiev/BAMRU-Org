@@ -8,7 +8,7 @@ class GcalClient
 
   raise "No Gcal Keys" unless File.exists?(ENV_FILE)
 
-  Dotenv.load env_file
+  Dotenv.load ENV_FILE
 
   GAPI     = Google::APIClient
   ISSUER   = ENV["#{MM_ENV.upcase}_ISSUER"]

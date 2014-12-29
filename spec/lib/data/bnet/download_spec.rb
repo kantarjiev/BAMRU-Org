@@ -1,7 +1,7 @@
 require "spec_helper"
-require "#{LIB}/bnet_data/download"
+require "#{LIB}/data/bnet/download"
 
-describe BnetData::Download do
+describe Data::Bnet::Download do
   let(:klas) { described_class }
   subject    { klas.new        }
 
