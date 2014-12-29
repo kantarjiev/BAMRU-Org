@@ -25,6 +25,7 @@
 
 require_relative "./lib/base"
 
+set :helpers_dir, "./lib/helpers"
 set :source     , 'src'
 set :build_dir  , 'out'
 set :js_dir     , 'javascripts'

@@ -1,7 +1,7 @@
 require 'active_support'
 
 require 'yaml'
-require_relative "../lib/base"
+require_relative "../base"
 
 module AppHelpers
 
