@@ -7,7 +7,7 @@ require_relative "../../rake/loggers"
 
 class CalData
   class Bnet
-    class Sanitize
+    class Refine
 
       extend Rake::Loggers
 

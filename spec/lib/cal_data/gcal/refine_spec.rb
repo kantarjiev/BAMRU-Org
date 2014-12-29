@@ -1,7 +1,7 @@
 require "spec_helper"
-require "#{LIB}/cal_data/gcal/sanitize"
+require "#{LIB}/cal_data/gcal/refine"
 
-describe CalData::Gcal::Sanitize do
+describe CalData::Gcal::Refine do
   let(:klas) { described_class }
   subject    { klas.new        }
 

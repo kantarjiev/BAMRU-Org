@@ -1,7 +1,7 @@
 require "spec_helper"
-require "#{LIB}/cal_data/bnet/sanitize"
+require "#{LIB}/cal_data/bnet/refine"
 
-describe CalData::Bnet::Sanitize do
+describe CalData::Bnet::Refine do
   let(:klas) { described_class }
   subject    { klas.new        }
 

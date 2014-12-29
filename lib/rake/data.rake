@@ -1,7 +1,7 @@
 require_relative "../base"
 
 require_relative "../cal_data/bnet/download"
-require_relative "../cal_data/bnet/sanitize"
+require_relative "../cal_data/bnet/refine"
 
 namespace :data do
   namespace :bnet do
@@ -10,16 +10,16 @@ namespace :data do
       CalData::Bnet::Download.execute
     end
 
-    desc "Sanitize BNET csv data to YAML"
-    task :sanitize do
-      CalData::Bnet::Sanitize.new.execute
+    desc "Refine BNET csv data to YAML"
+    task :refine do
+      CalData::Bnet::Refine.new.execute
     end
   end
 end
 
 if File.exist?(ENV_FILE)
   require_relative "../cal_data/gcal/download"
-  require_relative "../cal_data/gcal/sanitize"
+  require_relative "../cal_data/gcal/refine"
   require_relative "../gcal_sync"
 
   namespace :data do
@@ -29,9 +29,9 @@ if File.exist?(ENV_FILE)
         CalData::Gcal::Download.execute
       end
 
-      desc "Sanitize Gcal json data to YAML"
-      task :sanitize do
-        CalData::Gcal::Sanitize.new.execute
+      desc "Refine Gcal json data to YAML"
+      task :refine do
+        CalData::Gcal::Refine.new.execute
       end
 
       desc "Sync all Gcal Data"
