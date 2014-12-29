@@ -1,8 +1,8 @@
 require 'json'
 require 'pry'
 require_relative '../base'
-require_relative '../gcal_client'
 require_relative '../rake/loggers'
+require_relative '../gcal_client'
 
 class GcalData
   class Download

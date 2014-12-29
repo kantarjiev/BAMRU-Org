@@ -5,8 +5,6 @@ require_relative "../lib/base"
 
 module AppHelpers
 
-  puts "MM_ROOT is #{MM_ROOT}"
-
   QUOTES       = YAML.load_file(MM_ROOT + "/assets/quotes.yaml")
   RIGHT_NAV    = YAML.load_file(MM_ROOT + "/assets/right_nav.yaml")
   GUEST_POLICY = File.read(MM_ROOT      + "/assets/guest_policy.html")

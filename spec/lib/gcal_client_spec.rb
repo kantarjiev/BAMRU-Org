@@ -1,17 +1,22 @@
 require "spec_helper"
-require "#{LIB}/gcal_client"
 
-describe GcalClient do
-  let(:klas) { described_class }
-  subject    { klas.new        }
+if File.exist?(ENV_FILE)
 
-  describe "Object" do
-    specify { expect(klas).to be_a(Class) }
+  require "#{LIB}/gcal_client"
+
+  describe GcalClient do
+    let(:klas) { described_class }
+    subject    { klas.new        }
+
+    describe "Object" do
+      specify { expect(klas).to be_a(Class) }
+    end
+
+    describe "Instance Methods" do
+      it { should respond_to :list_events                }
+      it { should respond_to :create_event               }
+      it { should respond_to :delete_event               }
+    end
   end
 
-  describe "Instance Methods" do
-    it { should respond_to :list_events                }
-    it { should respond_to :create_event               }
-    it { should respond_to :delete_event               }
-  end
 end
