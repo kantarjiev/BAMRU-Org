@@ -86,7 +86,7 @@ BAMRU.org repo.
 
 [Integrating with Google Calendar](./docs/google_calendar.md)
 
-[Running the Sync Demon](./docs/sync_demon.md)
+[Running Auto-Updates with Cron](./docs/cron.md)
 
 
 
