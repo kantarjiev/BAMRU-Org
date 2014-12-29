@@ -10,6 +10,7 @@ module AppHelpers
   QUOTES       = YAML.load_file(MM_ROOT + "/assets/quotes.yaml")
   RIGHT_NAV    = YAML.load_file(MM_ROOT + "/assets/right_nav.yaml")
   GUEST_POLICY = File.read(MM_ROOT      + "/assets/guest_policy.html")
+  SUBSCRIBE    = File.read(MM_ROOT      + "/assets/calendar_subscribe.html")
   PHOTO_LEFT   = File.read(MM_ROOT      + "/assets/photo_caption_left.html")
   PHOTO_RIGHT  = File.read(MM_ROOT      + "/assets/photo_caption_right.html")
   DONATE_LEFT  = File.read(MM_ROOT      + "/assets/donate_left.html")

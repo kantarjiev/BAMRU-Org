@@ -1,5 +1,8 @@
 .idea
 .env
+tmp
+tmp/
+tmp/*
 gcal_keys
 gcal_keys/
 gcal_keys/*
