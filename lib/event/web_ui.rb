@@ -3,7 +3,7 @@ require 'csv'
 
 module Event::WebUI
 
-  CSV_FILE = File.expand_path("../data/calendar_downloaded.csv", __dir__)
+  CSV_FILE = File.expand_path("../cal_data/calendar_downloaded.csv", __dir__)
 
   # ----- class methods -----
 

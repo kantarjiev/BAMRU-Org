@@ -1,5 +1,5 @@
 require "spec_helper"
-require "#{HLP}/app_helpers"
+require "#{LIB}/helpers/app_helpers"
 
 class AppMock
   include AppHelpers

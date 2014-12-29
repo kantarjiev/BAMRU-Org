@@ -1,7 +1,7 @@
 require "spec_helper"
-require "#{LIB}/data/gcal/convert"
+require "#{LIB}/cal_data/gcal/convert"
 
-describe Data::Gcal::Convert do
+describe CalData::Gcal::Convert do
   let(:klas) { described_class }
   subject    { klas.new        }
 

@@ -13,7 +13,7 @@ class Event::Store
 
   def all
     @cache ||= @store.transaction(true) do
-      @store.fetch(:data, {})
+      @store.fetch(:cal_data, {})
     end
   end
 
@@ -21,10 +21,10 @@ class Event::Store
     @cache = nil; keys = []
     val_arr = Array(input_value)
     @store.transaction do
-      @store[:data] ||= {}
+      @store[:cal_data] ||= {}
       keys = val_arr.map do |val|
         key = val.hash.to_s
-        @store[:data][key] = val
+        @store[:cal_data][key] = val
         key
       end
     end
@@ -38,7 +38,7 @@ class Event::Store
   def destroy_all
     @cache = nil
     @store.transaction do
-      @store[:data] = {}
+      @store[:cal_data] = {}
     end
     self
   end

@@ -13,13 +13,13 @@ ENV_FILE ||= File.expand_path("../.gcal_keys/env", __dir__)
 # ----- bnet data files -----
 
 BNET_DATA_SRC_URL   ||= "http://bamru.net/public/calendar.csv"
-BNET_DATA_CSV_FILE  ||= "event_data/bnet_data.csv"
-BNET_DATA_YAML_FILE ||= "event_data/bnet_data.yaml"
+BNET_DATA_CSV_FILE  ||= "cal_data/bnet.csv"
+BNET_DATA_YAML_FILE ||= "cal_data/bnet.yaml"
 
 # ----- gcal data files -----
 
-GCAL_DATA_JSON_FILE ||= "event_data/gcal_data_#{MM_ENV}.json"
-GCAL_DATA_YAML_FILE ||= "event_data/gcal_data_#{MM_ENV}.yaml"
+GCAL_DATA_JSON_FILE ||= "cal_data/gcal_#{MM_ENV}.json"
+GCAL_DATA_YAML_FILE ||= "cal_data/gcal_#{MM_ENV}.yaml"
 
 # ----- store objects -----
 

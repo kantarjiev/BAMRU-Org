@@ -1,7 +1,7 @@
 require "spec_helper"
-require "#{LIB}/data/bnet/convert"
+require "#{LIB}/cal_data/bnet/convert"
 
-describe Data::Bnet::Convert do
+describe CalData::Bnet::Convert do
   let(:klas) { described_class }
   subject    { klas.new        }
 

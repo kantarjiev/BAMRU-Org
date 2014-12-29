@@ -1,5 +1,5 @@
 require "spec_helper"
-require "#{HLP}/events_helpers"
+require "#{LIB}/helpers/events_helpers"
 
 class EventsMock
   include EventsHelpers

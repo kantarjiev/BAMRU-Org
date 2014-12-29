@@ -4,7 +4,7 @@ require_relative "../../rake/loggers"
 require_relative "../../event"
 require_relative "../../event/store"
 
-class Data
+class CalData
   class Gcal
     class Convert
 

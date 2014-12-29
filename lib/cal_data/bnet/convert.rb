@@ -5,7 +5,7 @@ require_relative "../../event/store"
 require_relative "../../date_range"
 require_relative "../../rake/loggers"
 
-class Data
+class CalData
   class Bnet
     class Convert
 

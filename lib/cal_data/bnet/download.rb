@@ -2,7 +2,7 @@ require "open-uri"
 require_relative "../../base"
 require_relative "../../rake/loggers"
 
-class Data
+class CalData
   class Bnet
     class Download
 
