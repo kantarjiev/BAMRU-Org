@@ -1,0 +1,831 @@
+---
+:cal_data:
+  370fc6: !ruby/object:Event
+    kind: training
+    title: SARTopo Training
+    location: San Francisco
+    leaders: Jacobs
+    start: '2014-11-02'
+    finish: '2014-11-02'
+    description: An all-day training on SARTopo that is open to members of the Bay
+      Area SAR community.  Among other topics, we'll cover map layers, terrain visualization,
+      plotting bearings, creating and printing assignments, GPS integration and track
+      management.  The training will conclude with a remote planning exercise where
+      we break into small teams and draft plans for a simulated search.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  c3fc59: !ruby/object:Event
+    kind: training
+    title: DO training skills night
+    location: 44 Shakespeare St Daly City CA
+    leaders: Grishaver
+    start: '2014-11-05'
+    finish: '2014-11-05'
+    description: We'll cover the theory of DO-ing (what needs to be done during any
+      DO shift, DO-ing during a training, what needs to be done in the ramp up for
+      a search, etc), and the practice of DO-ing (how do we accomplish all of these
+      things with the tools we have, like bamru.net).  For new and experienced DO's
+      alike!
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  4bac1e: !ruby/object:Event
+    kind: training
+    title: Technical Rescue Evolutions
+    location: Berkeley - Cragmont
+    leaders: Gleason
+    start: '2014-11-09'
+    finish: ''
+    description: This training will be a scenario-based technical rescue practice.  Participants
+      will design, build, and operate technical rescue systems in "real time" on real
+      rock, with multiple evolutions.  One of the objectives is to start practicing
+      for the MRA re-accreditation in Technical Rock.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  8dd012: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Redwood City Jury Assembly Room
+    leaders: Chang
+    start: '2014-11-17'
+    finish: '2014-11-17'
+    description: ''
+    lat: '37.4888'
+    lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  2e62bf: !ruby/object:Event
+    kind: training
+    title: Skills weekend
+    location: Cragmont Park, Berkeley
+    leaders: Zirinsky
+    start: '2014-11-22'
+    finish: '2014-11-23'
+    description: 'Skills day and Trainee packet sign offs. An important opportunity
+      for Field and Technical team members to assist Trainees in packet sign offs.
+      Trainees will have an opportunity to demonstrate skills through scenarios, skill
+      stations and miscellaneous needed skill sign offs, as they work toward completing
+      their training packets. '
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  6c1ada: !ruby/object:Event
+    kind: training
+    title: 'Drivers Training: Classroom'
+    location: 455 County Center
+    leaders: SMSO
+    start: '2014-12-04'
+    finish: '2014-12-04'
+    description: Classroom portion of drivers' training takes place from 1900-2100.  Sign
+      up for practical sessions at the classroom portion.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  8d448b: !ruby/object:Event
+    kind: training
+    title: SO Driver's Practical
+    location: Redwood City Jury Parking Lot
+    leaders: TBA
+    start: '2014-12-06'
+    finish: ''
+    description: Practical portion of the training to drive SO vehicles.  Upon completing
+      the practical and classroom portions and passing the background check, members
+      may drive SO vehicles, and must renew every 2 years.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  ff7ecb: !ruby/object:Event
+    kind: training
+    title: Technical rescue evolutions
+    location: Pinnacles NP
+    leaders: Kantarjiev
+    start: '2014-12-06'
+    finish: '2014-12-07'
+    description: Technical rescue evolutions trainings. We'll build and run systems
+      all day, focusing more on "real time" and "efficiency" than individual skills.
+      Plan to arrive Friday night, run systems Saturday, and either head home Saturday
+      night or stay the night and explore winter climbing at Pinnacles on Sunday (campground
+      is reserved for two nights).
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  21cb9a: !ruby/object:Event
+    kind: meeting
+    title: Snow Camping Pre-Trip Meeting
+    location: 290 Sussex Street, San Francisco
+    leaders: Kurt Gross
+    start: '2014-12-10'
+    finish: '2014-12-10'
+    description: |
+      A pre-trip meeting to set expectations and goals, arrange carpools and logistics, and best prepare for an effective and safe training. Meeting begins at 1900.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  fe833c: !ruby/object:Event
+    kind: community
+    title: Holiday Party
+    location: 455 W Evelyn Ave, Mountain View, CA 94041
+    leaders: Farrand/Yaffe
+    start: '2014-12-13'
+    finish: '2014-12-13'
+    description: "Come to this entrance \n\nhttps://www.google.com/maps/dir//37.392594,-122.0744676/@37.392578,-122.0744508,51m/data=%213m1%211e3\n\nof
+      the building and call me (Ben) from the call-box.  If in trouble, call me (Ben)
+      @ 917-699-0320"
+    lat: '37.3926'
+    lon: "-122.0745"
+    prior: TBD
+    gcal_id: TBD
+  802cff: !ruby/object:Event
+    kind: community
+    title: BAMRU Dues Renewal
+    location: TBA
+    leaders: Treasurer
+    start: '2014-12-15'
+    finish: ''
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  a5da53: !ruby/object:Event
+    kind: training
+    title: Intro to Snow Camping
+    location: Carson Pass
+    leaders: Gross
+    start: '2014-12-20'
+    finish: '2014-12-21'
+    description: Tentative pending the availability of snow. If you've never snow
+      camped, or really want to learn how to use chopsticks to anchor your tent, this
+      weekend is for you.
+    lat: '38.6873'
+    lon: "-119.9862"
+    prior: TBD
+    gcal_id: TBD
+  e887e9: !ruby/object:Event
+    kind: meeting
+    title: General Meeting  (not 3rd Monday)
+    location: Redwood City Jury Assembly Room
+    leaders: Chang
+    start: '2015-01-12'
+    finish: '2015-01-12'
+    description: ''
+    lat: '37.4888'
+    lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  7affdc: !ruby/object:Event
+    kind: meeting
+    title: Qrtly Leadership Mtg
+    location: TBA
+    leaders: Chang
+    start: '2015-01-21'
+    finish: '2015-01-21'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  e441c8: !ruby/object:Event
+    kind: training
+    title: Snow Skills
+    location: TBA
+    leaders: Allen
+    start: '2015-01-24'
+    finish: '2015-01-25'
+    description: Practice winter camping, snow travel, beacon and probe searches and
+      self arrest techniques. These skills are important for our winter & alpine operations.
+    lat: '39.3163'
+    lon: "-120.3338"
+    prior: TBD
+    gcal_id: TBD
+  f555c9: !ruby/object:Event
+    kind: training
+    title: Recert skills night
+    location: TBA
+    leaders: TBA
+    start: '2015-01-28'
+    finish: '2015-01-28'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  15c6d4: !ruby/object:Event
+    kind: training
+    title: Bay Area Joint MRA training
+    location: Mt. Diablo, Boy Scout Rocks
+    leaders: CoCo SAR
+    start: '2015-02-07'
+    finish: ''
+    description: Technical rescue scenarios training in preparation for the MRA recertification.  This
+      training will be held joint with Marin SAR, Contra Costa SAR, and Monterey SAR.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  539f92: !ruby/object:Event
+    kind: training
+    title: Guest Mock Search G
+    location: Redwood Memorial Park
+    leaders: TBA
+    start: '2015-02-08'
+    finish: ''
+    description: Our first recruiting event of the year, designed to show guests what
+      it's like to respond to a callout and execute a search.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  b2cc97: !ruby/object:Event
+    kind: meeting
+    title: General Meeting (Not 3rd Monday)
+    location: Castro Valley Nike Classroom
+    leaders: Chang
+    start: '2015-02-09'
+    finish: '2015-02-09'
+    description: ''
+    lat: '37.7207'
+    lon: "-122.0962"
+    prior: TBD
+    gcal_id: TBD
+  930cfd: !ruby/object:Event
+    kind: training
+    title: BASARC MLPI (weekend 1)
+    location: TBA
+    leaders: TBA
+    start: '2015-02-14'
+    finish: '2015-02-15'
+    description: Advanced training in search management run by the Bay Area Search
+      and Rescue Council (BASARC).  Each member team can nominate between one and
+      two people to attend the training.  Every nominee must have been active with
+      a SAR team for at least three years.  Attendance at both weekends is required.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  c011be: !ruby/object:Event
+    kind: training
+    title: Recert skills night
+    location: TBA
+    leaders: TBA
+    start: '2015-02-18'
+    finish: '2015-02-18'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  1e31d6: !ruby/object:Event
+    kind: training
+    title: 'CRMRA Recert Prep Training '
+    location: TBA
+    leaders: TBA
+    start: '2015-02-21'
+    finish: '2015-02-22'
+    description: Scenarios in preparation for the technical rock rescue MRA recert.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  a3db02: !ruby/object:Event
+    kind: training
+    title: BASARC MLPI (weekend 2)
+    location: TBA
+    leaders: TBA
+    start: '2015-02-21'
+    finish: '2015-02-22'
+    description: Advanced training in search management run by the Bay Area Search
+      and Rescue Council (BASARC).  Each member team can nominate between one and
+      two people to attend the training.  Every nominee must have been active with
+      a SAR team for at least three years.  Attendance at both weekends is required.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  49cb2d: !ruby/object:Event
+    kind: training
+    title: Tech Rescue Re-Accreditation
+    location: Eaton Canyon
+    leaders: TBA
+    start: '2015-03-07'
+    finish: ''
+    description: California MRA Re-Accreditation
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  80d9ae: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Redwood City County Room 101
+    leaders: Chang
+    start: '2015-03-16'
+    finish: '2015-03-16'
+    description: ''
+    lat: '37.4889'
+    lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  f470ff: !ruby/object:Event
+    kind: training
+    title: Glacier/ Crevasse Rescue
+    location: TBA
+    leaders: TBA
+    start: '2015-03-28'
+    finish: '2015-03-29'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  1dbf37: !ruby/object:Event
+    kind: meeting
+    title: General Meeting (not 3rd Monday)
+    location: " Castro Valley Nike Classroom"
+    leaders: Chang
+    start: '2015-04-13'
+    finish: '2015-04-13'
+    description: ''
+    lat: '37.7207'
+    lon: "-122.0962"
+    prior: TBD
+    gcal_id: TBD
+  c50c0f: !ruby/object:Event
+    kind: training
+    title: SAR Basic *G
+    location: TBA
+    leaders: Chromik
+    start: '2015-04-18'
+    finish: '2015-04-19'
+    description: |-
+      Intensive weekend training to orient prospective members on the basic skills required to operate effectively in search and rescue operations. Intended for people with no prior SAR experience.
+
+      Attendance at SAR Basic is one of the requirements for application to become a Trainee member.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  953a51: !ruby/object:Event
+    kind: community
+    title: Trainee Applications Due
+    location: TBA
+    leaders: TBA
+    start: '2015-04-27'
+    finish: ''
+    description: Due date for all new applications to join BAMRU.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  a862cc: !ruby/object:Event
+    kind: meeting
+    title: Qrtly Leadership Mtg
+    location: TBA
+    leaders: Chang
+    start: '2015-05-06'
+    finish: '2015-05-06'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  95fcb8: !ruby/object:Event
+    kind: meeting
+    title: Trainee Interviews -- Day 1
+    location: Redwood City
+    leaders: BoD
+    start: '2015-05-09'
+    finish: '2015-05-09'
+    description: Prospective Trainees will be interviewed by the Board this weekend.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  1a3cf1: !ruby/object:Event
+    kind: meeting
+    title: Trainee Interviews -- Day 2
+    location: Redwood City
+    leaders: BoD
+    start: '2015-05-10'
+    finish: '2015-05-10'
+    description: Prospective Trainees will be interviewed by the Board this weekend.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  afe17c: !ruby/object:Event
+    kind: community
+    title: Trainee Class Announced
+    location: TBA
+    leaders: TBA
+    start: '2015-05-15'
+    finish: ''
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  fe328c: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Redwood City County Room 101
+    leaders: Chang
+    start: '2015-05-18'
+    finish: '2015-05-18'
+    description: ''
+    lat: '37.4889'
+    lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  954c46: !ruby/object:Event
+    kind: training
+    title: Tracking/ Nav Skills Night
+    location: TBA
+    leaders: TBA
+    start: '2015-05-28'
+    finish: '2015-05-28'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  7c61a7: !ruby/object:Event
+    kind: training
+    title: Tracking Skills *
+    location: TBA
+    leaders: Gilmore
+    start: '2015-05-30'
+    finish: ''
+    description: Our introductory tracking class will include a field lecture as well
+      as skills training. Basic principles of tracking, equipment and search techniques
+      will be discussed. We will have an opportunity to review the tracking skills
+      sheet and obtain sign-offs. Please reference the tracking doc on the wiki. Training
+      open to guests who have been sworn.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  b69bfa: !ruby/object:Event
+    kind: training
+    title: Navigation Skills *G
+    location: TBA
+    leaders: TBA
+    start: '2015-05-31'
+    finish: ''
+    description: Navigation training and signoffs, concentrating on map/compass.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  74553c: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Castro Valley Nike Classroom
+    leaders: Chang
+    start: '2015-06-15'
+    finish: '2015-06-15'
+    description: ''
+    lat: '37.7207'
+    lon: "-122.0962"
+    prior: TBD
+    gcal_id: TBD
+  '191179': !ruby/object:Event
+    kind: training
+    title: Personal Rock Skills *
+    location: TBA
+    leaders: TBA
+    start: '2015-06-20'
+    finish: '2015-06-21'
+    description: This two day course covers general rock skills skill stations, scenarios,
+      and discussion of their application within the SAR community. Topics include
+      anchors (trad gear and natural protection), belaying, rappelling, basic self-rescue,
+      jugging/ascending, and personal emergency evac equipment with scenarios. Focus
+      will be on both theory and practice. Personal rock skills is a prerequisite
+      for Basic Technical Training.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  2fc070: !ruby/object:Event
+    kind: community
+    title: Western States 100
+    location: Auburn, CA
+    leaders: TBA
+    start: '2015-06-27'
+    finish: '2015-06-28'
+    description: BAMRU provides medical staff for the WS-100 (100 mile trans Sierra
+      Ultra Marathon).
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  e9a741: !ruby/object:Event
+    kind: training
+    title: DO Skills Night *
+    location: TBA
+    leaders: TBA
+    start: '2015-07-15'
+    finish: '2015-07-15'
+    description: We'll cover the theory of DO-ing (what needs to be done during any
+      DO shift, DO-ing during a training, what needs to be done in the ramp up for
+      a search, etc), and the practice of DO-ing (how do we accomplish all of these
+      things with the tools we have, like bamru.net). For new and experienced DO's
+      alike!
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  e4f366: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Redwood City County Room 101
+    leaders: Chang
+    start: '2015-07-20'
+    finish: '2015-07-20'
+    description: ''
+    lat: '37.4888'
+    lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  db6e86: !ruby/object:Event
+    kind: training
+    title: Low Angle Rescue *
+    location: TBA
+    leaders: TBA
+    start: '2015-07-25'
+    finish: ''
+    description: We will focus on low-angle rescue systems.  Personal Rock Skills
+      is required to attend this training.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  15d14b: !ruby/object:Event
+    kind: training
+    title: Search Practice *
+    location: TBA
+    leaders: TBA
+    start: '2015-07-26'
+    finish: ''
+    description: Practice search, somewhere
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  a369d5: !ruby/object:Event
+    kind: meeting
+    title: Qrtly Leadership Mtg
+    location: TBA
+    leaders: Chang
+    start: '2015-07-29'
+    finish: '2015-07-29'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  4a3e81: !ruby/object:Event
+    kind: training
+    title: DO Skills Night *
+    location: TBA
+    leaders: TBA
+    start: '2015-08-04'
+    finish: '2015-08-04'
+    description: We'll cover the theory of DO-ing (what needs to be done during any
+      DO shift, DO-ing during a training, what needs to be done in the ramp up for
+      a search, etc), and the practice of DO-ing (how do we accomplish all of these
+      things with the tools we have, like bamru.net). For new and experienced DO's
+      alike!
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  4efdd6: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Castro Valley Nike Classroom
+    leaders: Chang
+    start: '2015-08-17'
+    finish: '2015-08-17'
+    description: ''
+    lat: '37.7207'
+    lon: "-122.0962"
+    prior: TBD
+    gcal_id: TBD
+  e8b2d2: !ruby/object:Event
+    kind: training
+    title: Basic Technical Rescue *
+    location: TBA
+    leaders: TBA
+    start: '2015-08-22'
+    finish: '2015-08-23'
+    description: Basic Technical Rescue is two full days, covering the basics of our
+      standard two-line high-angle rescue system. Participants must have completed
+      Personal Rock Skills and Low Angle.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  36fc4a: !ruby/object:Event
+    kind: training
+    title: Search Management/ OP 0
+    location: TBA
+    leaders: TBA
+    start: '2015-09-19'
+    finish: '2015-09-20'
+    description: 'We will spend two days planning and executing the first operational
+      period of a search operation, in slow motion, in rugged terrain. Limited attendance:
+      Basic Technical Rescue is required, preference will be given to Field Members.'
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  17d942: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Redwood City Jury Assembly Room
+    leaders: Chang
+    start: '2015-09-21'
+    finish: '2015-09-21'
+    description: ''
+    lat: '37.4888'
+    lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  06cc15: !ruby/object:Event
+    kind: community
+    title: Early Elections Close
+    location: TBA
+    leaders: TBA
+    start: '2015-10-02'
+    finish: '2015-10-02'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  89149b: !ruby/object:Event
+    kind: training
+    title: Search Practice G
+    location: TBA
+    leaders: TBA
+    start: '2015-10-03'
+    finish: ''
+    description: A mock search, somewhere.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  3a9257: !ruby/object:Event
+    kind: training
+    title: Operations Leader Training
+    location: TBA
+    leaders: TBA
+    start: '2015-10-04'
+    finish: '2015-10-04'
+    description: Training for prospective and continuing Operations Leaders. Attendance
+      only with Leader's approval.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  '847400': !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Castro Valley Nike Classroom
+    leaders: Chang
+    start: '2015-10-19'
+    finish: '2015-10-19'
+    description: ''
+    lat: '37.7207'
+    lon: "-122.0962"
+    prior: TBD
+    gcal_id: TBD
+  ae13bd: !ruby/object:Event
+    kind: training
+    title: Medical Skills *G
+    location: TBA
+    leaders: TBA
+    start: '2015-10-24'
+    finish: '2015-10-25'
+    description: Medical Skills Training is all about putting our skills and knowledge
+      to use. BAMRU has an exciting medical skills training planned this year. Some
+      highlights include guest lecture by Stanford's Wilderness Medicine Fellow, Skill
+      labs with lots of hands on practice, and the BAMRU Medical Olympics where groups
+      compete at a diverse set of wilderness scenarios.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  5c4f24: !ruby/object:Event
+    kind: community
+    title: Elections Close
+    location: TBA
+    leaders: TBA
+    start: '2015-11-13'
+    finish: ''
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  fc891e: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Redwood City Jury Assembly Room
+    leaders: Chang
+    start: '2015-11-16'
+    finish: '2015-11-16'
+    description: ''
+    lat: '37.4888'
+    lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  5ce965: !ruby/object:Event
+    kind: training
+    title: Adv. Search Strategy/ Tracking/ Low angle obstacle course *
+    location: TBA
+    leaders: TBA
+    start: '2015-11-21'
+    finish: ''
+    description: This training will cover a combination of topics, including field
+      search strategies, tracking practice, and low angle scenarios.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  3fd563: !ruby/object:Event
+    kind: training
+    title: Practice Search *G
+    location: TBA
+    leaders: TBA
+    start: '2015-11-22'
+    finish: ''
+    description: A practice search, somewhere
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  cf4829: !ruby/object:Event
+    kind: community
+    title: Holiday Party
+    location: TBA
+    leaders: TBA
+    start: '2015-12-05'
+    finish: ''
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  cef767: !ruby/object:Event
+    kind: meeting
+    title: General Meeting (not 3rd Monday)
+    location: Castro Valley Nike Classroom
+    leaders: Chang
+    start: '2015-12-14'
+    finish: '2015-12-14'
+    description: ''
+    lat: '37.7207'
+    lon: "-122.0962"
+    prior: TBD
+    gcal_id: TBD
+  387c0a: !ruby/object:Event
+    kind: community
+    title: BAMRU Dues Renewal
+    location: TBA
+    leaders: Treasurer
+    start: '2015-12-15'
+    finish: ''
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  8160e6: !ruby/object:Event
+    kind: training
+    title: Skills weekend/ Make up training *
+    location: TBA
+    leaders: TBA
+    start: '2015-12-19'
+    finish: '2015-12-20'
+    description: "If we miss a training during the year, we will use this weekend
+      to make it up.\n\nOtherwise, it will be for skills and Trainee packet sign offs.
+      An important opportunity for Field and Technical team members to assist Trainees
+      in packet sign offs. Trainees will have an opportunity to demonstrate skills
+      through scenarios, skill stations and miscellaneous needed skill sign offs,
+      as they work toward completing their training packets. "
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD

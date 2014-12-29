@@ -13,7 +13,7 @@ class GcalClient
   GAPI     = Google::APIClient
   ISSUER   = ENV["#{MM_ENV.upcase}_ISSUER"]
   CAL_ID   = ENV["#{MM_ENV.upcase}_CAL_ID"]
-  KEYFILE  = "./gcal_keys/bamru_#{MM_ENV}.p12"
+  KEYFILE  = "./.gcal_keys/bamru_#{MM_ENV}.p12"
 
   # ----- instance methods -----
 

@@ -1,7 +1,7 @@
 require "spec_helper"
-require "#{LIB}/cal_data/gcal/convert"
+require "#{LIB}/cal_data/bnet/sanitize"
 
-describe CalData::Gcal::Convert do
+describe CalData::Bnet::Sanitize do
   let(:klas) { described_class }
   subject    { klas.new        }
 
@@ -13,9 +13,9 @@ describe CalData::Gcal::Convert do
     it { should respond_to :execute }
   end
 
-  describe "_json_events" do
+  describe "_csv_events" do
     it "returns an array" do
-      expect(subject.send(:json_events)).to be_an(Array)
+      expect(subject.send(:csv_events)).to be_an(Array)
     end
   end
 

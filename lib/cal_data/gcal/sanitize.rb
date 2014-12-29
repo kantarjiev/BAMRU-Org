@@ -6,7 +6,7 @@ require_relative "../../event/store"
 
 class CalData
   class Gcal
-    class Convert
+    class Sanitize
 
       extend Rake::Loggers
 
