@@ -35,22 +35,25 @@ class GcalSync
   # ----- create / delete pending items -----
 
   def create_pending
-    log "creating #{pending_create.length} events"
+    num_events = pending_create.length
+    log "creating #{num_events} events"
     pending_create.each do |evid|
       result = create(BNET_STORE.all[evid])
-      puts result.response.body
+      log_if_error(result)
       print '.'.green
     end
-    puts ' '
+    puts ' ' unless num_events == 0
   end
 
   def delete_pending
-    log "deleting #{pending_delete.length} events"
+    num_events = pending_delete.length
+    log "deleting #{num_events} events"
     pending_delete.each do |evid|
+      result = delete(GCAL_STORE.all[evid].gcal_id)
+      log_if_error(result)
       print '.'.green
-      delete(GCAL_STORE.all[evid].gcal_id)
     end
-    puts ' '
+    puts ' ' unless num_events == 0
   end
 
   # ----- sync everything -----
@@ -58,5 +61,12 @@ class GcalSync
   def sync
     delete_pending
     create_pending
+  end
+
+  private
+
+  def log_if_error(result)
+    body = result.response.body
+    puts body.red if body.match(/error/)
   end
 end

@@ -2,7 +2,7 @@ require_relative './event/store'
 
 # ----- core environment -----
 
-MM_ENV  ||= "production"  # can be either 'test' or 'production'
+MM_ENV  ||= "test"  # can be either 'test' or 'production'
 
 MM_ROOT ||= File.expand_path("../", __dir__)
 

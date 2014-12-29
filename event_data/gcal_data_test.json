@@ -181,37 +181,6 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839614136806000\"",
-    "id": "dbmn9715d5ihuu3c2fcqer4tp4",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=ZGJtbjk3MTVkNWlodXUzYzJmY3FlcjR0cDQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-28T22:51:08.000Z",
-    "updated": "2014-12-28T22:51:08.403Z",
-    "summary": "Snow Camping Pre-Trip Meeting",
-    "description": "A pre-trip meeting to set expectations and goals, arrange carpools and logistics, and best prepare for an effective and safe training. Meeting begins at 1900.\n",
-    "location": "290 Sussex Street, San Francisco",
-    "creator": {
-      "email": "815908634493-b7sii0rvdr5080k26nvt6oeqou1l45kv@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "displayName": "bamru devcal",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2014-12-10T18:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2014-12-10T20:30:00-08:00"
-    },
-    "iCalUID": "dbmn9715d5ihuu3c2fcqer4tp4@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
     "etag": "\"2839614138358000\"",
     "id": "acauibte4jhh4i28t38i6m6m88",
     "status": "confirmed",
@@ -267,35 +236,6 @@
       "date": "2014-12-21"
     },
     "iCalUID": "6im0rsc093levt90p3cggfke0o@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839614141992000\"",
-    "id": "ge3um8pgu2m7g7mcgcjqqfmv3g",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=Z2UzdW04cGd1Mm03ZzdtY2djanFxZm12M2cgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-28T22:51:10.000Z",
-    "updated": "2014-12-28T22:51:10.996Z",
-    "summary": "General Meeting  (not 3rd Monday)",
-    "location": "Redwood City Jury Assembly Room",
-    "creator": {
-      "email": "815908634493-b7sii0rvdr5080k26nvt6oeqou1l45kv@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-01-12T18:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-01-12T20:30:00-08:00"
-    },
-    "iCalUID": "ge3um8pgu2m7g7mcgcjqqfmv3g@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -384,35 +324,6 @@
       "date": "2015-01-28"
     },
     "iCalUID": "udj9f85c9h1pa7t2j6frn89ar8@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839614149994000\"",
-    "id": "hk6p100kd4to3v06cf6iq41u08",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=aGs2cDEwMGtkNHRvM3YwNmNmNmlxNDF1MDggYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-28T22:51:14.000Z",
-    "updated": "2014-12-28T22:51:14.997Z",
-    "summary": "General Meeting (Not 3rd Monday)",
-    "location": "Castro Valley Nike Classroom",
-    "creator": {
-      "email": "815908634493-b7sii0rvdr5080k26nvt6oeqou1l45kv@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-02-09T18:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-02-09T20:30:00-08:00"
-    },
-    "iCalUID": "hk6p100kd4to3v06cf6iq41u08@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -539,35 +450,6 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839614158798000\"",
-    "id": "14mo5126dgmr2rpg2bpaohq0as",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MTRtbzUxMjZkZ21yMnJwZzJicGFvaHEwYXMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-28T22:51:19.000Z",
-    "updated": "2014-12-28T22:51:19.399Z",
-    "summary": "General Meeting",
-    "location": "Redwood City County Room 101",
-    "creator": {
-      "email": "815908634493-b7sii0rvdr5080k26nvt6oeqou1l45kv@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-03-16T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-03-16T21:30:00-07:00"
-    },
-    "iCalUID": "14mo5126dgmr2rpg2bpaohq0as@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
     "etag": "\"2839614160266000\"",
     "id": "n4nt1675af6slp2cff7237km5s",
     "status": "confirmed",
@@ -590,35 +472,6 @@
       "date": "2015-03-29"
     },
     "iCalUID": "n4nt1675af6slp2cff7237km5s@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839614161628000\"",
-    "id": "niu97t6p9nbbe369grmg7vq5b4",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=bml1OTd0NnA5bmJiZTM2OWdybWc3dnE1YjQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-28T22:51:20.000Z",
-    "updated": "2014-12-28T22:51:20.814Z",
-    "summary": "General Meeting (not 3rd Monday)",
-    "location": " Castro Valley Nike Classroom",
-    "creator": {
-      "email": "815908634493-b7sii0rvdr5080k26nvt6oeqou1l45kv@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-04-13T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-04-13T21:30:00-07:00"
-    },
-    "iCalUID": "niu97t6p9nbbe369grmg7vq5b4@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -740,35 +593,6 @@
       "dateTime": "2015-05-10T21:30:00-07:00"
     },
     "iCalUID": "o6kbjntm3ls66rgga29bh5l210@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839614171422000\"",
-    "id": "00uf0sqospidjq8d3954bo8ufo",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MDB1ZjBzcW9zcGlkanE4ZDM5NTRibzh1Zm8gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-28T22:51:25.000Z",
-    "updated": "2014-12-28T22:51:25.711Z",
-    "summary": "General Meeting",
-    "location": "Redwood City County Room 101",
-    "creator": {
-      "email": "815908634493-b7sii0rvdr5080k26nvt6oeqou1l45kv@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-05-18T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-05-18T21:30:00-07:00"
-    },
-    "iCalUID": "00uf0sqospidjq8d3954bo8ufo@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1366,36 +1190,6 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839615931160000\"",
-    "id": "bbs2j66j6f5la3ed59vio2atfk",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=YmJzMmo2Nmo2ZjVsYTNlZDU5dmlvMmF0ZmsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-28T23:06:05.000Z",
-    "updated": "2014-12-28T23:06:05.580Z",
-    "summary": "Technical Rescue Evolutions",
-    "description": "This training will be a scenario-based technical rescue practice.  Participants will design, build, and operate technical rescue systems in \"real time\" on real rock, with multiple evolutions.  One of the objectives is to start practicing for the MRA re-accreditation in Technical Rock.",
-    "location": "Berkeley - Cragmont",
-    "creator": {
-      "email": "815908634493-b7sii0rvdr5080k26nvt6oeqou1l45kv@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2014-11-09"
-    },
-    "end": {
-      "date": "2014-11-09"
-    },
-    "iCalUID": "bbs2j66j6f5la3ed59vio2atfk@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
     "etag": "\"2839615932690000\"",
     "id": "lrki5duu8mc9pbrkvfpeb83lec",
     "status": "confirmed",
@@ -1895,6 +1689,37 @@
       "date": "2015-12-15"
     },
     "iCalUID": "c9jsrg5t3bo6ahjc3deb8bsps8@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    }
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "\"2839737761308000\"",
+    "id": "ccami8kej7vfgcr11a6vr1e5i8",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=Y2NhbWk4a2VqN3ZmZ2NyMTFhNnZyMWU1aTggYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-29T16:01:20.000Z",
+    "updated": "2014-12-29T16:01:20.654Z",
+    "summary": "Snow Camping Pre-Trip Meeting",
+    "description": "A pre-trip meeting to set expectations and goals, arrange carpools and logistics, and best prepare for an effective and safe training. Meeting begins at 1900.\n",
+    "location": "290 Sussex Street, San Francisco",
+    "creator": {
+      "email": "815908634493-b7sii0rvdr5080k26nvt6oeqou1l45kv@developer.gserviceaccount.com"
+    },
+    "organizer": {
+      "email": "bamru.devcal@gmail.com",
+      "displayName": "bamru devcal",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2014-12-10T19:30:00-08:00"
+    },
+    "end": {
+      "dateTime": "2014-12-10T21:30:00-08:00"
+    },
+    "iCalUID": "ccami8kej7vfgcr11a6vr1e5i8@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true

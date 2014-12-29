@@ -17,6 +17,8 @@ gem "RedCloth"       # textile
 gem "dotenv"            # store user/pwd etc.
 gem "activesupport"     # date methods (1.week...), .blank?, .present? ...
 gem "google-api-client" # wrapper for google calendar
+gem "tzinfo"            # for calculating DST offsets
+gem "tzinfo-data"       # database with DST dates
 
 # ----- development utilities -----
 gem "whenever"       # cron scheduling

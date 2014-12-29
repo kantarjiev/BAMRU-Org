@@ -72,18 +72,6 @@
     lon: TBD
     prior: TBD
     gcal_id: vjloaun74o23hl2pdsgqqitbl8
-  21cb9a: !ruby/object:Event
-    kind: TBD
-    title: Snow Camping Pre-Trip Meeting
-    location: 290 Sussex Street, San Francisco
-    leaders: TBD
-    start: '2014-12-10'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: dbmn9715d5ihuu3c2fcqer4tp4
   fe833c: !ruby/object:Event
     kind: TBD
     title: Holiday Party
@@ -108,18 +96,6 @@
     lon: TBD
     prior: TBD
     gcal_id: 6im0rsc093levt90p3cggfke0o
-  e887e9: !ruby/object:Event
-    kind: TBD
-    title: General Meeting  (not 3rd Monday)
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: '2015-01-12'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: ge3um8pgu2m7g7mcgcjqqfmv3g
   7affdc: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
@@ -156,18 +132,6 @@
     lon: TBD
     prior: TBD
     gcal_id: udj9f85c9h1pa7t2j6frn89ar8
-  b2cc97: !ruby/object:Event
-    kind: TBD
-    title: General Meeting (Not 3rd Monday)
-    location: Castro Valley Nike Classroom
-    leaders: TBD
-    start: '2015-02-09'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: hk6p100kd4to3v06cf6iq41u08
   930cfd: !ruby/object:Event
     kind: TBD
     title: BASARC MLPI (weekend 1)
@@ -216,18 +180,6 @@
     lon: TBD
     prior: TBD
     gcal_id: qvqb4etj0322ek6up1if0h5fp4
-  80d9ae: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City County Room 101
-    leaders: TBD
-    start: '2015-03-16'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 14mo5126dgmr2rpg2bpaohq0as
   f470ff: !ruby/object:Event
     kind: TBD
     title: Glacier/ Crevasse Rescue
@@ -240,18 +192,6 @@
     lon: TBD
     prior: TBD
     gcal_id: n4nt1675af6slp2cff7237km5s
-  1dbf37: !ruby/object:Event
-    kind: TBD
-    title: General Meeting (not 3rd Monday)
-    location: " Castro Valley Nike Classroom"
-    leaders: TBD
-    start: '2015-04-13'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: niu97t6p9nbbe369grmg7vq5b4
   c50c0f: !ruby/object:Event
     kind: TBD
     title: SAR Basic *G
@@ -300,18 +240,6 @@
     lon: TBD
     prior: TBD
     gcal_id: o6kbjntm3ls66rgga29bh5l210
-  fe328c: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City County Room 101
-    leaders: TBD
-    start: '2015-05-18'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 00uf0sqospidjq8d3954bo8ufo
   954c46: !ruby/object:Event
     kind: TBD
     title: Tracking/ Nav Skills Night
@@ -551,7 +479,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: bbs2j66j6f5la3ed59vio2atfk
+    gcal_id: 2eilpsf5naeqg1cqr4v5r6m2bo
   8d448b: !ruby/object:Event
     kind: TBD
     title: SO Driver's Practical
@@ -756,3 +684,15 @@
     lon: TBD
     prior: TBD
     gcal_id: c9jsrg5t3bo6ahjc3deb8bsps8
+  21cb9a: !ruby/object:Event
+    kind: TBD
+    title: Snow Camping Pre-Trip Meeting
+    location: 290 Sussex Street, San Francisco
+    leaders: TBD
+    start: '2014-12-10'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: ccami8kej7vfgcr11a6vr1e5i8
