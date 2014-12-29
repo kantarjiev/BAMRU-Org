@@ -6,6 +6,10 @@ MM_ENV  ||= "production"  # can be either 'test' or 'production'
 
 MM_ROOT ||= File.expand_path("../", __dir__)
 
+# ----- gcal keys / environment -----
+
+ENV_FILE ||= File.expand_path("../.gcal_keys/env", __dir__)
+
 # ----- bnet data files -----
 
 BNET_DATA_SRC_URL   ||= "http://bamru.net/public/calendar.csv"

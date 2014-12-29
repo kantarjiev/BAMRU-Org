@@ -1,5 +1,5 @@
---- 
-:calendar: 
+---
+:calendar:
 - - BAMRU CALENDAR
   - '#'
 - - MEETINGS
@@ -8,7 +8,7 @@
   - '#TRAININGS'
 - - COMMUNITY EVENTS
   - '#COMMUNITY'
-:bamruinfo: 
+:bamruinfo:
 - - WHAT IS BAMRU
   - '#WhatIsBamru'
 - - CONTRIBUTING
@@ -54,4 +54,7 @@
   - '#'
 :contact:
 - - CONTACTS
+  - '#'
+:gcal:
+- - BAMRU's GOOGLE CALENDAR
   - '#'

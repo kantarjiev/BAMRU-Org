@@ -6,8 +6,7 @@ require_relative "./base"
 
 class GcalClient
 
-  env_file = File.expand_path("../gcal_keys/env", __dir__)
-  raise "No Gcal Keys" unless File.exists?(env_file)
+  raise "No Gcal Keys" unless File.exists?(ENV_FILE)
 
   Dotenv.load env_file
 
