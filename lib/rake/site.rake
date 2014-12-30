@@ -10,6 +10,7 @@ namespace :site do
   desc "Deploy the Site"
   task :deploy do
     script = <<-EOF
+    [ -e .gcal_keys/backup.sh ] && .gcal_keys/backup.sh
     rm -rf /tmp/out
     cp -r out /tmp
     git add .
