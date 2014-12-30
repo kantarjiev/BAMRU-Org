@@ -1,1026 +1,12 @@
 [
   {
     "kind": "calendar#event",
-    "etag": "\"2839799738502000\"",
-    "id": "n6lp5h8qm3qgusgcobgot7rq9s",
+    "etag": "\"2839800083666000\"",
+    "id": "npmbcvvhns2tlhiscgmovl4lhk",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=bjZscDVoOHFtM3FndXNnY29iZ290N3JxOXMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:48.000Z",
-    "updated": "2014-12-30T00:37:49.251Z",
-    "summary": "SARTopo Training",
-    "description": "An all-day training on SARTopo that is open to members of the Bay Area SAR community.  Among other topics, we'll cover map layers, terrain visualization, plotting bearings, creating and printing assignments, GPS integration and track management.  The training will conclude with a remote planning exercise where we break into small teams and draft plans for a simulated search.",
-    "location": "San Francisco",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "displayName": "bamru devcal",
-      "self": true
-    },
-    "start": {
-      "date": "2014-11-02"
-    },
-    "end": {
-      "date": "2014-11-02"
-    },
-    "iCalUID": "n6lp5h8qm3qgusgcobgot7rq9s@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799739744000\"",
-    "id": "ijj829fkfbakcq1g9eisudn53c",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=aWpqODI5ZmtmYmFrY3ExZzllaXN1ZG41M2MgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:49.000Z",
-    "updated": "2014-12-30T00:37:49.872Z",
-    "summary": "DO training skills night",
-    "description": "We'll cover the theory of DO-ing (what needs to be done during any DO shift, DO-ing during a training, what needs to be done in the ramp up for a search, etc), and the practice of DO-ing (how do we accomplish all of these things with the tools we have, like bamru.net).  For new and experienced DO's alike!",
-    "location": "44 Shakespeare St Daly City CA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2014-11-05"
-    },
-    "end": {
-      "date": "2014-11-05"
-    },
-    "iCalUID": "ijj829fkfbakcq1g9eisudn53c@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799741230000\"",
-    "id": "nslbfa2vmt174u3ahmcdaquqbs",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=bnNsYmZhMnZtdDE3NHUzYWhtY2RhcXVxYnMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:50.000Z",
-    "updated": "2014-12-30T00:37:50.615Z",
-    "summary": "Technical Rescue Evolutions",
-    "description": "This training will be a scenario-based technical rescue practice.  Participants will design, build, and operate technical rescue systems in \"real time\" on real rock, with multiple evolutions.  One of the objectives is to start practicing for the MRA re-accreditation in Technical Rock.",
-    "location": "Berkeley - Cragmont",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2014-11-09"
-    },
-    "end": {
-      "date": "2014-11-09"
-    },
-    "iCalUID": "nslbfa2vmt174u3ahmcdaquqbs@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799742716000\"",
-    "id": "vr8rtj9v7kuofr8ptbksnsqdu0",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dnI4cnRqOXY3a3VvZnI4cHRia3Nuc3FkdTAgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:51.000Z",
-    "updated": "2014-12-30T00:37:51.358Z",
-    "summary": "General Meeting",
-    "location": "Redwood City Jury Assembly Room",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2014-11-17T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2014-11-17T21:30:00-08:00"
-    },
-    "iCalUID": "vr8rtj9v7kuofr8ptbksnsqdu0@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799744374000\"",
-    "id": "5dkmh8ei4h2k9lbjotu17l7pko",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NWRrbWg4ZWk0aDJrOWxiam90dTE3bDdwa28gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:52.000Z",
-    "updated": "2014-12-30T00:37:52.187Z",
-    "summary": "Skills weekend",
-    "description": "Skills day and Trainee packet sign offs. An important opportunity for Field and Technical team members to assist Trainees in packet sign offs. Trainees will have an opportunity to demonstrate skills through scenarios, skill stations and miscellaneous needed skill sign offs, as they work toward completing their training packets. ",
-    "location": "Cragmont Park, Berkeley",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2014-11-22"
-    },
-    "end": {
-      "date": "2014-11-23"
-    },
-    "iCalUID": "5dkmh8ei4h2k9lbjotu17l7pko@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799746000000\"",
-    "id": "1ddu8b6igqcnfegn69uj1d4aeo",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MWRkdThiNmlncWNuZmVnbjY5dWoxZDRhZW8gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:52.000Z",
-    "updated": "2014-12-30T00:37:53.000Z",
-    "summary": "Drivers Training: Classroom",
-    "description": "Classroom portion of drivers' training takes place from 1900-2100.  Sign up for practical sessions at the classroom portion.",
-    "location": "455 County Center",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2014-12-04"
-    },
-    "end": {
-      "date": "2014-12-04"
-    },
-    "iCalUID": "1ddu8b6igqcnfegn69uj1d4aeo@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799747692000\"",
-    "id": "p7tn5dv29rnen81idmfcuhki4g",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cDd0bjVkdjI5cm5lbjgxaWRtZmN1aGtpNGcgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:53.000Z",
-    "updated": "2014-12-30T00:37:53.846Z",
-    "summary": "SO Driver's Practical",
-    "description": "Practical portion of the training to drive SO vehicles.  Upon completing the practical and classroom portions and passing the background check, members may drive SO vehicles, and must renew every 2 years.",
-    "location": "Redwood City Jury Parking Lot",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2014-12-06"
-    },
-    "end": {
-      "date": "2014-12-06"
-    },
-    "iCalUID": "p7tn5dv29rnen81idmfcuhki4g@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799749170000\"",
-    "id": "mc1es69fi9jbdg25927anu45j0",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=bWMxZXM2OWZpOWpiZGcyNTkyN2FudTQ1ajAgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:54.000Z",
-    "updated": "2014-12-30T00:37:54.585Z",
-    "summary": "Technical rescue evolutions",
-    "description": "Technical rescue evolutions trainings. We'll build and run systems all day, focusing more on \"real time\" and \"efficiency\" than individual skills. Plan to arrive Friday night, run systems Saturday, and either head home Saturday night or stay the night and explore winter climbing at Pinnacles on Sunday (campground is reserved for two nights).",
-    "location": "Pinnacles NP",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2014-12-06"
-    },
-    "end": {
-      "date": "2014-12-07"
-    },
-    "iCalUID": "mc1es69fi9jbdg25927anu45j0@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799750814000\"",
-    "id": "ctblqvcaa94o5ijj1d45o0so2k",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=Y3RibHF2Y2FhOTRvNWlqajFkNDVvMHNvMmsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:55.000Z",
-    "updated": "2014-12-30T00:37:55.407Z",
-    "summary": "Snow Camping Pre-Trip Meeting",
-    "description": "A pre-trip meeting to set expectations and goals, arrange carpools and logistics, and best prepare for an effective and safe training. Meeting begins at 1900.\n",
-    "location": "290 Sussex Street, San Francisco",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "displayName": "bamru devcal",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2014-12-10T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2014-12-10T21:30:00-08:00"
-    },
-    "iCalUID": "ctblqvcaa94o5ijj1d45o0so2k@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799752424000\"",
-    "id": "vdoeulf9tt9pnjo31gnpk01gdk",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dmRvZXVsZjl0dDlwbmpvMzFnbnBrMDFnZGsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:56.000Z",
-    "updated": "2014-12-30T00:37:56.212Z",
-    "summary": "Holiday Party",
-    "description": "Come to this entrance \n\nhttps://www.google.com/maps/dir//37.392594,-122.0744676/@37.392578,-122.0744508,51m/data=%213m1%211e3\n\nof the building and call me (Ben) from the call-box.  If in trouble, call me (Ben) @ 917-699-0320",
-    "location": "455 W Evelyn Ave, Mountain View, CA 94041",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "displayName": "bamru devcal",
-      "self": true
-    },
-    "start": {
-      "date": "2014-12-13"
-    },
-    "end": {
-      "date": "2014-12-13"
-    },
-    "iCalUID": "vdoeulf9tt9pnjo31gnpk01gdk@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799753690000\"",
-    "id": "2kqqd8tmtr09rh9lukvpia9bak",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MmtxcWQ4dG10cjA5cmg5bHVrdnBpYTliYWsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:56.000Z",
-    "updated": "2014-12-30T00:37:56.845Z",
-    "summary": "BAMRU Dues Renewal",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2014-12-15"
-    },
-    "end": {
-      "date": "2014-12-15"
-    },
-    "iCalUID": "2kqqd8tmtr09rh9lukvpia9bak@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799755426000\"",
-    "id": "luornll92se6fb1vmt3fjhg14k",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=bHVvcm5sbDkyc2U2ZmIxdm10M2ZqaGcxNGsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:57.000Z",
-    "updated": "2014-12-30T00:37:57.713Z",
-    "summary": "Intro to Snow Camping",
-    "description": "Tentative pending the availability of snow. If you've never snow camped, or really want to learn how to use chopsticks to anchor your tent, this weekend is for you.",
-    "location": "Carson Pass",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "displayName": "bamru devcal",
-      "self": true
-    },
-    "start": {
-      "date": "2014-12-20"
-    },
-    "end": {
-      "date": "2014-12-21"
-    },
-    "iCalUID": "luornll92se6fb1vmt3fjhg14k@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799756668000\"",
-    "id": "2v6evpfgiqnhc9a1j1ekdlv9qg",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MnY2ZXZwZmdpcW5oYzlhMWoxZWtkbHY5cWcgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:58.000Z",
-    "updated": "2014-12-30T00:37:58.334Z",
-    "summary": "General Meeting  (not 3rd Monday)",
-    "location": "Redwood City Jury Assembly Room",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-01-12T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-01-12T21:30:00-08:00"
-    },
-    "iCalUID": "2v6evpfgiqnhc9a1j1ekdlv9qg@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799758112000\"",
-    "id": "2n1aismc76i53jhb3d4amd7olc",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=Mm4xYWlzbWM3Nmk1M2poYjNkNGFtZDdvbGMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:59.000Z",
-    "updated": "2014-12-30T00:37:59.056Z",
-    "summary": "Qrtly Leadership Mtg",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-01-21T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-01-21T21:30:00-08:00"
-    },
-    "iCalUID": "2n1aismc76i53jhb3d4amd7olc@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799759614000\"",
-    "id": "prvju7hkhri4l3ud5jdd9fvdd8",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cHJ2anU3aGtocmk0bDN1ZDVqZGQ5ZnZkZDggYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:37:59.000Z",
-    "updated": "2014-12-30T00:37:59.807Z",
-    "summary": "Snow Skills",
-    "description": "Practice winter camping, snow travel, beacon and probe searches and self arrest techniques. These skills are important for our winter & alpine operations.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-01-24"
-    },
-    "end": {
-      "date": "2015-01-25"
-    },
-    "iCalUID": "prvju7hkhri4l3ud5jdd9fvdd8@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799761080000\"",
-    "id": "drj75o68e6ie9kjddkhcv2qlas",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=ZHJqNzVvNjhlNmllOWtqZGRraGN2MnFsYXMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:00.000Z",
-    "updated": "2014-12-30T00:38:00.540Z",
-    "summary": "Recert skills night",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-01-28"
-    },
-    "end": {
-      "date": "2015-01-28"
-    },
-    "iCalUID": "drj75o68e6ie9kjddkhcv2qlas@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799762578000\"",
-    "id": "ubb8mpgqgll3t3e87hpk08rfec",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dWJiOG1wZ3FnbGwzdDNlODdocGswOHJmZWMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:01.000Z",
-    "updated": "2014-12-30T00:38:01.289Z",
-    "summary": "Bay Area Joint MRA training",
-    "description": "Technical rescue scenarios training in preparation for the MRA recertification.  This training will be held joint with Marin SAR, Contra Costa SAR, and Monterey SAR.",
-    "location": "Mt. Diablo, Boy Scout Rocks",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-02-07"
-    },
-    "end": {
-      "date": "2015-02-07"
-    },
-    "iCalUID": "ubb8mpgqgll3t3e87hpk08rfec@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799764294000\"",
-    "id": "u8t40do63d9j6365or9pd7p1mo",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dTh0NDBkbzYzZDlqNjM2NW9yOXBkN3AxbW8gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:02.000Z",
-    "updated": "2014-12-30T00:38:02.147Z",
-    "summary": "Guest Mock Search G",
-    "description": "Our first recruiting event of the year, designed to show guests what it's like to respond to a callout and execute a search.",
-    "location": "Redwood Memorial Park",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "displayName": "bamru devcal",
-      "self": true
-    },
-    "start": {
-      "date": "2015-02-08"
-    },
-    "end": {
-      "date": "2015-02-08"
-    },
-    "iCalUID": "u8t40do63d9j6365or9pd7p1mo@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799765666000\"",
-    "id": "pvj3toiocfsgaqgoi0gfliug1s",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cHZqM3RvaW9jZnNnYXFnb2kwZ2ZsaXVnMXMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:02.000Z",
-    "updated": "2014-12-30T00:38:02.833Z",
-    "summary": "General Meeting (Not 3rd Monday)",
-    "location": "Castro Valley Nike Classroom",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-02-09T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-02-09T21:30:00-08:00"
-    },
-    "iCalUID": "pvj3toiocfsgaqgoi0gfliug1s@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799767130000\"",
-    "id": "71lia90tglufsifi5dq6e8vhic",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NzFsaWE5MHRnbHVmc2lmaTVkcTZlOHZoaWMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:03.000Z",
-    "updated": "2014-12-30T00:38:03.565Z",
-    "summary": "BASARC MLPI (weekend 1)",
-    "description": "Advanced training in search management run by the Bay Area Search and Rescue Council (BASARC).  Each member team can nominate between one and two people to attend the training.  Every nominee must have been active with a SAR team for at least three years.  Attendance at both weekends is required.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-02-14"
-    },
-    "end": {
-      "date": "2015-02-15"
-    },
-    "iCalUID": "71lia90tglufsifi5dq6e8vhic@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799768880000\"",
-    "id": "vq4crrnngvsbbttrdh6ru7teu4",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dnE0Y3Jybm5ndnNiYnR0cmRoNnJ1N3RldTQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:04.000Z",
-    "updated": "2014-12-30T00:38:04.440Z",
-    "summary": "Recert skills night",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-02-18"
-    },
-    "end": {
-      "date": "2015-02-18"
-    },
-    "iCalUID": "vq4crrnngvsbbttrdh6ru7teu4@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799770338000\"",
-    "id": "13t62671qnf66bd7tg1f1bvrp4",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MTN0NjI2NzFxbmY2NmJkN3RnMWYxYnZycDQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:05.000Z",
-    "updated": "2014-12-30T00:38:05.169Z",
-    "summary": "CRMRA Recert Prep Training ",
-    "description": "Scenarios in preparation for the technical rock rescue MRA recert.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-02-21"
-    },
-    "end": {
-      "date": "2015-02-22"
-    },
-    "iCalUID": "13t62671qnf66bd7tg1f1bvrp4@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799771818000\"",
-    "id": "3sbc009dedebqdkedc7rar9ukk",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=M3NiYzAwOWRlZGVicWRrZWRjN3Jhcjl1a2sgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:05.000Z",
-    "updated": "2014-12-30T00:38:05.909Z",
-    "summary": "BASARC MLPI (weekend 2)",
-    "description": "Advanced training in search management run by the Bay Area Search and Rescue Council (BASARC).  Each member team can nominate between one and two people to attend the training.  Every nominee must have been active with a SAR team for at least three years.  Attendance at both weekends is required.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-02-21"
-    },
-    "end": {
-      "date": "2015-02-22"
-    },
-    "iCalUID": "3sbc009dedebqdkedc7rar9ukk@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799773260000\"",
-    "id": "1lfn3urgpa1kkqtckfst1url7k",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MWxmbjN1cmdwYTFra3F0Y2tmc3QxdXJsN2sgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:06.000Z",
-    "updated": "2014-12-30T00:38:06.630Z",
-    "summary": "Tech Rescue Re-Accreditation",
-    "description": "California MRA Re-Accreditation",
-    "location": "Eaton Canyon",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-03-07"
-    },
-    "end": {
-      "date": "2015-03-07"
-    },
-    "iCalUID": "1lfn3urgpa1kkqtckfst1url7k@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799774890000\"",
-    "id": "sqbc6d186bao3tl88lcnmeuhc8",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=c3FiYzZkMTg2YmFvM3RsODhsY25tZXVoYzggYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:07.000Z",
-    "updated": "2014-12-30T00:38:07.445Z",
-    "summary": "General Meeting",
-    "location": "Redwood City County Room 101",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-03-16T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-03-16T21:30:00-07:00"
-    },
-    "iCalUID": "sqbc6d186bao3tl88lcnmeuhc8@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799776372000\"",
-    "id": "8gmerci7ube7042ktg3coi4f7k",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=OGdtZXJjaTd1YmU3MDQya3RnM2NvaTRmN2sgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:08.000Z",
-    "updated": "2014-12-30T00:38:08.186Z",
-    "summary": "Glacier/ Crevasse Rescue",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-03-28"
-    },
-    "end": {
-      "date": "2015-03-29"
-    },
-    "iCalUID": "8gmerci7ube7042ktg3coi4f7k@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799777780000\"",
-    "id": "sfc8g4admn4egnucaq1d74vqk4",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=c2ZjOGc0YWRtbjRlZ251Y2FxMWQ3NHZxazQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:08.000Z",
-    "updated": "2014-12-30T00:38:08.890Z",
-    "summary": "General Meeting (not 3rd Monday)",
-    "location": " Castro Valley Nike Classroom",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-04-13T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-04-13T21:30:00-07:00"
-    },
-    "iCalUID": "sfc8g4admn4egnucaq1d74vqk4@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799779214000\"",
-    "id": "5p4r6kvf5hhji1l9hj9307d6rc",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NXA0cjZrdmY1aGhqaTFsOWhqOTMwN2Q2cmMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:09.000Z",
-    "updated": "2014-12-30T00:38:09.607Z",
-    "summary": "SAR Basic *G",
-    "description": "Intensive weekend training to orient prospective members on the basic skills required to operate effectively in search and rescue operations. Intended for people with no prior SAR experience.\n\nAttendance at SAR Basic is one of the requirements for application to become a Trainee member.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-04-18"
-    },
-    "end": {
-      "date": "2015-04-19"
-    },
-    "iCalUID": "5p4r6kvf5hhji1l9hj9307d6rc@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799780730000\"",
-    "id": "2ulff25epgfdou9t00sb67na0k",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MnVsZmYyNWVwZ2Zkb3U5dDAwc2I2N25hMGsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:10.000Z",
-    "updated": "2014-12-30T00:38:10.365Z",
-    "summary": "Trainee Applications Due",
-    "description": "Due date for all new applications to join BAMRU.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-04-27"
-    },
-    "end": {
-      "date": "2015-04-27"
-    },
-    "iCalUID": "2ulff25epgfdou9t00sb67na0k@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799782164000\"",
-    "id": "ivund5m84tbl25r7lic81t51q8",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=aXZ1bmQ1bTg0dGJsMjVyN2xpYzgxdDUxcTggYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:11.000Z",
-    "updated": "2014-12-30T00:38:11.082Z",
-    "summary": "Qrtly Leadership Mtg",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-05-06T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-05-06T21:30:00-07:00"
-    },
-    "iCalUID": "ivund5m84tbl25r7lic81t51q8@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799783808000\"",
-    "id": "0okcip474uemnl8s2sd89ep0g4",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MG9rY2lwNDc0dWVtbmw4czJzZDg5ZXAwZzQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:11.000Z",
-    "updated": "2014-12-30T00:38:11.904Z",
-    "summary": "Trainee Interviews -- Day 1",
-    "description": "Prospective Trainees will be interviewed by the Board this weekend.",
-    "location": "Redwood City",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "displayName": "bamru devcal",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-05-09T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-05-09T21:30:00-07:00"
-    },
-    "iCalUID": "0okcip474uemnl8s2sd89ep0g4@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799785540000\"",
-    "id": "26tod1nhob92o8j397prmrivjk",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MjZ0b2QxbmhvYjkybzhqMzk3cHJtcml2amsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:12.000Z",
-    "updated": "2014-12-30T00:38:12.770Z",
-    "summary": "Trainee Interviews -- Day 2",
-    "description": "Prospective Trainees will be interviewed by the Board this weekend.",
-    "location": "Redwood City",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "displayName": "bamru devcal",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-05-10T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-05-10T21:30:00-07:00"
-    },
-    "iCalUID": "26tod1nhob92o8j397prmrivjk@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799786966000\"",
-    "id": "0dlo848flprpac5lmk7qtfhp4s",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MGRsbzg0OGZscHJwYWM1bG1rN3F0ZmhwNHMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:13.000Z",
-    "updated": "2014-12-30T00:38:13.483Z",
-    "summary": "Trainee Class Announced",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-05-15"
-    },
-    "end": {
-      "date": "2015-05-15"
-    },
-    "iCalUID": "0dlo848flprpac5lmk7qtfhp4s@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799788420000\"",
-    "id": "4bj8poba6iv9q6ldq56mapo2rk",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NGJqOHBvYmE2aXY5cTZsZHE1Nm1hcG8ycmsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:14.000Z",
-    "updated": "2014-12-30T00:38:14.210Z",
-    "summary": "General Meeting",
-    "location": "Redwood City County Room 101",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-05-18T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-05-18T21:30:00-07:00"
-    },
-    "iCalUID": "4bj8poba6iv9q6ldq56mapo2rk@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799790072000\"",
-    "id": "1bsf3nk4qe2s4m9kjo7kbiqofc",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=MWJzZjNuazRxZTJzNG05a2pvN2tiaXFvZmMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:15.000Z",
-    "updated": "2014-12-30T00:38:15.036Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=bnBtYmN2dmhuczJ0bGhpc2NnbW92bDRsaGsgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:41.000Z",
+    "updated": "2014-12-30T00:40:41.833Z",
     "summary": "Tracking/ Nav Skills Night",
     "location": "TBA",
     "creator": {
@@ -1036,7 +22,7 @@
     "end": {
       "date": "2015-05-28"
     },
-    "iCalUID": "1bsf3nk4qe2s4m9kjo7kbiqofc@google.com",
+    "iCalUID": "npmbcvvhns2tlhiscgmovl4lhk@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1044,12 +30,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799791486000\"",
-    "id": "t46lbg2gaqcgh8s4fpjtmbsujc",
+    "etag": "\"2839800085362000\"",
+    "id": "kuet5ae3hmqh4ipm44ja6s3484",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dDQ2bGJnMmdhcWNnaDhzNGZwanRtYnN1amMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:15.000Z",
-    "updated": "2014-12-30T00:38:15.743Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=a3VldDVhZTNobXFoNGlwbTQ0amE2czM0ODQgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:42.000Z",
+    "updated": "2014-12-30T00:40:42.681Z",
     "summary": "Tracking Skills *",
     "description": "Our introductory tracking class will include a field lecture as well as skills training. Basic principles of tracking, equipment and search techniques will be discussed. We will have an opportunity to review the tracking skills sheet and obtain sign-offs. Please reference the tracking doc on the wiki. Training open to guests who have been sworn.",
     "location": "TBA",
@@ -1066,7 +52,7 @@
     "end": {
       "date": "2015-05-30"
     },
-    "iCalUID": "t46lbg2gaqcgh8s4fpjtmbsujc@google.com",
+    "iCalUID": "kuet5ae3hmqh4ipm44ja6s3484@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1074,12 +60,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799792910000\"",
-    "id": "murkdm7iohmp5u32ool15v7dl4",
+    "etag": "\"2839800086802000\"",
+    "id": "5tc43jggjkava7q1em4efsa9nk",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=bXVya2RtN2lvaG1wNXUzMm9vbDE1djdkbDQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:16.000Z",
-    "updated": "2014-12-30T00:38:16.455Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NXRjNDNqZ2dqa2F2YTdxMWVtNGVmc2E5bmsgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:43.000Z",
+    "updated": "2014-12-30T00:40:43.401Z",
     "summary": "Navigation Skills *G",
     "description": "Navigation training and signoffs, concentrating on map/compass.",
     "location": "TBA",
@@ -1096,7 +82,7 @@
     "end": {
       "date": "2015-05-31"
     },
-    "iCalUID": "murkdm7iohmp5u32ool15v7dl4@google.com",
+    "iCalUID": "5tc43jggjkava7q1em4efsa9nk@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1104,12 +90,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799794554000\"",
-    "id": "jg8amqdm88mj2qm2tebnvhgi0s",
+    "etag": "\"2839800088286000\"",
+    "id": "u81p5qqpfltkp06mkn814j21do",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=amc4YW1xZG04OG1qMnFtMnRlYm52aGdpMHMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:17.000Z",
-    "updated": "2014-12-30T00:38:17.277Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=dTgxcDVxcXBmbHRrcDA2bWtuODE0ajIxZG8gYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:44.000Z",
+    "updated": "2014-12-30T00:40:44.143Z",
     "summary": "General Meeting",
     "location": "Castro Valley Nike Classroom",
     "creator": {
@@ -1125,7 +111,7 @@
     "end": {
       "dateTime": "2015-06-15T21:30:00-07:00"
     },
-    "iCalUID": "jg8amqdm88mj2qm2tebnvhgi0s@google.com",
+    "iCalUID": "u81p5qqpfltkp06mkn814j21do@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1133,12 +119,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799795996000\"",
-    "id": "6q5utmttcohlh48tk6rurk1a1o",
+    "etag": "\"2839800089714000\"",
+    "id": "t11vtbqg1tn0c52hf8lrmp4e48",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NnE1dXRtdHRjb2hsaDQ4dGs2cnVyazFhMW8gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:17.000Z",
-    "updated": "2014-12-30T00:38:17.998Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=dDExdnRicWcxdG4wYzUyaGY4bHJtcDRlNDggYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:44.000Z",
+    "updated": "2014-12-30T00:40:44.857Z",
     "summary": "Personal Rock Skills *",
     "description": "This two day course covers general rock skills skill stations, scenarios, and discussion of their application within the SAR community. Topics include anchors (trad gear and natural protection), belaying, rappelling, basic self-rescue, jugging/ascending, and personal emergency evac equipment with scenarios. Focus will be on both theory and practice. Personal rock skills is a prerequisite for Basic Technical Training.",
     "location": "TBA",
@@ -1155,7 +141,7 @@
     "end": {
       "date": "2015-06-21"
     },
-    "iCalUID": "6q5utmttcohlh48tk6rurk1a1o@google.com",
+    "iCalUID": "t11vtbqg1tn0c52hf8lrmp4e48@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1163,12 +149,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799797442000\"",
-    "id": "ubu3qut8lfq1c4av7egdi105dc",
+    "etag": "\"2839800091182000\"",
+    "id": "0ejpq13dng26a47vrua9o8psa4",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dWJ1M3F1dDhsZnExYzRhdjdlZ2RpMTA1ZGMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:18.000Z",
-    "updated": "2014-12-30T00:38:18.721Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MGVqcHExM2RuZzI2YTQ3dnJ1YTlvOHBzYTQgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:45.000Z",
+    "updated": "2014-12-30T00:40:45.591Z",
     "summary": "Western States 100",
     "description": "BAMRU provides medical staff for the WS-100 (100 mile trans Sierra Ultra Marathon).",
     "location": "Auburn, CA",
@@ -1185,7 +171,7 @@
     "end": {
       "date": "2015-06-28"
     },
-    "iCalUID": "ubu3qut8lfq1c4av7egdi105dc@google.com",
+    "iCalUID": "0ejpq13dng26a47vrua9o8psa4@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1193,12 +179,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799798812000\"",
-    "id": "rtlm73g1fb8rih86hu1nnibs1o",
+    "etag": "\"2839800092640000\"",
+    "id": "4pleibeiknsbvg0m30m83qpt7c",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cnRsbTczZzFmYjhyaWg4Nmh1MW5uaWJzMW8gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:19.000Z",
-    "updated": "2014-12-30T00:38:19.406Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NHBsZWliZWlrbnNidmcwbTMwbTgzcXB0N2MgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:46.000Z",
+    "updated": "2014-12-30T00:40:46.320Z",
     "summary": "DO Skills Night *",
     "description": "We'll cover the theory of DO-ing (what needs to be done during any DO shift, DO-ing during a training, what needs to be done in the ramp up for a search, etc), and the practice of DO-ing (how do we accomplish all of these things with the tools we have, like bamru.net). For new and experienced DO's alike!",
     "location": "TBA",
@@ -1215,7 +201,7 @@
     "end": {
       "date": "2015-07-15"
     },
-    "iCalUID": "rtlm73g1fb8rih86hu1nnibs1o@google.com",
+    "iCalUID": "4pleibeiknsbvg0m30m83qpt7c@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1223,12 +209,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799800630000\"",
-    "id": "48qk1r8j31h59fg17ngm3dt4hk",
+    "etag": "\"2839800094354000\"",
+    "id": "jqgjkf6b103gdidkjuskn647tg",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NDhxazFyOGozMWg1OWZnMTduZ20zZHQ0aGsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:20.000Z",
-    "updated": "2014-12-30T00:38:20.315Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=anFnamtmNmIxMDNnZGlka2p1c2tuNjQ3dGcgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:47.000Z",
+    "updated": "2014-12-30T00:40:47.177Z",
     "summary": "General Meeting",
     "location": "Redwood City County Room 101",
     "creator": {
@@ -1244,7 +230,7 @@
     "end": {
       "dateTime": "2015-07-20T21:30:00-07:00"
     },
-    "iCalUID": "48qk1r8j31h59fg17ngm3dt4hk@google.com",
+    "iCalUID": "jqgjkf6b103gdidkjuskn647tg@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1252,12 +238,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799802038000\"",
-    "id": "jm7ujaet1r8v08vnnrsg3j0f4g",
+    "etag": "\"2839800096078000\"",
+    "id": "64hks7578uritqakcqudjfqg54",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=am03dWphZXQxcjh2MDh2bm5yc2czajBmNGcgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:20.000Z",
-    "updated": "2014-12-30T00:38:21.019Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NjRoa3M3NTc4dXJpdHFha2NxdWRqZnFnNTQgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:47.000Z",
+    "updated": "2014-12-30T00:40:48.039Z",
     "summary": "Low Angle Rescue *",
     "description": "We will focus on low-angle rescue systems.  Personal Rock Skills is required to attend this training.",
     "location": "TBA",
@@ -1274,7 +260,7 @@
     "end": {
       "date": "2015-07-25"
     },
-    "iCalUID": "jm7ujaet1r8v08vnnrsg3j0f4g@google.com",
+    "iCalUID": "64hks7578uritqakcqudjfqg54@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1282,12 +268,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799803620000\"",
-    "id": "rd75f1pqrnm0em6d44a781mo3c",
+    "etag": "\"2839800097480000\"",
+    "id": "8a229c4ubv4gjfn995qk8e0rfo",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cmQ3NWYxcHFybm0wZW02ZDQ0YTc4MW1vM2MgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:21.000Z",
-    "updated": "2014-12-30T00:38:21.810Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=OGEyMjljNHVidjRnamZuOTk1cWs4ZTByZm8gYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:48.000Z",
+    "updated": "2014-12-30T00:40:48.740Z",
     "summary": "Search Practice *",
     "description": "Practice search, somewhere",
     "location": "TBA",
@@ -1304,7 +290,7 @@
     "end": {
       "date": "2015-07-26"
     },
-    "iCalUID": "rd75f1pqrnm0em6d44a781mo3c@google.com",
+    "iCalUID": "8a229c4ubv4gjfn995qk8e0rfo@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1312,12 +298,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799805070000\"",
-    "id": "7qehg159d986gioueafqa65sps",
+    "etag": "\"2839800098936000\"",
+    "id": "cdg40luvuhpnuo0a7hvrilb184",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=N3FlaGcxNTlkOTg2Z2lvdWVhZnFhNjVzcHMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:22.000Z",
-    "updated": "2014-12-30T00:38:22.535Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=Y2RnNDBsdXZ1aHBudW8wYTdodnJpbGIxODQgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:49.000Z",
+    "updated": "2014-12-30T00:40:49.468Z",
     "summary": "Qrtly Leadership Mtg",
     "location": "TBA",
     "creator": {
@@ -1333,7 +319,7 @@
     "end": {
       "dateTime": "2015-07-29T21:30:00-07:00"
     },
-    "iCalUID": "7qehg159d986gioueafqa65sps@google.com",
+    "iCalUID": "cdg40luvuhpnuo0a7hvrilb184@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1341,12 +327,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799806498000\"",
-    "id": "hnmeo4ebmvf1ohujpkljhu27fc",
+    "etag": "\"2839800100314000\"",
+    "id": "8tvh43hrtihechkualit76s2mo",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=aG5tZW80ZWJtdmYxb2h1anBrbGpodTI3ZmMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:23.000Z",
-    "updated": "2014-12-30T00:38:23.249Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=OHR2aDQzaHJ0aWhlY2hrdWFsaXQ3NnMybW8gYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:50.000Z",
+    "updated": "2014-12-30T00:40:50.157Z",
     "summary": "DO Skills Night *",
     "description": "We'll cover the theory of DO-ing (what needs to be done during any DO shift, DO-ing during a training, what needs to be done in the ramp up for a search, etc), and the practice of DO-ing (how do we accomplish all of these things with the tools we have, like bamru.net). For new and experienced DO's alike!",
     "location": "TBA",
@@ -1363,7 +349,7 @@
     "end": {
       "date": "2015-08-04"
     },
-    "iCalUID": "hnmeo4ebmvf1ohujpkljhu27fc@google.com",
+    "iCalUID": "8tvh43hrtihechkualit76s2mo@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1371,12 +357,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799807906000\"",
-    "id": "7l02nld8dsqg2q13n150ojqlgc",
+    "etag": "\"2839800101736000\"",
+    "id": "0ehiarqv5qhc1469qb0308s30c",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=N2wwMm5sZDhkc3FnMnExM24xNTBvanFsZ2MgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:23.000Z",
-    "updated": "2014-12-30T00:38:23.953Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MGVoaWFycXY1cWhjMTQ2OXFiMDMwOHMzMGMgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:50.000Z",
+    "updated": "2014-12-30T00:40:50.868Z",
     "summary": "General Meeting",
     "location": "Castro Valley Nike Classroom",
     "creator": {
@@ -1392,7 +378,7 @@
     "end": {
       "dateTime": "2015-08-17T21:30:00-07:00"
     },
-    "iCalUID": "7l02nld8dsqg2q13n150ojqlgc@google.com",
+    "iCalUID": "0ehiarqv5qhc1469qb0308s30c@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1400,12 +386,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799809340000\"",
-    "id": "ifrsntiocchdhmsdqvqqmbkqp4",
+    "etag": "\"2839800103288000\"",
+    "id": "g9gbke679ts9dl1e8q13hqpc94",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=aWZyc250aW9jY2hkaG1zZHF2cXFtYmtxcDQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:24.000Z",
-    "updated": "2014-12-30T00:38:24.670Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=ZzlnYmtlNjc5dHM5ZGwxZThxMTNocXBjOTQgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:51.000Z",
+    "updated": "2014-12-30T00:40:51.644Z",
     "summary": "Basic Technical Rescue *",
     "description": "Basic Technical Rescue is two full days, covering the basics of our standard two-line high-angle rescue system. Participants must have completed Personal Rock Skills and Low Angle.",
     "location": "TBA",
@@ -1422,7 +408,7 @@
     "end": {
       "date": "2015-08-23"
     },
-    "iCalUID": "ifrsntiocchdhmsdqvqqmbkqp4@google.com",
+    "iCalUID": "g9gbke679ts9dl1e8q13hqpc94@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1430,12 +416,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799810810000\"",
-    "id": "5qubt2vdramk9shvdcnuomgutc",
+    "etag": "\"2839800104836000\"",
+    "id": "79m4i5esnn3udb2ik5pscql90c",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NXF1YnQydmRyYW1rOXNodmRjbnVvbWd1dGMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:25.000Z",
-    "updated": "2014-12-30T00:38:25.405Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=NzltNGk1ZXNubjN1ZGIyaWs1cHNjcWw5MGMgYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:52.000Z",
+    "updated": "2014-12-30T00:40:52.418Z",
     "summary": "Search Management/ OP 0",
     "description": "We will spend two days planning and executing the first operational period of a search operation, in slow motion, in rugged terrain. Limited attendance: Basic Technical Rescue is required, preference will be given to Field Members.",
     "location": "TBA",
@@ -1452,7 +438,7 @@
     "end": {
       "date": "2015-09-20"
     },
-    "iCalUID": "5qubt2vdramk9shvdcnuomgutc@google.com",
+    "iCalUID": "79m4i5esnn3udb2ik5pscql90c@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1460,12 +446,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799812378000\"",
-    "id": "r280avdalkuq2gtntj3s2a3b2s",
+    "etag": "\"2839800106208000\"",
+    "id": "09iqicpo73pinlfopj9tkl7vgo",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cjI4MGF2ZGFsa3VxMmd0bnRqM3MyYTNiMnMgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:26.000Z",
-    "updated": "2014-12-30T00:38:26.189Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=MDlpcWljcG83M3Bpbmxmb3BqOXRrbDd2Z28gYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:53.000Z",
+    "updated": "2014-12-30T00:40:53.104Z",
     "summary": "General Meeting",
     "location": "Redwood City Jury Assembly Room",
     "creator": {
@@ -1481,7 +467,7 @@
     "end": {
       "dateTime": "2015-09-21T21:30:00-07:00"
     },
-    "iCalUID": "r280avdalkuq2gtntj3s2a3b2s@google.com",
+    "iCalUID": "09iqicpo73pinlfopj9tkl7vgo@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -1489,12 +475,12 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839799813850000\"",
-    "id": "f5pn6ni5vqloth6eb5dh9a0fng",
+    "etag": "\"2839800107734000\"",
+    "id": "od0c73v66phjev4i5aeml0e1t8",
     "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=ZjVwbjZuaTV2cWxvdGg2ZWI1ZGg5YTBmbmcgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:26.000Z",
-    "updated": "2014-12-30T00:38:26.925Z",
+    "htmlLink": "https://www.google.com/calendar/event?eid=b2QwYzczdjY2cGhqZXY0aTVhZW1sMGUxdDggYmFtcnUuZGV2Y2FsQG0",
+    "created": "2014-12-30T00:40:53.000Z",
+    "updated": "2014-12-30T00:40:53.867Z",
     "summary": "Early Elections Close",
     "location": "TBA",
     "creator": {
@@ -1510,361 +496,7 @@
     "end": {
       "date": "2015-10-02"
     },
-    "iCalUID": "f5pn6ni5vqloth6eb5dh9a0fng@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799815252000\"",
-    "id": "52b4vrikv7f1i9bq39l8hln4jg",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NTJiNHZyaWt2N2YxaTlicTM5bDhobG40amcgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:27.000Z",
-    "updated": "2014-12-30T00:38:27.626Z",
-    "summary": "Search Practice G",
-    "description": "A mock search, somewhere.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-10-03"
-    },
-    "end": {
-      "date": "2015-10-03"
-    },
-    "iCalUID": "52b4vrikv7f1i9bq39l8hln4jg@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799816660000\"",
-    "id": "pulddf65gbmv7b7lssn4h7c3s4",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cHVsZGRmNjVnYm12N2I3bHNzbjRoN2MzczQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:28.000Z",
-    "updated": "2014-12-30T00:38:28.330Z",
-    "summary": "Operations Leader Training",
-    "description": "Training for prospective and continuing Operations Leaders. Attendance only with Leader's approval.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-10-04"
-    },
-    "end": {
-      "date": "2015-10-04"
-    },
-    "iCalUID": "pulddf65gbmv7b7lssn4h7c3s4@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799818110000\"",
-    "id": "6vo1b6trrk450i7rfoqjqvjno0",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NnZvMWI2dHJyazQ1MGk3cmZvcWpxdmpubzAgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:29.000Z",
-    "updated": "2014-12-30T00:38:29.055Z",
-    "summary": "General Meeting",
-    "location": "Castro Valley Nike Classroom",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-10-19T19:30:00-07:00"
-    },
-    "end": {
-      "dateTime": "2015-10-19T21:30:00-07:00"
-    },
-    "iCalUID": "6vo1b6trrk450i7rfoqjqvjno0@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799819766000\"",
-    "id": "p0177ic3bm7iiqkn2rvspl0260",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cDAxNzdpYzNibTdpaXFrbjJydnNwbDAyNjAgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:29.000Z",
-    "updated": "2014-12-30T00:38:29.883Z",
-    "summary": "Medical Skills *G",
-    "description": "Medical Skills Training is all about putting our skills and knowledge to use. BAMRU has an exciting medical skills training planned this year. Some highlights include guest lecture by Stanford's Wilderness Medicine Fellow, Skill labs with lots of hands on practice, and the BAMRU Medical Olympics where groups compete at a diverse set of wilderness scenarios.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-10-24"
-    },
-    "end": {
-      "date": "2015-10-25"
-    },
-    "iCalUID": "p0177ic3bm7iiqkn2rvspl0260@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799821412000\"",
-    "id": "nvsq3d8eiklbik2rr78aq8e0mk",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=bnZzcTNkOGVpa2xiaWsycnI3OGFxOGUwbWsgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:30.000Z",
-    "updated": "2014-12-30T00:38:30.706Z",
-    "summary": "Elections Close",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-11-13"
-    },
-    "end": {
-      "date": "2015-11-13"
-    },
-    "iCalUID": "nvsq3d8eiklbik2rr78aq8e0mk@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799822832000\"",
-    "id": "c0i48aic19j4gqpv40gab8qjck",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=YzBpNDhhaWMxOWo0Z3FwdjQwZ2FiOHFqY2sgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:31.000Z",
-    "updated": "2014-12-30T00:38:31.416Z",
-    "summary": "General Meeting",
-    "location": "Redwood City Jury Assembly Room",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-11-16T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-11-16T21:30:00-08:00"
-    },
-    "iCalUID": "c0i48aic19j4gqpv40gab8qjck@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799824278000\"",
-    "id": "ufo13j0si4hfliq2tcu55v46i8",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dWZvMTNqMHNpNGhmbGlxMnRjdTU1djQ2aTggYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:32.000Z",
-    "updated": "2014-12-30T00:38:32.139Z",
-    "summary": "Adv. Search Strategy/ Tracking/ Low angle obstacle course *",
-    "description": "This training will cover a combination of topics, including field search strategies, tracking practice, and low angle scenarios.",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-11-21"
-    },
-    "end": {
-      "date": "2015-11-21"
-    },
-    "iCalUID": "ufo13j0si4hfliq2tcu55v46i8@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799825718000\"",
-    "id": "lagjr1g218h72bv3slfblsjr54",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=bGFnanIxZzIxOGg3MmJ2M3NsZmJsc2pyNTQgYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:32.000Z",
-    "updated": "2014-12-30T00:38:32.859Z",
-    "summary": "Practice Search *G",
-    "description": "A practice search, somewhere",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-11-22"
-    },
-    "end": {
-      "date": "2015-11-22"
-    },
-    "iCalUID": "lagjr1g218h72bv3slfblsjr54@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799827160000\"",
-    "id": "4fnbt16uhp4ngtq0oqpkrdrhk8",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=NGZuYnQxNnVocDRuZ3RxMG9xcGtyZHJoazggYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:33.000Z",
-    "updated": "2014-12-30T00:38:33.580Z",
-    "summary": "Holiday Party",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-12-05"
-    },
-    "end": {
-      "date": "2015-12-05"
-    },
-    "iCalUID": "4fnbt16uhp4ngtq0oqpkrdrhk8@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799828656000\"",
-    "id": "girk2938ullrrc08i6t3h4rego",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=Z2lyazI5Mzh1bGxycmMwOGk2dDNoNHJlZ28gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:34.000Z",
-    "updated": "2014-12-30T00:38:34.328Z",
-    "summary": "General Meeting (not 3rd Monday)",
-    "location": "Castro Valley Nike Classroom",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-12-14T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-12-14T21:30:00-08:00"
-    },
-    "iCalUID": "girk2938ullrrc08i6t3h4rego@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799830552000\"",
-    "id": "e8l6hak4lmes0hp3v886r31juo",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=ZThsNmhhazRsbWVzMGhwM3Y4ODZyMzFqdW8gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:35.000Z",
-    "updated": "2014-12-30T00:38:35.276Z",
-    "summary": "BAMRU Dues Renewal",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-12-15"
-    },
-    "end": {
-      "date": "2015-12-15"
-    },
-    "iCalUID": "e8l6hak4lmes0hp3v886r31juo@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839799832304000\"",
-    "id": "8eld70bhnu3ti6t2gh6s7mhmm8",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=OGVsZDcwYmhudTN0aTZ0MmdoNnM3bWhtbTggYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T00:38:36.000Z",
-    "updated": "2014-12-30T00:38:36.152Z",
-    "summary": "Skills weekend/ Make up training *",
-    "description": "If we miss a training during the year, we will use this weekend to make it up.\n\nOtherwise, it will be for skills and Trainee packet sign offs. An important opportunity for Field and Technical team members to assist Trainees in packet sign offs. Trainees will have an opportunity to demonstrate skills through scenarios, skill stations and miscellaneous needed skill sign offs, as they work toward completing their training packets. ",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "date": "2015-12-19"
-    },
-    "end": {
-      "date": "2015-12-20"
-    },
-    "iCalUID": "8eld70bhnu3ti6t2gh6s7mhmm8@google.com",
+    "iCalUID": "od0c73v66phjev4i5aeml0e1t8@google.com",
     "sequence": 0,
     "reminders": {
       "useDefault": true

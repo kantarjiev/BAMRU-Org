@@ -1,447 +1,5 @@
 ---
 :cal_data:
-  9f5ada: !ruby/object:Event
-    kind: TBD
-    title: SARTopo Training
-    location: San Francisco
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-11-02'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: n6lp5h8qm3qgusgcobgot7rq9s
-  5f2a73: !ruby/object:Event
-    kind: TBD
-    title: DO training skills night
-    location: 44 Shakespeare St Daly City CA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-11-05'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: ijj829fkfbakcq1g9eisudn53c
-  e0169e: !ruby/object:Event
-    kind: TBD
-    title: Technical Rescue Evolutions
-    location: Berkeley - Cragmont
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-11-09'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: nslbfa2vmt174u3ahmcdaquqbs
-  10ed20: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2014-11-17T19:30:00-08:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: vr8rtj9v7kuofr8ptbksnsqdu0
-  22f562: !ruby/object:Event
-    kind: TBD
-    title: Skills weekend
-    location: Cragmont Park, Berkeley
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-11-22'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 5dkmh8ei4h2k9lbjotu17l7pko
-  ffd5ce: !ruby/object:Event
-    kind: TBD
-    title: 'Drivers Training: Classroom'
-    location: 455 County Center
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-12-04'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 1ddu8b6igqcnfegn69uj1d4aeo
-  f14c79: !ruby/object:Event
-    kind: TBD
-    title: SO Driver's Practical
-    location: Redwood City Jury Parking Lot
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-12-06'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: p7tn5dv29rnen81idmfcuhki4g
-  680af7: !ruby/object:Event
-    kind: TBD
-    title: Technical rescue evolutions
-    location: Pinnacles NP
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-12-06'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: mc1es69fi9jbdg25927anu45j0
-  c63893: !ruby/object:Event
-    kind: TBD
-    title: Snow Camping Pre-Trip Meeting
-    location: 290 Sussex Street, San Francisco
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2014-12-10T19:30:00-08:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: ctblqvcaa94o5ijj1d45o0so2k
-  e83dd5: !ruby/object:Event
-    kind: TBD
-    title: Holiday Party
-    location: 455 W Evelyn Ave, Mountain View, CA 94041
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-12-13'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: vdoeulf9tt9pnjo31gnpk01gdk
-  f00cb4: !ruby/object:Event
-    kind: TBD
-    title: BAMRU Dues Renewal
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-12-15'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 2kqqd8tmtr09rh9lukvpia9bak
-  8cd9e8: !ruby/object:Event
-    kind: TBD
-    title: Intro to Snow Camping
-    location: Carson Pass
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2014-12-20'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: luornll92se6fb1vmt3fjhg14k
-  895f37: !ruby/object:Event
-    kind: TBD
-    title: General Meeting  (not 3rd Monday)
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-01-12T19:30:00-08:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 2v6evpfgiqnhc9a1j1ekdlv9qg
-  4aaddf: !ruby/object:Event
-    kind: TBD
-    title: Qrtly Leadership Mtg
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-01-21T19:30:00-08:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 2n1aismc76i53jhb3d4amd7olc
-  b9cb42: !ruby/object:Event
-    kind: TBD
-    title: Snow Skills
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-01-24'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: prvju7hkhri4l3ud5jdd9fvdd8
-  66bdf6: !ruby/object:Event
-    kind: TBD
-    title: Recert skills night
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-01-28'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: drj75o68e6ie9kjddkhcv2qlas
-  c2d01a: !ruby/object:Event
-    kind: TBD
-    title: Bay Area Joint MRA training
-    location: Mt. Diablo, Boy Scout Rocks
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-02-07'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: ubb8mpgqgll3t3e87hpk08rfec
-  da22cb: !ruby/object:Event
-    kind: TBD
-    title: Guest Mock Search G
-    location: Redwood Memorial Park
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-02-08'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: u8t40do63d9j6365or9pd7p1mo
-  c37a9b: !ruby/object:Event
-    kind: TBD
-    title: General Meeting (Not 3rd Monday)
-    location: Castro Valley Nike Classroom
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-02-09T19:30:00-08:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: pvj3toiocfsgaqgoi0gfliug1s
-  30a2ec: !ruby/object:Event
-    kind: TBD
-    title: BASARC MLPI (weekend 1)
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-02-14'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 71lia90tglufsifi5dq6e8vhic
-  6033f1: !ruby/object:Event
-    kind: TBD
-    title: Recert skills night
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-02-18'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: vq4crrnngvsbbttrdh6ru7teu4
-  9a5f81: !ruby/object:Event
-    kind: TBD
-    title: 'CRMRA Recert Prep Training '
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-02-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 13t62671qnf66bd7tg1f1bvrp4
-  f71672: !ruby/object:Event
-    kind: TBD
-    title: BASARC MLPI (weekend 2)
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-02-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 3sbc009dedebqdkedc7rar9ukk
-  fd0c34: !ruby/object:Event
-    kind: TBD
-    title: Tech Rescue Re-Accreditation
-    location: Eaton Canyon
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-03-07'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 1lfn3urgpa1kkqtckfst1url7k
-  51b1a2: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City County Room 101
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-03-16T19:30:00-07:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: sqbc6d186bao3tl88lcnmeuhc8
-  5ad43c: !ruby/object:Event
-    kind: TBD
-    title: Glacier/ Crevasse Rescue
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-03-28'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 8gmerci7ube7042ktg3coi4f7k
-  2b890c: !ruby/object:Event
-    kind: TBD
-    title: General Meeting (not 3rd Monday)
-    location: " Castro Valley Nike Classroom"
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-04-13T19:30:00-07:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: sfc8g4admn4egnucaq1d74vqk4
-  6e055d: !ruby/object:Event
-    kind: TBD
-    title: SAR Basic *G
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-04-18'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 5p4r6kvf5hhji1l9hj9307d6rc
-  a0ba47: !ruby/object:Event
-    kind: TBD
-    title: Trainee Applications Due
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-04-27'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 2ulff25epgfdou9t00sb67na0k
-  85b9c7: !ruby/object:Event
-    kind: TBD
-    title: Qrtly Leadership Mtg
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-05-06T19:30:00-07:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: ivund5m84tbl25r7lic81t51q8
-  58a67b: !ruby/object:Event
-    kind: TBD
-    title: Trainee Interviews -- Day 1
-    location: Redwood City
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-05-09T19:30:00-07:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 0okcip474uemnl8s2sd89ep0g4
-  4554b2: !ruby/object:Event
-    kind: TBD
-    title: Trainee Interviews -- Day 2
-    location: Redwood City
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-05-10T19:30:00-07:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 26tod1nhob92o8j397prmrivjk
-  7d24cb: !ruby/object:Event
-    kind: TBD
-    title: Trainee Class Announced
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-05-15'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 0dlo848flprpac5lmk7qtfhp4s
-  1d651b: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City County Room 101
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-05-18T19:30:00-07:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 4bj8poba6iv9q6ldq56mapo2rk
   34899f: !ruby/object:Event
     kind: TBD
     title: Tracking/ Nav Skills Night
@@ -454,7 +12,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: 1bsf3nk4qe2s4m9kjo7kbiqofc
+    gcal_id: npmbcvvhns2tlhiscgmovl4lhk
   6aa15f: !ruby/object:Event
     kind: TBD
     title: Tracking Skills *
@@ -467,7 +25,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: t46lbg2gaqcgh8s4fpjtmbsujc
+    gcal_id: kuet5ae3hmqh4ipm44ja6s3484
   0e8237: !ruby/object:Event
     kind: TBD
     title: Navigation Skills *G
@@ -480,7 +38,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: murkdm7iohmp5u32ool15v7dl4
+    gcal_id: 5tc43jggjkava7q1em4efsa9nk
   aa9f5a: !ruby/object:Event
     kind: TBD
     title: General Meeting
@@ -493,7 +51,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: jg8amqdm88mj2qm2tebnvhgi0s
+    gcal_id: u81p5qqpfltkp06mkn814j21do
   88e829: !ruby/object:Event
     kind: TBD
     title: Personal Rock Skills *
@@ -506,7 +64,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: 6q5utmttcohlh48tk6rurk1a1o
+    gcal_id: t11vtbqg1tn0c52hf8lrmp4e48
   9c5fbb: !ruby/object:Event
     kind: TBD
     title: Western States 100
@@ -519,7 +77,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: ubu3qut8lfq1c4av7egdi105dc
+    gcal_id: 0ejpq13dng26a47vrua9o8psa4
   59227a: !ruby/object:Event
     kind: TBD
     title: DO Skills Night *
@@ -532,7 +90,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: rtlm73g1fb8rih86hu1nnibs1o
+    gcal_id: 4pleibeiknsbvg0m30m83qpt7c
   2b7772: !ruby/object:Event
     kind: TBD
     title: General Meeting
@@ -545,7 +103,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: 48qk1r8j31h59fg17ngm3dt4hk
+    gcal_id: jqgjkf6b103gdidkjuskn647tg
   33dfa5: !ruby/object:Event
     kind: TBD
     title: Low Angle Rescue *
@@ -558,7 +116,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: jm7ujaet1r8v08vnnrsg3j0f4g
+    gcal_id: 64hks7578uritqakcqudjfqg54
   a4f284: !ruby/object:Event
     kind: TBD
     title: Search Practice *
@@ -571,7 +129,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: rd75f1pqrnm0em6d44a781mo3c
+    gcal_id: 8a229c4ubv4gjfn995qk8e0rfo
   35545b: !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
@@ -584,7 +142,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: 7qehg159d986gioueafqa65sps
+    gcal_id: cdg40luvuhpnuo0a7hvrilb184
   84cfa6: !ruby/object:Event
     kind: TBD
     title: DO Skills Night *
@@ -597,7 +155,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: hnmeo4ebmvf1ohujpkljhu27fc
+    gcal_id: 8tvh43hrtihechkualit76s2mo
   243fbe: !ruby/object:Event
     kind: TBD
     title: General Meeting
@@ -610,7 +168,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: 7l02nld8dsqg2q13n150ojqlgc
+    gcal_id: 0ehiarqv5qhc1469qb0308s30c
   50dfab: !ruby/object:Event
     kind: TBD
     title: Basic Technical Rescue *
@@ -623,7 +181,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: ifrsntiocchdhmsdqvqqmbkqp4
+    gcal_id: g9gbke679ts9dl1e8q13hqpc94
   9cacba: !ruby/object:Event
     kind: TBD
     title: Search Management/ OP 0
@@ -636,7 +194,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: 5qubt2vdramk9shvdcnuomgutc
+    gcal_id: 79m4i5esnn3udb2ik5pscql90c
   f450a8: !ruby/object:Event
     kind: TBD
     title: General Meeting
@@ -649,7 +207,7 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: r280avdalkuq2gtntj3s2a3b2s
+    gcal_id: 09iqicpo73pinlfopj9tkl7vgo
   7bd3ac: !ruby/object:Event
     kind: TBD
     title: Early Elections Close
@@ -662,160 +220,4 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: f5pn6ni5vqloth6eb5dh9a0fng
-  4731af: !ruby/object:Event
-    kind: TBD
-    title: Search Practice G
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-10-03'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 52b4vrikv7f1i9bq39l8hln4jg
-  a9a518: !ruby/object:Event
-    kind: TBD
-    title: Operations Leader Training
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-10-04'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: pulddf65gbmv7b7lssn4h7c3s4
-  676e46: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Castro Valley Nike Classroom
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-10-19T19:30:00-07:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 6vo1b6trrk450i7rfoqjqvjno0
-  7c46a8: !ruby/object:Event
-    kind: TBD
-    title: Medical Skills *G
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-10-24'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: p0177ic3bm7iiqkn2rvspl0260
-  7705cb: !ruby/object:Event
-    kind: TBD
-    title: Elections Close
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-11-13'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: nvsq3d8eiklbik2rr78aq8e0mk
-  b40977: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-11-16T19:30:00-08:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: c0i48aic19j4gqpv40gab8qjck
-  65051b: !ruby/object:Event
-    kind: TBD
-    title: Adv. Search Strategy/ Tracking/ Low angle obstacle course *
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-11-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: ufo13j0si4hfliq2tcu55v46i8
-  cd4aff: !ruby/object:Event
-    kind: TBD
-    title: Practice Search *G
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-11-22'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: lagjr1g218h72bv3slfblsjr54
-  931cc3: !ruby/object:Event
-    kind: TBD
-    title: Holiday Party
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-12-05'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 4fnbt16uhp4ngtq0oqpkrdrhk8
-  4561a4: !ruby/object:Event
-    kind: TBD
-    title: General Meeting (not 3rd Monday)
-    location: Castro Valley Nike Classroom
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      dateTime: '2015-12-14T19:30:00-08:00'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: girk2938ullrrc08i6t3h4rego
-  f3b8f5: !ruby/object:Event
-    kind: TBD
-    title: BAMRU Dues Renewal
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-12-15'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: e8l6hak4lmes0hp3v886r31juo
-  634abd: !ruby/object:Event
-    kind: TBD
-    title: Skills weekend/ Make up training *
-    location: TBA
-    leaders: TBD
-    start: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-      date: '2015-12-19'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 8eld70bhnu3ti6t2gh6s7mhmm8
+    gcal_id: od0c73v66phjev4i5aeml0e1t8
