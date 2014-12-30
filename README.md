@@ -3,8 +3,8 @@
 ## Overview
 
 BAMRU.org is a public-facing website composed of static assets. (html,
-css, images, javascript).  A live version of this website is at
-http://andyl.github.io/BAMRU-Org/.
+css, images, javascript).  The live version of this website is at
+http://bamru.org .
 
 Maintaining the website is a team effort with multiple roles.
 
