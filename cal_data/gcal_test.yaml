@@ -144,30 +144,6 @@
     lon: TBD
     prior: TBD
     gcal_id: 7snsbvu9sla5d3n40lh97c474o
-  e887e9: !ruby/object:Event
-    kind: TBD
-    title: General Meeting  (not 3rd Monday)
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: '2015-01-12'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: q236cq3frbvp2n4425v93k1j7o
-  7affdc: !ruby/object:Event
-    kind: TBD
-    title: Qrtly Leadership Mtg
-    location: TBA
-    leaders: TBD
-    start: '2015-01-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: ul2h27gqghisf76eacicpmvir8
   e441c8: !ruby/object:Event
     kind: TBD
     title: Snow Skills

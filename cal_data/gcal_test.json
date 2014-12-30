@@ -363,64 +363,6 @@
   },
   {
     "kind": "calendar#event",
-    "etag": "\"2839825889674000\"",
-    "id": "q236cq3frbvp2n4425v93k1j7o",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=cTIzNmNxM2ZyYnZwMm40NDI1djkzazFqN28gYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T04:15:44.000Z",
-    "updated": "2014-12-30T04:15:44.837Z",
-    "summary": "General Meeting  (not 3rd Monday)",
-    "location": "Redwood City Jury Assembly Room",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-01-12T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-01-12T21:30:00-08:00"
-    },
-    "iCalUID": "q236cq3frbvp2n4425v93k1j7o@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
-    "etag": "\"2839825891416000\"",
-    "id": "ul2h27gqghisf76eacicpmvir8",
-    "status": "confirmed",
-    "htmlLink": "https://www.google.com/calendar/event?eid=dWwyaDI3Z3FnaGlzZjc2ZWFjaWNwbXZpcjggYmFtcnUuZGV2Y2FsQG0",
-    "created": "2014-12-30T04:15:45.000Z",
-    "updated": "2014-12-30T04:15:45.708Z",
-    "summary": "Qrtly Leadership Mtg",
-    "location": "TBA",
-    "creator": {
-      "email": "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-    },
-    "organizer": {
-      "email": "bamru.devcal@gmail.com",
-      "self": true
-    },
-    "start": {
-      "dateTime": "2015-01-21T19:30:00-08:00"
-    },
-    "end": {
-      "dateTime": "2015-01-21T21:30:00-08:00"
-    },
-    "iCalUID": "ul2h27gqghisf76eacicpmvir8@google.com",
-    "sequence": 0,
-    "reminders": {
-      "useDefault": true
-    }
-  },
-  {
-    "kind": "calendar#event",
     "etag": "\"2839825892892000\"",
     "id": "9jmu4juuu4tlg8ft5d6kvo8bv8",
     "status": "confirmed",
