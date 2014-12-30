@@ -31,11 +31,13 @@ class CalData
 
       def events
         json_events.map do |hsh|
+          hsh_start = hsh["start"]
+          start = hsh_start["date"] || hsh_start["dateTime"].split('T').first
           opts  = {
             gcal_id:  hsh["id"],
             location: hsh["location"],
             title:    hsh["summary"],
-            start:    hsh["start"]
+            start:    start
           }
           Event.new(opts)
         end

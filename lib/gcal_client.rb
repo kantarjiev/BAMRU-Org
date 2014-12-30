@@ -18,11 +18,20 @@ class GcalClient
   # ----- instance methods -----
 
   def list_events
-    opts = {
-      api_method: google_calendar.events.list,
-      parameters: {'calendarId' => CAL_ID}
-    }
-    google_exec(opts)
+    loop_params = params = {'calendarId' => CAL_ID}
+    accumulator = []
+    loop do
+      opts = {
+        api_method: google_calendar.events.list,
+        parameters: loop_params
+      }
+      result = google_exec(opts)
+      accumulator << result
+      page_token  = result.next_page_token
+      loop_params = params.merge({pageToken: page_token})
+      break if page_token.nil?
+    end
+    accumulator.map {|val| JSON.parse(val.body.scrub)["items"]}.flatten
   end
 
   def delete_event(google_event_id)
