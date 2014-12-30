@@ -23,7 +23,7 @@ namespace :site do
     git commit -am'update website'
     git push
     git checkout master
-    [ ! -e .gcal_keys ] && (mkdir .gcal_keys ; cp /tmp/gcal_keys/* .gcal_keys)
+    [ ! -e .gcal_keys ] && (cp -r /tmp/.gcal_keys .)
     EOF
     script.each_line do |line|
       cleanline = line.chomp.strip
