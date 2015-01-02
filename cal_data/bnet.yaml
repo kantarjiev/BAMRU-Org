@@ -1,80 +1,5 @@
 ---
 :cal_data:
-  370fc6: !ruby/object:Event
-    kind: training
-    title: SARTopo Training
-    location: San Francisco
-    leaders: Jacobs
-    start: '2014-11-02'
-    finish: '2014-11-02'
-    description: An all-day training on SARTopo that is open to members of the Bay
-      Area SAR community.  Among other topics, we'll cover map layers, terrain visualization,
-      plotting bearings, creating and printing assignments, GPS integration and track
-      management.  The training will conclude with a remote planning exercise where
-      we break into small teams and draft plans for a simulated search.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  c3fc59: !ruby/object:Event
-    kind: training
-    title: DO training skills night
-    location: 44 Shakespeare St Daly City CA
-    leaders: Grishaver
-    start: '2014-11-05'
-    finish: '2014-11-05'
-    description: We'll cover the theory of DO-ing (what needs to be done during any
-      DO shift, DO-ing during a training, what needs to be done in the ramp up for
-      a search, etc), and the practice of DO-ing (how do we accomplish all of these
-      things with the tools we have, like bamru.net).  For new and experienced DO's
-      alike!
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  4bac1e: !ruby/object:Event
-    kind: training
-    title: Technical Rescue Evolutions
-    location: Berkeley - Cragmont
-    leaders: Gleason
-    start: '2014-11-09'
-    finish: ''
-    description: This training will be a scenario-based technical rescue practice.  Participants
-      will design, build, and operate technical rescue systems in "real time" on real
-      rock, with multiple evolutions.  One of the objectives is to start practicing
-      for the MRA re-accreditation in Technical Rock.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  8dd012: !ruby/object:Event
-    kind: meeting
-    title: General Meeting
-    location: Redwood City Jury Assembly Room
-    leaders: Chang
-    start: '2014-11-17'
-    finish: '2014-11-17'
-    description: ''
-    lat: '37.4888'
-    lon: "-122.2305"
-    prior: TBD
-    gcal_id: TBD
-  2e62bf: !ruby/object:Event
-    kind: training
-    title: Skills weekend
-    location: Cragmont Park, Berkeley
-    leaders: Zirinsky
-    start: '2014-11-22'
-    finish: '2014-11-23'
-    description: 'Skills day and Trainee packet sign offs. An important opportunity
-      for Field and Technical team members to assist Trainees in packet sign offs.
-      Trainees will have an opportunity to demonstrate skills through scenarios, skill
-      stations and miscellaneous needed skill sign offs, as they work toward completing
-      their training packets. '
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
   6c1ada: !ruby/object:Event
     kind: training
     title: 'Drivers Training: Classroom'
@@ -237,7 +162,7 @@
     kind: training
     title: Guest Mock Search G
     location: Redwood Memorial Park
-    leaders: TBA
+    leaders: White
     start: '2015-02-08'
     finish: ''
     description: Our first recruiting event of the year, designed to show guests what
@@ -825,6 +750,44 @@
       in packet sign offs. Trainees will have an opportunity to demonstrate skills
       through scenarios, skill stations and miscellaneous needed skill sign offs,
       as they work toward completing their training packets. "
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  5b1314: !ruby/object:Event
+    kind: meeting
+    title: General Meeting  (not 3rd Monday)
+    location: Redwood City Jury Assembly Room
+    leaders: TBA
+    start: '2016-01-11'
+    finish: '2016-01-11'
+    description: ''
+    lat: '37.4888'
+    lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  7c84c9: !ruby/object:Event
+    kind: meeting
+    title: Qrtly Leadership Mtg
+    location: TBA
+    leaders: TBA
+    start: '2016-01-20'
+    finish: '2016-01-20'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  8fb325: !ruby/object:Event
+    kind: training
+    title: Snow Skills *G
+    location: TBA
+    leaders: TBA
+    start: '2016-01-23'
+    finish: '2016-01-24'
+    description: 'Practice winter camping, snow travel, beacon and probe searches
+      and self arrest techniques. These skills are important for our winter/alpine
+      operations. '
     lat: 
     lon: 
     prior: TBD

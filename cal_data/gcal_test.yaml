@@ -1,65 +1,5 @@
 ---
 :cal_data:
-  370fc6: !ruby/object:Event
-    kind: TBD
-    title: SARTopo Training
-    location: San Francisco
-    leaders: TBD
-    start: '2014-11-02'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 4b9faj3ccfha76un09k9hflu5s
-  c3fc59: !ruby/object:Event
-    kind: TBD
-    title: DO training skills night
-    location: 44 Shakespeare St Daly City CA
-    leaders: TBD
-    start: '2014-11-05'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: fhunfclo7dbgiggfj8tlvnv170
-  4bac1e: !ruby/object:Event
-    kind: TBD
-    title: Technical Rescue Evolutions
-    location: Berkeley - Cragmont
-    leaders: TBD
-    start: '2014-11-09'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 7a9mijka4ad1qcsrq4ccabp5i4
-  8dd012: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: '2014-11-17'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: kb64m8bdlju9j18eo2bemqltus
-  2e62bf: !ruby/object:Event
-    kind: TBD
-    title: Skills weekend
-    location: Cragmont Park, Berkeley
-    leaders: TBD
-    start: '2014-11-22'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: ft1f5etk77gcgslcrq988sbgj4
   6c1ada: !ruby/object:Event
     kind: TBD
     title: 'Drivers Training: Classroom'
@@ -144,18 +84,6 @@
     lon: TBD
     prior: TBD
     gcal_id: 7snsbvu9sla5d3n40lh97c474o
-  e441c8: !ruby/object:Event
-    kind: TBD
-    title: Snow Skills
-    location: TBA
-    leaders: TBD
-    start: '2015-01-24'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 9jmu4juuu4tlg8ft5d6kvo8bv8
   f555c9: !ruby/object:Event
     kind: TBD
     title: Recert skills night
@@ -168,30 +96,6 @@
     lon: TBD
     prior: TBD
     gcal_id: 1r1m6ie5jkc8brn3henhc5vgg4
-  15c6d4: !ruby/object:Event
-    kind: TBD
-    title: Bay Area Joint MRA training
-    location: Mt. Diablo, Boy Scout Rocks
-    leaders: TBD
-    start: '2015-02-07'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 8el831acrjdp07iuqo8bbo9g1g
-  539f92: !ruby/object:Event
-    kind: TBD
-    title: Guest Mock Search G
-    location: Redwood Memorial Park
-    leaders: TBD
-    start: '2015-02-08'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: vt8aip77tg5d9im6s6rklb7p9s
   b2cc97: !ruby/object:Event
     kind: TBD
     title: General Meeting (Not 3rd Monday)
@@ -204,18 +108,6 @@
     lon: TBD
     prior: TBD
     gcal_id: um9mfdqsi6q6r8hf9kp3moaih0
-  930cfd: !ruby/object:Event
-    kind: TBD
-    title: BASARC MLPI (weekend 1)
-    location: TBA
-    leaders: TBD
-    start: '2015-02-14'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 95u6d4h1lf74ksbrtenh37ghos
   c011be: !ruby/object:Event
     kind: TBD
     title: Recert skills night
@@ -228,42 +120,6 @@
     lon: TBD
     prior: TBD
     gcal_id: 1tgtuv4k274tm2ah0n0dgr1vjc
-  1e31d6: !ruby/object:Event
-    kind: TBD
-    title: 'CRMRA Recert Prep Training '
-    location: TBA
-    leaders: TBD
-    start: '2015-02-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 8t6kpj11v963io5g475l82lgj0
-  a3db02: !ruby/object:Event
-    kind: TBD
-    title: BASARC MLPI (weekend 2)
-    location: TBA
-    leaders: TBD
-    start: '2015-02-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: uqn0dvjn9rp8uk5v016rbqf9gc
-  49cb2d: !ruby/object:Event
-    kind: TBD
-    title: Tech Rescue Re-Accreditation
-    location: Eaton Canyon
-    leaders: TBD
-    start: '2015-03-07'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: h31fokr5f7qrcommqai0k2dv5g
   80d9ae: !ruby/object:Event
     kind: TBD
     title: General Meeting
@@ -276,18 +132,6 @@
     lon: TBD
     prior: TBD
     gcal_id: 0kv6mi65g0umn92vfpcm5go2ik
-  f470ff: !ruby/object:Event
-    kind: TBD
-    title: Glacier/ Crevasse Rescue
-    location: TBA
-    leaders: TBD
-    start: '2015-03-28'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 4sd5h1jl4cdppb44fjta15bkko
   1dbf37: !ruby/object:Event
     kind: TBD
     title: General Meeting (not 3rd Monday)
@@ -732,3 +576,63 @@
     lon: TBD
     prior: TBD
     gcal_id: mvl5h7en668gegppt2ug67nsl0
+  e887e9: !ruby/object:Event
+    kind: TBD
+    title: General Meeting  (not 3rd Monday)
+    location: Redwood City Jury Assembly Room
+    leaders: TBD
+    start: '2015-01-12'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 5g2m67573oguhrec4idpo1f03s
+  7affdc: !ruby/object:Event
+    kind: TBD
+    title: Qrtly Leadership Mtg
+    location: TBA
+    leaders: TBD
+    start: '2015-01-21'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 6deliq9mhdhng2r1l5k3nn55ac
+  5b1314: !ruby/object:Event
+    kind: TBD
+    title: General Meeting  (not 3rd Monday)
+    location: Redwood City Jury Assembly Room
+    leaders: TBD
+    start: '2016-01-11'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: jslvfo7996bfr4ulojsipq5f1k
+  7c84c9: !ruby/object:Event
+    kind: TBD
+    title: Qrtly Leadership Mtg
+    location: TBA
+    leaders: TBD
+    start: '2016-01-20'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: udmbqfbb4mi960ea7i0nmf8sto
+  8fb325: !ruby/object:Event
+    kind: TBD
+    title: Snow Skills *G
+    location: TBA
+    leaders: TBD
+    start: '2016-01-23'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 73bc27kf8doc8jtl8o968j2ir8
