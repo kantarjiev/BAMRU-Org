@@ -37,8 +37,8 @@ class GcalSync
   def create_pending
     num_events = pending_create.length
     log "creating #{num_events} events"
-    pending_create.each do |evid|
-      result = create(BNET_STORE.all[evid])
+    pending_create.each do |event_key|
+      result = create(BNET_STORE.all[event_key])
       log_if_error(result)
       print '.'.green
     end

@@ -112,7 +112,10 @@ class GcalClient
     if event.kind == 'meeting'
       {"dateTime" => "#{fin_date}T21:30:00-#{offset_for(fin_date)}:00"}
     else
-      {"date" => fin_date}
+      # Gcal all-day events are EXCLUSIVE of the end-date
+      # solution is to add one day to the end-date
+      lcl_date = Time.parse(fin_date) + 1.day
+      {"date" => lcl_date.strftime("%Y-%m-%d")}
     end
   end
 
