@@ -13,20 +13,6 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  8d448b: !ruby/object:Event
-    kind: training
-    title: SO Driver's Practical
-    location: Redwood City Jury Parking Lot
-    leaders: TBA
-    start: '2014-12-06'
-    finish: ''
-    description: Practical portion of the training to drive SO vehicles.  Upon completing
-      the practical and classroom portions and passing the background check, members
-      may drive SO vehicles, and must renew every 2 years.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
   ff7ecb: !ruby/object:Event
     kind: training
     title: Technical rescue evolutions
@@ -39,6 +25,20 @@
       Plan to arrive Friday night, run systems Saturday, and either head home Saturday
       night or stay the night and explore winter climbing at Pinnacles on Sunday (campground
       is reserved for two nights).
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  8d448b: !ruby/object:Event
+    kind: training
+    title: SO Driver's Practical
+    location: Redwood City Jury Parking Lot
+    leaders: TBA
+    start: '2014-12-06'
+    finish: ''
+    description: Practical portion of the training to drive SO vehicles.  Upon completing
+      the practical and classroom portions and passing the background check, members
+      may drive SO vehicles, and must renew every 2 years.
     lat: 
     lon: 
     prior: TBD
