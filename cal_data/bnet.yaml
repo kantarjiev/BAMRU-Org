@@ -1,146 +1,13 @@
 ---
 :cal_data:
-  6c1ada: !ruby/object:Event
+  9dee23: !ruby/object:Event
     kind: training
-    title: 'Drivers Training: Classroom'
-    location: 455 County Center
-    leaders: SMSO
-    start: '2014-12-04'
-    finish: '2014-12-04'
-    description: Classroom portion of drivers' training takes place from 1900-2100.  Sign
-      up for practical sessions at the classroom portion.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  ff7ecb: !ruby/object:Event
-    kind: training
-    title: Technical rescue evolutions
-    location: Pinnacles NP
-    leaders: Kantarjiev
-    start: '2014-12-06'
-    finish: '2014-12-07'
-    description: Technical rescue evolutions trainings. We'll build and run systems
-      all day, focusing more on "real time" and "efficiency" than individual skills.
-      Plan to arrive Friday night, run systems Saturday, and either head home Saturday
-      night or stay the night and explore winter climbing at Pinnacles on Sunday (campground
-      is reserved for two nights).
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  8d448b: !ruby/object:Event
-    kind: training
-    title: SO Driver's Practical
-    location: Redwood City Jury Parking Lot
-    leaders: TBA
-    start: '2014-12-06'
+    title: MRA Recert Training
+    location: Cragmont Park, Berkeley
+    leaders: Garcia
+    start: '2015-02-07'
     finish: ''
-    description: Practical portion of the training to drive SO vehicles.  Upon completing
-      the practical and classroom portions and passing the background check, members
-      may drive SO vehicles, and must renew every 2 years.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  21cb9a: !ruby/object:Event
-    kind: meeting
-    title: Snow Camping Pre-Trip Meeting
-    location: 290 Sussex Street, San Francisco
-    leaders: Kurt Gross
-    start: '2014-12-10'
-    finish: '2014-12-10'
-    description: |
-      A pre-trip meeting to set expectations and goals, arrange carpools and logistics, and best prepare for an effective and safe training. Meeting begins at 1900.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  fe833c: !ruby/object:Event
-    kind: community
-    title: Holiday Party
-    location: 455 W Evelyn Ave, Mountain View, CA 94041
-    leaders: Farrand/Yaffe
-    start: '2014-12-13'
-    finish: '2014-12-13'
-    description: "Come to this entrance \n\nhttps://www.google.com/maps/dir//37.392594,-122.0744676/@37.392578,-122.0744508,51m/data=%213m1%211e3\n\nof
-      the building and call me (Ben) from the call-box.  If in trouble, call me (Ben)
-      @ 917-699-0320"
-    lat: '37.3926'
-    lon: "-122.0745"
-    prior: TBD
-    gcal_id: TBD
-  802cff: !ruby/object:Event
-    kind: community
-    title: BAMRU Dues Renewal
-    location: TBA
-    leaders: Treasurer
-    start: '2014-12-15'
-    finish: ''
-    description: ''
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  a5da53: !ruby/object:Event
-    kind: training
-    title: Intro to Snow Camping
-    location: Carson Pass
-    leaders: Gross
-    start: '2014-12-20'
-    finish: '2014-12-21'
-    description: Tentative pending the availability of snow. If you've never snow
-      camped, or really want to learn how to use chopsticks to anchor your tent, this
-      weekend is for you.
-    lat: '38.6873'
-    lon: "-119.9862"
-    prior: TBD
-    gcal_id: TBD
-  e887e9: !ruby/object:Event
-    kind: meeting
-    title: General Meeting  (not 3rd Monday)
-    location: Redwood City Jury Assembly Room
-    leaders: Chang
-    start: '2015-01-12'
-    finish: '2015-01-12'
-    description: ''
-    lat: '37.4888'
-    lon: "-122.2305"
-    prior: TBD
-    gcal_id: TBD
-  7affdc: !ruby/object:Event
-    kind: meeting
-    title: Qrtly Leadership Mtg
-    location: TBA
-    leaders: Chang
-    start: '2015-01-21'
-    finish: '2015-01-21'
-    description: ''
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  e441c8: !ruby/object:Event
-    kind: training
-    title: Snow Skills
-    location: TBA
-    leaders: Allen
-    start: '2015-01-24'
-    finish: '2015-01-25'
-    description: Practice winter camping, snow travel, beacon and probe searches and
-      self arrest techniques. These skills are important for our winter & alpine operations.
-    lat: '39.3163'
-    lon: "-120.3338"
-    prior: TBD
-    gcal_id: TBD
-  f555c9: !ruby/object:Event
-    kind: training
-    title: Recert skills night
-    location: TBA
-    leaders: TBA
-    start: '2015-01-28'
-    finish: '2015-01-28'
-    description: ''
+    description: Scenarios training for the MRA recert.
     lat: 
     lon: 
     prior: TBD
@@ -152,8 +19,10 @@
     leaders: CoCo SAR
     start: '2015-02-07'
     finish: ''
-    description: Technical rescue scenarios training in preparation for the MRA recertification.  This
-      training will be held joint with Marin SAR, Contra Costa SAR, and Monterey SAR.
+    description: |-
+      TRAINING CANCELLED due to weather concerns.
+
+      Technical rescue scenarios training in preparation for the MRA recertification.  This training will be held joint with Marin SAR, Contra Costa SAR, and Monterey SAR.
     lat: 
     lon: 
     prior: TBD
@@ -198,11 +67,11 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  c011be: !ruby/object:Event
+  ab5137: !ruby/object:Event
     kind: training
     title: Recert skills night
-    location: TBA
-    leaders: TBA
+    location: Albany
+    leaders: Gleason
     start: '2015-02-18'
     finish: '2015-02-18'
     description: ''
@@ -210,11 +79,11 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  1e31d6: !ruby/object:Event
+  6adf8b: !ruby/object:Event
     kind: training
     title: 'CRMRA Recert Prep Training '
-    location: TBA
-    leaders: TBA
+    location: Yosemite National Park
+    leaders: Dedecko
     start: '2015-02-21'
     finish: '2015-02-22'
     description: Scenarios in preparation for the technical rock rescue MRA recert.
@@ -237,10 +106,24 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  49cb2d: !ruby/object:Event
+  140f3f: !ruby/object:Event
+    kind: training
+    title: SO Driver's Training Practical Component
+    location: Redwood City
+    leaders: Chromik
+    start: '2015-02-28'
+    finish: ''
+    description: 'A chance to complete the practical component of the driver''s training
+      required by the SO. You also need to take the classroom portion (not part of
+      this training). '
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  4f185b: !ruby/object:Event
     kind: training
     title: Tech Rescue Re-Accreditation
-    location: Eaton Canyon
+    location: Joshua Tree NP
     leaders: TBA
     start: '2015-03-07'
     finish: ''
@@ -265,7 +148,7 @@
     kind: training
     title: Glacier/ Crevasse Rescue
     location: TBA
-    leaders: TBA
+    leaders: Jacobs
     start: '2015-03-28'
     finish: '2015-03-29'
     description: ''
@@ -312,10 +195,10 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  a862cc: !ruby/object:Event
+  '941347': !ruby/object:Event
     kind: meeting
     title: Qrtly Leadership Mtg
-    location: TBA
+    location: 474 44th St, Oakland CA 94609
     leaders: Chang
     start: '2015-05-06'
     finish: '2015-05-06'
@@ -388,7 +271,7 @@
     kind: training
     title: Tracking Skills *
     location: TBA
-    leaders: Gilmore
+    leaders: Dacre
     start: '2015-05-30'
     finish: ''
     description: Our introductory tracking class will include a field lecture as well
@@ -404,7 +287,7 @@
     kind: training
     title: Navigation Skills *G
     location: TBA
-    leaders: TBA
+    leaders: Tompos
     start: '2015-05-31'
     finish: ''
     description: Navigation training and signoffs, concentrating on map/compass.
@@ -428,7 +311,7 @@
     kind: training
     title: Personal Rock Skills *
     location: TBA
-    leaders: TBA
+    leaders: Phelan
     start: '2015-06-20'
     finish: '2015-06-21'
     description: This two day course covers general rock skills skill stations, scenarios,
@@ -458,7 +341,7 @@
     kind: training
     title: DO Skills Night *
     location: TBA
-    leaders: TBA
+    leaders: Grishaver
     start: '2015-07-15'
     finish: '2015-07-15'
     description: We'll cover the theory of DO-ing (what needs to be done during any
@@ -523,7 +406,7 @@
     kind: training
     title: DO Skills Night *
     location: TBA
-    leaders: TBA
+    leaders: Grishaver
     start: '2015-08-04'
     finish: '2015-08-04'
     description: We'll cover the theory of DO-ing (what needs to be done during any
@@ -551,7 +434,7 @@
     kind: training
     title: Basic Technical Rescue *
     location: TBA
-    leaders: TBA
+    leaders: Parker
     start: '2015-08-22'
     finish: '2015-08-23'
     description: Basic Technical Rescue is two full days, covering the basics of our
@@ -565,7 +448,7 @@
     kind: training
     title: Search Management/ OP 0
     location: TBA
-    leaders: TBA
+    leaders: Hoagland
     start: '2015-09-19'
     finish: '2015-09-20'
     description: 'We will spend two days planning and executing the first operational
@@ -615,7 +498,7 @@
     kind: training
     title: Operations Leader Training
     location: TBA
-    leaders: TBA
+    leaders: Grishaver/ Chang
     start: '2015-10-04'
     finish: '2015-10-04'
     description: Training for prospective and continuing Operations Leaders. Attendance
@@ -640,7 +523,7 @@
     kind: training
     title: Medical Skills *G
     location: TBA
-    leaders: TBA
+    leaders: Fitzgerald
     start: '2015-10-24'
     finish: '2015-10-25'
     description: Medical Skills Training is all about putting our skills and knowledge
@@ -790,5 +673,54 @@
       operations. '
     lat: 
     lon: 
+    prior: TBD
+    gcal_id: TBD
+  c5dba5: !ruby/object:Event
+    kind: training
+    title: Guest Mock Search G
+    location: Redwood Memorial Park
+    leaders: TBA
+    start: '2016-02-07'
+    finish: ''
+    description: Our first recruiting event of the year, designed to show guests what
+      it's like to respond to a callout and execute a search.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  c9619d: !ruby/object:Event
+    kind: meeting
+    title: General Meeting (Not 3rd Monday)
+    location: Castro Valley Nike Classroom
+    leaders: TBA
+    start: '2016-02-08'
+    finish: '2016-02-08'
+    description: ''
+    lat: '37.7207'
+    lon: "-122.0962"
+    prior: TBD
+    gcal_id: TBD
+  30903b: !ruby/object:Event
+    kind: training
+    title: Snow and Ice Re-Accreditation
+    location: TBA
+    leaders: TBA
+    start: '2016-03-05'
+    finish: ''
+    description: California MRA Re-Accreditation
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  c30e68: !ruby/object:Event
+    kind: meeting
+    title: General Meeting
+    location: Redwood City County Room 101
+    leaders: TBA
+    start: '2016-03-21'
+    finish: '2016-03-21'
+    description: ''
+    lat: '37.4889'
+    lon: "-122.2305"
     prior: TBD
     gcal_id: TBD

@@ -6,17 +6,17 @@ BAMRU.org is a public-facing website composed of static assets. (html,
 css, images, javascript).  The live version of this website is at
 http://bamru.org .
 
-Maintaining the website is a team effort with multiple roles.
+Here are the general roles for maintaining the website.
 
 | Role       | Responsibility                                      |
 | ----       | --------------                                      |
 | Copywriter | Make textual edits                                  |
 | Designer   | Create site styling, edit graphics                  |
-| JS Coder   | Client-Side Javascript for interactive components   |
-| Ruby Coder | Server-Side Ruby for site generation and automation |
+| Coder      | JavaScript / Ruby coding                            |
 
-Any BAMRU Member or Supporter is welcome to do hands-on editing.
+Any BAMRU Member or Supporter is welcome to do hands-on editing for any role.
 Contact Andy L. for info on current needs.
+
 [Fork](http://help.github.com/articles/fork-a-repo) this repository if
 you would like to experiment.
 
@@ -35,7 +35,7 @@ and cost-savings, we use [GitHub Pages](https://pages.github.com) as
 the server host.
 
 Copywriting can be done using a browser, or using the free GitHub
-software for [Mac][1] or [Windows][2]. 
+software for [Mac][1] or [Windows][2].
 
 The workflow for Designers and Coders generally follows this cycle:
 
@@ -47,14 +47,13 @@ BAMRU.org repo.
 3) Upload the finished commits, and publish the edits.
 
 ## Required Tools
-         
+
 | Tool                                | Required By     |
 | ----                                | -----------     |
 | Internet connection                 | All             |
 | Web Browser                         | All             |
 | GitHub Account                      | All             |
-| GitHub for [Mac][1] or [Windows][2] | Copywriter      |
-| Ubuntu or Mac computer              | Designer, Coder |
+| Ubuntu (or Ubuntu VM)               | Designer, Coder |
 | Ruby                                | Designer, Coder |
 
 [1]: https://windows.github.com
@@ -87,6 +86,3 @@ BAMRU.org repo.
 [Integrating with Google Calendar](./docs/google_calendar.md)
 
 [Running Auto-Updates with Cron](./docs/cron.md)
-
-
-
