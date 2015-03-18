@@ -21,8 +21,8 @@ BAMRU's test calendar is `bamru.caltest@gmail.com`.
 Dozens of people are subscribed to our production calendar.  If you use the
 production calendar for development and testing, they will complain!
 
-The passwords for our production and test calendar accounts are on the wiki.
-Ask AndyL if you need help.
+The passwords for our production and test calendar accounts are on the BAMRU
+wiki.  Ask AndyL if you need help.
 
 ## Setting up a new Calendar
 
@@ -31,11 +31,6 @@ Setting up a calendar for Gapi V3 access is a complicated mess.
 You can find some instructions outlined on the
 [Readme](https://github.com/google/google-api-ruby-client) for the RubyGem
 that we use for API integration.
-
-You will need to gather three pieces of information to make it all work:
-1. the Calendar ID - get this from "My Calendar > Settings > Calendar Address"
-2. an issuer address - a service account from the Google API console
-3. a P12 certificate - download from the Google API console
 
 ### Google API Configuration
 
@@ -69,6 +64,11 @@ Is your head spinning yet?  We're nearly done...
 
 Gapi Credentials are stored in the .gcal_keys directory in the home directory
 of the project.  For security, these keys are not loaded into our Git repo.
+
+You will need to gather three items to make it all work:
+1. the Calendar ID - get this from "My Calendar > Settings > Calendar Address"
+2. an issuer address - a service account from the Google API console
+3. a P12 certificate - download from the Google API console
 
 Ask AndyL to send you a private copy of the keys.  Then you can edit the
 directory to include your new account information.

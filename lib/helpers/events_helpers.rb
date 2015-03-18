@@ -86,7 +86,9 @@ module EventsHelpers
   def event_display(event)
     start = Time.parse(event.start)
     year  = first_in_year?(event) ? ", #{start.strftime('%Y')}" : ""
-    "#{start.strftime('%b')} #{start.strftime('%d')}#{year}"
+    multi = event.start != event.finish && event.finish.present?
+    fstr  = multi ? "-#{event.finish.split('-').last}" : ""
+    "#{start.strftime('%b')} #{start.strftime('%d')}#{fstr}#{year}"
   end
 
   def first_in_year?(event)

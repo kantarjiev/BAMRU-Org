@@ -3,8 +3,8 @@ require_relative './event/store'
 # ----- core environment -----
 
 # either 'test' or 'production'
-# for example - try: MM_ENV=test rake -T
-MM_ENV  ||= ENV["MM_ENV"] || "production"
+# for example - use: MM_ENV=test rake -T
+MM_ENV  ||= ENV["MM_ENV"] || "test"
 
 MM_ROOT ||= File.expand_path("../", __dir__)
 

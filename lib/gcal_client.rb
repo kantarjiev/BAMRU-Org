@@ -20,6 +20,7 @@ class GcalClient
   def list_events
     loop_params = params = {'calendarId' => CAL_ID}
     accumulator = []
+    binding.pry
     loop do
       opts = {
         api_method: google_calendar.events.list,

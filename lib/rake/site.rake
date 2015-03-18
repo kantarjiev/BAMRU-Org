@@ -23,13 +23,12 @@ namespace :site do
     git push
     git checkout master
     EOF
-    `cp -r .gcal_keys /tmp` if Dir.exist?('./gcal_keys')
+    `cp -r .gcal_keys ~` if Dir.exist?('./.gcal_keys')
     script.each_line do |line|
       cleanline = line.chomp.strip
       log cleanline
       system cleanline
     end
-    dir_tst = (! Dir.exists?('./gcal_keys') && Dir.exists?('/tmp/.gcal_keys'))
-    `cp -r /tmp/.gcal_keys .` if dir_tst
+    `cp -r ~/.gcal_keys .` if Dir.exists?('~/.gcal_keys')
   end
 end
