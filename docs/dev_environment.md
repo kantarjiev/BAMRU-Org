@@ -6,7 +6,7 @@ in the [README](../README.md) file.
 ## Development Operating System
 
 This has only been tested on Ubuntu 14.04.  If you are running Mac or Windows,
-I recommend that you use Vagrant/VirtualBox to serve your development assets.
+I recommend that you install & use Vagrant/VirtualBox with an Ubuntu VM.
 
 ## Repo Setup
 

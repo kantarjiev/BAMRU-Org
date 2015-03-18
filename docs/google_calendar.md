@@ -5,8 +5,8 @@ View the [README](../README.md)
 ## Overview
 
 BAMRU's event calendar can sync to a live Google calendar.  Gcal update is done
-using Google API V3.  Using the Gapi V3 is complicated, but this is the only
-tool that lets us do Calendar Sync.
+using Google API V3.  Gapi V3 is complicated, but this is the only tool that
+lets us do Calendar Sync.
 
 Note: you don't need Gcal integration for basic copy editing!  Nor do you need
 Gcal integration to update the HTML calendar on
@@ -14,9 +14,9 @@ Gcal integration to update the HTML calendar on
 
 ## Gcal Production and Test Calendars
 
-BAMRU's production calender is `bamru.calendar@gmail.com`.
+BAMRU's production calender account is `bamru.calendar@gmail.com`.
 
-BAMRU's test calendar is `bamru.caltest@gmail.com`.
+BAMRU's test calendar account is `bamru.caltest@gmail.com`.
 
 Dozens of people are subscribed to our production calendar.  If you use the
 production calendar for development and testing, they will complain!
@@ -28,11 +28,11 @@ wiki.  Ask AndyL if you need help.
 
 Setting up a calendar for Gapi V3 access is a complicated mess.
 
-You can find some instructions outlined on the
-[Readme](https://github.com/google/google-api-ruby-client) for the RubyGem
-that we use for API integration.
+You can find instructions outlined on the
+[README](https://github.com/google/google-api-ruby-client) for our Gapi client.
+There are many docs on the Google API Console site, on Stack Overflow, etc.
 
-### Google API Configuration
+### Overview: Google API Configuration
 
 1) Go to the Google API Console.  Click `Sign up for a Free Trial`.
 You will have to give a CC number, sadly.  But our usage level will be far
@@ -50,7 +50,7 @@ below the Paid tier.
 
 7) Generate/download a P12 key
 
-### Calendar Configuration
+### Overview: Calendar Configuration
 
 Now - go back to your calendar.
 
@@ -70,7 +70,7 @@ You will need to gather three items to make it all work:
 2. an issuer address - a service account from the Google API console
 3. a P12 certificate - download from the Google API console
 
-Ask AndyL to send you a private copy of the keys.  Then you can edit the
+Ask AndyL to send you a copy of the directory.  Then you can edit the
 directory to include your new account information.
 
 Note: to prevent inadvertent deletion of the `gcal_keys` directory, it is backed

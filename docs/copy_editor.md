@@ -16,9 +16,9 @@ View the [README](../README.md)
 
 ## Rebuild and Deploy
 
-Just run `rake site:build site:deploy`.
+Run `rake site:build site:deploy`.
 
-Changes may take up to a minute to view on the production site.
+Changes may take up to a minute to appear on the production site.
 
 ## Updating the HTML Calendar
 
