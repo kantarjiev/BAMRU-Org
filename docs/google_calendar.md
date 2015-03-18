@@ -35,8 +35,8 @@ There are many docs on the Google API Console site, on Stack Overflow, etc.
 ### Overview: Google API Configuration
 
 1) Go to the Google API Console.  Click `Sign up for a Free Trial`.
-You will have to give a CC number, sadly.  But our usage level will be far
-below the Paid tier.
+You will have to give a CC number, sadly.  But our usage level will fall far
+below the threshold for the Paid tier.
 
 2) Create a new project.
 
@@ -65,13 +65,16 @@ Is your head spinning yet?  We're nearly done...
 Gapi Credentials are stored in the .gcal_keys directory in the home directory
 of the project.  For security, these keys are not loaded into our Git repo.
 
-You will need to gather three items to make it all work:
-1. the Calendar ID - get this from "My Calendar > Settings > Calendar Address"
-2. an issuer address - a service account from the Google API console
-3. a P12 certificate - download from the Google API console
+You will need to gather three items:
 
-Ask AndyL to send you a copy of the directory.  Then you can edit the
-directory to include your new account information.
+1) the Calendar ID - get this from "My Calendar > Settings > Calendar Address"
+
+2) an issuer address - a service account from the Google API console
+
+3) a P12 certificate - download from the Google API console
+
+Ask AndyL to send you a copy of the `gcal_keys` directory.  Then you can edit
+the directory to include your new account information.
 
 Note: to prevent inadvertent deletion of the `gcal_keys` directory, it is backed
 up to `~/.gcal_keys` every time you run `rake site:build`.
