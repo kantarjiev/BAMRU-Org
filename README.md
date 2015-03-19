@@ -79,9 +79,9 @@ BAMRU.org repo.
 
 ## More Information
 
-[How to be a Copy Editor](./docs/copy_editor.md)
-
 [About the Development Environment](./docs/dev_environment.md)
+
+[How to be a Copy Editor](./docs/copy_editor.md)
 
 [Integrating with Google Calendar](./docs/google_calendar.md)
 
