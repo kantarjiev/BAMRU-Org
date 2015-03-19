@@ -643,10 +643,10 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  48d348: !ruby/object:Event
+  5a67ef: !ruby/object:Event
     kind: meeting
     title: General Meeting  (not 3rd Monday)
-    location: RWC Jury Assembly Room
+    location: RWC Jury Assembly
     leaders: TBA
     start: '2016-01-11'
     finish: '2016-01-11'
