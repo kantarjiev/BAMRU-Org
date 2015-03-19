@@ -27,23 +27,24 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  539f92: !ruby/object:Event
+  f027dd: !ruby/object:Event
     kind: training
-    title: Guest Mock Search G
+    title: Guest Mock Search
     location: Redwood Memorial Park
     leaders: White
     start: '2015-02-08'
     finish: ''
-    description: Our first recruiting event of the year, designed to show guests what
-      it's like to respond to a callout and execute a search.
+    description: 'Our first recruiting event of the year, designed to show guests
+      what it''s like to respond to a callout and execute a search. Training open
+      to guests, pending Leader approval. '
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  b2cc97: !ruby/object:Event
+  1bc0f0: !ruby/object:Event
     kind: meeting
     title: General Meeting (Not 3rd Monday)
-    location: Castro Valley Nike Classroom
+    location: Castro Valley
     leaders: Chang
     start: '2015-02-09'
     finish: '2015-02-09'
@@ -67,26 +68,14 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  ab5137: !ruby/object:Event
+  df35ec: !ruby/object:Event
     kind: training
-    title: Recert skills night
+    title: Recert Skills Night
     location: Albany
     leaders: Gleason
     start: '2015-02-18'
     finish: '2015-02-18'
     description: ''
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  6adf8b: !ruby/object:Event
-    kind: training
-    title: 'CRMRA Recert Prep Training '
-    location: Yosemite National Park
-    leaders: Dedecko
-    start: '2015-02-21'
-    finish: '2015-02-22'
-    description: Scenarios in preparation for the technical rock rescue MRA recert.
     lat: 
     lon: 
     prior: TBD
@@ -102,6 +91,18 @@
       and Rescue Council (BASARC).  Each member team can nominate between one and
       two people to attend the training.  Every nominee must have been active with
       a SAR team for at least three years.  Attendance at both weekends is required.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  6adf8b: !ruby/object:Event
+    kind: training
+    title: 'CRMRA Recert Prep Training '
+    location: Yosemite National Park
+    leaders: Dedecko
+    start: '2015-02-21'
+    finish: '2015-02-22'
+    description: Scenarios in preparation for the technical rock rescue MRA recert.
     lat: 
     lon: 
     prior: TBD
@@ -144,22 +145,22 @@
     lon: "-122.2305"
     prior: TBD
     gcal_id: TBD
-  f470ff: !ruby/object:Event
+  '815511': !ruby/object:Event
     kind: training
-    title: Glacier/ Crevasse Rescue
+    title: Glacier / Crevasse Rescue
     location: TBA
     leaders: Jacobs
     start: '2015-03-28'
     finish: '2015-03-29'
-    description: ''
+    description: TRAINING CANCELLED due to lack of snow.  Next year!
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  1dbf37: !ruby/object:Event
+  '824294': !ruby/object:Event
     kind: meeting
     title: General Meeting (not 3rd Monday)
-    location: " Castro Valley Nike Classroom"
+    location: " Castro Valley"
     leaders: Chang
     start: '2015-04-13'
     finish: '2015-04-13'
@@ -168,17 +169,18 @@
     lon: "-122.0962"
     prior: TBD
     gcal_id: TBD
-  c50c0f: !ruby/object:Event
+  f52f53: !ruby/object:Event
     kind: training
-    title: SAR Basic *G
+    title: SAR Basic *
     location: TBA
     leaders: Chromik
     start: '2015-04-18'
     finish: '2015-04-19'
-    description: |-
-      Intensive weekend training to orient prospective members on the basic skills required to operate effectively in search and rescue operations. Intended for people with no prior SAR experience.
-
-      Attendance at SAR Basic is one of the requirements for application to become a Trainee member.
+    description: "Intensive weekend training to orient prospective members on the
+      basic skills required to operate effectively in search and rescue operations.
+      Intended for people with no prior SAR experience.\n\nAttendance at SAR Basic
+      is one of the requirements for application to become a Trainee member. Training
+      open to guests, pending Leader approval. "
     lat: 
     lon: 
     prior: TBD
@@ -255,9 +257,9 @@
     lon: "-122.2305"
     prior: TBD
     gcal_id: TBD
-  954c46: !ruby/object:Event
+  6510cb: !ruby/object:Event
     kind: training
-    title: Tracking/ Nav Skills Night
+    title: Tracking / Nav Skills Night
     location: TBA
     leaders: TBA
     start: '2015-05-28'
@@ -283,14 +285,15 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  b69bfa: !ruby/object:Event
+  5f2a95: !ruby/object:Event
     kind: training
-    title: Navigation Skills *G
+    title: Navigation Skills *
     location: TBA
     leaders: Tompos
     start: '2015-05-31'
     finish: ''
-    description: Navigation training and signoffs, concentrating on map/compass.
+    description: 'Navigation training and signoffs, concentrating on map/compass.
+      Training open to guests, pending Leader approval. '
     lat: 
     lon: 
     prior: TBD
@@ -382,7 +385,7 @@
     kind: training
     title: Search Practice *
     location: TBA
-    leaders: Viri
+    leaders: Ghio
     start: '2015-07-26'
     finish: ''
     description: Practice search, somewhere
@@ -444,9 +447,9 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  36fc4a: !ruby/object:Event
+  7a2945: !ruby/object:Event
     kind: training
-    title: Search Management/ OP 0
+    title: Search Management / OP 0
     location: TBA
     leaders: Hoagland
     start: '2015-09-19'
@@ -482,14 +485,15 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  89149b: !ruby/object:Event
+  f09b78: !ruby/object:Event
     kind: training
-    title: Search Practice G
+    title: Search Practice
     location: TBA
     leaders: Ahntholz
     start: '2015-10-03'
     finish: ''
-    description: A mock search, somewhere.
+    description: 'A mock search, somewhere. Training open to guests, pending Leader
+      approval. '
     lat: 
     lon: 
     prior: TBD
@@ -519,18 +523,19 @@
     lon: "-122.0962"
     prior: TBD
     gcal_id: TBD
-  ae13bd: !ruby/object:Event
+  57e70a: !ruby/object:Event
     kind: training
-    title: Medical Skills *G
+    title: Medical Skills *
     location: TBA
     leaders: Fitzgerald
     start: '2015-10-24'
     finish: '2015-10-25'
-    description: Medical Skills Training is all about putting our skills and knowledge
+    description: 'Medical Skills Training is all about putting our skills and knowledge
       to use. BAMRU has an exciting medical skills training planned this year. Some
-      highlights include guest lecture by Stanford's Wilderness Medicine Fellow, Skill
-      labs with lots of hands on practice, and the BAMRU Medical Olympics where groups
-      compete at a diverse set of wilderness scenarios.
+      highlights include guest lecture by Stanford''s Wilderness Medicine Fellow,
+      Skill labs with lots of hands on practice, and the BAMRU Medical Olympics where
+      groups compete at a diverse set of wilderness scenarios. Training open to guests,
+      pending Leader approval. '
     lat: 
     lon: 
     prior: TBD
@@ -559,9 +564,9 @@
     lon: "-122.2305"
     prior: TBD
     gcal_id: TBD
-  5ce965: !ruby/object:Event
+  4680e1: !ruby/object:Event
     kind: training
-    title: Adv. Search Strategy/ Tracking/ Low angle obstacle course *
+    title: Adv. Search / Tracking / Low Angle *
     location: TBA
     leaders: Chromik/ Hoagland
     start: '2015-11-21'
@@ -572,14 +577,15 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  3fd563: !ruby/object:Event
+  86ad9a: !ruby/object:Event
     kind: training
-    title: Practice Search *G
+    title: Practice Search *
     location: TBA
     leaders: TBA
     start: '2015-11-22'
     finish: ''
-    description: A practice search, somewhere
+    description: 'A practice search, somewhere. Training open to guests, pending Leader
+      approval. '
     lat: 
     lon: 
     prior: TBD
@@ -596,10 +602,10 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  cef767: !ruby/object:Event
+  da5caa: !ruby/object:Event
     kind: meeting
     title: General Meeting (not 3rd Monday)
-    location: Castro Valley Nike Classroom
+    location: Castro Valley
     leaders: Chang
     start: '2015-12-14'
     finish: '2015-12-14'
@@ -620,9 +626,9 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  8160e6: !ruby/object:Event
+  fa1185: !ruby/object:Event
     kind: training
-    title: Skills weekend/ Make up training *
+    title: Skills Weekend / Make-up Training *
     location: TBA
     leaders: TBA
     start: '2015-12-19'
@@ -637,10 +643,10 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  5b1314: !ruby/object:Event
+  48d348: !ruby/object:Event
     kind: meeting
     title: General Meeting  (not 3rd Monday)
-    location: Redwood City Jury Assembly Room
+    location: RWC Jury Assembly Room
     leaders: TBA
     start: '2016-01-11'
     finish: '2016-01-11'
@@ -661,37 +667,37 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  8fb325: !ruby/object:Event
+  0e1629: !ruby/object:Event
     kind: training
-    title: Snow Skills *G
+    title: Snow Skills *
     location: TBA
     leaders: TBA
     start: '2016-01-23'
     finish: '2016-01-24'
-    description: 'Practice winter camping, snow travel, beacon and probe searches
-      and self arrest techniques. These skills are important for our winter/alpine
-      operations. '
+    description: Practice winter camping, snow travel, beacon and probe searches and
+      self arrest techniques. These skills are important for our winter/alpine operations.
+      Training open to guests, pending Leader approval.
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  c5dba5: !ruby/object:Event
+  ebd2a6: !ruby/object:Event
     kind: training
-    title: Guest Mock Search G
+    title: Guest Mock Search
     location: Redwood Memorial Park
     leaders: TBA
     start: '2016-02-07'
     finish: ''
     description: Our first recruiting event of the year, designed to show guests what
-      it's like to respond to a callout and execute a search.
+      it's like to respond to a callout and execute a search.  Training open to Guests.
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  c9619d: !ruby/object:Event
+  729e2e: !ruby/object:Event
     kind: meeting
     title: General Meeting (Not 3rd Monday)
-    location: Castro Valley Nike Classroom
+    location: Castro Valley
     leaders: TBA
     start: '2016-02-08'
     finish: '2016-02-08'
