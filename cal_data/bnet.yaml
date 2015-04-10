@@ -1,126 +1,5 @@
 ---
 :cal_data:
-  9dee23: !ruby/object:Event
-    kind: training
-    title: MRA Recert Training
-    location: Cragmont Park, Berkeley
-    leaders: Garcia
-    start: '2015-02-07'
-    finish: ''
-    description: Scenarios training for the MRA recert.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  15c6d4: !ruby/object:Event
-    kind: training
-    title: Bay Area Joint MRA training
-    location: Mt. Diablo, Boy Scout Rocks
-    leaders: CoCo SAR
-    start: '2015-02-07'
-    finish: ''
-    description: |-
-      TRAINING CANCELLED due to weather concerns.
-
-      Technical rescue scenarios training in preparation for the MRA recertification.  This training will be held joint with Marin SAR, Contra Costa SAR, and Monterey SAR.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  f027dd: !ruby/object:Event
-    kind: training
-    title: Guest Mock Search
-    location: Redwood Memorial Park
-    leaders: White
-    start: '2015-02-08'
-    finish: ''
-    description: 'Our first recruiting event of the year, designed to show guests
-      what it''s like to respond to a callout and execute a search. Training open
-      to guests, pending Leader approval. '
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  1bc0f0: !ruby/object:Event
-    kind: meeting
-    title: General Meeting (Not 3rd Monday)
-    location: Castro Valley
-    leaders: Chang
-    start: '2015-02-09'
-    finish: '2015-02-09'
-    description: ''
-    lat: '37.7207'
-    lon: "-122.0962"
-    prior: TBD
-    gcal_id: TBD
-  930cfd: !ruby/object:Event
-    kind: training
-    title: BASARC MLPI (weekend 1)
-    location: TBA
-    leaders: TBA
-    start: '2015-02-14'
-    finish: '2015-02-15'
-    description: Advanced training in search management run by the Bay Area Search
-      and Rescue Council (BASARC).  Each member team can nominate between one and
-      two people to attend the training.  Every nominee must have been active with
-      a SAR team for at least three years.  Attendance at both weekends is required.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  df35ec: !ruby/object:Event
-    kind: training
-    title: Recert Skills Night
-    location: Albany
-    leaders: Gleason
-    start: '2015-02-18'
-    finish: '2015-02-18'
-    description: ''
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  a3db02: !ruby/object:Event
-    kind: training
-    title: BASARC MLPI (weekend 2)
-    location: TBA
-    leaders: TBA
-    start: '2015-02-21'
-    finish: '2015-02-22'
-    description: Advanced training in search management run by the Bay Area Search
-      and Rescue Council (BASARC).  Each member team can nominate between one and
-      two people to attend the training.  Every nominee must have been active with
-      a SAR team for at least three years.  Attendance at both weekends is required.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  6adf8b: !ruby/object:Event
-    kind: training
-    title: 'CRMRA Recert Prep Training '
-    location: Yosemite National Park
-    leaders: Dedecko
-    start: '2015-02-21'
-    finish: '2015-02-22'
-    description: Scenarios in preparation for the technical rock rescue MRA recert.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  140f3f: !ruby/object:Event
-    kind: training
-    title: SO Driver's Training Practical Component
-    location: Redwood City
-    leaders: Chromik
-    start: '2015-02-28'
-    finish: ''
-    description: 'A chance to complete the practical component of the driver''s training
-      required by the SO. You also need to take the classroom portion (not part of
-      this training). '
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
   4f185b: !ruby/object:Event
     kind: training
     title: Tech Rescue Re-Accreditation
@@ -153,6 +32,18 @@
     start: '2015-03-28'
     finish: '2015-03-29'
     description: TRAINING CANCELLED due to lack of snow.  Next year!
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  ec112b: !ruby/object:Event
+    kind: training
+    title: Marin SAR Training
+    location: Marin
+    leaders: Marin SAR
+    start: '2015-03-28'
+    finish: ''
+    description: ''
     lat: 
     lon: 
     prior: TBD
