@@ -24,18 +24,6 @@
     lon: "-122.2305"
     prior: TBD
     gcal_id: TBD
-  '815511': !ruby/object:Event
-    kind: training
-    title: Glacier / Crevasse Rescue
-    location: TBA
-    leaders: Jacobs
-    start: '2015-03-28'
-    finish: '2015-03-29'
-    description: TRAINING CANCELLED due to lack of snow.  Next year!
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
   ec112b: !ruby/object:Event
     kind: training
     title: Marin SAR Training
@@ -44,6 +32,18 @@
     start: '2015-03-28'
     finish: ''
     description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  '815511': !ruby/object:Event
+    kind: training
+    title: Glacier / Crevasse Rescue
+    location: TBA
+    leaders: Jacobs
+    start: '2015-03-28'
+    finish: '2015-03-29'
+    description: TRAINING CANCELLED due to lack of snow.  Next year!
     lat: 
     lon: 
     prior: TBD
@@ -84,6 +84,19 @@
     start: '2015-04-27'
     finish: ''
     description: Due date for all new applications to join BAMRU.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  '364530': !ruby/object:Event
+    kind: training
+    title: Shasta Ski Mountaineering Training
+    location: Mt Shasta
+    leaders: Jacobs
+    start: '2015-05-01'
+    finish: '2015-05-03'
+    description: Ski mountaineering training and ascent of Shasta's Hotlum-Wintun
+      route.
     lat: 
     lon: 
     prior: TBD
