@@ -1,53 +1,5 @@
 ---
 :cal_data:
-  4f185b: !ruby/object:Event
-    kind: training
-    title: Tech Rescue Re-Accreditation
-    location: Joshua Tree NP
-    leaders: TBA
-    start: '2015-03-07'
-    finish: ''
-    description: California MRA Re-Accreditation
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  80d9ae: !ruby/object:Event
-    kind: meeting
-    title: General Meeting
-    location: Redwood City County Room 101
-    leaders: Chang
-    start: '2015-03-16'
-    finish: '2015-03-16'
-    description: ''
-    lat: '37.4889'
-    lon: "-122.2305"
-    prior: TBD
-    gcal_id: TBD
-  ec112b: !ruby/object:Event
-    kind: training
-    title: Marin SAR Training
-    location: Marin
-    leaders: Marin SAR
-    start: '2015-03-28'
-    finish: ''
-    description: ''
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  '815511': !ruby/object:Event
-    kind: training
-    title: Glacier / Crevasse Rescue
-    location: TBA
-    leaders: Jacobs
-    start: '2015-03-28'
-    finish: '2015-03-29'
-    description: TRAINING CANCELLED due to lack of snow.  Next year!
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
   '824294': !ruby/object:Event
     kind: meeting
     title: General Meeting (not 3rd Monday)
@@ -161,18 +113,6 @@
     lon: "-122.2305"
     prior: TBD
     gcal_id: TBD
-  6510cb: !ruby/object:Event
-    kind: training
-    title: Tracking / Nav Skills Night
-    location: TBA
-    leaders: TBA
-    start: '2015-05-28'
-    finish: '2015-05-28'
-    description: ''
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
   7c61a7: !ruby/object:Event
     kind: training
     title: Tracking Skills *
@@ -189,15 +129,17 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  5f2a95: !ruby/object:Event
+  d31ad3: !ruby/object:Event
     kind: training
     title: Navigation Skills *
-    location: TBA
+    location: Lake Chabot Regional Park
     leaders: Tompos
     start: '2015-05-31'
     finish: ''
-    description: 'Navigation training and signoffs, concentrating on map/compass.
-      Training open to guests, pending Leader approval. '
+    description: 'Navigation training and signoffs, concentrating on map/compass,
+      gps/caltopo usage. Focusing on becoming an effective nav lead during operations.
+      Prerequisite: Ability to read topo maps and relate terrain features to topo
+      maps. Training open to guests, pending Leader approval. '
     lat: 
     lon: 
     prior: TBD
@@ -240,6 +182,21 @@
     finish: '2015-06-28'
     description: BAMRU provides medical staff for the WS-100 (100 mile trans Sierra
       Ultra Marathon).
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  5c7879: !ruby/object:Event
+    kind: training
+    title: Small Alpine - Chiquito Pass
+    location: Sierra National Forest
+    leaders: Mandish
+    start: '2015-07-10'
+    finish: '2015-07-12'
+    description: |+
+      The focus of the training will be designed to establish and /or elevate skills with weather evaluation, small team leadership roles, route-finding/navigation, SAR considerations in the alpine environment such as search tactics, communications challenges, medical considerations and helicopter awareness.
+
+
     lat: 
     lon: 
     prior: TBD
