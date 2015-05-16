@@ -282,6 +282,19 @@
     lon: 
     prior: TBD
     gcal_id: TBD
+  b1e361: !ruby/object:Event
+    kind: training
+    title: Starr King Small Alpine
+    location: Yosemite
+    leaders: Malkowski
+    start: '2015-08-14'
+    finish: '2015-08-16'
+    description: Small alpine trip to summit Mt. Starr King in Yosemite via the southeast
+      saddle.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
   4efdd6: !ruby/object:Event
     kind: meeting
     title: General Meeting
