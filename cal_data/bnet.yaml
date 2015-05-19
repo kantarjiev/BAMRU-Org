@@ -307,6 +307,18 @@
     lon: "-122.0962"
     prior: TBD
     gcal_id: TBD
+  '592721': !ruby/object:Event
+    kind: meeting
+    title: Qrtly Leadership Mtg (backup date)
+    location: TBA
+    leaders: Chang
+    start: '2015-08-19'
+    finish: '2015-08-19'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
   e8b2d2: !ruby/object:Event
     kind: training
     title: Basic Technical Rescue *
