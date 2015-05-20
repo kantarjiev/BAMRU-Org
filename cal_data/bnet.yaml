@@ -144,6 +144,23 @@
     lon: 
     prior: TBD
     gcal_id: TBD
+  d902bf: !ruby/object:Event
+    kind: training
+    title: 'Skills Night: Purcell Prusiks'
+    location: 44 Shakespeare St, Daly City, CA 94014
+    leaders: Grishaver
+    start: '2015-06-10'
+    finish: '2015-06-10'
+    description: |-
+      Short version:
+      Learn and practice Purcell setup and usage prior to the Personal Rock Skills training weekend.
+
+      The details:
+      Purcell prusiks are awesome: incredibly valuable as part of your personal alpine skills repertoire and used constantly in technical rescue. They're also a bit tricky to set up and require some practice to use effectively. Come to this skills night in the wild alpine hinterlands of Daly City!
+    lat: '37.7076'
+    lon: "-122.4613"
+    prior: TBD
+    gcal_id: TBD
   74553c: !ruby/object:Event
     kind: meeting
     title: General Meeting
