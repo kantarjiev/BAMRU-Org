@@ -350,6 +350,18 @@
     lon: 
     prior: TBD
     gcal_id: TBD
+  f312d9: !ruby/object:Event
+    kind: community
+    title: SAREX
+    location: Silver Lake
+    leaders: Amador County
+    start: '2015-09-11'
+    finish: '2015-09-13'
+    description: http://www.sarex.org
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
   7a2945: !ruby/object:Event
     kind: training
     title: Search Management / OP 0
