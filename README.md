@@ -6,19 +6,10 @@ BAMRU.org is a public-facing website composed of static assets. (html,
 css, images, javascript).  The live version of this website is at
 http://bamru.org .
 
-Here are the general roles for maintaining the website.
-
-| Role       | Responsibility                                      |
-| ----       | --------------                                      |
-| Copywriter | Make textual edits                                  |
-| Designer   | Create site styling, edit graphics                  |
-| Coder      | JavaScript / Ruby coding                            |
-
-Any BAMRU Member or Supporter is welcome to do hands-on editing for any role.
+Any BAMRU Member or Supporter is welcome to do hands-on editing or programming.
 Contact Andy L. for info on current needs.
-
-[Fork](http://help.github.com/articles/fork-a-repo) this repository if
-you would like to experiment.
+[Fork](http://help.github.com/articles/fork-a-repo) this repository if you
+would like to experiment.
 
 ## Editing Workflow
 
@@ -46,36 +37,13 @@ BAMRU.org repo.
 
 3) Upload the finished commits, and publish the edits.
 
-## Required Tools
-
-| Tool                                | Required By     |
-| ----                                | -----------     |
-| Internet connection                 | All             |
-| Web Browser                         | All             |
-| GitHub Account                      | All             |
-| Ubuntu (or Ubuntu VM)               | Designer, Coder |
-| Ruby                                | Designer, Coder |
-
 [1]: https://windows.github.com
 [2]: https://mac.github.com/
 
-## Required Skills
+## Programmer Tools and Skills
 
-| Skill              | Required By     |
-| -----              | -----------     |
-| English Grammar    | Copywriter      |
-| Markdown           | Copywriter      |
-| ERB / Slim         | Designer, Coder |
-| Middleman          | Designer, Coder |
-| Command Line Savvy | Designer, Coder |
-| Text Editor Skills | Designer, Coder |
-| Git & GitHub       | Designer, Coder |
-| CSS                | Designer        |
-| Photoshop          | Designer        |
-| JavaScript         | JS Coder        |
-| CoffeeScript       | JS Coder        |
-| ReactJS / Reflux   | JS Coder        |
-| Ruby               | Ruby Coder      |
+To update the website programs, you'll need a browser, a github account, Ubuntu
+or Mac (or UbuntuVM), CommandLine savvy and Ruby skills.
 
 ## More Information
 
