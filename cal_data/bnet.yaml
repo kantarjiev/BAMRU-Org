@@ -173,10 +173,10 @@
     lon: "-122.0962"
     prior: TBD
     gcal_id: TBD
-  '191179': !ruby/object:Event
+  f5878d: !ruby/object:Event
     kind: training
     title: Personal Rock Skills *
-    location: TBA
+    location: 'Indian Springs Campground '
     leaders: Phelan
     start: '2015-06-20'
     finish: '2015-06-21'
@@ -199,6 +199,19 @@
     finish: '2015-06-28'
     description: BAMRU provides medical staff for the WS-100 (100 mile trans Sierra
       Ultra Marathon).
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  '208692': !ruby/object:Event
+    kind: training
+    title: 'Drivers Training: Classroom'
+    location: 455 County Center
+    leaders: SMSO
+    start: '2015-07-08'
+    finish: '2015-07-08'
+    description: Classroom portion of drivers' training takes place from 1930-2100.  Sign
+      up for practical sessions at the classroom portion.
     lat: 
     lon: 
     prior: TBD
@@ -230,6 +243,18 @@
       a search, etc), and the practice of DO-ing (how do we accomplish all of these
       things with the tools we have, like bamru.net). For new and experienced DO's
       alike!
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
+  257a72: !ruby/object:Event
+    kind: training
+    title: 'Drivers Training: Practical'
+    location: 400 County Center Parking Lot
+    leaders: SMSO
+    start: '2015-07-18'
+    finish: ''
+    description: Practical portion of driver's training takes place from 0900-1600.
     lat: 
     lon: 
     prior: TBD
