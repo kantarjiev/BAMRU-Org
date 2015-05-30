@@ -113,22 +113,6 @@
     lon: "-122.2305"
     prior: TBD
     gcal_id: TBD
-  7c0b00: !ruby/object:Event
-    kind: training
-    title: Tracking Skills
-    location: Purisima Creek Open Space
-    leaders: Gilmore and Cavalieri
-    start: '2015-05-30'
-    finish: ''
-    description: 'Our introductory tracking class will include a field lecture as
-      well as skills training. Basic principles of tracking, equipment and search
-      techniques will be discussed. We will have an opportunity to review the tracking
-      skills sheet and obtain sign-offs. Please reference the tracking doc on the
-      wiki. Training open to guests who have been sworn. '
-    lat: '37.45'
-    lon: "-122.3386"
-    prior: TBD
-    gcal_id: TBD
   d31ad3: !ruby/object:Event
     kind: training
     title: Navigation Skills *
