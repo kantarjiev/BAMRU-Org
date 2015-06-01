@@ -1,45 +1,5 @@
 ---
 :cal_data:
-  '824294': !ruby/object:Event
-    kind: meeting
-    title: General Meeting (not 3rd Monday)
-    location: " Castro Valley"
-    leaders: Chang
-    start: '2015-04-13'
-    finish: '2015-04-13'
-    description: ''
-    lat: '37.7207'
-    lon: "-122.0962"
-    prior: TBD
-    gcal_id: TBD
-  f52f53: !ruby/object:Event
-    kind: training
-    title: SAR Basic *
-    location: TBA
-    leaders: Chromik
-    start: '2015-04-18'
-    finish: '2015-04-19'
-    description: "Intensive weekend training to orient prospective members on the
-      basic skills required to operate effectively in search and rescue operations.
-      Intended for people with no prior SAR experience.\n\nAttendance at SAR Basic
-      is one of the requirements for application to become a Trainee member. Training
-      open to guests, pending Leader approval. "
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-  953a51: !ruby/object:Event
-    kind: community
-    title: Trainee Applications Due
-    location: TBA
-    leaders: TBA
-    start: '2015-04-27'
-    finish: ''
-    description: Due date for all new applications to join BAMRU.
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
   '364530': !ruby/object:Event
     kind: training
     title: Shasta Ski Mountaineering Training
