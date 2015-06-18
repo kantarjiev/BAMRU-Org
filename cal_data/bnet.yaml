@@ -281,6 +281,18 @@
     lon: 
     prior: TBD
     gcal_id: TBD
+  '439044': !ruby/object:Event
+    kind: training
+    title: Desolation Wilderness Small Alpine
+    location: Desolation Wilderness
+    leaders: Garcia
+    start: '2015-08-15'
+    finish: '2015-08-16'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
   4efdd6: !ruby/object:Event
     kind: meeting
     title: General Meeting
