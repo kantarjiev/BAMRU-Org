@@ -215,15 +215,16 @@
     lon: "-122.2305"
     prior: TBD
     gcal_id: TBD
-  db6e86: !ruby/object:Event
+  2390ee: !ruby/object:Event
     kind: training
     title: Low Angle Rescue *
-    location: TBA
+    location: El Corte de Madera OSP
     leaders: Kantarjiev
     start: '2015-07-25'
     finish: ''
-    description: We will focus on low-angle rescue systems.  Personal Rock Skills
-      is required to attend this training.
+    description: We will focus on single line rescue systems as an introduction to
+      the larger world of technical rescue.  Personal Rock Skills is required to attend
+      this training.
     lat: 
     lon: 
     prior: TBD
