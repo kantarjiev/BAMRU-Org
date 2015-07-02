@@ -87,20 +87,18 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  e9a741: !ruby/object:Event
+  791e29: !ruby/object:Event
     kind: training
     title: DO Skills Night *
-    location: TBA
+    location: 44 Shakespeare St Daly City CA 94014
     leaders: Grishaver
     start: '2015-07-15'
     finish: '2015-07-15'
-    description: We'll cover the theory of DO-ing (what needs to be done during any
-      DO shift, DO-ing during a training, what needs to be done in the ramp up for
-      a search, etc), and the practice of DO-ing (how do we accomplish all of these
-      things with the tools we have, like bamru.net). For new and experienced DO's
-      alike!
-    lat: 
-    lon: 
+    description: 'We''ll jump right in to a bunch of scenario-based exercises to practice
+      DO''ing and get dialed on the core tools. For new and experienced DO''s alike!
+      Location subject to change depending on # of participants. Bring a laptop.'
+    lat: '37.4852'
+    lon: "-122.2364"
     prior: TBD
     gcal_id: TBD
   257a72: !ruby/object:Event
