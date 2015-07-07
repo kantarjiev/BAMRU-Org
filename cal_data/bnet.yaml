@@ -255,6 +255,20 @@
     lon: 
     prior: TBD
     gcal_id: TBD
+  9f1954: !ruby/object:Event
+    kind: training
+    title: Tech Rescue Skills Night
+    location: Albany
+    leaders: Allen
+    start: '2015-09-09'
+    finish: '2015-09-09'
+    description: Skills night to practice tech rescue skills, and come up with questions
+      and tests for the experts.  Allen is heading to RfR in Sept, and will attempt
+      to get responses during that time.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
   f312d9: !ruby/object:Event
     kind: community
     title: SAREX
@@ -291,6 +305,19 @@
     description: ''
     lat: '37.4888'
     lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  f5260d: !ruby/object:Event
+    kind: training
+    title: Tech Rescue Skills Night
+    location: Albany
+    leaders: Allen
+    start: '2015-09-30'
+    finish: '2015-09-30'
+    description: Follow up skills night after RfR, hopefully including responses to
+      some of our questions, along with techniques and ideas from Ouray.
+    lat: 
+    lon: 
     prior: TBD
     gcal_id: TBD
   06cc15: !ruby/object:Event
