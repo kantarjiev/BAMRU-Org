@@ -192,6 +192,18 @@
     lon: 
     prior: TBD
     gcal_id: TBD
+  c3d313: !ruby/object:Event
+    kind: training
+    title: Low Angle Skills Night
+    location: Palo Alto
+    leaders: Schubert
+    start: '2015-08-11'
+    finish: '2015-08-11'
+    description: Review and practice skills from Low Angle training.
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
   b1e361: !ruby/object:Event
     kind: training
     title: Starr King Small Alpine
