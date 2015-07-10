@@ -74,6 +74,18 @@
     lon: 
     prior: TBD
     gcal_id: TBD
+  1da252: !ruby/object:Event
+    kind: operation
+    title: Shasta 2015-LAW-13920
+    location: Shasta
+    leaders: TBA
+    start: '2015-07-11'
+    finish: '2015-07-12'
+    description: ''
+    lat: 
+    lon: 
+    prior: TBD
+    gcal_id: TBD
   791e29: !ruby/object:Event
     kind: training
     title: DO Skills Night *
