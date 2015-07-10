@@ -74,11 +74,11 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  1da252: !ruby/object:Event
+  1cce97: !ruby/object:Event
     kind: operation
     title: Shasta 2015-LAW-13920
-    location: Shasta
-    leaders: TBA
+    location: 2486 Progress, Redding, CA
+    leaders: Kantarjiev
     start: '2015-07-11'
     finish: '2015-07-12'
     description: ''
@@ -135,6 +135,18 @@
     description: ''
     lat: '37.4888'
     lon: "-122.2305"
+    prior: TBD
+    gcal_id: TBD
+  cab3ba: !ruby/object:Event
+    kind: training
+    title: Lost Person Behavior Skills Night
+    location: East Bay Cache
+    leaders: Jacobs
+    start: '2015-07-22'
+    finish: '2015-07-22'
+    description: Review of recent lost person behavior research.
+    lat: 
+    lon: 
     prior: TBD
     gcal_id: TBD
   2390ee: !ruby/object:Event
