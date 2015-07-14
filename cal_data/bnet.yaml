@@ -97,20 +97,6 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  791e29: !ruby/object:Event
-    kind: training
-    title: DO Skills Night *
-    location: 44 Shakespeare St Daly City CA 94014
-    leaders: Grishaver
-    start: '2015-07-15'
-    finish: '2015-07-15'
-    description: 'We''ll jump right in to a bunch of scenario-based exercises to practice
-      DO''ing and get dialed on the core tools. For new and experienced DO''s alike!
-      Location subject to change depending on # of participants. Bring a laptop.'
-    lat: '37.4852'
-    lon: "-122.2364"
-    prior: TBD
-    gcal_id: TBD
   ed4661: !ruby/object:Event
     kind: training
     title: 'Drivers Training: Classroom'
