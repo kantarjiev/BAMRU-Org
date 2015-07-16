@@ -23,7 +23,8 @@
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
-require_relative "./lib/base"
+base_dir = File.expand_path(File.dirname(__FILE__))
+require "#{base_dir}/lib/base"
 
 set :helpers_dir, "./lib/helpers"
 set :source     , 'src'

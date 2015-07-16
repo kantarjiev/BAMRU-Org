@@ -1,23 +1,29 @@
 ---
 :cal_data:
-  d902bf: !ruby/object:Event
+  !binary "ZDkwMmJm": !ruby/object:Event
     kind: training
-    title: 'Skills Night: Purcell Prusiks'
+    title: ! 'Skills Night: Purcell Prusiks'
     location: 44 Shakespeare St, Daly City, CA 94014
     leaders: Grishaver
     start: '2015-06-10'
     finish: '2015-06-10'
-    description: |-
-      Short version:
-      Learn and practice Purcell setup and usage prior to the Personal Rock Skills training weekend.
+    description: ! 'Short version:
+
+      Learn and practice Purcell setup and usage prior to the Personal Rock Skills
+      training weekend.
+
 
       The details:
-      Purcell prusiks are awesome: incredibly valuable as part of your personal alpine skills repertoire and used constantly in technical rescue. They're also a bit tricky to set up and require some practice to use effectively. Come to this skills night in the wild alpine hinterlands of Daly City!
+
+      Purcell prusiks are awesome: incredibly valuable as part of your personal alpine
+      skills repertoire and used constantly in technical rescue. They''re also a bit
+      tricky to set up and require some practice to use effectively. Come to this
+      skills night in the wild alpine hinterlands of Daly City!'
     lat: '37.7076'
-    lon: "-122.4613"
+    lon: '-122.4613'
     prior: TBD
     gcal_id: TBD
-  74553c: !ruby/object:Event
+  !binary "NzQ1NTNj": !ruby/object:Event
     kind: meeting
     title: General Meeting
     location: Castro Valley Nike Classroom
@@ -26,13 +32,13 @@
     finish: '2015-06-15'
     description: ''
     lat: '37.7207'
-    lon: "-122.0962"
+    lon: '-122.0962'
     prior: TBD
     gcal_id: TBD
-  f5878d: !ruby/object:Event
+  !binary "ZjU4Nzhk": !ruby/object:Event
     kind: training
     title: Personal Rock Skills *
-    location: 'Indian Springs Campground '
+    location: ! 'Indian Springs Campground '
     leaders: Phelan
     start: '2015-06-20'
     finish: '2015-06-21'
@@ -46,7 +52,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  2fc070: !ruby/object:Event
+  !binary "MmZjMDcw": !ruby/object:Event
     kind: community
     title: Western States 100
     location: Auburn, CA
@@ -59,29 +65,33 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  5c7879: !ruby/object:Event
+  !binary "NWM3ODc5": !ruby/object:Event
     kind: training
     title: Small Alpine - Chiquito Pass
     location: Sierra National Forest
     leaders: Mandish
     start: '2015-07-10'
     finish: '2015-07-12'
-    description: |+
-      The focus of the training will be designed to establish and /or elevate skills with weather evaluation, small team leadership roles, route-finding/navigation, SAR considerations in the alpine environment such as search tactics, communications challenges, medical considerations and helicopter awareness.
+    description: ! 'The focus of the training will be designed to establish and /or
+      elevate skills with weather evaluation, small team leadership roles, route-finding/navigation,
+      SAR considerations in the alpine environment such as search tactics, communications
+      challenges, medical considerations and helicopter awareness.
 
 
+
+'
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  1cce97: !ruby/object:Event
+  !binary "MWNjZTk3": !ruby/object:Event
     kind: operation
     title: Shasta 2015-LAW-13920
     location: 2486 Progress, Redding, CA
     leaders: Kantarjiev
     start: '2015-07-11'
     finish: '2015-07-12'
-    description: "Mission: 2015-LAW-13920. \nFrom: Dennis Smithson at CALOES, dennis.smithson@caloes.ca.gov
+    description: ! "Mission: 2015-LAW-13920. \nFrom: Dennis Smithson at CALOES, dennis.smithson@caloes.ca.gov
       .\n\nShasta County is reopening mission 2015-LAW-13920, a search for a missing
       six month old infant missing under suspicious circumstances. Shasta has been
       working on this for some time and has already conducted several searches. They
@@ -97,9 +107,9 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  ed4661: !ruby/object:Event
+  !binary "ZWQ0NjYx": !ruby/object:Event
     kind: training
-    title: 'Drivers Training: Classroom'
+    title: ! 'Drivers Training: Classroom'
     location: 455 County Center
     leaders: SMSO
     start: '2015-07-15'
@@ -110,9 +120,9 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  257a72: !ruby/object:Event
+  !binary "MjU3YTcy": !ruby/object:Event
     kind: training
-    title: 'Drivers Training: Practical'
+    title: ! 'Drivers Training: Practical'
     location: 400 County Center Parking Lot
     leaders: SMSO
     start: '2015-07-18'
@@ -122,7 +132,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  e4f366: !ruby/object:Event
+  !binary "ZTRmMzY2": !ruby/object:Event
     kind: meeting
     title: General Meeting
     location: Redwood City County Room 101
@@ -131,10 +141,10 @@
     finish: '2015-07-20'
     description: ''
     lat: '37.4888'
-    lon: "-122.2305"
+    lon: '-122.2305'
     prior: TBD
     gcal_id: TBD
-  cab3ba: !ruby/object:Event
+  !binary "Y2FiM2Jh": !ruby/object:Event
     kind: training
     title: Lost Person Behavior Skills Night
     location: East Bay Cache
@@ -146,7 +156,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  2390ee: !ruby/object:Event
+  !binary "MjM5MGVl": !ruby/object:Event
     kind: training
     title: Low Angle Rescue *
     location: El Corte de Madera OSP
@@ -160,7 +170,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  15d14b: !ruby/object:Event
+  !binary "MTVkMTRi": !ruby/object:Event
     kind: training
     title: Search Practice *
     location: TBA
@@ -172,7 +182,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  a369d5: !ruby/object:Event
+  !binary "YTM2OWQ1": !ruby/object:Event
     kind: meeting
     title: Qrtly Leadership Mtg
     location: TBA
@@ -184,7 +194,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  4a3e81: !ruby/object:Event
+  !binary "NGEzZTgx": !ruby/object:Event
     kind: training
     title: DO Skills Night *
     location: TBA
@@ -200,9 +210,9 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  6b4439: !ruby/object:Event
+  !binary "NmI0NDM5": !ruby/object:Event
     kind: training
-    title: 'Small Alpin: Billy''s Peak'
+    title: ! 'Small Alpin: Billy''s Peak'
     location: Billy's Peak, Trinity County
     leaders: Chromik
     start: '2015-08-07'
@@ -213,7 +223,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  c3d313: !ruby/object:Event
+  !binary "YzNkMzEz": !ruby/object:Event
     kind: training
     title: Low Angle Skills Night
     location: Palo Alto
@@ -225,7 +235,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  b1e361: !ruby/object:Event
+  !binary "YjFlMzYx": !ruby/object:Event
     kind: training
     title: Starr King Small Alpine
     location: Yosemite
@@ -238,7 +248,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  '439044': !ruby/object:Event
+  !binary "NDM5MDQ0": !ruby/object:Event
     kind: training
     title: Desolation Wilderness Small Alpine
     location: Desolation Wilderness
@@ -250,7 +260,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  4efdd6: !ruby/object:Event
+  !binary "NGVmZGQ2": !ruby/object:Event
     kind: meeting
     title: General Meeting
     location: Castro Valley Nike Classroom
@@ -259,10 +269,10 @@
     finish: '2015-08-17'
     description: ''
     lat: '37.7207'
-    lon: "-122.0962"
+    lon: '-122.0962'
     prior: TBD
     gcal_id: TBD
-  '592721': !ruby/object:Event
+  !binary "NTkyNzIx": !ruby/object:Event
     kind: meeting
     title: Qrtly Leadership Mtg (backup date)
     location: TBA
@@ -274,7 +284,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  e8b2d2: !ruby/object:Event
+  !binary "ZThiMmQy": !ruby/object:Event
     kind: training
     title: Basic Technical Rescue *
     location: TBA
@@ -288,7 +298,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  9f1954: !ruby/object:Event
+  !binary "OWYxOTU0": !ruby/object:Event
     kind: training
     title: Tech Rescue Skills Night
     location: Albany
@@ -302,7 +312,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  f312d9: !ruby/object:Event
+  !binary "ZjMxMmQ5": !ruby/object:Event
     kind: community
     title: SAREX
     location: Silver Lake
@@ -314,21 +324,21 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  7a2945: !ruby/object:Event
+  !binary "N2EyOTQ1": !ruby/object:Event
     kind: training
     title: Search Management / OP 0
     location: TBA
     leaders: Hoagland
     start: '2015-09-19'
     finish: '2015-09-20'
-    description: 'We will spend two days planning and executing the first operational
+    description: ! 'We will spend two days planning and executing the first operational
       period of a search operation, in slow motion, in rugged terrain. Limited attendance:
       Basic Technical Rescue is required, preference will be given to Field Members.'
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  17d942: !ruby/object:Event
+  !binary "MTdkOTQy": !ruby/object:Event
     kind: meeting
     title: General Meeting
     location: Redwood City Jury Assembly Room
@@ -337,10 +347,10 @@
     finish: '2015-09-21'
     description: ''
     lat: '37.4888'
-    lon: "-122.2305"
+    lon: '-122.2305'
     prior: TBD
     gcal_id: TBD
-  f5260d: !ruby/object:Event
+  !binary "ZjUyNjBk": !ruby/object:Event
     kind: training
     title: Tech Rescue Skills Night
     location: Albany
@@ -353,7 +363,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  06cc15: !ruby/object:Event
+  !binary "MDZjYzE1": !ruby/object:Event
     kind: community
     title: Early Elections Close
     location: TBA
@@ -365,20 +375,20 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  f09b78: !ruby/object:Event
+  !binary "ZjA5Yjc4": !ruby/object:Event
     kind: training
     title: Search Practice
     location: TBA
     leaders: Ahntholz
     start: '2015-10-03'
     finish: ''
-    description: 'A mock search, somewhere. Training open to guests, pending Leader
+    description: ! 'A mock search, somewhere. Training open to guests, pending Leader
       approval. '
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  3a9257: !ruby/object:Event
+  !binary "M2E5MjU3": !ruby/object:Event
     kind: training
     title: Operations Leader Training
     location: TBA
@@ -391,7 +401,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  8b2e32: !ruby/object:Event
+  !binary "OGIyZTMy": !ruby/object:Event
     kind: training
     title: Dog Flanking Training
     location: TBA
@@ -403,7 +413,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  '847400': !ruby/object:Event
+  !binary "ODQ3NDAw": !ruby/object:Event
     kind: meeting
     title: General Meeting
     location: Castro Valley Nike Classroom
@@ -412,17 +422,17 @@
     finish: '2015-10-19'
     description: ''
     lat: '37.7207'
-    lon: "-122.0962"
+    lon: '-122.0962'
     prior: TBD
     gcal_id: TBD
-  57e70a: !ruby/object:Event
+  !binary "NTdlNzBh": !ruby/object:Event
     kind: training
     title: Medical Skills *
     location: TBA
     leaders: Fitzgerald
     start: '2015-10-24'
     finish: '2015-10-25'
-    description: 'Medical Skills Training is all about putting our skills and knowledge
+    description: ! 'Medical Skills Training is all about putting our skills and knowledge
       to use. BAMRU has an exciting medical skills training planned this year. Some
       highlights include guest lecture by Stanford''s Wilderness Medicine Fellow,
       Skill labs with lots of hands on practice, and the BAMRU Medical Olympics where
@@ -432,7 +442,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  5c4f24: !ruby/object:Event
+  !binary "NWM0ZjI0": !ruby/object:Event
     kind: community
     title: Elections Close
     location: TBA
@@ -444,7 +454,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  fc891e: !ruby/object:Event
+  !binary "ZmM4OTFl": !ruby/object:Event
     kind: meeting
     title: General Meeting
     location: Redwood City Jury Assembly Room
@@ -453,10 +463,10 @@
     finish: '2015-11-16'
     description: ''
     lat: '37.4888'
-    lon: "-122.2305"
+    lon: '-122.2305'
     prior: TBD
     gcal_id: TBD
-  4680e1: !ruby/object:Event
+  !binary "NDY4MGUx": !ruby/object:Event
     kind: training
     title: Adv. Search / Tracking / Low Angle *
     location: TBA
@@ -469,20 +479,20 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  86ad9a: !ruby/object:Event
+  !binary "ODZhZDlh": !ruby/object:Event
     kind: training
     title: Practice Search *
     location: TBA
     leaders: TBA
     start: '2015-11-22'
     finish: ''
-    description: 'A practice search, somewhere. Training open to guests, pending Leader
-      approval. '
+    description: ! 'A practice search, somewhere. Training open to guests, pending
+      Leader approval. '
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  cf4829: !ruby/object:Event
+  !binary "Y2Y0ODI5": !ruby/object:Event
     kind: community
     title: Holiday Party
     location: TBA
@@ -494,7 +504,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  da5caa: !ruby/object:Event
+  !binary "ZGE1Y2Fh": !ruby/object:Event
     kind: meeting
     title: General Meeting (not 3rd Monday)
     location: Castro Valley
@@ -503,10 +513,10 @@
     finish: '2015-12-14'
     description: ''
     lat: '37.7207'
-    lon: "-122.0962"
+    lon: '-122.0962'
     prior: TBD
     gcal_id: TBD
-  387c0a: !ruby/object:Event
+  !binary "Mzg3YzBh": !ruby/object:Event
     kind: community
     title: BAMRU Dues Renewal
     location: TBA
@@ -518,24 +528,27 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  fa1185: !ruby/object:Event
+  !binary "ZmExMTg1": !ruby/object:Event
     kind: training
     title: Skills Weekend / Make-up Training *
     location: TBA
     leaders: TBA
     start: '2015-12-19'
     finish: '2015-12-20'
-    description: "If we miss a training during the year, we will use this weekend
-      to make it up.\n\nOtherwise, it will be for skills and Trainee packet sign offs.
-      An important opportunity for Field and Technical team members to assist Trainees
-      in packet sign offs. Trainees will have an opportunity to demonstrate skills
-      through scenarios, skill stations and miscellaneous needed skill sign offs,
-      as they work toward completing their training packets. "
+    description: ! 'If we miss a training during the year, we will use this weekend
+      to make it up.
+
+
+      Otherwise, it will be for skills and Trainee packet sign offs. An important
+      opportunity for Field and Technical team members to assist Trainees in packet
+      sign offs. Trainees will have an opportunity to demonstrate skills through scenarios,
+      skill stations and miscellaneous needed skill sign offs, as they work toward
+      completing their training packets. '
     lat: 
     lon: 
     prior: TBD
     gcal_id: TBD
-  5a67ef: !ruby/object:Event
+  !binary "NWE2N2Vm": !ruby/object:Event
     kind: meeting
     title: General Meeting  (not 3rd Monday)
     location: RWC Jury Assembly
@@ -544,10 +557,10 @@
     finish: '2016-01-11'
     description: ''
     lat: '37.4888'
-    lon: "-122.2305"
+    lon: '-122.2305'
     prior: TBD
     gcal_id: TBD
-  7c84c9: !ruby/object:Event
+  !binary "N2M4NGM5": !ruby/object:Event
     kind: meeting
     title: Qrtly Leadership Mtg
     location: TBA
@@ -559,7 +572,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  0e1629: !ruby/object:Event
+  !binary "MGUxNjI5": !ruby/object:Event
     kind: training
     title: Snow Skills *
     location: TBA
@@ -573,7 +586,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  ebd2a6: !ruby/object:Event
+  !binary "ZWJkMmE2": !ruby/object:Event
     kind: training
     title: Guest Mock Search
     location: Redwood Memorial Park
@@ -586,7 +599,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  729e2e: !ruby/object:Event
+  !binary "NzI5ZTJl": !ruby/object:Event
     kind: meeting
     title: General Meeting (Not 3rd Monday)
     location: Castro Valley
@@ -595,10 +608,10 @@
     finish: '2016-02-08'
     description: ''
     lat: '37.7207'
-    lon: "-122.0962"
+    lon: '-122.0962'
     prior: TBD
     gcal_id: TBD
-  30903b: !ruby/object:Event
+  !binary "MzA5MDNi": !ruby/object:Event
     kind: training
     title: Snow and Ice Re-Accreditation
     location: TBA
@@ -610,7 +623,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  c30e68: !ruby/object:Event
+  !binary "YzMwZTY4": !ruby/object:Event
     kind: meeting
     title: General Meeting
     location: Redwood City County Room 101
@@ -619,6 +632,6 @@
     finish: '2016-03-21'
     description: ''
     lat: '37.4889'
-    lon: "-122.2305"
+    lon: '-122.2305'
     prior: TBD
     gcal_id: TBD

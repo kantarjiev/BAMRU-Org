@@ -4,7 +4,9 @@ require 'active_support/core_ext'
 
 class Event
 
-  FIELDS = %i(kind title location leaders start finish description lat lon prior gcal_id)
+  FIELDS = %w(kind title location leaders start finish description lat lon prior gcal_id).map do |x|
+    x.to_sym
+  end
 
   attr_accessor *FIELDS
 

@@ -4,13 +4,16 @@ require_relative './event/store'
 
 # either 'test' or 'production'
 # for example - use: MM_ENV=test rake -T
-MM_ENV  ||= ENV["MM_ENV"] || "test"
 
-MM_ROOT ||= File.expand_path("../", __dir__)
+BASE_DIR ||= File.dirname(File.realpath(__FILE__))
+
+MM_ENV   ||= ENV["MM_ENV"] || "test"
+
+MM_ROOT  ||= File.expand_path("../", BASE_DIR)
 
 # ----- gcal keys / environment -----
 
-ENV_FILE ||= File.expand_path("../.gcal_keys/env", __dir__)
+ENV_FILE ||= File.expand_path("../.gcal_keys/env", BASE_DIR)
 
 # ----- bnet data files -----
 

@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.1.5"
+ruby "1.9.3"
 
 gem "middleman", "~> 3.3.6"
 
@@ -25,5 +25,4 @@ gem "whenever"       # cron scheduling
 gem "colored"        # colored terminal output
 gem "rake"           # command processing
 gem "pry"            # IRB console
-gem "pry-byebug"     # debugger
 gem "hirb"           # console formatter

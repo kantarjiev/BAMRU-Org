@@ -21,13 +21,12 @@ Clone the repo and make sure there is a gh-pages branch which holds the HTML out
 
 ## Support Software
 
-This site depends on Ruby 2.1.x.  Use a Ruby version manager like `RVM`,
-`rbenv` or `chruby` to setup Ruby.  Once ruby is configured, install the
-bundled Ruby Gems (including `Middleman`)
+This site depends on Ruby 1.9.3.  Once ruby is configured, install the bundled
+Ruby Gems (including `Middleman`)
 
-    ruby-install ruby 2.1.x
+    sudo apt-get install ruby ruby-dev
     cd <dir>/BAMRU-Org
-    gem install bundler
+    (sudo) gem install bundler
     bundle
 
 ## Rake Tasks
