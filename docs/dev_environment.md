@@ -6,12 +6,18 @@ in the [README](../README.md) file.
 ## Development Operating System
 
 This has only been tested on Ubuntu 14.04.  If you are running Mac or Windows,
-I recommend that you install & use Vagrant/VirtualBox with an Ubuntu VM.
+I recommend that you install & use Vagrant/VirtualBox with an Ubuntu VM. (a
+pre-configurated Vagrantfile is provided in this repository...)
 
-## Repo Setup
+## Installation
 
-To update the live site, you must have update rights on the GitHub repo.
-See AndyL for this.
+This site depends on Ruby 1.9.3.  Once ruby is configured, install the bundled
+Ruby Gems (including `Middleman`)
+
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get remove ruby1.8
+    sudo apt-get install ruby1.9.1 ruby1.9.1-dev npm build-essential git
 
 Clone the repo and make sure there is a gh-pages branch which holds the HTML output.
 
@@ -19,15 +25,11 @@ Clone the repo and make sure there is a gh-pages branch which holds the HTML out
     git branches -a                              # show all branches - look for `gh-pages`
     git checkout -b gh-pages origin/gh-pages     # make a local copy of `gh-pages`
 
-## Support Software
+Install the Ruby support software
 
-This site depends on Ruby 1.9.3.  Once ruby is configured, install the bundled
-Ruby Gems (including `Middleman`)
-
-    sudo apt-get install ruby ruby-dev
     cd <dir>/BAMRU-Org
-    (sudo) gem install bundler
-    bundle
+    gem install bundler
+    bundle install
 
 ## Rake Tasks
 
@@ -38,6 +40,7 @@ To view all of the Rake options, type `rake -T`.
 
 Most important Rake tasks include:
 
+    rake dev:serve       # run the development server on port 4567
     rake site:build      # run the build command
     rake site:deploy     # run the deploy script
 
