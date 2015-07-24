@@ -170,14 +170,15 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  !binary "MTVkMTRi": !ruby/object:Event
+  !binary "OWQ5Nzgw": !ruby/object:Event
     kind: training
-    title: Search Practice *
-    location: TBA
+    title: Search Practice/Helicopter Safety
+    location: Lake Chabot Regional Park
     leaders: Ghio
     start: '2015-07-26'
     finish: ''
-    description: Practice search, somewhere
+    description: Practice Search/Helicopter Training. Location Lake Chabot Regional
+      Park
     lat: 
     lon: 
     prior: TBD
