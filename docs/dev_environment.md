@@ -21,15 +21,17 @@ Ruby Gems (including `Middleman`)
 
 Clone the repo and make sure there is a gh-pages branch which holds the HTML output.
 
-    git clone git@github.com:andyl/BAMRU-Org.git # clone the repo
-    git branches -a                              # show all branches - look for `gh-pages`
-    git checkout -b gh-pages origin/gh-pages     # make a local copy of `gh-pages`
+    git clone https://github.com/andyl/BAMRU-Org.git   # clone the repo
+    cd BAMRU-Org                                       # cd to the repo directory
+    git branch -a                                      # show all branches - look for `gh-pages`
+    git checkout -b gh-pages origin/gh-pages           # make a local copy of `gh-pages`
 
 Install the Ruby support software
 
-    cd <dir>/BAMRU-Org
-    gem install bundler
-    bundle install
+    cd <dir>/BAMRU-Org          # cd to the repo directory 
+    git checkout master         # checkout the master branch
+    sudo gem install bundler    # install bundler 
+    bundle install              # install support sortware
 
 ## Rake Tasks
 
