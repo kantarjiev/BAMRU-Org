@@ -10,7 +10,9 @@ class CalData
 
       extend Rake::Loggers
 
-      def initialize(from: GCAL_DATA_JSON_FILE, to: GCAL_DATA_YAML_FILE)
+      def initialize(opts)
+        from = opts[:from]
+        to   = opts[:to]
         raise "Invalid input (#{from})" unless from.split('.').last == "json"
         raise "Invalid output (#{to})"  unless to.split('.').last == "yaml"
         @from = from

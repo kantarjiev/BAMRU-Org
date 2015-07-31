@@ -20,7 +20,6 @@ class GcalClient
   def list_events
     loop_params = params = {'calendarId' => CAL_ID}
     accumulator = []
-    binding.pry
     loop do
       opts = {
         api_method: google_calendar.events.list,
@@ -80,7 +79,7 @@ class GcalClient
   # ----- factories -----
 
   def create_authenticated_client
-    opts   = {application_name: "test", application_version: "0.0.1"}
+    opts   = {application_name: "bamru-calendar", application_version: "0.0.1"}
     client = GAPI.new(opts)
     key    = GAPI::KeyUtils.load_from_pkcs12(KEYFILE, 'notasecret')
     client.authorization = Signet::OAuth2::Client.new(
@@ -90,6 +89,7 @@ class GcalClient
       issuer:      ISSUER,
       signing_key: key
     )
+    binding.pry
     client.authorization.fetch_access_token!
     client
   end
