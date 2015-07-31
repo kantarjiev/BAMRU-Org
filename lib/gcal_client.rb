@@ -89,7 +89,6 @@ class GcalClient
       issuer:      ISSUER,
       signing_key: key
     )
-    binding.pry
     client.authorization.fetch_access_token!
     client
   end
