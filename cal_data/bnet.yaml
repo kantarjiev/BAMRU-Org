@@ -195,10 +195,10 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-  !binary "NGEzZTgx": !ruby/object:Event
+  !binary "ZjVhMmRl": !ruby/object:Event
     kind: training
     title: DO Skills Night *
-    location: TBA
+    location: IDEO, 150 Forest Ave, Palo Alto, CA 9430
     leaders: Grishaver
     start: '2015-08-04'
     finish: '2015-08-04'
@@ -207,8 +207,8 @@
       a search, etc), and the practice of DO-ing (how do we accomplish all of these
       things with the tools we have, like bamru.net). For new and experienced DO's
       alike!
-    lat: 
-    lon: 
+    lat: '37.4422'
+    lon: '-122.1608'
     prior: TBD
     gcal_id: TBD
   !binary "NmI0NDM5": !ruby/object:Event
