@@ -13,7 +13,7 @@ MM_ROOT  ||= File.expand_path("../", BASE_DIR)
 
 # ----- gcal keys / environment -----
 
-ENV_FILE ||= File.expand_path("../.gcal_keys/env", BASE_DIR)
+ENV_FILE ||= File.expand_path("~/.gcal_keys/env")
 
 # ----- bnet data files -----
 

@@ -62,8 +62,8 @@ Is your head spinning yet?  We're nearly done...
 
 ## The GCAL_KEYS directory
 
-Gapi Credentials are stored in the .gcal_keys directory in the home directory
-of the project.  For security, these keys are not loaded into our Git repo.
+Gapi Credentials are stored in the ~/.gcal_keys directory.  For security, these
+keys are not loaded into our Git repo.
 
 You will need to gather three items:
 
@@ -75,9 +75,6 @@ You will need to gather three items:
 
 Ask AndyL to send you a copy of the `gcal_keys` directory.  Then you can edit
 the directory to include your new account information.
-
-Note: to prevent inadvertent deletion of the `gcal_keys` directory, it is backed
-up to `~/.gcal_keys` every time you run `rake site:build`.
 
 ## Using Gcal Integration
 
