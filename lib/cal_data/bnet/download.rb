@@ -14,7 +14,8 @@ class CalData
           if has_changed?(csv_text)
             save_new_text(csv_text)
           else
-            do_not_save_text
+            do_not_save_message
+            abort_message
           end
         end
 
@@ -22,15 +23,20 @@ class CalData
 
         def download_latest_csv
           raw_text = open(BNET_DATA_SRC_URL).read
-          raw_text.delete("^\u{0000}-\u{007F}")     # remove non-ascii characters
+          raw_text.delete("^\u{0000}-\u{007F}")   # remove non-ascii characters
         end
 
         def has_changed?(new_text)
           new_text != old_text
         end
 
-        def do_not_save_text
+        def do_not_save_message
           log "CSV Text has not changed - nothing saved"
+        end
+
+        def abort_message
+          log "Exiting"
+          abort "."
         end
 
         def save_new_text(csv_text)
