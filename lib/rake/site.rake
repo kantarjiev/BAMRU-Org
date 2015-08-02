@@ -27,7 +27,7 @@ namespace :site do
 
   def script(label = "")
     timestamp = Time.now.strftime("%y-%m-%d %H:%M")
-    msg = "#{label} at #{timestamp}".strip
+    msg = "#{label} @ #{timestamp}".strip
     <<-EOF
     rm -rf /tmp/out
     cp -r out /tmp
