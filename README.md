@@ -47,6 +47,8 @@ or Mac (or UbuntuVM), CommandLine savvy and Ruby skills.
 
 ## More Information
 
+[How to Contribute](./docs/contributing.md)
+
 [About the Development Environment](./docs/dev_environment.md)
 
 [How to be a Copy Editor](./docs/copy_editor.md)
