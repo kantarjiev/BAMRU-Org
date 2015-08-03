@@ -7,27 +7,30 @@
 # for example - use: MM_ENV=test BAMRU_FLAGS=debug:verbose rake -T
 
 BASE_DIR ||= File.dirname(File.realpath(__FILE__))
-
 MM_ENV   ||= ENV["MM_ENV"] || "test"
-raise "Environment setting must be 'production' or 'test'" unless MM_ENV == "production" || MM_ENV == "test"
-
 MM_ROOT  ||= File.expand_path("../", BASE_DIR)
+
+def valid_env?
+  %w(test production).include?(MM_ENV)
+end
+
+raise "Environment setting must be 'production' or 'test'" unless valid_env?
 
 # ----- test flags -----
 
-TEST_FLAGS ||= (ENV["BAMRU_FLAGS"].strip.chomp.split(':') if ENV["BAMRU_FLAGS"] ) || "debug:verbose"
-DEBUG ||= TEST_FLAGS.include? "debug"
-READONLY  ||= TEST_FLAGS.include? "readonly"
-VERBOSE  ||= TEST_FLAGS.include? "verbose"
+TEST_FLAGS ||= (ENV["BAMRU_FLAGS"] || "debug:verbose").strip.chomp.split(':')
+DEBUG      ||= TEST_FLAGS.include? "debug"
+READONLY   ||= TEST_FLAGS.include? "readonly"
+VERBOSE    ||= TEST_FLAGS.include? "verbose"
 
 # ----- gcal keys / environment -----
 
 APPLICATION_NAME ||= "BAMRU Google Calendar Publish"
-File.expand_path("../.gcal_keys/env", BASE_DIR)
+GCAL_KEYS        ||= File.expand_path("~/.gcal_keys")
 
-CLIENT_SECRET ||= File.expand_path("../.gcal_keys/#{MM_ENV}_secret.json", BASE_DIR)
-CREDENTIAL ||= File.expand_path("../.gcal_keys/#{MM_ENV}_calendar_credential.json", BASE_DIR)
-SCOPE ||= "https://www.googleapis.com/auth/calendar" + (READONLY ? ".readonly" : "")
+CLIENT_SECRET ||= "#{GCAL_KEYS}/#{MM_ENV}_secret.json"
+CREDENTIAL    ||= "#{GCAL_KEYS}/#{MM_ENV}_calendar_credential.json"
+SCOPE         ||= "https://www.googleapis.com/auth/calendar" + (READONLY ? ".readonly" : "")
 
 # ----- bnet data files -----
 

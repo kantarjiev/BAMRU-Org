@@ -11,12 +11,10 @@ class CalData
       extend Rake::Loggers
 
       def initialize(opts = {})
-        from = opts[:from] || GCAL_DATA_JSON_FILE
-        to   = opts[:to]   || GCAL_DATA_YAML_FILE
-        raise "Invalid input file (#{from})" unless from.split('.').last == "json"
-        raise "Invalid output file (#{to})"  unless to.split('.').last == "yaml"
-        @from = from
-        @to   = to
+        @from = opts[:from] || GCAL_DATA_JSON_FILE
+        @to   = opts[:to]   || GCAL_DATA_YAML_FILE
+        raise "Invalid input file (#{@from})" unless @from.split('.').last == "json"
+        raise "Invalid output file (#{@to})"  unless @to.split('.').last == "yaml"
       end
 
       def execute
@@ -43,6 +41,10 @@ class CalData
             start:    start
           }
 
+          # Skip events that fall outside of our DateRange
+          next if start < DateRange.start_str
+          next if start > DateRange.finish_str
+
           # Handle duplicate records, addition records are hashed with the gcal_id to make them unique
           # When everything is functioning correctly duplicate records shouldn't exist but they creep in
           # during testing
@@ -52,9 +54,8 @@ class CalData
               prev_opts[:start] == opts[:start] ? " / #{opts[:gcal_id]}" : extend_sig = ""
           prev_opts = opts
           Event.new(opts, extend_sig)
-        end
+        end.compact
       end
-
     end
   end
 end

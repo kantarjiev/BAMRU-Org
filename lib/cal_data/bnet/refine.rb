@@ -30,9 +30,8 @@ class CalData
         return [] unless File.exist?(@from)
         csv_events = []
         CSV.foreach(@from, headers: true) do |row|
-          #CST:BUG  Seems unnecessary, BAMRU.net is the source of truth
-          #next if row["start"] < DateRange.start_str
-          #next if row["start"] > DateRange.finish_str
+          next if row["start"] < DateRange.start_str
+          next if row["start"] > DateRange.finish_str
           csv_events << row
         end
         csv_events
