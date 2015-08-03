@@ -1,7 +1,6 @@
 require "spec_helper"
 
-# if File.exist?(ENV_FILE)
-
+if File.exist?(CLIENT_SECRET)
   require "#{LIB}/cal_data/gcal/download"
 
   describe CalData::Gcal::Download do
@@ -16,5 +15,4 @@ require "spec_helper"
       specify { expect(klas).to respond_to :execute }
     end
   end
-
-# end
+end

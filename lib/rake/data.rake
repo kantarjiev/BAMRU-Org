@@ -5,7 +5,6 @@ require_relative "../cal_data/bnet/refine"
 
 namespace :data do
   namespace :bnet do
-
     desc "Download event data from BAMRU.net"
     task :download do
       CalData::Bnet::Download.execute
@@ -15,7 +14,6 @@ namespace :data do
     task :refine do
       CalData::Bnet::Refine.new.execute
     end
-
   end
 end
 
@@ -26,7 +24,6 @@ if File.exist?(CLIENT_SECRET)
 
   namespace :data do
     namespace :gcal do
-
       desc "Download Gcal Data"
       task :download do
         CalData::Gcal::Download.execute
@@ -46,7 +43,6 @@ if File.exist?(CLIENT_SECRET)
       task :delete_all do
         GcalSync.new.delete_all
       end
-
     end
   end
 end

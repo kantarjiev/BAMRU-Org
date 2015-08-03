@@ -4,9 +4,8 @@ require 'active_support/core_ext'
 
 class Event
 
-  FIELDS = %w(kind title location leaders start finish description lat lon prior gcal_id).map do |x|
-    x.to_sym
-  end
+  fields = %w(kind title location leaders start finish description lat lon prior gcal_id)
+  FIELDS = fields.map(&:to_sym)
 
   attr_accessor *FIELDS
 
@@ -25,5 +24,4 @@ class Event
   def hash
     Digest::SHA256.hexdigest(@signature).reverse[0..5].reverse
   end
-
 end

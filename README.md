@@ -38,8 +38,6 @@ The workflow for Designers and Coders generally follows this cycle:
 You'll need a browser, a github account, Ubuntu or UbuntuVM, CommandLine savvy
 and Ruby skills.
 
-## More Information
-
 [How to Contribute](./docs/contributing.md)
 
 [About the Development Environment](./docs/dev_environment.md)

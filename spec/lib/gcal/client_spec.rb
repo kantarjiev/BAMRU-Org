@@ -1,7 +1,6 @@
 require "spec_helper"
 
-# if File.exist?(ENV_FILE)
-
+if File.exist?(CLIENT_SECRET)
   require "#{LIB}/gcal/client"
 
   describe Gcal::Client do
@@ -18,5 +17,4 @@ require "spec_helper"
       it { should respond_to :delete_event               }
     end
   end
-
-# end
+end

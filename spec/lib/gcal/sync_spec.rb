@@ -1,7 +1,6 @@
 require "spec_helper"
 
-# if File.exist?(ENV_FILE)
-
+if File.exist?(CLIENT_SECRET)
   require "#{LIB}/gcal/sync"
 
   describe Gcal::Sync do
@@ -17,8 +16,8 @@ require "spec_helper"
       it { should respond_to :pending_create           }
       it { should respond_to :create                   }
       it { should respond_to :delete                   }
-      # it { should respond_to :create_pending           }
-      # it { should respond_to :delete_pending           }
+      it { should respond_to :create_events            }
+      it { should respond_to :delete_events            }
     end
 
     describe ".pending_delete" do
@@ -33,4 +32,4 @@ require "spec_helper"
       end
     end
   end
-# end
+end

@@ -19,10 +19,12 @@ describe Event do
     it { should respond_to :description              }
     it { should respond_to :lat                      }
     it { should respond_to :lon                      }
+    it { should respond_to :prior                    }
+    it { should respond_to :gcal_id                  }
   end
 
   describe "Instance Methods" do
+    it { should respond_to :id                     }
     it { should respond_to :hash                   }
-    # it { should respond_to :signature              }
   end
 end
