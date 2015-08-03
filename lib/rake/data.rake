@@ -22,7 +22,7 @@ end
 if File.exist?(CLIENT_SECRET)
   require_relative "../cal_data/gcal/download"
   require_relative "../cal_data/gcal/refine"
-  require_relative "../gcal_sync"
+  require_relative "../gcal/sync"
 
   namespace :data do
     namespace :gcal do
