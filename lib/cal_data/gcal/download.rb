@@ -1,5 +1,4 @@
 require 'json'
-require 'pry'
 require_relative '../../base'
 require_relative '../../rake/loggers'
 require_relative '../../gcal_client'
@@ -33,20 +32,25 @@ class CalData
         end
 
         def do_not_save_text
-          log "Gcal Events has not changed - nothing saved"
+          log "GCal Events data up-to-date"
         end
 
         def save_new_text(json_text)
           File.open(GCAL_DATA_JSON_FILE, 'w') {|f| f.puts json_text}
+
+          #cst: this seems pretty file format dependent
           msg = `wc -l #{GCAL_DATA_JSON_FILE}`.strip.chomp.split(' ')
           log "Gcal event data has been downloaded"
+          msg[0] = msg[0].to_i - 2 # ignore first and last lines with [ ] 
           log "#{msg[0]} records saved to #{msg[1]}"
         end
 
         def old_text
           File.exist?(GCAL_DATA_JSON_FILE) ? File.read(GCAL_DATA_JSON_FILE) : ""
         end
+        
       end
+      
     end
   end
 end

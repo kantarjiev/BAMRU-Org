@@ -1,103 +1,121 @@
+require 'google/api_client'
+require 'google/api_client/client_secrets'
+require 'google/api_client/auth/installed_app'
+require 'google/api_client/auth/storage'
+require 'google/api_client/auth/storages/file_store'
+require 'fileutils'
 require 'json'
 require 'tzinfo'
-require 'dotenv'
-require 'google/api_client'
 require_relative "./base"
+require_relative './rake/loggers'
 
 class GcalClient
+  extend Rake::Loggers
 
-  raise "No Gcal Keys" unless File.exists?(ENV_FILE)
-
-  Dotenv.load ENV_FILE
-
-  GAPI     = Google::APIClient
-  ISSUER   = ENV["#{MM_ENV.upcase}_ISSUER"]
-  CAL_ID   = ENV["#{MM_ENV.upcase}_CAL_ID"]
-  KEYFILE  = File.expand_path("~/.gcal_keys/bamru_#{MM_ENV}.p12")
+  raise "No Gcal credentials" unless File.exists?(CLIENT_SECRET)
 
   # ----- instance methods -----
 
+  def initialize
+    @client = Google::APIClient.new(:application_name => APPLICATION_NAME)
+    @client.authorization = authorize
+    @calendar_api ||= @client.discovered_api('calendar', 'v3')
+  end
+
   def list_events
-    loop_params = params = {'calendarId' => CAL_ID}
-    accumulator = []
-    loop do
-      opts = {
-        api_method: google_calendar.events.list,
-        parameters: loop_params
-      }
-      result = google_exec(opts)
-      accumulator << result
-      page_token  = result.next_page_token
-      loop_params = params.merge({pageToken: page_token})
-      break if page_token.nil?
+    results = @client.execute!(
+                              :api_method => @calendar_api.events.list,
+                              :parameters => {
+                                :calendarId => 'primary',
+                                :maxResults => 2500,  #cst document in base.rb
+                                :singleEvents => true,
+                                :orderBy => 'startTime' })
+
+    if VERBOSE
+      puts "GCal Events:"
+      puts "No events found" if results.data.items.empty?
+      results.data.items.each do |event|
+        start = event.start.date || event.start.date_time
+        puts "- #{event.summary} (#{start})"
+      end
     end
-    accumulator.map {|val| JSON.parse(val.body.scrub)["items"]}.flatten
+
+    results.data.items
+    
   end
 
-  def delete_event(google_event_id)
-    opts = {
-      api_method: google_calendar.events.delete,
-      parameters: {'calendarId' => CAL_ID, 'eventId' => google_event_id}
-    }
-    google_exec(opts)
-  end
-
-  def create_event(event_input)
+  def create_event(event)
     event_opts = {
-      'summary'     => event_input.title,
-      'description' => event_input.description,
-      'location'    => event_input.location,
-      'start'       => start_for(event_input),
-      'end'         => end_for(event_input),
+      'summary'     => event.title,
+      'description' => event.description,
+      'location'    => event.location,
+      'start'       => start_for(event),
+      'end'         => end_for(event),
     }
-    opts = {
-      api_method: google_calendar.events.insert,
-      parameters: {'calendarId' => CAL_ID},
-      body:       JSON.dump(event_opts),
-      headers:    {'Content-Type' => 'application/json'}
-    }
-    google_exec(opts)
+
+    #cst: improve error handling? what's the right behavior 'execute!' or 'execute'
+    result = @client.execute(
+                              :api_method => @calendar_api.events.insert,
+                              :parameters => {
+                                'calendarId' => 'primary'},
+                              :body_object => event_opts)
+
+    error = result.data.kind != "calendar#event"
+    if VERBOSE
+      puts "Event created: #{event.title} [#{event.start}]"#c if result.body == ""
+    end
+
+    error
+  end
+
+  def delete_event(google_event_id, event)
+    result = @client.execute(:api_method => @calendar_api.events.delete,
+                             :parameters => {
+                               'calendarId' => 'primary',
+                               'eventId' => google_event_id})
+
+    if result.body == ""
+      puts "Event deleted: #{event.title} [#{event.start}] #{google_event_id}" if VERBOSE
+      error = nil
+    else
+      error = JSON.parse(result.response.body)["error"]["message"]
+      puts "Delete error: #{event.title} [#{event.start}] #{error}" if VERBOSE
+    end
+
+    error
   end
 
   private
 
-  def google_exec(opts)
-    sleep 0.33
-    google_client.execute(opts)
-  end
+  ##
+  # Ensure valid credentials, either by restoring from the saved credentials
+  # files or intitiating an OAuth2 authorization request via InstalledAppFlow.
+  # If authorization is required, the user's default browser will be launched
+  # to approve the request.
+  #
+  # @return [Signet::OAuth2::Client] OAuth2 credentials
+  def authorize
+    
+    FileUtils.mkdir_p(File.dirname(CREDENTIAL))
 
-  # ----- google handles -----
-
-  def google_client
-    @authenticated_client ||= create_authenticated_client
-  end
-
-  def google_calendar
-    @authenticated_calendar ||= create_authenticated_calendar
-  end
-
-  # ----- factories -----
-
-  def create_authenticated_client
-    opts   = {application_name: "bamru-calendar", application_version: "0.0.1"}
-    client = GAPI.new(opts)
-    key    = GAPI::KeyUtils.load_from_pkcs12(KEYFILE, 'notasecret')
-    client.authorization = Signet::OAuth2::Client.new(
-      token_credential_uri: 'https://accounts.google.com/o/oauth2/token',
-      audience:    'https://accounts.google.com/o/oauth2/token',
-      scope:       'https://www.googleapis.com/auth/calendar',
-      issuer:      ISSUER,
-      signing_key: key
-    )
-    client.authorization.fetch_access_token!
-    client
-  end
-
-  def create_authenticated_calendar
-    google_client.discovered_api('calendar', 'v3')
+    file_store = Google::APIClient::FileStore.new(CREDENTIAL)
+    storage = Google::APIClient::Storage.new(file_store)
+    auth = storage.authorize
+    
+    if auth.nil? || (auth.expired? && auth.refresh_token.nil?)
+      app_info = Google::APIClient::ClientSecrets.load(CLIENT_SECRET)
+      flow = Google::APIClient::InstalledAppFlow.new({
+                        :client_id => app_info.client_id,
+                        :client_secret => app_info.client_secret,
+                        :scope => SCOPE})
+      auth = flow.authorize(storage)
+      puts "Credentials saved to #{CREDENTIAL}" unless auth.nil?
+    end
+    auth
   end
 
   # ----- date utilities -----
+  # FIXME: These seem like a hack, can we fix BAMRU.net to return start/end times for meetings
 
   def start_for(event)
     if event.kind == 'meeting'
@@ -123,4 +141,5 @@ class GcalClient
     @tz ||= TZInfo::Timezone.get('America/Los_Angeles')
     @tz.local_to_utc(Time.parse(date)).to_s.match(/ (\d\d)/)[1]
   end
+
 end

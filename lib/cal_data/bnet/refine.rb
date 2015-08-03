@@ -2,7 +2,6 @@ require 'csv'
 require_relative "../../base"
 require_relative "../../event"
 require_relative "../../event/store"
-require_relative "../../date_range"
 require_relative "../../rake/loggers"
 
 class CalData
@@ -22,7 +21,7 @@ class CalData
 
       def execute
         Event::Store.new(@to).destroy_all.create(events)
-        log "Converted BNET records written to #{@to}"
+        log "Converted BAMRU.net CSV to YAML, written to #{@to}"
       end
 
       private
@@ -31,8 +30,9 @@ class CalData
         return [] unless File.exist?(@from)
         csv_events = []
         CSV.foreach(@from, headers: true) do |row|
-          next if row["start"] < DateRange.start_str
-          next if row["start"] > DateRange.finish_str
+          #CST:BUG  Seems unnecessary, BAMRU.net is the source of truth
+          #next if row["start"] < DateRange.start_str
+          #next if row["start"] > DateRange.finish_str
           csv_events << row
         end
         csv_events

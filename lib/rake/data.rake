@@ -5,6 +5,7 @@ require_relative "../cal_data/bnet/refine"
 
 namespace :data do
   namespace :bnet do
+
     desc "Download event data from BAMRU.net"
     task :download do
       CalData::Bnet::Download.execute
@@ -14,16 +15,18 @@ namespace :data do
     task :refine do
       CalData::Bnet::Refine.new.execute
     end
+
   end
 end
 
-if File.exist?(ENV_FILE)
+if File.exist?(CLIENT_SECRET)
   require_relative "../cal_data/gcal/download"
   require_relative "../cal_data/gcal/refine"
   require_relative "../gcal_sync"
 
   namespace :data do
     namespace :gcal do
+
       desc "Download Gcal Data"
       task :download do
         CalData::Gcal::Download.execute
@@ -38,6 +41,12 @@ if File.exist?(ENV_FILE)
       task :sync do
         GcalSync.new.sync
       end
+
+      desc "Delete all Gcal Data! Admin function: USE WITH CARE!!"
+      task :delete_all do
+        GcalSync.new.delete_all
+      end
+
     end
   end
 end

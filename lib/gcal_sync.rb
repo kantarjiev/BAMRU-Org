@@ -24,49 +24,51 @@ class GcalSync
   # ------ create and delete individual events -----
 
   def create(event)
-    return if event.kind == "operation"
-    client.create_event(event)
+    return event.kind if event.kind == "operation"
+    client.create_event(event) unless READONLY
   end
 
-  def delete(id)
-    client.delete_event(id)
+  def delete(id,event)
+    client.delete_event(id,event) unless READONLY
   end
 
   # ----- create / delete pending items -----
 
-  def create_pending
-    num_events = pending_create.length
-    log "creating #{num_events} events"
-    pending_create.each do |event_key|
-      result = create(BNET_STORE.all[event_key])
-      log_if_error(result)
+  def create_events(event_keys)
+    num_events = 0
+    event_keys.each do |event_key|
       print '.'.green
+      error = create(BNET_STORE.all[event_key])
+      num_events += 1 unless error
     end
-    puts ' ' unless num_events == 0
+    puts ' ' unless event_keys.length == 0
+    log "Created #{num_events} events"
   end
 
-  def delete_pending
-    num_events = pending_delete.length
-    log "deleting #{num_events} events"
-    pending_delete.each do |evid|
-      result = delete(GCAL_STORE.all[evid].gcal_id)
-      log_if_error(result)
+  def delete_events(event_keys)
+    num_events = 0
+    event_keys.each do |evid|
       print '.'.green
+      error = delete(GCAL_STORE.all[evid].gcal_id, GCAL_STORE.all[evid])
+      num_events += 1 unless error
     end
-    puts ' ' unless num_events == 0
+    puts ' ' unless event_keys.length == 0
+    log "Removed #{num_events} events"
   end
 
   # ----- sync everything -----
 
   def sync
-    delete_pending
-    create_pending
+    delete_events(pending_delete)
+    create_events(pending_create)
+  end
+
+  # ----- delete everything -----
+
+  def delete_all
+    delete_events(GCAL_STORE.all.keys)
   end
 
   private
 
-  def log_if_error(result)
-    body = result.response.body
-    puts body.red if body.match(/error/)
-  end
 end

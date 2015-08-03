@@ -18,6 +18,6 @@ require "./lib/rake/loggers"
 
 include Rake::Loggers
 
-log "Environment: #{MM_ENV}"
+log "Environment: #{MM_ENV}, Test Flags: #{TEST_FLAGS}"
 
 # ----- fini -----
