@@ -37,20 +37,15 @@ class CalData
 
         def save_new_text(json_text)
           File.open(GCAL_DATA_JSON_FILE, 'w') {|f| f.puts json_text}
-
-          #cst: this seems pretty file format dependent
-          msg = `wc -l #{GCAL_DATA_JSON_FILE}`.strip.chomp.split(' ')
           log "Gcal event data has been downloaded"
-          msg[0] = msg[0].to_i - 2 # ignore first and last lines with [ ]
-          log "#{msg[0]} records saved to #{msg[1]}"
+          count = json_text.lines.count - 2  # adjust for accurate count
+          log "#{count} records saved to #{GCAL_DATA_JSON_FILE}"
         end
 
         def old_text
           File.exist?(GCAL_DATA_JSON_FILE) ? File.read(GCAL_DATA_JSON_FILE) : ""
         end
-
       end
-
     end
   end
 end

@@ -9,7 +9,7 @@ class Gcal
 
     # ----- support methods -----
     def client
-      @gcal_client ||= GcalClient.new
+      @gcal_client ||= ::Gcal::Client.new
     end
 
     # ----- list of events to be created/deleted -----
@@ -60,14 +60,16 @@ class Gcal
     # ----- sync everything -----
 
     def sync
-      delete_events(pending_delete)
-      create_events(pending_create)
+      binding.pry
+      # delete_events(pending_delete)
+      # create_events(pending_create)
     end
 
     # ----- delete everything -----
 
     def delete_all
-      delete_events(GCAL_STORE.all.keys)
+      binding.pry
+      # delete_events(GCAL_STORE.all.keys)
     end
   end
 end

@@ -36,12 +36,12 @@ if File.exist?(CLIENT_SECRET)
 
       desc "Sync all Gcal Data"
       task :sync do
-        GcalSync.new.sync
+        ::Gcal::Sync.new.sync
       end
 
       desc "Delete all Gcal Data! Admin function: USE WITH CARE!!"
       task :delete_all do
-        GcalSync.new.delete_all
+        ::Gcal::Sync.new.delete_all
       end
     end
   end

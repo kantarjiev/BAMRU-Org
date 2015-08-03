@@ -25,13 +25,16 @@ class Gcal
     end
 
     def list_events
-      results = @client.execute!(
+      args = {
         :api_method => @calendar_api.events.list,
         :parameters => {
-          :calendarId => 'primary',
-          :maxResults => 2500,  #cst document in base.rb
+          :calendarId   => 'primary',
+          :maxResults   => 2500,             #cst document in base.rb
           :singleEvents => true,
-          :orderBy => 'startTime' })
+          :orderBy      => 'startTime'
+        }
+      }
+      results = @client.execute!(args)
       if VERBOSE
         puts "GCal Events:"
         puts "No events found" if results.data.items.empty?
@@ -106,7 +109,7 @@ class Gcal
     end
 
     # ----- date utilities -----
-    # FIXME: These seem like a hack, can we fix BAMRU.net to return start/end times for meetings
+    # TODO: can we fix BAMRU.net to return start/end times for meetings?
     def start_for(event)
       if event.kind == 'meeting'
         {"dateTime" => "#{event.start}T19:30:00-#{offset_for(event.start)}:00"}
