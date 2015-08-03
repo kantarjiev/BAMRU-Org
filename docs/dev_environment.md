@@ -19,7 +19,7 @@ Ruby Gems (including `Middleman`)
     sudo apt-get remove ruby1.8
     sudo apt-get install ruby1.9.1 ruby1.9.1-dev npm build-essential git
 
-Clone the repo and make sure there is a gh-pages branch which holds the HTML output.
+Fork and clone the repo per the 
 
     git clone https://github.com/andyl/BAMRU-Org.git   # clone the repo
     cd BAMRU-Org                                       # cd to the repo directory

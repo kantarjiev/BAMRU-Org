@@ -25,25 +25,18 @@ The static assets can be served from any webserver.  For convenience
 and cost-savings, we use [GitHub Pages](https://pages.github.com) as
 the server host.
 
-Copywriting can be done using a browser, or using the free GitHub
-software for [Mac][1] or [Windows][2].
-
 The workflow for Designers and Coders generally follows this cycle:
 
-1) Set up the required tools and repositories.  Get access to the
-BAMRU.org repo.
+1) Set up the required tools and repositories.  
 
-2) Clone the repo, make edits and test locally.
+2) Fork the repo, then clone your fork.  Make edits and test locally.
 
-3) Upload the finished commits, and publish the edits.
+3) Push your edits to your fork, then submit a pull request.
 
-[1]: https://windows.github.com
-[2]: https://mac.github.com/
+## How to Contribute
 
-## Programmer Tools and Skills
-
-To update the website programs, you'll need a browser, a github account, Ubuntu
-or Mac (or UbuntuVM), CommandLine savvy and Ruby skills.
+You'll need a browser, a github account, Ubuntu or UbuntuVM, CommandLine savvy
+and Ruby skills.
 
 ## More Information
 
