@@ -25,35 +25,45 @@ wiki.  Ask AndyL or CraigT if you need help.
 
 ## Setting up a new Calendar
 
-Setting up a calendar for Gapi V3 access requires 3 things: a project, a secret and consent
+Setting up a calendar for Gapi V3 access requires 3 things: a project, a secret
+and consent.
 
 Enable the Google Calendar API
 
-    1) Create a project in the Google Developers Console and enable the Calendar API (https://console.developers.google.com/project)
-    
-    2) In the sidebar on the left, select Consent screen. Enter a PRODUCT NAME (PublishCalendar) if not already set, and click the Save button.
-    
-    3) In the sidebar on the left, select APIs & auth and then Credentials. In the new tab that opens, click Create new Client ID.
+1) Create a project in the Google Developers Console and enable the Calendar API
+(https://console.developers.google.com/project)
 
-    4) Select the application type Installed application, the installed application type Other, and click the Create Client ID button.
+2) In the sidebar on the left, select Consent screen. Enter a PRODUCT NAME
+(PublishCalendar) if not already set, and click the Save button.
 
-    5) Click the Download JSON button under your new client ID. Move this file to your working directory and rename it #{MM_ENV}_secret.json.  MM_ENV == production || test
+3) In the sidebar on the left, select APIs & auth and then Credentials. In the
+new tab that opens, click Create new Client ID.
 
-    6) Run 'rake data:gcal:download'.  This will start a browser and ask for consent.
+4) Select the application type Installed application, the installed application
+type Other, and click the Create Client ID button.
 
-    7) That's it things should be working
+5) Click the Download JSON button under your new client ID. Move this file to
+your working directory and rename it #{MM_ENV}_secret.json.  u
+MM_ENV == production || test
 
-A good example for ruby: https://developers.google.com/google-apps/calendar/quickstart/ruby
+6) Run 'rake data:gcal:download'.  This will start a browser and ask for
+consent.
+
+7) That's it things should be working
+
+A good example for ruby:
+https://developers.google.com/google-apps/calendar/quickstart/ruby
+
+## GCAL Keys
 
 Ask AndyL or CraigT to send you a copy of the `gcal_keys` directory.  Then you can edit
 the directory to include your new account information.
 
-Note: to prevent inadvertent deletion of the `gcal_keys` directory, it is backed
-up to `~/.gcal_keys` every time you run `rake site:build`.
+The Gcal Keys should be stored in your home directory - `~/.gcal_keys`
 
 ## Using Gcal Integration
 
-After you have configured `.gcal_keys` you will see these rake tasks:
+After you have configured `~/.gcal_keys` you will see these rake tasks:
 
     rake data:gcal:download  # Download Gcal Data
     rake data:gcal:refine    # Refine Gcal json data to YAML

@@ -24,8 +24,8 @@ Changes may take up to a minute to appear on the production site.
 
 Follow these steps:
 
-    rake data:bnet:download  # Download event data from BAMRU.net
-    rake data:bnet:refine    # Refine BNET csv data to YAML
-    rake site:build          # Rebuild the calendar pages
+    > rake data:bnet:download  # Download event data from BAMRU.net
+    > rake data:bnet:refine    # Refine BNET csv data to YAML
+    > rake site:build          # Rebuild the calendar pages
 
 Then you can test locally, and rebuild/deploy the site.

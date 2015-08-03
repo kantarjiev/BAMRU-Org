@@ -14,24 +14,24 @@ pre-configurated Vagrantfile is provided in this repository...)
 This site depends on Ruby 1.9.3.  Once ruby is configured, install the bundled
 Ruby Gems (including `Middleman`)
 
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo apt-get remove ruby1.8
-    sudo apt-get install ruby1.9.1 ruby1.9.1-dev npm build-essential git
+    > sudo apt-get update
+    > sudo apt-get upgrade
+    > sudo apt-get remove ruby1.8
+    > sudo apt-get install ruby1.9.1 ruby1.9.1-dev npm build-essential git
 
-Fork and clone the repo per the 
+Fork and the [repo](https://github.com/andyl/BMARU-Org) on github, then
 
-    git clone https://github.com/andyl/BAMRU-Org.git   # clone the repo
-    cd BAMRU-Org                                       # cd to the repo directory
-    git branch -a                                      # show all branches - look for `gh-pages`
-    git checkout -b gh-pages origin/gh-pages           # make a local copy of `gh-pages`
+    > git clone https://github.com/<your-github-userid>/BAMRU-Org.git   
+    > cd BAMRU-Org                                # cd to the repo directory
+    > git branch -a                               # show all branches - look for `gh-pages`
+    > git checkout -b gh-pages origin/gh-pages    # make a local copy of `gh-pages`
 
 Install the Ruby support software
 
-    cd <dir>/BAMRU-Org          # cd to the repo directory 
-    git checkout master         # checkout the master branch
-    sudo gem install bundler    # install bundler 
-    bundle install              # install support sortware
+    > cd <dir>/BAMRU-Org          # cd to the repo directory 
+    > git checkout master         # checkout the master branch
+    > sudo gem install bundler    # install bundler 
+    > bundle install              # install support sortware
 
 ## Rake Tasks
 
@@ -42,9 +42,9 @@ To view all of the Rake options, type `rake -T`.
 
 Most important Rake tasks include:
 
-    rake dev:serve       # run the development server on port 4567
-    rake site:build      # run the build command
-    rake site:deploy     # run the deploy script
+    > rake dev:serve       # run the development server on port 4567
+    > rake site:build      # run the build command
+    > rake site:deploy     # run the deploy script
 
 ## Building the Site
 
@@ -52,8 +52,8 @@ Project input is read from the `src` directory.
 
 To run the generator manually:
 
-    cd <dir>/BAMRU-Org
-    bundle exec middleman build
+    > cd <dir>/BAMRU-Org
+    > bundle exec middleman build
 
 Project output is written to the `out` directory.
 
@@ -66,16 +66,16 @@ The project is hosted on github pages.  Output HTML is stored on the
 
 The manual deploy process looks like this:
 
-    cd <dir>/BAMRU-Org
-    rm -rf /tmp/output
-    cp -r output /tmp
-    git checkout gh-pages
-    rm -rf .
-    cp -r /tmp/output/* .
-    git add .
-    git commit -am'update website'
-    git push
-    git checkout master
+    > cd <dir>/BAMRU-Org
+    > rm -rf /tmp/output
+    > cp -r output /tmp
+    > git checkout gh-pages
+    > rm -rf .
+    > cp -r /tmp/output/* .
+    > git add .
+    > git commit -am'update website'
+    > git push
+    > git checkout master
 
 You can run all of this in a single command using `rake site:deploy`.
 
