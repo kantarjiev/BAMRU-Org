@@ -1,7 +1,7 @@
 require 'json'
 require_relative '../../base'
 require_relative '../../rake/loggers'
-require_relative '../../gcal_client'
+require_relative '../../gcal/client'
 
 class CalData
   class Gcal
@@ -41,16 +41,16 @@ class CalData
           #cst: this seems pretty file format dependent
           msg = `wc -l #{GCAL_DATA_JSON_FILE}`.strip.chomp.split(' ')
           log "Gcal event data has been downloaded"
-          msg[0] = msg[0].to_i - 2 # ignore first and last lines with [ ] 
+          msg[0] = msg[0].to_i - 2 # ignore first and last lines with [ ]
           log "#{msg[0]} records saved to #{msg[1]}"
         end
 
         def old_text
           File.exist?(GCAL_DATA_JSON_FILE) ? File.read(GCAL_DATA_JSON_FILE) : ""
         end
-        
+
       end
-      
+
     end
   end
 end

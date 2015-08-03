@@ -1,10 +1,10 @@
 require "spec_helper"
 
-if File.exist?(ENV_FILE)
+# if File.exist?(ENV_FILE)
 
-  require "#{LIB}/gcal_client"
+  require "#{LIB}/gcal/client"
 
-  describe GcalClient do
+  describe Gcal::Client do
     let(:klas) { described_class }
     subject    { klas.new        }
 
@@ -19,4 +19,4 @@ if File.exist?(ENV_FILE)
     end
   end
 
-end
+# end

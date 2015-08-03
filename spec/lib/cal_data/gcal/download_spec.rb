@@ -1,6 +1,6 @@
 require "spec_helper"
 
-if File.exist?(ENV_FILE)
+# if File.exist?(ENV_FILE)
 
   require "#{LIB}/cal_data/gcal/download"
 
@@ -17,4 +17,4 @@ if File.exist?(ENV_FILE)
     end
   end
 
-end
+# end

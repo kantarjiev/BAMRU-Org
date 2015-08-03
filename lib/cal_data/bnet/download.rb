@@ -15,7 +15,7 @@ class CalData
             save_new_text(csv_text)
           else
             do_not_save_message
-            abort_message
+            abort_message           if MM_ENV == 'production'
           end
         end
 
@@ -36,7 +36,7 @@ class CalData
 
         def abort_message
           log "Exiting"
-          abort "."
+          abort
         end
 
         def save_new_text(csv_text)
