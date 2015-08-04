@@ -1,4 +1,8 @@
 .idea
 .gcal_keys
 .gcal_keys/
-tmp
+/out
+/out/
+/cal_data
+/cal_data/
+/tmp

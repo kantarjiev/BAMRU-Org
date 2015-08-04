@@ -1,7 +1,7 @@
 require "spec_helper"
 
 if File.exist?(CLIENT_SECRET)
-  require "#{LIB}/cal_data/gcal/download"
+  require "#{LIB}/gcal/download"
 
   describe CalData::Gcal::Download do
     let(:klas) { described_class }

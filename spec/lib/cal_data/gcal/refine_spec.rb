@@ -1,5 +1,5 @@
 require "spec_helper"
-require "#{LIB}/cal_data/gcal/refine"
+require "#{LIB}/gcal/refine"
 
 describe CalData::Gcal::Refine do
   let(:klas) { described_class }
