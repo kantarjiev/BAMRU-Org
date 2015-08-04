@@ -1,4 +1,0 @@
-PRODUCTION_ISSUER = "676559655687-kk7hoql62nr8tq52dm1ccamoijmcm8hu@developer.gserviceaccount.com"
-PRODUCTION_CAL_ID = "bamru.calendar@gmail.com"
-TEST_ISSUER       = "815908634493-irha4li4vh6mc7eht7ncntg7877ft9b1@developer.gserviceaccount.com"
-TEST_CAL_ID       = "bamru.devcal@gmail.com"

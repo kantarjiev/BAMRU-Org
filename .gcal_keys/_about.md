@@ -1,3 +1,0 @@
-# GOOGLE CALENDAR ACCOUNTS
-
-content tbd...
