@@ -1,8 +1,8 @@
 require          "active_support"
 require_relative "../base"
-require_relative "../event"
+require_relative "../event/event"
 require_relative "../event/store"
-require_relative "../date_range"
+require_relative "../helpers/date_range"
 
 module EventsHelpers
 

@@ -1,7 +1,7 @@
 require 'json'
-require_relative '../../base'
-require_relative '../../rake/loggers'
-require_relative '../../gcal/client'
+require_relative '../base'
+require_relative '../rake/loggers'
+require_relative '../gcal/client'
 
 class CalData
   class Gcal
@@ -38,7 +38,7 @@ class CalData
         def save_new_text(json_text)
           File.open(GCAL_DATA_JSON_FILE, 'w') {|f| f.puts json_text}
           log "Gcal event data has been downloaded"
-          count = json_text.lines.count - 2  # adjust for accurate count
+          count = json_text.lines.count - 2  # adjust for accurate count  #CST
           log "#{count} records saved to #{GCAL_DATA_JSON_FILE}"
         end
 

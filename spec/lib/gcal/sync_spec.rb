@@ -31,5 +31,5 @@ if File.exist?(CLIENT_SECRET)
         expect(subject.pending_create).to be_an(Array)
       end
     end
-  end
+   end
 end

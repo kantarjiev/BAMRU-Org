@@ -13,19 +13,6 @@
     prior: TBD
     gcal_id: durcecnvk1se44o5igv4ddgf3o
     signature: Small Alpine - Chiquito Pass / Sierra National Forest / 2015-07-10
-  !binary "MWNjZTk3": !ruby/object:Event
-    kind: TBD
-    title: Shasta 2015-LAW-13920
-    location: 2486 Progress, Redding, CA
-    leaders: TBD
-    start: '2015-07-11'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: e71kudslcogbffp2jpa7neuefg
-    signature: Shasta 2015-LAW-13920 / 2486 Progress, Redding, CA / 2015-07-11
   !binary "ZWQ0NjYx": !ruby/object:Event
     kind: TBD
     title: ! 'Drivers Training: Classroom'
@@ -130,9 +117,9 @@
     prior: TBD
     gcal_id: 6q09s5iqrmjegoabpjeul9cq74
     signature: DO Skills Night * / IDEO, 150 Forest Ave, Palo Alto, CA 9430 / 2015-08-04
-  !binary "NmI0NDM5": !ruby/object:Event
+  !binary "YTc2MWY3": !ruby/object:Event
     kind: TBD
-    title: ! 'Small Alpin: Billy''s Peak'
+    title: ! 'Small Alpine: Billy''s Peak'
     location: Billy's Peak, Trinity County
     leaders: TBD
     start: '2015-08-07'
@@ -141,8 +128,8 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: g3lp6kcge8bb1g9a73ros0mqig
-    signature: ! 'Small Alpin: Billy''s Peak / Billy''s Peak, Trinity County / 2015-08-07'
+    gcal_id: 2h9a11nd7069umomhh4i3otmvg
+    signature: ! 'Small Alpine: Billy''s Peak / Billy''s Peak, Trinity County / 2015-08-07'
   !binary "YzNkMzEz": !ruby/object:Event
     kind: TBD
     title: Low Angle Skills Night

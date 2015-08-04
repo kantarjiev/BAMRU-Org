@@ -1,7 +1,7 @@
 require_relative "../base"
 
-require_relative "../cal_data/bnet/download"
-require_relative "../cal_data/bnet/refine"
+require_relative "../bnet/download"
+require_relative "../bnet/refine"
 
 namespace :data do
   namespace :bnet do
@@ -18,8 +18,8 @@ namespace :data do
 end
 
 if File.exist?(CLIENT_SECRET)
-  require_relative "../cal_data/gcal/download"
-  require_relative "../cal_data/gcal/refine"
+  require_relative "../gcal/download"
+  require_relative "../gcal/refine"
   require_relative "../gcal/sync"
 
   namespace :data do

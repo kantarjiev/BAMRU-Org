@@ -1,4 +1,12 @@
 .idea
 .gcal_keys
 .gcal_keys/
+bnet/
+bnet/bnet.csv
+bnet/bnet.yaml
+cal_data/
+cal_data/gcal_test.json
+cal_data/gcal_test.yaml
+cal_data/gcal_production.json
+cal_data/gcal_production.yaml
 tmp
