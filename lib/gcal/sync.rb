@@ -25,7 +25,6 @@ class Gcal
     # ------ create and delete individual events -----
 
     def create(event)
-      return event.kind if event.kind == "operation"
       client.create_event(event) unless READONLY
     end
 
@@ -60,7 +59,6 @@ class Gcal
     # ----- sync everything -----
 
     def sync
-      binding.pry
       delete_events(pending_delete)
       create_events(pending_create)
     end
@@ -68,7 +66,6 @@ class Gcal
     # ----- delete everything -----
 
     def delete_all
-      binding.pry
       delete_events(GCAL_STORE.all.keys)
     end
   end

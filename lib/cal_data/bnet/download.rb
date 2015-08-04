@@ -10,7 +10,7 @@ class CalData
 
       class << self
         def execute
-          csv_text = download_latest_csv
+          csv_text = event_filter(download_latest_csv)
           if has_changed?(csv_text)
             save_new_text(csv_text)
           else
@@ -21,13 +21,20 @@ class CalData
 
         private
 
-        def date_filter(text)
-
-        end
-
         def download_latest_csv
           raw_text = open(BNET_DATA_SRC_URL).read
           raw_text.delete("^\u{0000}-\u{007F}")   # remove non-ascii characters
+        end
+
+        def event_filter(text)
+          output = [text.lines.first.chomp]
+          CSV.parse(text, headers: true) do |row|
+            next if row["start"] < DateRange.start_str    # filter by date-range
+            next if row["start"] > DateRange.finish_str   # filter by date-range
+            next if row["kind"] == "operation"            # filter by event kind
+            output << row.to_s.chomp
+          end
+          output.join("\n")
         end
 
         def has_changed?(new_text)

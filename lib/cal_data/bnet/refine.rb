@@ -13,8 +13,8 @@ class CalData
       def initialize(opts = {})
         @from = opts[:from] || BNET_DATA_CSV_FILE
         @to   = opts[:to]   || BNET_DATA_YAML_FILE
-        raise "Invalid input file (#{@from})" unless @from.split('.').last == "csv"
-        raise "Invalid output file (#{@to})"  unless @to.split('.').last == "yaml"
+        raise "Bad input file (#{@from})" unless @from.split('.').last == "csv"
+        raise "Bad output file (#{@to})"  unless @to.split('.').last == "yaml"
       end
 
       def execute
@@ -24,21 +24,13 @@ class CalData
 
       private
 
-      def csv_events
-        return [] unless File.exist?(@from)
-        csv_events = []
-        CSV.foreach(@from, headers: true) do |row|
-          next if row["start"] < DateRange.start_str
-          next if row["start"] > DateRange.finish_str
-          csv_events << row
-        end
-        csv_events
-      end
-
       def events
-        csv_events.map do |event|
-          Event.new(event)
+        # csv_events.map do |event|
+        list = []
+        CSV.foreach(@from, headers: true) do |event|
+          list << Event.new(event)
         end
+        list
       end
     end
   end
