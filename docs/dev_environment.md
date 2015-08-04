@@ -18,7 +18,7 @@ Ruby Gems (including `Middleman`)
     > sudo apt-get remove ruby1.8
     > sudo apt-get install ruby1.9.1 ruby1.9.1-dev npm build-essential git
 
-Fork and the [repo](https://github.com/andyl/BMARU-Org) on github, then
+Fork the [repo](https://github.com/andyl/BAMRU-Org) on github, then
 
     > git clone https://github.com/<your-github-userid>/BAMRU-Org.git   
     > cd BAMRU-Org                                # cd to the repo directory
