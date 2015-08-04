@@ -21,6 +21,10 @@ class CalData
 
         private
 
+        def date_filter(text)
+
+        end
+
         def download_latest_csv
           raw_text = open(BNET_DATA_SRC_URL).read
           raw_text.delete("^\u{0000}-\u{007F}")   # remove non-ascii characters

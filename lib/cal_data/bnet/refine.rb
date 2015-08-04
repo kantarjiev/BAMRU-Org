@@ -11,12 +11,10 @@ class CalData
       extend Rake::Loggers
 
       def initialize(opts = {})
-        from = opts[:from] || BNET_DATA_CSV_FILE
-        to   = opts[:to]   || BNET_DATA_YAML_FILE
-        raise "Invalid input file (#{from})" unless from.split('.').last == "csv"
-        raise "Invalid output file (#{to})"  unless to.split('.').last == "yaml"
-        @from = from
-        @to   = to
+        @from = opts[:from] || BNET_DATA_CSV_FILE
+        @to   = opts[:to]   || BNET_DATA_YAML_FILE
+        raise "Invalid input file (#{@from})" unless @from.split('.').last == "csv"
+        raise "Invalid output file (#{@to})"  unless @to.split('.').last == "yaml"
       end
 
       def execute

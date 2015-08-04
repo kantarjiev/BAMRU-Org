@@ -41,17 +41,14 @@ class CalData
             start:    start
           }
 
-          # Skip events that fall outside of our DateRange
-          next if start < DateRange.start_str
-          next if start > DateRange.finish_str
-
-          # Handle duplicate records, addition records are hashed with the gcal_id to make them unique
-          # When everything is functioning correctly duplicate records shouldn't exist but they creep in
+          # Handle duplicate records, addition records are hashed with the
+          # gcal_id to make them unique When everything is functioning
+          # correctly duplicate records shouldn't exist but they creep in
           # during testing
           extend_sig = prev_opts &&
-              prev_opts[:title] == opts[:title] &&
+              prev_opts[:title]    == opts[:title] &&
               prev_opts[:location] == opts[:location] &&
-              prev_opts[:start] == opts[:start] ? " / #{opts[:gcal_id]}" : extend_sig = ""
+              prev_opts[:start]    == opts[:start] ? " / #{opts[:gcal_id]}" : extend_sig = ""
           prev_opts = opts
           Event.new(opts, extend_sig)
         end.compact

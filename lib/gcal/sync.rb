@@ -61,15 +61,15 @@ class Gcal
 
     def sync
       binding.pry
-      # delete_events(pending_delete)
-      # create_events(pending_create)
+      delete_events(pending_delete)
+      create_events(pending_create)
     end
 
     # ----- delete everything -----
 
     def delete_all
       binding.pry
-      # delete_events(GCAL_STORE.all.keys)
+      delete_events(GCAL_STORE.all.keys)
     end
   end
 end
