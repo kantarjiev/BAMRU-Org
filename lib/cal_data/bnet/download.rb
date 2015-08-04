@@ -38,7 +38,7 @@ class CalData
         end
 
         def has_changed?(new_text)
-          new_text != old_text
+          (new_text + "\n") != old_text
         end
 
         def do_not_save_message
@@ -52,9 +52,10 @@ class CalData
 
         def save_new_text(csv_text)
           File.open(BNET_DATA_CSV_FILE, 'w') {|f| f.puts csv_text}
-          msg = `wc -l #{BNET_DATA_CSV_FILE}`.strip.chomp.split(' ')
+          count = csv_text.lines.count - 2
+          # msg = `wc -l #{BNET_DATA_CSV_FILE}`.strip.chomp.split(' ')
           log "BAMRU.net event data has been downloaded"
-          log "#{msg[0]} records saved to #{msg[1]}"
+          log "#{count} records saved to #{BNET_DATA_CSV_FILE}"
         end
 
         def old_text

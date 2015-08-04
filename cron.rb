@@ -18,7 +18,7 @@ cmd_gcal = "data:gcal:download data:gcal:refine data:gcal:sync"
 cmd_site = "site:build site:deploy_calendar"
 cmd = [cmd_bnet, cmd_gcal, cmd_site].join(' ')
 
-every 1.day, at: '8:10 am' do
+every 1.day, at: '5:00 am' do
   rake cmd
 end
 

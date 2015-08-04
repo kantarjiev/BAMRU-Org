@@ -18,6 +18,7 @@ require "./lib/rake/loggers"
 
 include Rake::Loggers
 
-log "Environment: #{MM_ENV}, Test Flags: #{TEST_FLAGS}"
+stamp = Time.now.strftime("%m-%d %H:%M")
+log "ENV: #{MM_ENV}, FLAGS: #{TEST_FLAGS} @ #{stamp}"
 
 # ----- fini -----
