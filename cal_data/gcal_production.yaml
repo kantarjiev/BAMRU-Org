@@ -1,117 +1,22 @@
 ---
 :cal_data:
-  802cff: !ruby/object:Event
+  !binary "NWM3ODc5": !ruby/object:Event
     kind: TBD
-    title: BAMRU Dues Renewal
-    location: TBA
+    title: Small Alpine - Chiquito Pass
+    location: Sierra National Forest
     leaders: TBD
-    start: '2014-12-15'
+    start: '2015-07-10'
     finish: TBD
     description: TBD
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: g9c7tt4jic53f7enfphq6h0am4
-  ff7ecb: !ruby/object:Event
+    gcal_id: a6ohjeu4j4dc2iefk4l6rq7n5s
+    signature: Small Alpine - Chiquito Pass / Sierra National Forest / 2015-07-10
+  !binary "ZWQ0NjYx": !ruby/object:Event
     kind: TBD
-    title: Technical rescue evolutions
-    location: Pinnacles NP
-    leaders: TBD
-    start: '2014-12-06'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 4d28qvh1c1ineruk6u7uqr6860
-  8d448b: !ruby/object:Event
-    kind: TBD
-    title: SO Driver's Practical
-    location: Redwood City Jury Parking Lot
-    leaders: TBD
-    start: '2014-12-06'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: e807tb23kkoebaacusl6ophsts
-  a5da53: !ruby/object:Event
-    kind: TBD
-    title: Intro to Snow Camping
-    location: Carson Pass
-    leaders: TBD
-    start: '2014-12-20'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: m99ab16oarctm4s665h85snskc
-  f555c9: !ruby/object:Event
-    kind: TBD
-    title: Recert skills night
-    location: TBA
-    leaders: TBD
-    start: '2015-01-28'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: m56aucdh1512bsv5bk6augvcmg
-  c011be: !ruby/object:Event
-    kind: TBD
-    title: Recert skills night
-    location: TBA
-    leaders: TBD
-    start: '2015-02-18'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: c5nl9383qt3ebrsk4i8blg5s5g
-  953a51: !ruby/object:Event
-    kind: TBD
-    title: Trainee Applications Due
-    location: TBA
-    leaders: TBD
-    start: '2015-04-27'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: m16g5pj7qcfmvmn7s906617lt4
-  afe17c: !ruby/object:Event
-    kind: TBD
-    title: Trainee Class Announced
-    location: TBA
-    leaders: TBD
-    start: '2015-05-15'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 0aaid58nh8g9pt1qnlh4pqrjd8
-  954c46: !ruby/object:Event
-    kind: TBD
-    title: Tracking/ Nav Skills Night
-    location: TBA
-    leaders: TBD
-    start: '2015-05-28'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: tv67kmur509apeo3ijjifp4pd4
-  e9a741: !ruby/object:Event
-    kind: TBD
-    title: DO Skills Night *
-    location: TBA
+    title: ! 'Drivers Training: Classroom'
+    location: 455 County Center
     leaders: TBD
     start: '2015-07-15'
     finish: TBD
@@ -119,248 +24,22 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: ekms42h94foeb6p0rp4ptrnfu4
-  a369d5: !ruby/object:Event
+    gcal_id: 5prqm16glajv32rf1rsgvgtnog
+    signature: ! 'Drivers Training: Classroom / 455 County Center / 2015-07-15'
+  !binary "MjU3YTcy": !ruby/object:Event
     kind: TBD
-    title: Qrtly Leadership Mtg
-    location: TBA
+    title: ! 'Drivers Training: Practical'
+    location: 400 County Center Parking Lot
     leaders: TBD
-    start: '2015-07-29'
+    start: '2015-07-18'
     finish: TBD
     description: TBD
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: m7tt0r8bts2ot05gremalj08ag
-  4a3e81: !ruby/object:Event
-    kind: TBD
-    title: DO Skills Night *
-    location: TBA
-    leaders: TBD
-    start: '2015-08-04'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: f47fa9ho9ajhr27bnq08p08ho8
-  06cc15: !ruby/object:Event
-    kind: TBD
-    title: Early Elections Close
-    location: TBA
-    leaders: TBD
-    start: '2015-10-02'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: k9pporbrbcifcdutfagv2fd9j0
-  3a9257: !ruby/object:Event
-    kind: TBD
-    title: Operations Leader Training
-    location: TBA
-    leaders: TBD
-    start: '2015-10-04'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 6vpkgsee382joct7u7jnd9mess
-  5c4f24: !ruby/object:Event
-    kind: TBD
-    title: Elections Close
-    location: TBA
-    leaders: TBD
-    start: '2015-11-13'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 3h3j63m451n2vtg987enhpf9as
-  cf4829: !ruby/object:Event
-    kind: TBD
-    title: Holiday Party
-    location: TBA
-    leaders: TBD
-    start: '2015-12-05'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: m2e063a0e9ml1rmmot8sgoghn8
-  387c0a: !ruby/object:Event
-    kind: TBD
-    title: BAMRU Dues Renewal
-    location: TBA
-    leaders: TBD
-    start: '2015-12-15'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 15t80o23kbed104dnusq8ml944
-  6c1ada: !ruby/object:Event
-    kind: TBD
-    title: 'Drivers Training: Classroom'
-    location: 455 County Center
-    leaders: TBD
-    start: '2014-12-04'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: d84cuu6gmrad4ldpou3hfgbjak
-  21cb9a: !ruby/object:Event
-    kind: TBD
-    title: Snow Camping Pre-Trip Meeting
-    location: 290 Sussex Street, San Francisco
-    leaders: TBD
-    start: '2014-12-10'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: tmv3bnb9kf47nvmr83hpcq03gk
-  fe833c: !ruby/object:Event
-    kind: TBD
-    title: Holiday Party
-    location: 455 W Evelyn Ave, Mountain View, CA 94041
-    leaders: TBD
-    start: '2014-12-13'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: nlu84u19bftikaqotdb0f45nao
-  e887e9: !ruby/object:Event
-    kind: TBD
-    title: General Meeting  (not 3rd Monday)
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: '2015-01-12'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: k01ahcugrb2l7hstv1aip7pp4c
-  7affdc: !ruby/object:Event
-    kind: TBD
-    title: Qrtly Leadership Mtg
-    location: TBA
-    leaders: TBD
-    start: '2015-01-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: epbh0u6p780325jcgdrra8hnf4
-  b2cc97: !ruby/object:Event
-    kind: TBD
-    title: General Meeting (Not 3rd Monday)
-    location: Castro Valley Nike Classroom
-    leaders: TBD
-    start: '2015-02-09'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: f5prrno73r0sbm6d6enfp74754
-  80d9ae: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City County Room 101
-    leaders: TBD
-    start: '2015-03-16'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 14t9pkr2laufmub3s0qc8k5ulo
-  1dbf37: !ruby/object:Event
-    kind: TBD
-    title: General Meeting (not 3rd Monday)
-    location: " Castro Valley Nike Classroom"
-    leaders: TBD
-    start: '2015-04-13'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: pra0c80bbejth7slelhulgt70k
-  a862cc: !ruby/object:Event
-    kind: TBD
-    title: Qrtly Leadership Mtg
-    location: TBA
-    leaders: TBD
-    start: '2015-05-06'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 7ff1lj4jnf3i9b2gedq28ki4h8
-  95fcb8: !ruby/object:Event
-    kind: TBD
-    title: Trainee Interviews -- Day 1
-    location: Redwood City
-    leaders: TBD
-    start: '2015-05-09'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: rotchhnvjqpcuq8sm5bcqi6drc
-  1a3cf1: !ruby/object:Event
-    kind: TBD
-    title: Trainee Interviews -- Day 2
-    location: Redwood City
-    leaders: TBD
-    start: '2015-05-10'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 5ijoiu7l71vagq9ecrpalm2l94
-  fe328c: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City County Room 101
-    leaders: TBD
-    start: '2015-05-18'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: a2j3oq912dnoin8i8e2v4kbvt8
-  74553c: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Castro Valley Nike Classroom
-    leaders: TBD
-    start: '2015-06-15'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: i37i678qqkf39isl1dj6dtsatc
-  e4f366: !ruby/object:Event
+    gcal_id: smf0pam3b5q0h1i04bse1n539o
+    signature: ! 'Drivers Training: Practical / 400 County Center Parking Lot / 2015-07-18'
+  !binary "ZTRmMzY2": !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: Redwood City County Room 101
@@ -372,7 +51,112 @@
     lon: TBD
     prior: TBD
     gcal_id: hcmbdg6s1u423ut6o1jlt2hae0
-  4efdd6: !ruby/object:Event
+    signature: General Meeting / Redwood City County Room 101 / 2015-07-20
+  !binary "Y2FiM2Jh": !ruby/object:Event
+    kind: TBD
+    title: Lost Person Behavior Skills Night
+    location: East Bay Cache
+    leaders: TBD
+    start: '2015-07-22'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: b6a7nik1ggosv361smjhmok06c
+    signature: Lost Person Behavior Skills Night / East Bay Cache / 2015-07-22
+  !binary "MjM5MGVl": !ruby/object:Event
+    kind: TBD
+    title: Low Angle Rescue *
+    location: El Corte de Madera OSP
+    leaders: TBD
+    start: '2015-07-25'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: jucdloqrmr5v7tv9srjdu5tps0
+    signature: Low Angle Rescue * / El Corte de Madera OSP / 2015-07-25
+  !binary "OWQ5Nzgw": !ruby/object:Event
+    kind: TBD
+    title: Search Practice/Helicopter Safety
+    location: Lake Chabot Regional Park
+    leaders: TBD
+    start: '2015-07-26'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 91dmc6l35h87lt61hkajj40png
+    signature: Search Practice/Helicopter Safety / Lake Chabot Regional Park / 2015-07-26
+  !binary "YTM2OWQ1": !ruby/object:Event
+    kind: TBD
+    title: Qrtly Leadership Mtg
+    location: TBA
+    leaders: TBD
+    start: '2015-07-29'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: m7tt0r8bts2ot05gremalj08ag
+    signature: Qrtly Leadership Mtg / TBA / 2015-07-29
+  !binary "ZjVhMmRl": !ruby/object:Event
+    kind: TBD
+    title: DO Skills Night *
+    location: IDEO, 150 Forest Ave, Palo Alto, CA 9430
+    leaders: TBD
+    start: '2015-08-04'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: qd1r8933ojljnqqnb585d7c3qs
+    signature: DO Skills Night * / IDEO, 150 Forest Ave, Palo Alto, CA 9430 / 2015-08-04
+  !binary "NmI0NDM5": !ruby/object:Event
+    kind: TBD
+    title: ! 'Small Alpin: Billy''s Peak'
+    location: Billy's Peak, Trinity County
+    leaders: TBD
+    start: '2015-08-07'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 2rt053jm7ksltrsrrbob4thplg
+    signature: ! 'Small Alpin: Billy''s Peak / Billy''s Peak, Trinity County / 2015-08-07'
+  !binary "YzNkMzEz": !ruby/object:Event
+    kind: TBD
+    title: Low Angle Skills Night
+    location: Palo Alto
+    leaders: TBD
+    start: '2015-08-11'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: ktgiphr64av21p68n2k7lga2dg
+    signature: Low Angle Skills Night / Palo Alto / 2015-08-11
+  !binary "YjFlMzYx": !ruby/object:Event
+    kind: TBD
+    title: Starr King Small Alpine
+    location: Yosemite
+    leaders: TBD
+    start: '2015-08-14'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: q2lkus5un0g9c20e3h7ka7metc
+    signature: Starr King Small Alpine / Yosemite / 2015-08-14
+  !binary "NGVmZGQ2": !ruby/object:Event
     kind: TBD
     title: General Meeting
     location: Castro Valley Nike Classroom
@@ -384,235 +168,21 @@
     lon: TBD
     prior: TBD
     gcal_id: rt9gkcq2re3qge0t8vlnm27c40
-  17d942: !ruby/object:Event
+    signature: General Meeting / Castro Valley Nike Classroom / 2015-08-17
+  !binary "NTkyNzIx": !ruby/object:Event
     kind: TBD
-    title: General Meeting
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: '2015-09-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: cr4g37tul97cj50285l65lar7k
-  '847400': !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Castro Valley Nike Classroom
-    leaders: TBD
-    start: '2015-10-19'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: pclgm7qen1m4jrdfqhvnt5qvu8
-  fc891e: !ruby/object:Event
-    kind: TBD
-    title: General Meeting
-    location: Redwood City Jury Assembly Room
-    leaders: TBD
-    start: '2015-11-16'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 1oroo909lq0406ma1bhgok241o
-  cef767: !ruby/object:Event
-    kind: TBD
-    title: General Meeting (not 3rd Monday)
-    location: Castro Valley Nike Classroom
-    leaders: TBD
-    start: '2015-12-14'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: dpv5a2fb2sm2nfg4eoseigbc1k
-  e441c8: !ruby/object:Event
-    kind: TBD
-    title: Snow Skills
+    title: Qrtly Leadership Mtg (backup date)
     location: TBA
     leaders: TBD
-    start: '2015-01-24'
+    start: '2015-08-19'
     finish: TBD
     description: TBD
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: quh3svg4ha1kdksl7t2gjvkb1o
-  15c6d4: !ruby/object:Event
-    kind: TBD
-    title: Bay Area Joint MRA training
-    location: Mt. Diablo, Boy Scout Rocks
-    leaders: TBD
-    start: '2015-02-07'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: b9t6kiqreh2v3b8bjktqm4koko
-  539f92: !ruby/object:Event
-    kind: TBD
-    title: Guest Mock Search G
-    location: Redwood Memorial Park
-    leaders: TBD
-    start: '2015-02-08'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: vcc9u4pvvnbv9ta2dnb8u8g1ds
-  930cfd: !ruby/object:Event
-    kind: TBD
-    title: BASARC MLPI (weekend 1)
-    location: TBA
-    leaders: TBD
-    start: '2015-02-14'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: t7rabgth5dm7ii71b33ip2k04k
-  1e31d6: !ruby/object:Event
-    kind: TBD
-    title: 'CRMRA Recert Prep Training '
-    location: TBA
-    leaders: TBD
-    start: '2015-02-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 90jaopk7cdtes1i9kq52us6jo8
-  a3db02: !ruby/object:Event
-    kind: TBD
-    title: BASARC MLPI (weekend 2)
-    location: TBA
-    leaders: TBD
-    start: '2015-02-21'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: k6ncmmr3ej4j0roob1bun5opnk
-  49cb2d: !ruby/object:Event
-    kind: TBD
-    title: Tech Rescue Re-Accreditation
-    location: Eaton Canyon
-    leaders: TBD
-    start: '2015-03-07'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 5g1c8m6u920oprr72c50bsu3i8
-  f470ff: !ruby/object:Event
-    kind: TBD
-    title: Glacier/ Crevasse Rescue
-    location: TBA
-    leaders: TBD
-    start: '2015-03-28'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: nn7gm1117j593eaq78r5llrk9c
-  c50c0f: !ruby/object:Event
-    kind: TBD
-    title: SAR Basic *G
-    location: TBA
-    leaders: TBD
-    start: '2015-04-18'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 2p66nhu4v4uj7il30nmua3na10
-  7c61a7: !ruby/object:Event
-    kind: TBD
-    title: Tracking Skills *
-    location: TBA
-    leaders: TBD
-    start: '2015-05-30'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 6qquir09f391d9uic4l6unjea4
-  b69bfa: !ruby/object:Event
-    kind: TBD
-    title: Navigation Skills *G
-    location: TBA
-    leaders: TBD
-    start: '2015-05-31'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: bqrlrtusblatgifp72fk5ik11o
-  '191179': !ruby/object:Event
-    kind: TBD
-    title: Personal Rock Skills *
-    location: TBA
-    leaders: TBD
-    start: '2015-06-20'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: neaqhp494j7vdve9p59mc6i7ho
-  2fc070: !ruby/object:Event
-    kind: TBD
-    title: Western States 100
-    location: Auburn, CA
-    leaders: TBD
-    start: '2015-06-27'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: c2smfjrsvccudjddntdjrk2jsc
-  db6e86: !ruby/object:Event
-    kind: TBD
-    title: Low Angle Rescue *
-    location: TBA
-    leaders: TBD
-    start: '2015-07-25'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 4ocjdg4miau23826nd2glkoa2c
-  15d14b: !ruby/object:Event
-    kind: TBD
-    title: Search Practice *
-    location: TBA
-    leaders: TBD
-    start: '2015-07-26'
-    finish: TBD
-    description: TBD
-    lat: TBD
-    lon: TBD
-    prior: TBD
-    gcal_id: 7fk3njgt6cld3o6e33s67hknuo
-  e8b2d2: !ruby/object:Event
+    gcal_id: jrkjot2nkvfsp35nk3n2g8nvsg
+    signature: Qrtly Leadership Mtg (backup date) / TBA / 2015-08-19
+  !binary "ZThiMmQy": !ruby/object:Event
     kind: TBD
     title: Basic Technical Rescue *
     location: TBA
@@ -624,9 +194,36 @@
     lon: TBD
     prior: TBD
     gcal_id: vtisroul6vdgobseriork2la8s
-  36fc4a: !ruby/object:Event
+    signature: Basic Technical Rescue * / TBA / 2015-08-22
+  !binary "OWYxOTU0": !ruby/object:Event
     kind: TBD
-    title: Search Management/ OP 0
+    title: Tech Rescue Skills Night
+    location: Albany
+    leaders: TBD
+    start: '2015-09-09'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: edc673pnbhl8b6bfm5oj0f2eqg
+    signature: Tech Rescue Skills Night / Albany / 2015-09-09
+  !binary "ZjMxMmQ5": !ruby/object:Event
+    kind: TBD
+    title: SAREX
+    location: Silver Lake
+    leaders: TBD
+    start: '2015-09-11'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: oilp6kntbj5bffj14tde7spsq0
+    signature: SAREX / Silver Lake / 2015-09-11
+  !binary "N2EyOTQ1": !ruby/object:Event
+    kind: TBD
+    title: Search Management / OP 0
     location: TBA
     leaders: TBD
     start: '2015-09-19'
@@ -635,10 +232,50 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: jklaemsr3i01508kd724eauj1g
-  89149b: !ruby/object:Event
+    gcal_id: u95hl3mc603g2bk014df862ad0
+    signature: Search Management / OP 0 / TBA / 2015-09-19
+  !binary "MTdkOTQy": !ruby/object:Event
     kind: TBD
-    title: Search Practice G
+    title: General Meeting
+    location: Redwood City Jury Assembly Room
+    leaders: TBD
+    start: '2015-09-21'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: cr4g37tul97cj50285l65lar7k
+    signature: General Meeting / Redwood City Jury Assembly Room / 2015-09-21
+  !binary "ZjUyNjBk": !ruby/object:Event
+    kind: TBD
+    title: Tech Rescue Skills Night
+    location: Albany
+    leaders: TBD
+    start: '2015-09-30'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: tu8dt5on7mafv3i0eplhsjmf20
+    signature: Tech Rescue Skills Night / Albany / 2015-09-30
+  !binary "MDZjYzE1": !ruby/object:Event
+    kind: TBD
+    title: Early Elections Close
+    location: TBA
+    leaders: TBD
+    start: '2015-10-02'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: k9pporbrbcifcdutfagv2fd9j0
+    signature: Early Elections Close / TBA / 2015-10-02
+  !binary "ZjA5Yjc4": !ruby/object:Event
+    kind: TBD
+    title: Search Practice
     location: TBA
     leaders: TBD
     start: '2015-10-03'
@@ -647,10 +284,50 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: 4mdpogp6j08g33mklvj490nnhk
-  ae13bd: !ruby/object:Event
+    gcal_id: 4ib3gvslrj2do0aqmaa8m4cjtg
+    signature: Search Practice / TBA / 2015-10-03
+  !binary "M2E5MjU3": !ruby/object:Event
     kind: TBD
-    title: Medical Skills *G
+    title: Operations Leader Training
+    location: TBA
+    leaders: TBD
+    start: '2015-10-04'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 6vpkgsee382joct7u7jnd9mess
+    signature: Operations Leader Training / TBA / 2015-10-04
+  !binary "OGIyZTMy": !ruby/object:Event
+    kind: TBD
+    title: Dog Flanking Training
+    location: TBA
+    leaders: TBD
+    start: '2015-10-17'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 0tmvjdcft7raduglkuoju6ia7k
+    signature: Dog Flanking Training / TBA / 2015-10-17
+  !binary "ODQ3NDAw": !ruby/object:Event
+    kind: TBD
+    title: General Meeting
+    location: Castro Valley Nike Classroom
+    leaders: TBD
+    start: '2015-10-19'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: pclgm7qen1m4jrdfqhvnt5qvu8
+    signature: General Meeting / Castro Valley Nike Classroom / 2015-10-19
+  !binary "NTdlNzBh": !ruby/object:Event
+    kind: TBD
+    title: Medical Skills *
     location: TBA
     leaders: TBD
     start: '2015-10-24'
@@ -659,10 +336,37 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: npud4glaf98u4ljm3ddgll6usc
-  5ce965: !ruby/object:Event
+    gcal_id: hrdrsher3rclal7a6hberld5lk
+    signature: Medical Skills * / TBA / 2015-10-24
+  !binary "NWM0ZjI0": !ruby/object:Event
     kind: TBD
-    title: Adv. Search Strategy/ Tracking/ Low angle obstacle course *
+    title: Elections Close
+    location: TBA
+    leaders: TBD
+    start: '2015-11-13'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 3h3j63m451n2vtg987enhpf9as
+    signature: Elections Close / TBA / 2015-11-13
+  !binary "ZmM4OTFl": !ruby/object:Event
+    kind: TBD
+    title: General Meeting
+    location: Redwood City Jury Assembly Room
+    leaders: TBD
+    start: '2015-11-16'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 1oroo909lq0406ma1bhgok241o
+    signature: General Meeting / Redwood City Jury Assembly Room / 2015-11-16
+  !binary "NDY4MGUx": !ruby/object:Event
+    kind: TBD
+    title: Adv. Search / Tracking / Low Angle *
     location: TBA
     leaders: TBD
     start: '2015-11-21'
@@ -671,10 +375,11 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: vul8odgko0sponkie9nv094ebg
-  3fd563: !ruby/object:Event
+    gcal_id: hv52dqu8340rpbvgkd8h8dpal8
+    signature: Adv. Search / Tracking / Low Angle * / TBA / 2015-11-21
+  !binary "ODZhZDlh": !ruby/object:Event
     kind: TBD
-    title: Practice Search *G
+    title: Practice Search *
     location: TBA
     leaders: TBD
     start: '2015-11-22'
@@ -683,10 +388,50 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: shejv3ajanoaaqf2cl7u6i2tc8
-  8160e6: !ruby/object:Event
+    gcal_id: 1q9eadsosmd167r7udjs6f505o
+    signature: Practice Search * / TBA / 2015-11-22
+  !binary "Y2Y0ODI5": !ruby/object:Event
     kind: TBD
-    title: Skills weekend/ Make up training *
+    title: Holiday Party
+    location: TBA
+    leaders: TBD
+    start: '2015-12-05'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: m2e063a0e9ml1rmmot8sgoghn8
+    signature: Holiday Party / TBA / 2015-12-05
+  !binary "ZGE1Y2Fh": !ruby/object:Event
+    kind: TBD
+    title: General Meeting (not 3rd Monday)
+    location: Castro Valley
+    leaders: TBD
+    start: '2015-12-14'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: s6jpgelbmgauf981kmujk7tdu4
+    signature: General Meeting (not 3rd Monday) / Castro Valley / 2015-12-14
+  !binary "Mzg3YzBh": !ruby/object:Event
+    kind: TBD
+    title: BAMRU Dues Renewal
+    location: TBA
+    leaders: TBD
+    start: '2015-12-15'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 15t80o23kbed104dnusq8ml944
+    signature: BAMRU Dues Renewal / TBA / 2015-12-15
+  !binary "ZmExMTg1": !ruby/object:Event
+    kind: TBD
+    title: Skills Weekend / Make-up Training *
     location: TBA
     leaders: TBD
     start: '2015-12-19'
@@ -695,11 +440,12 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: od25ee70o8hg60l9ga4nm9e59c
-  5b1314: !ruby/object:Event
+    gcal_id: l6d5f96m81guhf0l5uql19svc8
+    signature: Skills Weekend / Make-up Training * / TBA / 2015-12-19
+  !binary "NWE2N2Vm": !ruby/object:Event
     kind: TBD
     title: General Meeting  (not 3rd Monday)
-    location: Redwood City Jury Assembly Room
+    location: RWC Jury Assembly
     leaders: TBD
     start: '2016-01-11'
     finish: TBD
@@ -707,8 +453,9 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: ue37sd3c3o4ftrk6slp7r0sh4o
-  7c84c9: !ruby/object:Event
+    gcal_id: aidksuaftfbbalhspov1ebcepk
+    signature: General Meeting  (not 3rd Monday) / RWC Jury Assembly / 2016-01-11
+  !binary "N2M4NGM5": !ruby/object:Event
     kind: TBD
     title: Qrtly Leadership Mtg
     location: TBA
@@ -720,9 +467,10 @@
     lon: TBD
     prior: TBD
     gcal_id: 4toiv96qquqcto9tgi2s0t8me4
-  8fb325: !ruby/object:Event
+    signature: Qrtly Leadership Mtg / TBA / 2016-01-20
+  !binary "MGUxNjI5": !ruby/object:Event
     kind: TBD
-    title: Snow Skills *G
+    title: Snow Skills *
     location: TBA
     leaders: TBD
     start: '2016-01-23'
@@ -731,4 +479,57 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: jigeegqqa08kmqm5k1dfa7fpu4
+    gcal_id: 3f580c79vuiv6vnipthaev1lmk
+    signature: Snow Skills * / TBA / 2016-01-23
+  !binary "ZWJkMmE2": !ruby/object:Event
+    kind: TBD
+    title: Guest Mock Search
+    location: Redwood Memorial Park
+    leaders: TBD
+    start: '2016-02-07'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: aoiv2jcegm56gte6unk4qc63rg
+    signature: Guest Mock Search / Redwood Memorial Park / 2016-02-07
+  !binary "NzI5ZTJl": !ruby/object:Event
+    kind: TBD
+    title: General Meeting (Not 3rd Monday)
+    location: Castro Valley
+    leaders: TBD
+    start: '2016-02-08'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: lhn4vmp51vnsoa7brtqd1gpof4
+    signature: General Meeting (Not 3rd Monday) / Castro Valley / 2016-02-08
+  !binary "MzA5MDNi": !ruby/object:Event
+    kind: TBD
+    title: Snow and Ice Re-Accreditation
+    location: TBA
+    leaders: TBD
+    start: '2016-03-05'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: 6a72cva625kvji156scrdc5tos
+    signature: Snow and Ice Re-Accreditation / TBA / 2016-03-05
+  !binary "YzMwZTY4": !ruby/object:Event
+    kind: TBD
+    title: General Meeting
+    location: Redwood City County Room 101
+    leaders: TBD
+    start: '2016-03-21'
+    finish: TBD
+    description: TBD
+    lat: TBD
+    lon: TBD
+    prior: TBD
+    gcal_id: c09e2sh3k5oed0o9ip7bcg5i5o
+    signature: General Meeting / Redwood City County Room 101 / 2016-03-21

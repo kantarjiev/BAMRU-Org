@@ -20,30 +20,6 @@
     prior: TBD
     gcal_id: TBD
     signature: Small Alpine - Chiquito Pass / Sierra National Forest / 2015-07-10
-  !binary "MWNjZTk3": !ruby/object:Event
-    kind: operation
-    title: Shasta 2015-LAW-13920
-    location: 2486 Progress, Redding, CA
-    leaders: Kantarjiev
-    start: '2015-07-11'
-    finish: '2015-07-12'
-    description: ! "Mission: 2015-LAW-13920. \nFrom: Dennis Smithson at CALOES, dennis.smithson@caloes.ca.gov
-      .\n\nShasta County is reopening mission 2015-LAW-13920, a search for a missing
-      six month old infant missing under suspicious circumstances. Shasta has been
-      working on this for some time and has already conducted several searches. They
-      have developed new leads and have additional areas to search. They are requesting
-      a significant response for searches on Saturday and Sunday. They have requested
-      80-100 searchers for each day. The reporting time is 0700 for each day. ICP
-      is located at 2486 Progress in Redding. Shasta County is providing lodging for
-      Friday and Saturday night. Weather is expected to be good. Area to be searched
-      is not technical and your Type 3/4 personnel would be fine. Request is for ground
-      pounder personnel. Agency contact is Lt Tom Campbell at 530-410-2246 but please
-      make sure you advise me if you are able to provide personnel. "
-    lat: 
-    lon: 
-    prior: TBD
-    gcal_id: TBD
-    signature: Shasta 2015-LAW-13920 / 2486 Progress, Redding, CA / 2015-07-11
   !binary "ZWQ0NjYx": !ruby/object:Event
     kind: training
     title: ! 'Drivers Training: Classroom'
@@ -156,9 +132,9 @@
     prior: TBD
     gcal_id: TBD
     signature: DO Skills Night * / IDEO, 150 Forest Ave, Palo Alto, CA 9430 / 2015-08-04
-  !binary "NmI0NDM5": !ruby/object:Event
+  !binary "YTc2MWY3": !ruby/object:Event
     kind: training
-    title: ! 'Small Alpin: Billy''s Peak'
+    title: ! 'Small Alpine: Billy''s Peak'
     location: Billy's Peak, Trinity County
     leaders: Chromik
     start: '2015-08-07'
@@ -169,7 +145,7 @@
     lon: 
     prior: TBD
     gcal_id: TBD
-    signature: ! 'Small Alpin: Billy''s Peak / Billy''s Peak, Trinity County / 2015-08-07'
+    signature: ! 'Small Alpine: Billy''s Peak / Billy''s Peak, Trinity County / 2015-08-07'
   !binary "YzNkMzEz": !ruby/object:Event
     kind: training
     title: Low Angle Skills Night
