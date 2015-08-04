@@ -1,5 +1,5 @@
-Contributing to This Project
-============================
+Contributing to BAMRU-Org
+=========================
 
 View the [README](../README.md)
 
@@ -21,22 +21,21 @@ We follow the "fork-and-pull" Git workflow.
 NOTE: Be sure to merge the latest from "upstream" before making a
 pull request!
 
-Using Git and GitHub
---------------------
+Reference Docs for Git and GitHub
+---------------------------------
 
-Here are some reference docs for Git and GitHub:
 
-## NVIE branching model
+NVIE branching model
 
 - http://nvie.com/posts/a-successful-git-branching-model/
 
-## How to write a good commit message
+How to write a good commit message
 
 - http://chris.beams.io/posts/git-commit/
 
 - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
-## Triangular workflow
+Triangular workflow
 
 - https://felipec.wordpress.com/2014/05/11/git-triangular-workflows/
 

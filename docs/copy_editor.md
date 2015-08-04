@@ -14,12 +14,6 @@ View the [README](../README.md)
 1. Run a local development server using `rake dev:serve`
 2. Point your browser at `localhost:4567`
 
-## Rebuild and Deploy
-
-Run `rake site:build site:deploy`.
-
-Changes may take up to a minute to appear on the production site.
-
 ## Updating the HTML Calendar
 
 Follow these steps:
@@ -28,4 +22,9 @@ Follow these steps:
     > rake data:bnet:refine    # Refine BNET csv data to YAML
     > rake site:build          # Rebuild the calendar pages
 
-Then you can test locally, and rebuild/deploy the site.
+Then you can test locally, and rebuild the site.
+
+## Issue Pull Request
+
+After you committed your changes, push them to your GitHub repo, then create an
+upstream Pull Request.

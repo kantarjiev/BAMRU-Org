@@ -10,34 +10,74 @@ pre-configurated Vagrantfile is provided in this repository...)
 
 ## Installation
 
-This site depends on Ruby 1.9.3.  Once ruby is configured, install the bundled
-Ruby Gems (including `Middleman`)
+Create a GitHub account, then fork Andy's
+[repo](https://github.com/andyl/BAMRU-Org) to your GitHub account. 
+
+Install Ruby 1.9.3 on your Ubuntu development machine:
 
     > sudo apt-get update
     > sudo apt-get upgrade
     > sudo apt-get remove ruby1.8
     > sudo apt-get install ruby1.9.1 ruby1.9.1-dev npm build-essential git
 
-Fork the [repo](https://github.com/andyl/BAMRU-Org) on github, then
+Clone your forked repo to your development machine, then configure your local repo:
 
-    > git clone https://github.com/<your-github-userid>/BAMRU-Org.git   
-    > cd BAMRU-Org                                # cd to the repo directory
-    > git branch -a                               # show branches - look for `gh-pages`
-    > git checkout -b gh-pages origin/gh-pages    # make a local copy of `gh-pages`
+    > git clone https://github.com/<your-github-userid>/BAMRU-Org.git  # clone the repo to your dev machine 
+    > cd BAMRU-Org                                                     # cd to your local repo directory
+    > git branch -a                                                    # show branches - look for `gh-pages`
+    > git checkout -b gh-pages origin/gh-pages                         # make a local copy of `gh-pages`
+    > git checkout master                                              # checkout the master branch
+    > git remote add upstream https://github.com/andyl/BAMRU-Org.git   # add an upstream remote
 
-Install the Ruby support software
+Install the project Ruby Gems, including MiddleMan: 
 
-    > cd <dir>/BAMRU-Org          # cd to the repo directory 
-    > git checkout master         # checkout the master branch
     > sudo gem install bundler    # install bundler 
-    > bundle install              # install support sortware
+    > bundle install              # install Ruby Gems
+
+All done!  
+
+## Checking your Installation
+
+Here are some diagnostic commands that let you examine and tweak your
+development environment:
+
+    > gem list                # shows the list of installed ruby gems
+    > which ruby              # shows the path to your `ruby` executable
+    > ruby -v                 # shows the current version of ruby
+    > git remote -v           # shows the configured git remotes for your repo
+    > git branch -a           # shows all git branches in your repository
+    > ls ~/.gcal_keys         # have you installed `~/.gcal_keys`?
+    > which rake              # shows the path to your `rake` executable
+    > rake -T                 # shows a list of rake commands
+    > rake dev:rspec          # verify that all regression tests run
+    > rake data:bnet:download # verify that you can download Bnet data
+
+## Git Workflow
+
+Step 1: Pull upstream changes into your local repository, to make sure things are in
+sync:
+
+    > git pull upstream master
+
+Step 2: Make edits in your local development repository.
+
+Step 3: Pull upstream changes again, to make sure everything is in sync. Repeat
+as often as necessary:
+
+    > git pull upstream master
+
+Step 4: Push your changes to your GitHub repo:
+
+    > git push origin master
+
+Step 5: Go to GitHub and create a Pull Request.
 
 ## Rake Tasks
 
 The build and deploy tasks have been automated using a Ruby tool called
 [Rake](http://en.wikipedia.org/wiki/Rake_%28software%29).
 
-To view all of the Rake options, type `rake -T`.
+To view all of the Rake tasks, type `rake -T`.
 
 Most important Rake tasks include:
 
@@ -60,7 +100,7 @@ You can also run `rake site:build`.
 
 ## Deploying the Site
 
-The project is hosted on github pages.  Output HTML is stored on the
+The project is hosted using GitHub pages.  Output HTML is stored on the
 `gh-pages` branch.
 
 The manual deploy process looks like this:
@@ -76,7 +116,9 @@ The manual deploy process looks like this:
     > git push
     > git checkout master
 
-You can run all of this in a single command using `rake site:deploy`.
+You can run all of this in a single command using `rake site:deploy`.  Note
+that this command will deploy the site to your own GitHub repository, which you
+can view in a web browser at `http://<your-user-id>.github.io/BAMRU-Org`.
 
 See [GitHub Pages](http://pages.github.com) to learn more.
 

@@ -24,7 +24,7 @@ The static assets can be served from any webserver.  For convenience
 and cost-savings, we use [GitHub Pages](https://pages.github.com) as
 the server host.
 
-The workflow for Designers and Coders generally follows this cycle:
+The development/editing workflow generally follows this cycle:
 
 1) Set up the required tools and repositories.  
 

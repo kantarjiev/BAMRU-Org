@@ -58,7 +58,7 @@ https://developers.google.com/google-apps/calendar/quickstart/ruby
 Ask AndyL or CraigT to send you a copy of the `gcal_keys` directory.  Then you can edit
 the directory to include your new account information.
 
-The Gcal Keys should be stored in your home directory - `~/.gcal_keys`
+The Gcal Keys should be stored in your home directory `~/.gcal_keys`
 
 ## Using Gcal Integration
 
