@@ -117,9 +117,9 @@
     prior: TBD
     gcal_id: qd1r8933ojljnqqnb585d7c3qs
     signature: DO Skills Night * / IDEO, 150 Forest Ave, Palo Alto, CA 9430 / 2015-08-04
-  !binary "NmI0NDM5": !ruby/object:Event
+  !binary "YTc2MWY3": !ruby/object:Event
     kind: TBD
-    title: ! 'Small Alpin: Billy''s Peak'
+    title: ! 'Small Alpine: Billy''s Peak'
     location: Billy's Peak, Trinity County
     leaders: TBD
     start: '2015-08-07'
@@ -128,8 +128,8 @@
     lat: TBD
     lon: TBD
     prior: TBD
-    gcal_id: 2rt053jm7ksltrsrrbob4thplg
-    signature: ! 'Small Alpin: Billy''s Peak / Billy''s Peak, Trinity County / 2015-08-07'
+    gcal_id: bcau27ndhb3riqkdsbjf35o730
+    signature: ! 'Small Alpine: Billy''s Peak / Billy''s Peak, Trinity County / 2015-08-07'
   !binary "YzNkMzEz": !ruby/object:Event
     kind: TBD
     title: Low Angle Skills Night

@@ -10,14 +10,15 @@
 # - http://github.com/javan/whenever  | cron processor
 # - http://en.wikipedia.org/wiki/Cron | cron instructions
 
-set :output, "/tmp/bamru_org.log"
+set :output, "/tmp/bamru_org.log"     # log file output
+set :environment_variable, "MM_ENV"   # sets MM_ENV to 'production'
 
 cmd_bnet = "data:bnet:download data:bnet:refine"
 cmd_gcal = "data:gcal:download data:gcal:refine data:gcal:sync"
 cmd_site = "site:build site:deploy_calendar"
 cmd = [cmd_bnet, cmd_gcal, cmd_site].join(' ')
 
-every 1.day, at: '5:00 am' do
+every 1.day, at: '8:05 am' do
   rake cmd
 end
 
