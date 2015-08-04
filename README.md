@@ -34,8 +34,8 @@ The workflow for Designers and Coders generally follows this cycle:
 
 ## How to Contribute
 
-You'll need a browser, a GitHub account, Ubuntu or UbuntuVM, CommandLine savvy
-and Ruby skills.
+You'll need a GitHub account, Ubuntu or UbuntuVM, Command Line savvy and basic
+Ruby skills.
 
 [How to Contribute](./docs/contributing.md)
 
