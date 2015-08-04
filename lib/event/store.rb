@@ -1,6 +1,6 @@
 require "yaml/store"
-require_relative "../event/event"
-require_relative "../helpers/date_range"
+require_relative "../event"
+require_relative "../date_range"
 
 class Event::Store
 
