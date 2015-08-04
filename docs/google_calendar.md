@@ -43,7 +43,7 @@ new tab that opens, click Create new Client ID.
 type Other, and click the Create Client ID button.
 
 5) Click the Download JSON button under your new client ID. Move this file to
-your working directory and rename it YOURFILE_secret.json.  
+your working directory ~/.gcal_keys and rename it client_secret.json.  
 
 6) Run 'rake data:gcal:download'.  This will start a browser and ask for
 consent.

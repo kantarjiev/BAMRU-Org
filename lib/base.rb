@@ -28,7 +28,7 @@ VERBOSE    ||= TEST_FLAGS.include? "verbose"
 APPLICATION_NAME ||= "BAMRU Google Calendar Publish"
 GCAL_KEYS        ||= File.expand_path("~/.gcal_keys")
 
-CLIENT_SECRET ||= "#{GCAL_KEYS}/#{MM_ENV}_secret.json"
+CLIENT_SECRET ||= "#{GCAL_KEYS}/client_secret.json"
 CREDENTIAL    ||= "#{GCAL_KEYS}/#{MM_ENV}_calendar_credential.json"
 SCOPE         ||= "https://www.googleapis.com/auth/calendar" + (READONLY ? ".readonly" : "")
 
