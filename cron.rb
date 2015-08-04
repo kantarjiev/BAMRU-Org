@@ -12,7 +12,10 @@
 
 set :output, "/tmp/bamru_org.log"
 
-cmd = "data:bnet:download data:bnet:refine site:build site:deploy_calendar"
+cmd_bnet = "data:bnet:download data:bnet:refine"
+cmd_gcal = "data:gcal:download data:gcal:refine data:gcal:sync"
+cmd_site = "site:build site:deploy_calendar"
+cmd = [cmd_bnet, cmd_gcal, cmd_site].join(' ')
 
 every 1.day, at: '5:00 am' do
   rake cmd
