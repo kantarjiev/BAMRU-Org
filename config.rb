@@ -27,11 +27,11 @@ base_dir = File.expand_path(File.dirname(__FILE__))
 require "#{base_dir}/lib/base"
 
 set :helpers_dir, "./lib/helpers"
-set :source     , 'src'
-set :build_dir  , 'out'
-set :js_dir     , 'javascripts'
-set :css_dir    , 'stylesheets'
-set :images_dir , 'images'
+set :source     , "src"
+set :build_dir  , "out"
+set :js_dir     , "javascripts"
+set :css_dir    , "stylesheets"
+set :images_dir , "images"
 
 configure :build do
   # For example, change the Compass output style for deployment
