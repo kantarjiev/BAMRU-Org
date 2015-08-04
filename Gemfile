@@ -14,7 +14,6 @@ gem "middleman-slim" # slim
 gem "RedCloth"       # textile
 
 # ----- utility extensions -----
-gem "dotenv"            # store user/pwd etc.
 gem "activesupport"     # date methods (1.week...), .blank?, .present? ...
 gem "google-api-client" # wrapper for google calendar
 gem "tzinfo"            # for calculating DST offsets
