@@ -2,9 +2,8 @@
 
 ## Overview
 
-BAMRU.org is a public-facing website composed of static assets. (html,
-css, images, javascript).  The live version of this website is at
-http://bamru.org .
+BAMRU.org is a public-facing static website.  The live version of this website
+is at http://bamru.org .
 
 Any BAMRU Member or Supporter is welcome to do hands-on editing or programming.
 Contact Andy L. for info on current needs.
@@ -35,7 +34,7 @@ The workflow for Designers and Coders generally follows this cycle:
 
 ## How to Contribute
 
-You'll need a browser, a github account, Ubuntu or UbuntuVM, CommandLine savvy
+You'll need a browser, a GitHub account, Ubuntu or UbuntuVM, CommandLine savvy
 and Ruby skills.
 
 [How to Contribute](./docs/contributing.md)

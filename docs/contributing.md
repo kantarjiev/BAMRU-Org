@@ -1,7 +1,7 @@
 Contributing to This Project
 ============================
 
-Contributions are welcome!
+View the [README](../README.md)
 
 Issues
 ------
@@ -11,20 +11,20 @@ Feel free to submit issues and enhancement requests.
 Contributing
 ------------
 
-Please refer to each project's style guidelines and guidelines for submitting
-patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+We follow the "fork-and-pull" Git workflow.
 
  1. Fork the repo on GitHub
  2. Commit changes to a branch in your fork
- 3. Pull request "upstream" with your changes
- 4. Merge changes in to "upstream" repo
+ 3. Make sure you include passing tests for your code
+ 4. Send a pull request "upstream" with your changes
 
-NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+NOTE: Be sure to merge the latest from "upstream" before making a
+pull request!
 
 Using Git and GitHub
 --------------------
 
-Here are some reference docs re: Git and GitHub:
+Here are some reference docs for Git and GitHub:
 
 ## NVIE branching model
 

@@ -1,7 +1,6 @@
 # BAMRU.org Development Environment
 
-This information is relevant to Editors, Designers and Coders, as outlined
-in the [README](../README.md) file.
+View the [README](../README.md) file.
 
 ## Development Operating System
 
@@ -23,7 +22,7 @@ Fork and the [repo](https://github.com/andyl/BMARU-Org) on github, then
 
     > git clone https://github.com/<your-github-userid>/BAMRU-Org.git   
     > cd BAMRU-Org                                # cd to the repo directory
-    > git branch -a                               # show all branches - look for `gh-pages`
+    > git branch -a                               # show branches - look for `gh-pages`
     > git checkout -b gh-pages origin/gh-pages    # make a local copy of `gh-pages`
 
 Install the Ruby support software

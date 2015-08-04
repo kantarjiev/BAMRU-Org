@@ -43,8 +43,7 @@ new tab that opens, click Create new Client ID.
 type Other, and click the Create Client ID button.
 
 5) Click the Download JSON button under your new client ID. Move this file to
-your working directory and rename it #{MM_ENV}_secret.json.  u
-MM_ENV == production || test
+your working directory and rename it YOURFILE_secret.json.  
 
 6) Run 'rake data:gcal:download'.  This will start a browser and ask for
 consent.
@@ -65,10 +64,10 @@ The Gcal Keys should be stored in your home directory - `~/.gcal_keys`
 
 After you have configured `~/.gcal_keys` you will see these rake tasks:
 
-    rake data:gcal:download  # Download Gcal Data
-    rake data:gcal:refine    # Refine Gcal json data to YAML
-    rake data:gcal:sync      # Sync all Gcal Data
+    > rake data:gcal:download  # Download Gcal Data
+    > rake data:gcal:refine    # Refine Gcal json data to YAML
+    > rake data:gcal:sync      # Sync all Gcal Data
 
 Reminder: use the `test` account while doing development!
 
-    MM_ENV=test rake data:gcal:download data:gcal:refine data:gcal:sync
+    > MM_ENV=test rake data:gcal:download data:gcal:refine data:gcal:sync
