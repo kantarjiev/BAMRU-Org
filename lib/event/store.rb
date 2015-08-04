@@ -8,6 +8,8 @@ class Event::Store
 
   def initialize(data_file)
     @data_file = data_file
+    @data_dir  = File.dirname(File.expand_path(data_file))
+    system "mkdir -p #{@data_dir}"
     @store     = YAML::Store.new @data_file
   end
 
