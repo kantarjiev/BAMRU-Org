@@ -1,5 +1,5 @@
 require "spec_helper"
-require "#{LIB}/date_range"
+require "#{LIB}/helpers/date_range"
 
 describe DateRange do
   let(:klas) { described_class }

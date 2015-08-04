@@ -1,5 +1,5 @@
 require "spec_helper"
-require "#{LIB}/cal_data/bnet/refine"
+require "#{LIB}/bnet/refine"
 
 describe CalData::Bnet::Refine do
   let(:klas) { described_class }

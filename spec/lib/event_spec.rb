@@ -1,5 +1,5 @@
 require "spec_helper"
-require "#{LIB}/event"
+require "#{LIB}/event/event"
 
 describe Event do
   let(:klas) { described_class }

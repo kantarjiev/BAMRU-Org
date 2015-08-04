@@ -1,8 +1,8 @@
 require 'json'
-require_relative "../../base"
-require_relative "../../rake/loggers"
-require_relative "../../event"
-require_relative "../../event/store"
+require_relative "../base"
+require_relative "../rake/loggers"
+require_relative "../event/event"
+require_relative "../event/store"
 
 class CalData
   class Gcal
@@ -45,13 +45,13 @@ class CalData
           # gcal_id to make them unique When everything is functioning
           # correctly duplicate records shouldn't exist but they creep in
           # during testing
-          extend_sig = prev_opts &&
+          extend_sig = prev_opts && #CST
               prev_opts[:title]    == opts[:title] &&
               prev_opts[:location] == opts[:location] &&
               prev_opts[:start]    == opts[:start] ? " / #{opts[:gcal_id]}" : extend_sig = ""
           prev_opts = opts
           Event.new(opts, extend_sig)
-        end.compact
+        end
       end
     end
   end
