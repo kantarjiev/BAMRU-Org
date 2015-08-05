@@ -4,12 +4,12 @@ View the [README](../README.md) file.
 
 ## Overview
 
-Sometimes it is handy to have a shared programming session whereby two people
-can view a text editor and console sessions simultaneously.
+Sometimes it is handy to have remote sessions whereby two people can view a
+shared text editor and command-line console.
 
 ## Support Software
 
-To make all this work, you will need to use:
+To make this work, you will need to use:
 
 - VIM   - a common text editor
 - TMUX  - terminal multiplexer software
@@ -23,12 +23,12 @@ your firewall.
 The ip address of the public server is 45.79.82.37. Ask Andy for a user
 account.
 
-The script bin/portfwd sets up ports. Use these port 22 for SSH, port 4567 for
+The script bin/portfwd sets up ports. Use port 22 for SSH, port 4567 for
 the development web server.
 
 ## Working Together
 
-Two developers can share a TMUX session for pair programming. 
+Two developers can share a WEMUX session for pair programming. 
 
 First, the host must run:
 
@@ -38,4 +38,5 @@ First, the host must run:
 Then the partner must run:
 
     > ssh 45.79.82.37:2222    # connect to dev machine via public server
-    > wemux                   # connect using wemux
+
+That's it!
