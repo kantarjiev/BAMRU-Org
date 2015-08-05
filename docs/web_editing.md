@@ -1,4 +1,4 @@
-# How to be a Copy Editor
+# Changing the Website
 
 View the [README](../README.md)
 
@@ -28,3 +28,14 @@ Then you can test locally, and rebuild the site.
 
 After you committed your changes, push them to your GitHub repo, then create an
 upstream Pull Request.
+
+## Potential Website Projects
+
+### Responsive Design
+
+The current website uses an old design, with small font that is difficult
+to read.  It would be great to modernize the design, especially so the website
+renders well on a mobile phone.  I would like this work to be based on the
+[Bootstrap Framework](http://getbootstrap.com), which renders well on desktops,
+tablets and smart phones.
+

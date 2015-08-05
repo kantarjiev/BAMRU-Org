@@ -35,13 +35,13 @@ The development/editing workflow generally follows this cycle:
 ## How to Contribute
 
 You'll need a GitHub account, Ubuntu or UbuntuVM, Command Line savvy and basic
-Ruby skills.
+HTML/CSS/JS/Ruby skills.
 
-[How to Contribute](./docs/contributing.md)
+[Contributing](./docs/contributing.md)
 
 [About the Development Environment](./docs/dev_environment.md)
 
-[How to be a Copy Editor](./docs/copy_editor.md)
+[Changing the Website](./docs/web_editing.md)
 
 [Integrating with Google Calendar](./docs/google_calendar.md)
 
