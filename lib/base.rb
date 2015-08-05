@@ -43,6 +43,10 @@ BNET_DATA_YAML_FILE ||= "cal_data/bnet.yaml"
 GCAL_DATA_JSON_FILE ||= "cal_data/gcal_#{MM_ENV}.json"
 GCAL_DATA_YAML_FILE ||= "cal_data/gcal_#{MM_ENV}.yaml"
 
+# ----- gcal sync log -----
+
+GCAL_SYNC_LOG ||= "gcal_sync.log"   # only hold production data
+
 # ----- store objects -----
 
 require_relative './event/store'
