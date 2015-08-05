@@ -35,7 +35,7 @@ The development/editing workflow generally follows this cycle:
 ## How to Contribute
 
 You'll need a GitHub account, Ubuntu or UbuntuVM, Command Line savvy and basic
-programming skills (HTML, CSS, JS, Ruby).
+coding skills (HTML, CSS, JS, Ruby).
 
 [Contributing](./docs/contributing.md)
 
