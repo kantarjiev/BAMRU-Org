@@ -46,3 +46,5 @@ coding skills (HTML, CSS, JS, Ruby).
 [Integrating with Google Calendar](./docs/google_calendar.md)
 
 [Running Auto-Updates with Cron](./docs/cron.md)
+
+[Pair Programming](./docs/pair_programming.md)
