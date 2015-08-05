@@ -9,10 +9,12 @@ require 'tzinfo'
 
 require_relative "../base"
 require_relative "../rake/loggers"
+require_relative "./log"
 
 class Gcal
   class Client
     extend Rake::Loggers
+    include Gcal::Log
 
     raise "No Gcal credentials" unless File.exists?(CLIENT_SECRET)
 
@@ -61,9 +63,7 @@ class Gcal
           'calendarId' => 'primary'},
         :body_object => event_opts)
       error = result.data.kind != "calendar#event"
-      if VERBOSE
-        puts "Event created: #{event.title} [#{event.start}]"#c if result.body == ""
-      end
+      log_create(event)
       error
     end
 
@@ -73,11 +73,11 @@ class Gcal
                                  'calendarId' => 'primary',
                                  'eventId' => google_event_id})
       if result.body == ""
-        puts "Event deleted: #{event.title} [#{event.start}] #{google_event_id}" if VERBOSE
+        log_delete(event, google_event_id)
         error = nil
       else
         error = JSON.parse(result.response.body)["error"]["message"]
-        puts "Delete error: #{event.title} [#{event.start}] #{error}" if VERBOSE
+        log_error(event, error)
       end
       error
     end
@@ -109,7 +109,7 @@ class Gcal
     end
 
     # ----- date utilities -----
-    # TODO: can we fix BAMRU.net to return start/end times for meetings?
+
     def start_for(event)
       if event.kind == 'meeting'
         {"dateTime" => "#{event.start}T19:30:00-#{offset_for(event.start)}:00"}

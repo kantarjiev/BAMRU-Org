@@ -12,23 +12,19 @@ if File.exist?(CLIENT_SECRET)
     end
 
     describe "Instance Methods" do
-      it { should respond_to :pending_delete           }
-      it { should respond_to :pending_create           }
-      it { should respond_to :create                   }
-      it { should respond_to :delete                   }
-      it { should respond_to :create_events            }
-      it { should respond_to :delete_events            }
+      it { should respond_to :sync                 }
+      it { should respond_to :delete_all           }
     end
 
-    describe ".pending_delete" do
+    describe "_pending_delete" do
       it "returns an array" do
-        expect(subject.pending_delete).to be_an(Array)
+        expect(subject.send(:pending_delete)).to be_an(Array)
       end
     end
 
-    describe ".pending_create" do
+    describe "_pending_create" do
       it "returns an array" do
-        expect(subject.pending_create).to be_an(Array)
+        expect(subject.send(:pending_create)).to be_an(Array)
       end
     end
    end
