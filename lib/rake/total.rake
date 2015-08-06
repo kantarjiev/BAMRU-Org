@@ -1,13 +1,19 @@
 namespace :total do
 
-  cmd_bnet = %w(data:bnet:download data:bnet:refine)
-  cmd_gcal = %w(data:gcal:download data:gcal:refine data:gcal:sync)
-  cmd_site = %w(site:build)
+  bnet_tasks = %w(data:bnet:download data:bnet:refine)
+  gcal_tasks = %w(data:gcal:download data:gcal:refine data:gcal:sync)
+  site_tasks = %w(site:build)
 
-  dependencies = cmd_bnet + cmd_gcal + cmd_site
+  sync_dependencies  = bnet_tasks + gcal_tasks
+  build_dependencies = sync_dependencies + site_tasks
+
+  desc "Resync all data"
+  task :resync => sync_dependencies do
+    log "finish total resync"
+  end
 
   desc "Resync all data, Rebuild the site"
-  task :rebuild => dependencies do
+  task :rebuild => build_dependencies do
     log "finish total rebuild"
   end
 end

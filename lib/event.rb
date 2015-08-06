@@ -8,39 +8,39 @@ class Event
   FIELDS = fields.map(&:to_sym)
 
   attr_accessor *FIELDS
+  attr_reader :compare_event, :opts, :hash_opts
 
   def initialize(opts = {}, compare_event = nil)
-    i_opts = opts.to_hash.with_indifferent_access   # Called with array and CSV opts
-    FIELDS.each {|f| instance_variable_set "@#{f}", i_opts.fetch(f, "TBD")}
-    create_signature(i_opts, compare_event)
+    @opts          = opts
+    @compare_event = compare_event
+    @hash_opts     = opts.to_hash.with_indifferent_access
+    FIELDS.each {|f| instance_variable_set "@#{f}", hash_opts.fetch(f, "TBD")}
   end
 
   # ----- instance methods -----
 
-  def id
-    hash
-  end
-
   def hash
-    Digest::SHA256.hexdigest(@signature).reverse[0..5].reverse
+    Digest::SHA256.hexdigest(signature).reverse[0..5].reverse
+  end
+  alias_method :id, :hash
+
+  def base_signature
+    @base_signature ||= [title, location, start].join(' / ')
   end
 
   private
 
-  def create_signature(opts, c_event)
-    @signature = "#{@title} / #{@location} / #{@start}"
-
-    # Handle duplicates, duplicate events are hashed with the
-    # gcal_id to make them unique. When everything is functioning
-    # correctly duplicate records shouldn't exist but they may creep in
-    # during testing.  Try deleting gcal_test.yaml and run sync
-    
-    if c_event && @title == c_event.title && @location == c_event.location && @start == c_event.start
-      @signature += " / #{opts[:gcal_id]}"
-      if VERBOSE 
-        puts "Event dup: #{opts[:title]} [#{opts[:start]}]"#c if result.body == ""
-      end
-    end
+  # Duplicate events are hashed with the gcal_id to make them unique. When
+  # everything is functioning correctly duplicate records shouldn't exist but
+  # they may creep in during testing.  Try deleting gcal_test.yaml and run sync
+  def signature
+    return base_signature unless duplicate_of_compare_event?
+    puts "DUPLICATE: #{opts[:title]} [#{opts[:start]}]" if VERBOSE
+    [base_signature, opts[:gcal_id]].join(" / ")
   end
 
+  def duplicate_of_compare_event?
+    return false unless compare_event.present?
+    base_signature == compare_event.base_signature
+  end
 end
