@@ -8,6 +8,6 @@ namespace :total do
 
   desc "Re-Sync all data, Rebuild and Redeploy the site"
   task :rebuild => dependencies do
-    log "Total Rebuild is Complete"
+    log "total rebuild is finished"
   end
 end
