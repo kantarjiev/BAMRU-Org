@@ -13,7 +13,7 @@
 set :output, "/tmp/bamru_org.log"     # log file output
 set :environment_variable, "MM_ENV"   # sets MM_ENV to 'production'
 
-cmd = "total:rebuild site:deploy"
+cmd = "total:rebuild site:deploy_calendar"
 
 every 1.day, at: '5:00 am' do
   rake cmd
