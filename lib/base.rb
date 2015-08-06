@@ -18,10 +18,11 @@ raise "Environment setting must be 'production' or 'test'" unless valid_env?
 
 # ----- test flags -----
 
-TEST_FLAGS ||= (ENV["BAMRU_FLAGS"] || "debug:verbose").strip.chomp.split(':')
+TEST_FLAGS ||= (ENV["BAMRU_FLAGS"] || (MM_ENV == "test" ? "debug:verbose" : "")).strip.chomp.split(':')
 DEBUG      ||= TEST_FLAGS.include? "debug"
 READONLY   ||= TEST_FLAGS.include? "readonly"
-VERBOSE    ||= TEST_FLAGS.include? "verbose"
+VERBOSE    ||= (TEST_FLAGS.include? "verbose") || (TEST_FLAGS.include? "verbose+")
+VERBOSE_PLUS ||= TEST_FLAGS.include? "verbose+"
 
 # ----- gcal keys / environment -----
 

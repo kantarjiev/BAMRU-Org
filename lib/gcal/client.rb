@@ -31,13 +31,13 @@ class Gcal
         :api_method => @calendar_api.events.list,
         :parameters => {
           :calendarId   => 'primary',
-          :maxResults   => 2500,             #cst document in base.rb
+          :maxResults   => 2500,             #cst document in base.rb, add error check
           :singleEvents => true,
           :orderBy      => 'startTime'
         }
       }
       results = @client.execute!(args)
-      if VERBOSE
+      if VERBOSE_PLUS
         puts "GCal Events:"
         puts "No events found" if results.data.items.empty?
         results.data.items.each do |event|

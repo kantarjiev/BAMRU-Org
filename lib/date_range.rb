@@ -1,10 +1,18 @@
 class DateRange
   class << self
     def start
-      (Time.now - 1.month).beginning_of_month
+      Time.now.beginning_of_day
     end
 
     def finish
+      (Time.now + 1.year).end_of_month
+    end
+
+    def cal_start
+      (Time.now - 1.year).beginning_of_year
+    end
+
+    def cal_finish
       (Time.now + 1.year).end_of_month
     end
 
@@ -14,6 +22,14 @@ class DateRange
 
     def finish_str
       stringified_month finish
+    end
+
+    def cal_start_str
+      stringified_month cal_start
+    end
+
+    def cal_finish_str
+      stringified_month cal_finish
     end
 
     def start_month
