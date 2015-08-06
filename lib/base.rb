@@ -45,7 +45,7 @@ GCAL_DATA_YAML_FILE ||= "cal_data/gcal_#{MM_ENV}.yaml"
 
 # ----- gcal sync log -----
 
-GCAL_SYNC_LOG ||= "gcal_sync.log"   # only hold production data
+GCAL_SYNC_LOG ||= "GCAL_SYNC.log"   # only hold production data
 
 # ----- store objects -----
 
