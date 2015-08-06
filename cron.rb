@@ -13,7 +13,7 @@
 set :output, "/tmp/bamru_org.log"     # log file output
 set :environment_variable, "MM_ENV"   # sets MM_ENV to 'production'
 
-cmd = "total:rebuild"
+cmd = "total:rebuild site:deploy"
 
 every 1.day, at: '5:00 am' do
   rake cmd
@@ -32,6 +32,6 @@ every 1.day, at: '11:00 pm' do
 end
 
 every 1.week do
-  rake 'total:gcal_sync_log_rotate'
+  rake 'admin:gcal_sync_log_rotate'
 end
 
