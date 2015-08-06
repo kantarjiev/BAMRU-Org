@@ -40,9 +40,7 @@ if File.exist?(CLIENT_SECRET)
       end
 
       desc "Delete all Gcal Data! Admin function: USE WITH CARE!!"
-      task :delete_all do
-        CalData::Gcal::Download.execute
-        CalData::Gcal::Refine.new.execute
+      task :delete_all => [:download, :refine] do
         ::Gcal::Sync.new.delete_all
       end
     end
