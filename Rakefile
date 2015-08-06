@@ -21,6 +21,7 @@ require "./lib/rake/loggers"
 include Rake::Loggers
 
 stamp = Time.now.strftime("%m-%d %H:%M")
-log "#{stamp} | #{ARGV} ENV=#{MM_ENV} FLAGS=#{TEST_FLAGS.join(':')}"
+log "#{stamp} | MM_ENV=#{MM_ENV} BAMRU_FLAGS=#{TEST_FLAGS.join(':')}"
+log "#{stamp} | #{ARGV.join(' ')}"
 
 # ----- fini -----
