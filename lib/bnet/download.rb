@@ -10,7 +10,7 @@ class CalData
 
       class << self
         def execute
-          csv_text = event_filter(download_latest_csv)
+          csv_text = download_latest_csv
           if has_changed?(csv_text)
             save_new_text(csv_text)
           else
@@ -26,23 +26,12 @@ class CalData
           raw_text.delete("^\u{0000}-\u{007F}")   # remove non-ascii characters
         end
 
-        def event_filter(text)
-          output = [text.lines.first.chomp]
-          CSV.parse(text, headers: true) do |row|
-            next if row["start"] < DateRange.start_str    # filter by date-range
-            next if row["start"] > DateRange.finish_str   # filter by date-range
-            next if row["kind"] == "operation"            # filter by event kind
-            output << row.to_s.chomp
-          end
-          output.join("\n")
-        end
-
         def has_changed?(new_text)
           (new_text + "\n") != old_text
         end
 
         def do_not_save_message
-          log "CSV Text has not changed - nothing saved"
+          log "Load BAMRU.net data: Events up-to-date -- nothing saved"
         end
 
         def abort_message
@@ -52,10 +41,8 @@ class CalData
 
         def save_new_text(csv_text)
           File.open(BNET_DATA_CSV_FILE, 'w') {|f| f.puts csv_text}
-          count = csv_text.lines.count - 2
-          # msg = `wc -l #{BNET_DATA_CSV_FILE}`.strip.chomp.split(' ')
-          log "BAMRU.net event data has been downloaded"
-          log "#{count} records saved to #{BNET_DATA_CSV_FILE}"
+          count = CSV.parse(csv_text, headers: true).length
+          log "Load BAMRU.net data: Saved #{count} events to #{BNET_DATA_CSV_FILE}"
         end
 
         def old_text

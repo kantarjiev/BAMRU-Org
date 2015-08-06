@@ -15,11 +15,11 @@ class Gcal
     # ----- list of events to be created/deleted -----
 
     def pending_create
-      @pending_create ||= (BNET_STORE.all.keys - GCAL_STORE.all.keys)
+      @pending_create ||= (BNET_STORE.calendar_events.keys - GCAL_STORE.all.keys)
     end
 
     def pending_delete
-      @pending_delete ||= (GCAL_STORE.all.keys - BNET_STORE.all.keys)
+      @pending_delete ||= (GCAL_STORE.all.keys - BNET_STORE.calendar_events.keys)
     end
 
     # ------ create and delete individual events -----
@@ -37,23 +37,23 @@ class Gcal
     def create_events(event_keys)
       num_events = 0
       event_keys.each do |event_key|
-        print '.'.green
+        print '.'.green unless VERBOSE
         error = create(BNET_STORE.all[event_key])
         num_events += 1 unless error
       end
-      puts ' ' unless event_keys.length == 0
-      log "Created #{num_events} events"
+      puts ' ' unless event_keys.length == 0 || VERBOSE
+      log "Add Gcal events: Created #{num_events} Gcal events"
     end
 
     def delete_events(event_keys)
       num_events = 0
       event_keys.each do |evid|
-        print '.'.green
+        print '.'.green unless VERBOSE
         error = delete(GCAL_STORE.all[evid].gcal_id, GCAL_STORE.all[evid])
         num_events += 1 unless error
       end
-      puts ' ' unless event_keys.length == 0
-      log "Removed #{num_events} events"
+      puts ' ' unless event_keys.length == 0 || VERBOSE
+      log "Remove Gcal events: Removed #{num_events} Gcal events"
     end
 
     # ----- sync everything -----

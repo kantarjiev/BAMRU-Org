@@ -32,14 +32,13 @@ class CalData
         end
 
         def do_not_save_text
-          log "GCal Events data up-to-date"
+          log "Load Gcal data: Events up-to-date -- nothing saved"
         end
 
         def save_new_text(json_text)
           File.open(GCAL_DATA_JSON_FILE, 'w') {|f| f.puts json_text}
-          log "Gcal event data has been downloaded"
-          count = json_text.lines.count - 2  # adjust for accurate count  #CST
-          log "#{count} records saved to #{GCAL_DATA_JSON_FILE}"
+          count = JSON.parse(json_text).length
+          log "Load Gcal data: Saved #{count} events to #{GCAL_DATA_JSON_FILE}"
         end
 
         def old_text

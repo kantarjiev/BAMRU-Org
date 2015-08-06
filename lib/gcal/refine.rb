@@ -19,7 +19,8 @@ class CalData
 
       def execute
         Event::Store.new(@to).destroy_all.create(events)
-        log "Converted GCal JSON to YAML, written to #{@to}"
+        count = GCAL_STORE.all.length
+        log "Convert GCal JSON to YAML: Saved #{count} events to #{@to}"
       end
 
       private
@@ -30,29 +31,24 @@ class CalData
       end
 
       def events
-        prev_opts = nil
-        json_events.map do |hsh|
-          hsh_start = hsh["start"]
-          start = hsh_start["date"] || hsh_start["dateTime"].split('T').first
+        prev_event = nil
+        sorted_events = json_events.sort_by{ |e| e["description"].to_s+e["start"].to_s+e["location"].to_s }
+          # use to_s to handle embedded hash and nil
+
+        sorted_events.map do |e|
+          e_start = e["start"]
+          start = e_start["date"] || e_start["dateTime"].split('T').first
           opts  = {
-            gcal_id:  hsh["id"],
-            location: hsh["location"],
-            title:    hsh["summary"],
+            gcal_id:  e["id"],
+            location: e["location"],
+            title:    e["summary"],
             start:    start
           }
 
-          # Handle duplicate records, addition records are hashed with the
-          # gcal_id to make them unique When everything is functioning
-          # correctly duplicate records shouldn't exist but they creep in
-          # during testing
-          extend_sig = prev_opts && #CST
-              prev_opts[:title]    == opts[:title] &&
-              prev_opts[:location] == opts[:location] &&
-              prev_opts[:start]    == opts[:start] ? " / #{opts[:gcal_id]}" : extend_sig = ""
-          prev_opts = opts
-          Event.new(opts, extend_sig)
+          prev_event = Event.new(opts, prev_event)
         end
       end
+
     end
   end
 end

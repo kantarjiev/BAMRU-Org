@@ -45,31 +45,43 @@ class Event::Store
     self
   end
 
+  def calendar_events
+    @calendar_events ||= match_cal("kind", ["meeting", "training", "community"])
+  end
+
   def meetings
-    @meetings ||= match("kind", "meeting")
+    @meetings ||= match_web("kind", ["meeting"])
   end
 
   def trainings
-    @trainings ||= match("kind", "training")
+    @trainings ||= match_web("kind", ["training"])
   end
 
   def others
-    @others ||= match("kind", "community")
+    @others ||= match_web("kind", ["community"])
   end
 
   def starts_on(date)
-    match("start", date)
+    match_web("start", date)
   end
 
   private
 
-  def match(key, value)
+  def match_web(key, value)
+    match_with_limits(key, value, DateRange.start_str, DateRange.finish_str)
+  end    
+
+  def match_cal(key, value)
+    match_with_limits(key, value, DateRange.cal_start_str, DateRange.cal_finish_str)
+  end    
+
+  def match_with_limits(key, values, start, finish)
     prior = nil
     all.select do |_hsh_key, event|
       start_value = event.start
-      next false if event.send(key.to_sym) != value
-      next false if DateRange.start_str  > start_value
-      next false if DateRange.finish_str < start_value
+      next false if not values.include?(event.send(key.to_sym))
+      next false if start  > start_value
+      next false if finish < start_value
       event.prior = prior
       prior = event
       true

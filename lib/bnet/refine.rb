@@ -19,16 +19,18 @@ class CalData
 
       def execute
         Event::Store.new(@to).destroy_all.create(events)
-        log "Converted BAMRU.net CSV to YAML, written to #{@to}"
+        count = BNET_STORE.all.length
+        log "Convert BAMRU.net CSV to YAML: Saved #{count} events to #{@to}"
       end
 
       private
 
       def events
-        # csv_events.map do |event|
         list = []
+        prev_event = nil
         CSV.foreach(@from, headers: true) do |event|
-          list << Event.new(event)
+          prev_event = Event.new(event, prev_event)
+          list << prev_event
         end
         list
       end
