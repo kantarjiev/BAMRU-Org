@@ -31,3 +31,7 @@ every 1.day, at: '11:00 pm' do
   rake cmd
 end
 
+every 1.week do
+  rake 'total:gcal_sync_log_rotate'
+end
+
