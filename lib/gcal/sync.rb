@@ -1,11 +1,31 @@
 require_relative "../base"
 require_relative "../rake/loggers"
 require_relative "./client"
+require_relative "./log"
+
 
 class Gcal
   class Sync
 
     extend Rake::Loggers
+    include Gcal::Log
+
+    # ----- sync everything -----
+
+    def sync
+      log_header
+      delete_events(pending_delete)
+      create_events(pending_create)
+    end
+
+    # ----- delete everything -----
+
+    def delete_all
+      log_header
+      delete_events(GCAL_STORE.all.keys)
+    end
+
+    private
 
     # ----- support methods -----
     def client
@@ -54,19 +74,6 @@ class Gcal
       end
       puts ' ' unless event_keys.length == 0 || VERBOSE
       log "Remove Gcal events: Removed #{num_events} Gcal events"
-    end
-
-    # ----- sync everything -----
-
-    def sync
-      delete_events(pending_delete)
-      create_events(pending_create)
-    end
-
-    # ----- delete everything -----
-
-    def delete_all
-      delete_events(GCAL_STORE.all.keys)
     end
   end
 end
