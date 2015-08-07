@@ -36,8 +36,10 @@ class Gcal
 
     def events
       # Sort events to find duplicates
-      sorted_events = json_events.sort_by{ |e| e["description"].to_s+e["start"].to_s+e["location"].to_s }
-      # use to_s to handle embedded hash and nil
+      sorted_events = json_events.sort_by do |e|
+        # use to_s to handle embedded hash and nil
+        e["description"].to_s + e["start"].to_s + e["location"].to_s
+      end
 
       event = nil
       sorted_events.map do |e|
@@ -50,7 +52,10 @@ class Gcal
           finish:   finish
         }
 
-        event = Event.new(opts, event) # duplicate if this event matches the previous 
+        # TODO:
+        # add an Event contstructor method like `Event.new_or_duplicate`
+        # which is more descriptive than `Event.new`
+        event = Event.new(opts, event) # duplicate if this event matches the previous
       end
     end
 
