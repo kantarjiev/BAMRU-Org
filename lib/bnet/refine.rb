@@ -27,11 +27,13 @@ class Bnet
     def events
       list = []
       prev_event = nil
-      CSV.foreach(@from, headers: true) do |event|
-        prev_event = Event.new(event, prev_event)
+      CSV.foreach(@from, headers: true) do |csv_event|
+        csv_event["finish"] = csv_event["start"] if csv_event["finish"].blank?
+        prev_event = Event.new(csv_event, prev_event)
         list << prev_event
       end
       list
     end
+
   end
 end

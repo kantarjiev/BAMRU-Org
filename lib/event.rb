@@ -37,7 +37,7 @@ class Event
   end
 
   def base_signature(event = self)
-    [event.title, event.location, event.start].join(' / ') unless event.nil?
+    [event.title, event.location, event.start, event.finish].join(' / ') unless event.nil?
   end
 
   def extended_signature
