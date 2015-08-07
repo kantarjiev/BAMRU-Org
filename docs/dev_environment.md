@@ -10,9 +10,6 @@ pre-configurated Vagrantfile is provided in this repository...)
 
 ## Installation
 
-Create a GitHub account, then fork Andy's
-[repo](https://github.com/andyl/BAMRU-Org) to your GitHub account. 
-
 Install Ruby 1.9.3 on your Ubuntu development machine:
 
     > sudo apt-get update
@@ -21,6 +18,9 @@ Install Ruby 1.9.3 on your Ubuntu development machine:
     > sudo apt-get install ruby1.9.1 ruby1.9.1-dev npm build-essential git
 
 Clone your forked repo to your development machine, then configure your local repo:
+
+    Create a GitHub account.  Go to https://github.com/andyl/BAMRU-Org and fork the repo
+    to your github account (fork buttom upper right corner)
 
     > git clone https://github.com/<your-github-userid>/BAMRU-Org.git  # clone the repo to your dev machine 
     > cd BAMRU-Org                                                     # cd to your local repo directory

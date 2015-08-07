@@ -20,27 +20,25 @@ class Event
   # ----- instance methods -----
 
   def hash
-    Digest::SHA256.hexdigest(signature).reverse[0..5].reverse
+    @hash ||= Digest::SHA256.hexdigest(signature).reverse[0..5].reverse
   end
   alias_method :id, :hash
 
   def base_signature
-    @base_signature ||= [title, location, start].join(' / ')
+    [title, location, start].join(' / ')
   end
-
+  
   private
 
   # Duplicate events are hashed with the gcal_id to make them unique. When
   # everything is functioning correctly duplicate records shouldn't exist but
   # they may creep in during testing.  Try deleting gcal_test.yaml and run sync
   def signature
-    return base_signature unless duplicate_of_compare_event?
-    puts "DUPLICATE: #{opts[:title]} [#{opts[:start]}]" if VERBOSE
-    [base_signature, opts[:gcal_id]].join(" / ")
+    if compare_event.present? && base_signature == compare_event.base_signature
+      [base_signature, opts[:gcal_id]].join(" / ")            # extend signature
+    else
+      base_signature
+    end
   end
-
-  def duplicate_of_compare_event?
-    return false unless compare_event.present?
-    base_signature == compare_event.base_signature
-  end
+  
 end
