@@ -1,7 +1,7 @@
 require "spec_helper"
 require "#{LIB}/bnet/refine"
 
-describe CalData::Bnet::Refine do
+describe Bnet::Refine do
   let(:klas) { described_class }
   subject    { klas.new        }
 
