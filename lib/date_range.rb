@@ -9,13 +9,13 @@ class DateRange
     end
 
     def cal_start
-      return start if MM_ENV == 'test'
+      return Time.now.beginning_of_month if MM_ENV == 'test'  
       (Time.now - 1.year).beginning_of_year
     end
 
     def cal_finish
       return (Time.now + 2.months).end_of_month if MM_ENV == 'test'
-      start
+      (Time.now + 1.year).end_of_month
     end
 
     def start_str
