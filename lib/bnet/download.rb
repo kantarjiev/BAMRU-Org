@@ -26,7 +26,7 @@ class Bnet
       end
 
       def has_changed?(new_text)
-        (new_text + "\n") != old_text
+        new_text != old_text
       end
 
       def do_not_save_message
