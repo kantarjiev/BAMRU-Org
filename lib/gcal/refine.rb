@@ -12,8 +12,8 @@ class Gcal
     def initialize(opts = {})
       @from = opts[:from] || GCAL_DATA_JSON_FILE
       @to   = opts[:to]   || GCAL_DATA_YAML_FILE
-      raise "Invalid input file (#{@from})" unless @from.split('.').last == "json"
-      raise "Invalid output file (#{@to})"  unless @to.split('.').last == "yaml"
+      check_format('input' , @from, 'json')
+      check_format('output', @to  , 'yaml')
     end
 
     def execute
@@ -24,23 +24,30 @@ class Gcal
 
     private
 
+    def check_format(file_type, file_name, file_ext)
+      msg = "Invalid #{file_type} file (#{file_name})"
+      raise msg unless file_name.split('.').last == file_ext
+    end
+
     def json_events
       return [] unless File.exist?(@from)
       JSON.parse(File.read(@from))
     end
 
     def events
-      prev_event = nil
-      sorted_events = json_events.sort_by{ |e| e["description"].to_s+e["start"].to_s+e["location"].to_s }
-      # use to_s to handle embedded hash and nil
+      prev_event    = nil
+      sorted_events = json_events.sort_by do |ev|
+        # use to_s to handle embedded hash and nil
+        ev["description"].to_s + ev["start"].to_s + ev["location"].to_s
+      end
 
-      sorted_events.map do |e|
-        e_start = e["start"]
-        start = e_start["date"] || e_start["dateTime"].split('T').first
-        opts  = {
-          gcal_id:  e["id"],
-          location: e["location"],
-          title:    e["summary"],
+      sorted_events.map do |ev|
+        e_start = ev["start"]
+        start   = e_start["date"] || e_start["dateTime"].split('T').first
+        opts    = {
+          gcal_id:  ev["id"],
+          location: ev["location"],
+          title:    ev["summary"],
           start:    start
         }
 
