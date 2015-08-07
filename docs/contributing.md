@@ -41,6 +41,8 @@ Triangular workflow
 
 - https://github.com/blog/2042-git-2-5-including-multiple-worktrees-and-triangular-workflows
 
+- http://stackoverflow.com/questions/9538320/abandoning-git-commits-on-github-for-rejected-pull-requests
+
 
 Copyright and Licensing
 -----------------------
