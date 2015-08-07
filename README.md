@@ -1,5 +1,7 @@
 # BAMRU.org Static Website
 
+![Build Status](https://travis-ci.org/andyl/BAMRU-Org.svg)
+
 ## Overview
 
 BAMRU.org is a public-facing static website.  The live version of this website
