@@ -10,7 +10,7 @@
 # - http://github.com/javan/whenever  | cron processor
 # - http://en.wikipedia.org/wiki/Cron | cron instructions
 
-set :output, "/tmp/bamru_org.log"     # log file output
+set :output, CRON_LOG                 # log file output
 set :environment_variable, "MM_ENV"   # sets MM_ENV to 'production'
 
 cmd = "total:rebuild site:deploy_calendar"
@@ -32,6 +32,6 @@ every 1.day, at: '11:00 pm' do
 end
 
 every 1.week do
-  rake 'admin:gcal_sync_log_rotate'
+  rake 'admin:log_rotate'
 end
 

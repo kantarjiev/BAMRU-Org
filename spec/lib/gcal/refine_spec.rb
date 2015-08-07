@@ -1,7 +1,7 @@
 require "spec_helper"
 require "#{LIB}/gcal/refine"
 
-describe CalData::Gcal::Refine do
+describe Gcal::Refine do
   let(:klas) { described_class }
   subject    { klas.new        }
 

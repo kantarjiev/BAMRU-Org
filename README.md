@@ -1,5 +1,10 @@
 # BAMRU.org Static Website
 
+[![Build Status](https://travis-ci.org/andyl/BAMRU-Org.svg)]
+(https://travis-ci.org/andyl/BAMRU-Org)
+[![Code Climate](https://codeclimate.com/github/andyl/BAMRU-Org/badges/gpa.svg)]
+(https://codeclimate.com/github/andyl/BAMRU-Org)
+
 ## Overview
 
 BAMRU.org is a public-facing static website.  The live version of this website

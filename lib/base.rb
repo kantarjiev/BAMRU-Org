@@ -44,9 +44,10 @@ BNET_DATA_YAML_FILE ||= "cal_data/bnet.yaml"
 GCAL_DATA_JSON_FILE ||= "cal_data/gcal_#{MM_ENV}.json"
 GCAL_DATA_YAML_FILE ||= "cal_data/gcal_#{MM_ENV}.yaml"
 
-# ----- gcal sync log -----
+# ----- log files -----
 
 GCAL_SYNC_LOG ||= "GcalSync.log"   # only hold production data
+CRON_LOG      ||= "/tmp/bamru_org.log"
 
 # ----- store objects -----
 

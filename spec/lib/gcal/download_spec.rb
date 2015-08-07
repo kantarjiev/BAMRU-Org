@@ -3,7 +3,7 @@ require "spec_helper"
 if File.exist?(CLIENT_SECRET)
   require "#{LIB}/gcal/download"
 
-  describe CalData::Gcal::Download do
+  describe Gcal::Download do
     let(:klas) { described_class }
     subject    { klas.new        }
 

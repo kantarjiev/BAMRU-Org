@@ -1,7 +1,7 @@
 namespace :site do
   desc "Build the Site"
   task :build do
-    cmd = "bundle exec middleman build"
+    cmd = "bundle exec middleman build | grep -v identical"
     log cmd
     system cmd
     system "echo bamru.org > out/CNAME"

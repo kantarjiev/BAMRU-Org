@@ -11,6 +11,7 @@ namespace :dev do
     cmd = "bundle exec rspec -c"
     log cmd
     system cmd
+    exit($?.exitstatus)
   end
 
   desc "Start Guard spec runner"
