@@ -31,22 +31,39 @@ class CalData
       end
 
       def events
-        prev_event = nil
+        # Sort events to find duplicates
         sorted_events = json_events.sort_by{ |e| e["description"].to_s+e["start"].to_s+e["location"].to_s }
           # use to_s to handle embedded hash and nil
 
+        event = nil
         sorted_events.map do |e|
-          e_start = e["start"]
-          start = e_start["date"] || e_start["dateTime"].split('T').first
+          start, finish = normalize_gcal_to_bnet_dates(e)
           opts  = {
             gcal_id:  e["id"],
             location: e["location"],
             title:    e["summary"],
-            start:    start
+            start:    start,
+            finish:   finish
           }
 
-          prev_event = Event.new(opts, prev_event)
+          event = Event.new(opts, event) # duplicate if this event matches the previous 
         end
+      end
+
+      def normalize_gcal_to_bnet_dates(g_event)
+        # Gcal dates are hashes and Gcal end date is exclusive
+        # Convert back to Bnet so the hash id is consistent
+        g_start = g_event["start"]
+        start = g_start["date"] || g_start["dateTime"].split('T').first
+
+        g_finish = g_event["end"]
+        if g_finish["date"]
+          lcl_date = Time.parse(g_finish["date"]) - 1.day
+          finish = lcl_date.strftime("%Y-%m-%d")
+        else
+          finish = g_finish["dateTime"].split('T').first
+        end
+        [start, finish]
       end
 
     end
