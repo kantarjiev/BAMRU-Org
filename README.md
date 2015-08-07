@@ -1,6 +1,9 @@
 # BAMRU.org Static Website
 
-![Build Status](https://travis-ci.org/andyl/BAMRU-Org.svg)
+[![Build Status](https://travis-ci.org/andyl/BAMRU-Org.svg)]
+(https://travis-ci.org/andyl/BAMRU-Org)
+[![Code Climate](https://codeclimate.com/github/andyl/BAMRU-Org/badges/gpa.svg)]
+(https://codeclimate.com/github/andyl/BAMRU-Org)
 
 ## Overview
 
