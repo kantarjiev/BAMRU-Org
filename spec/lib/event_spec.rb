@@ -26,6 +26,5 @@ describe Event do
   describe "Instance Methods" do
     it { should respond_to :id                     }
     it { should respond_to :hash                   }
-    it { should respond_to :unknown                }
   end
 end
