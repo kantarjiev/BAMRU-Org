@@ -24,4 +24,8 @@ stamp = Time.now.strftime("%m-%d %H:%M")
 log "#{stamp} | MM_ENV=#{MM_ENV} BAMRU_FLAGS=#{TEST_FLAGS.join(':')}"
 log "#{stamp} | #{ARGV.join(' ')}"
 
+# ----- default task -----
+
+task :default => ['dev:rspec']
+
 # ----- fini -----
