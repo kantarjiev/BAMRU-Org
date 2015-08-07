@@ -29,8 +29,7 @@ class Event
   # everything is functioning correctly duplicate records shouldn't exist but
   # they may creep in during testing.  Try deleting gcal_test.yaml and run sync
   def signature
-    return [base_signature, gcal_id].join(" / ") if matches_compare_event?
-    base_signature
+    matches_compare_event? ? extended_signature : base_signature
   end
 
   def matches_compare_event?
@@ -39,5 +38,9 @@ class Event
 
   def base_signature(event = self)
     [event.title, event.location, event.start].join(' / ') unless event.nil?
+  end
+
+  def extended_signature
+    [base_signature, gcal_id].join(" / ")
   end
 end
