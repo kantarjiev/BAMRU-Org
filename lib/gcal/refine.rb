@@ -52,7 +52,7 @@ class Gcal
           finish:   finish
         }
 
-        # TODO:
+        # TODO: use intention revealing constructor method
         # add an Event contstructor method like `Event.new_or_duplicate`
         # which is more descriptive than `Event.new`
         event = Event.new(opts, event) # duplicate if this event matches the previous
