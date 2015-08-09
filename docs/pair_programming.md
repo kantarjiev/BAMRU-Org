@@ -1,6 +1,6 @@
 # Pair Programming
 
-View the [README](../README.md) file.
+[Index](./index.md)
 
 ## Overview
 

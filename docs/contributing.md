@@ -1,7 +1,7 @@
 Contributing to BAMRU-Org
 =========================
 
-View the [README](../README.md)
+[Index](./index.md)
 
 Issues
 ------

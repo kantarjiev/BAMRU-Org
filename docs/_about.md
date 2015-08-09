@@ -1,1 +1,0 @@
-This directory contains documentation for site maintainers.

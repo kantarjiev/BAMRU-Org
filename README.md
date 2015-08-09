@@ -4,6 +4,8 @@
 (https://travis-ci.org/andyl/BAMRU-Org)
 [![Code Climate](https://codeclimate.com/github/andyl/BAMRU-Org/badges/gpa.svg)]
 (https://codeclimate.com/github/andyl/BAMRU-Org)
+[![Documentation Status](https://readthedocs.org/projects/bamru-org/badge/?version=latest)]
+(https://readthedocs.org/projects/bamru-org/?badge=latest)
 
 ## Overview
 
@@ -40,16 +42,5 @@ The development/editing workflow generally follows this cycle:
 ## How to Contribute
 
 You'll need a GitHub account, Ubuntu or UbuntuVM, Command Line savvy and basic
-coding skills (HTML, CSS, JS, Ruby).
-
-[Contributing](./docs/contributing.md)
-
-[About the Development Environment](./docs/dev_environment.md)
-
-[Changing the Website](./docs/web_editing.md)
-
-[Integrating with Google Calendar](./docs/google_calendar.md)
-
-[Running Auto-Updates with Cron](./docs/cron.md)
-
-[Pair Programming](./docs/pair_programming.md)
+coding skills (HTML, CSS, JS, Ruby).  Read the [docs](/docs/index.md) for more 
+info.

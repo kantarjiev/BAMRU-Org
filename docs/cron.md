@@ -1,6 +1,6 @@
 # Cron
 
-View the [README](../README.md)
+[Index](./index.md)
 
 ## Overview
 

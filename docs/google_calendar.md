@@ -1,6 +1,6 @@
 # Integrating with Google Calendar
 
-View the [README](../README.md)
+[Index](./index.md)
 
 ## Overview
 

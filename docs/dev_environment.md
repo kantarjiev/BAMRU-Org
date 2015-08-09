@@ -1,6 +1,6 @@
 # BAMRU.org Development Environment
 
-View the [README](../README.md) file.
+[Index](./index.md)
 
 ## Development Operating System
 
