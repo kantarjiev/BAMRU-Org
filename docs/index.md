@@ -1,5 +1,7 @@
 # BAMRU-Org Documentation
 
+Edit these docs on [GitHub](http://github.com/andyl/BAMRU-Org)
+
 [Contributing](./contributing.md)
 
 [About the Development Environment](./dev_environment.md)
