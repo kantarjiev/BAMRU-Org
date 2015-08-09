@@ -1,7 +1,5 @@
 # BAMRU-Org Documentation
 
-Documentation for site maintainers.
-
 [Contributing](./contributing.md)
 
 [About the Development Environment](./dev_environment.md)

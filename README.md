@@ -5,7 +5,7 @@
 [![Code Climate](https://codeclimate.com/github/andyl/BAMRU-Org/badges/gpa.svg)]
 (https://codeclimate.com/github/andyl/BAMRU-Org)
 [![Documentation Status](https://readthedocs.org/projects/bamru-org/badge/?version=latest)]
-(https://readthedocs.org/projects/bamru-org/?badge=latest)
+(http://bamru-org.readthedocs.org/en/latest/)
 
 ## Overview
 
