@@ -2,14 +2,14 @@
 
 Documentation for site maintainers.
 
-[Contributing](./docs/contributing.md)
+[Contributing](./contributing.md)
 
-[About the Development Environment](./docs/dev_environment.md)
+[About the Development Environment](./dev_environment.md)
 
-[Changing the Website](./docs/web_editing.md)
+[Changing the Website](./web_editing.md)
 
-[Integrating with Google Calendar](./docs/google_calendar.md)
+[Integrating with Google Calendar](./google_calendar.md)
 
-[Running Auto-Updates with Cron](./docs/cron.md)
+[Running Auto-Updates with Cron](./cron.md)
 
-[Pair Programming](./docs/pair_programming.md)
+[Pair Programming](./pair_programming.md)
