@@ -5,9 +5,10 @@ ruby "1.9.3"
 gem "middleman", "~> 3.3.6"
 
 # ----- testing -----
-gem "rspec"        # test framework
-gem "aruba-rspec"  # support for CLI testing (rake)
-gem "guard-rspec"  # file watcher / runner
+gem "rspec"                                    # test framework
+gem "aruba-rspec"                              # CLI testing 
+gem "guard-rspec"                              # file watcher/runner
+gem "codeclimate-test-reporter", require: nil  # test coverage
 
 # ----- template processors -----
 gem "middleman-slim" # slim
