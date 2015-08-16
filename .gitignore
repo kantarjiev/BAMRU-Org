@@ -3,6 +3,9 @@
 .gcal_keys/
 /out
 /out/
+/tmp
+/tmp/
 /cal_data
 /cal_data/
-/tmp
+/coverage
+/coverage/
