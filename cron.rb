@@ -9,25 +9,16 @@
 # Learn more:
 # - http://github.com/javan/whenever  | cron processor
 # - http://en.wikipedia.org/wiki/Cron | cron instructions
+#
 
-set :output, CRON_LOG                 # log file output
-set :environment_variable, "MM_ENV"   # sets MM_ENV to 'production'
+require "./lib/base"
+
+set :output, CRON_LOG                # log file output
+set :environment_variable, "MM_ENV"  # sets MM_ENV to 'production'
 
 cmd = "total:rebuild site:deploy_calendar"
 
-every 1.day, at: '5:00 am' do
-  rake cmd
-end
-
-every 1.day, at: '11:00 am' do
-  rake cmd
-end
-
-every 1.day, at: '5:00 pm' do
-  rake cmd
-end
-
-every 1.day, at: '11:00 pm' do
+every 10.minutes do
   rake cmd
 end
 

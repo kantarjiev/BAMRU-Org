@@ -4,8 +4,8 @@
 
 ## Overview
 
-The `cron` process will auto-update the Website and Google Calendar every day.
-(5am, 11am, 5pm, 11pm)
+The `cron` process will sync BAMRU.net event data with the Website and Google
+Calendar automatically.  The sync process runs every ten minutes.
 
 Here are the relevant rake tasks:
 
