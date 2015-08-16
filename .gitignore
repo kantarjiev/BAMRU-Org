@@ -5,7 +5,8 @@
 /out/
 /tmp
 /tmp/
-/cal_data
-/cal_data/
 /coverage
 /coverage/
+/cal_data/*.yml
+/cal_data/*.yaml
+/cal_data/*.json
