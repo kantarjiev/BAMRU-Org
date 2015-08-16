@@ -32,6 +32,7 @@ namespace :site do
     rm -rf /tmp/out
     cp -r out /tmp
     git add GcalSync.log
+    git add cal_data/bnet.csv
     git commit -m"Update #{msg}"
     git push
     git stash
