@@ -35,6 +35,8 @@ How to write a good commit message
 
 - http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
+- https://kev.inburke.com/kevin/better-commits-pulls-merges/
+
 Triangular workflow
 
 - https://felipec.wordpress.com/2014/05/11/git-triangular-workflows/
