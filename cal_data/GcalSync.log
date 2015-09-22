@@ -1,7 +1,8 @@
-LOG RESET AT 15-09-15 00:00
+LOG RESET AT 15-09-22 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 15-09-20 14:00 - MM_ENV=production -----------
-CREATED: Truck Training [2015-10-18]
-----------------------------------------------------------------------
------------ GCAL SYNC - 15-09-21 09:50 - MM_ENV=production -----------
-CREATED: Small Alpine: Tenaya Canyon Descent  [2015-09-25]
+----------- GCAL SYNC - 15-09-22 11:50 - MM_ENV=production -----------
+DELETED: Early Elections Close [2015-10-02] 24op3h2g8528tuh36hgm36fk4c
+CREATED: Early Election Nominations Close [2015-10-05]
+CREATED: Early Election Polls Close [2015-10-15]
+CREATED: General Election Nominations Close [2015-11-02]
+CREATED: General Election Polls Close [2015-11-12]
