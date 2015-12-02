@@ -1,6 +1,7 @@
-LOG RESET AT 15-11-15 00:00
+LOG RESET AT 15-12-01 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 15-11-18 10:10 - MM_ENV=production -----------
-----------------------------------------------------------------------
------------ GCAL SYNC - 15-11-18 21:20 - MM_ENV=production -----------
-CREATED: New Truck Training [2015-12-12]
+----------- GCAL SYNC - 15-12-01 20:10 - MM_ENV=production -----------
+CREATED: SO Drivers Training Classroom [2015-12-03]
+CREATED: SO Drivers Training Practical [2015-12-12]
+CREATED: Holiday Party [2016-12-03]
+CREATED: Skills Weekend / Make up Training * [2016-12-10]
