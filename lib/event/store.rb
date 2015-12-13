@@ -78,7 +78,7 @@ class Event::Store
   def match_with_limits(key, values, start, finish)
     prior = nil
     all.select do |_hsh_key, event|
-      start_value = event.start
+      start_value = event.begin_date
       next false if not values.include?(event.send(key.to_sym))
       next false if start  > start_value
       next false if finish < start_value

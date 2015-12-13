@@ -84,15 +84,15 @@ module EventsHelpers
   end
 
   def event_display(event)
-    start = Time.parse(event.start)
+    start = Time.parse(event.begin_date)
     year  = first_in_year?(event) ? ", #{start.strftime('%Y')}" : ""
-    multi = event.start != event.finish && event.finish.present?
-    fstr  = multi ? "-#{event.finish.split('-').last}" : ""
+    multi = event.begin_date != event.finish_date && event.finish_date.present?
+    fstr  = multi ? "-#{event.finish_date.split('-').last}" : ""
     "#{start.strftime('%b')} #{start.strftime('%d')}#{fstr}#{year}"
   end
 
   def first_in_year?(event)
-    get_year = ->(ev) { ev.start.split('-').first }
+    get_year = ->(ev) { ev.begin_date.split('-').first }
     prior = event.prior
     return true if prior.blank?
     get_year.call(event) != get_year.call(prior)
@@ -107,9 +107,9 @@ module EventsHelpers
   end
 
   def date_display(event)
-    start  = event.start
-    finish = event.finish
-    return "#{start} - #{finish}" if finish != start && finish.present?
+    start  = event.begin_date
+    finish = event.finish_date
+    return "#{start} - #{finish}" if finish != start && finish_date.present?
     start
   end
 end

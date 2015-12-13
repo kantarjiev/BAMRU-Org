@@ -10,6 +10,7 @@ class Bnet
     class << self
       def execute
         csv_text = download_latest_csv
+        csv_text = old_text     # CST:XXX
         if has_changed?(csv_text)
           save_new_text(csv_text)
         else

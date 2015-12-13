@@ -13,19 +13,19 @@ class Gcal
     end
 
     def log_create(event)
-      msg = "CREATED: #{event.title} [#{event.start}]"
+      msg = "CREATED: #{event.title} [#{event.begin_date}]"
       write_to_console(msg)
       write_to_log_file(msg)
     end
 
     def log_delete(event, alt_text = "")
-      msg = "DELETED: #{event.title} [#{event.start}] #{alt_text}"
+      msg = "DELETED: #{event.title} [#{event.begin_date}] #{alt_text}"
       write_to_console(msg)
       write_to_log_file(msg)
     end
 
     def log_error(event, error = "")
-      msg = "DELETE ERROR: #{event.title} [#{event.start}] #{error}"
+      msg = "DELETE ERROR: #{event.title} [#{event.begin_date}] #{error}"
       write_to_console(msg)
       write_to_log_file(msg)
     end

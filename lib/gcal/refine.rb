@@ -38,20 +38,22 @@ class Gcal
       # Sort events to find duplicates
       sorted_events = json_events.sort_by do |e|
         # use to_s to handle embedded hash and nil
-        e["description"].to_s + e["start"].to_s + e["location"].to_s
+        e["description"].to_s + e["begin_date"].to_s + e["begin_time"].to_s + e["location"].to_s
       end
 
       event = nil
       sorted_events.map do |e|
-        start, finish = normalize_gcal_to_bnet_dates(e)
+        begin_date, begin_time, finish_date, finish_time = normalize_gcal_to_bnet_dates(e)
         opts  = {
-          gcal_id:  e["id"],
-          location: e["location"],
-          title:    e["summary"],
-          start:    start,
-          finish:   finish
+          gcal_id:     e["id"],
+          location:    e["location"],
+          title:       e["summary"],
+          begin_date:  begin_date,
+          begin_time:  begin_time,
+          finish_date: finish_date,
+          finish_time: finish_time,
+          description: e["description"]
         }
-
         # TODO: use intention revealing constructor method
         # add an Event contstructor method like `Event.new_or_duplicate`
         # which is more descriptive than `Event.new`
@@ -59,20 +61,31 @@ class Gcal
       end
     end
 
+    # date/time YY-MM-DD HH:MM
     def normalize_gcal_to_bnet_dates(g_event)
       # Gcal dates are hashes and Gcal end date is exclusive
       # Convert back to Bnet so the hash id is consistent
       g_start = g_event["start"]
-      start = g_start["date"] || g_start["dateTime"].split('T').first
-
+      if g_start["date"]
+        begin_date = g_start["date"]
+        begin_time = ""
+      else
+        split = g_start["dateTime"].split('T')
+        begin_date = split[0]
+        begin_time = Time.parse(split[1]).strftime("%H:%M")
+      end
+      
       g_finish = g_event["end"]
       if g_finish["date"]
         lcl_date = Time.parse(g_finish["date"]) - 1.day
-        finish = lcl_date.strftime("%Y-%m-%d")
+        finish_date = lcl_date.strftime("%Y-%m-%d")
+        finish_time = ""
       else
-        finish = g_finish["dateTime"].split('T').first
+        split = g_finish["dateTime"].split('T')
+        finish_date = split[0]
+        finish_time = Time.parse(split[1]).strftime("%H:%M")
       end
-      [start, finish]
+      [begin_date, begin_time, finish_date, finish_time]
     end
 
   end
