@@ -3,8 +3,7 @@ require 'active_support'
 require 'active_support/core_ext'
 
 class Event
-
-  fields = %w(kind title location leaders start finish description lat lon prior gcal_id)
+  fields = %w(kind title location leaders begin_date begin_time finish_date finish_time description lat lon prior gcal_id)
   FIELDS = fields.map(&:to_sym)
 
   attr_accessor *FIELDS
@@ -37,7 +36,8 @@ class Event
   end
 
   def base_signature(event = self)
-    [event.title, event.location, event.start, event.finish].join(' / ') unless event.nil?
+    [event.title, event.location, event.begin_date, event.begin_time, event.finish_date, event.finish_time, event.description].join(' / ') unless event.nil?
+
   end
 
   def extended_signature

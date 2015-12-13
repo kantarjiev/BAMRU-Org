@@ -28,9 +28,11 @@ class Bnet
       list = []
       prev_event = nil
       CSV.foreach(@from, headers: true) do |csv_event|
-        csv_event["finish"] = csv_event["start"] if csv_event["finish"].blank?
-        prev_event = Event.new(csv_event, prev_event)
-        list << prev_event
+        csv_event["finish_date"] = csv_event["begin_date"] if csv_event["finish_date"].blank?
+
+        new_event = Event.new(csv_event, prev_event)
+        list << new_event
+        prev_event = new_event
       end
       list
     end

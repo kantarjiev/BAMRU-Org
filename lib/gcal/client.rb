@@ -40,9 +40,9 @@ class Gcal
       if VERBOSE_PLUS
         puts "GCal Events:"
         puts "No events found" if results.data.items.empty?
-        results.data.items.each do |event|
-          start = event.start.date || event.start.date_time
-          puts "- #{event.summary} (#{start})"
+        results.data.items.each do |g_event|
+          start = g_event.start.date || g_event.start.date_time
+          puts "- #{g_event.summary} (#{start})"
         end
       end
       results.data.items
@@ -56,6 +56,7 @@ class Gcal
         'start'       => start_for(event),
         'end'         => end_for(event),
       }
+
       #cst: improve error handling? what's the right behavior 'execute!' or 'execute'
       result = @client.execute(
         :api_method => @calendar_api.events.insert,
@@ -111,16 +112,23 @@ class Gcal
     # ----- date utilities -----
 
     def start_for(event)
-      if event.kind == 'meeting'
-        {"dateTime" => "#{event.start}T19:30:00-#{offset_for(event.start)}:00"}
+      begin_date = event.begin_date
+      begin_time = event.begin_time.blank? ? event.finish_time : event.begin_time
+      if begin_time != ''
+        {"dateTime" => "#{begin_date}T#{begin_time}:00-#{offset_for(begin_date)}:00"}
+      elsif event.kind == 'meeting'
+        {"dateTime" => "#{begin_date}T19:30:00-#{offset_for(begin_date)}:00"}
       else
-        {"date" => event.start}
+        {"date" => begin_date}
       end
     end
 
     def end_for(event)
-      fin_date = event.finish.blank? ? event.start : event.finish
-      if event.kind == 'meeting'
+      fin_date = event.finish_date.blank? ? event.begin_date : event.finish_date
+      fin_time = event.finish_time.blank? ? event.begin_time : event.finish_time
+      if fin_time != ''
+        {"dateTime" => "#{fin_date}T#{fin_time}:00-#{offset_for(fin_date)}:00"}
+      elsif event.kind == 'meeting'
         {"dateTime" => "#{fin_date}T21:30:00-#{offset_for(fin_date)}:00"}
       else
         # Gcal all-day events are EXCLUSIVE of the end-date
