@@ -1,16 +1,85 @@
-LOG RESET AT 15-12-01 00:00
+LOG RESET AT 16-01-01 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 15-12-01 20:10 - MM_ENV=production -----------
-CREATED: SO Drivers Training Classroom [2015-12-03]
-CREATED: SO Drivers Training Practical [2015-12-12]
-CREATED: Holiday Party [2016-12-03]
-CREATED: Skills Weekend / Make up Training * [2016-12-10]
-----------------------------------------------------------------------
------------ GCAL SYNC - 15-12-31 19:10 - MM_ENV=production -----------
-DELETED: Skills/Sign off weekend - Saturday [2015-12-19] 0oo4o2antthmdushdbappp8ke4
-DELETED: Holiday Party [2015-12-05] t6ip6urq80had5bu28bkoanfa4
-CREATED: Holiday Party [2015-12-05]
-CREATED: Web Training [2015-12-06]
-----------------------------------------------------------------------
------------ GCAL SYNC - 15-12-31 19:20 - MM_ENV=production -----------
-DELETED: Web Training [2015-12-06] 7lh1d5vu4v0hs64mju74iosk58
+----------- GCAL SYNC - 16-01-02 20:50 - MM_ENV=production -----------
+DELETED: Signoffs Day [2014-05-03] u6ijnib49j1cuvh9ck6thqisto
+DELETED: Search Management [2014-01-26] g81mr7smp3gd0chotk1qa3kh84
+DELETED: MLPI Skills Day [2014-01-11] 76s562ih7afpp3hu361710b4ro
+DELETED: Search Practice [2014-05-04] r1pmpj5r54cik86hcv24vmfvho
+DELETED: Search Practice [2014-10-04] 8lqht9r7c6jc6hekicn2pntf7k
+DELETED: Snow Camping Pre-Trip Meeting [2014-12-10] 8arue7ll57n6l4upsr0poqqltc
+DELETED: Small Alpine- Mt. Langley [2014-09-11] 7i5porbttn9onuiurvuvtmpn4k
+DELETED: Small Alpine - Desolation [2014-10-10] tcadqjn1uom0ep0e4r3igqc550
+DELETED: BASARC MLPI (weekend 1) [2014-02-08] 1rba2pm72t17uiudm07o3198f4
+DELETED: BASARC MLPI (weekend 2) [2014-02-15] 2s3qqfubnu7ubqutkpsags2m5c
+DELETED: BASARC Alzheimers Training [2014-03-22] ausjmsbh8p4eccovpssovmtd8c
+DELETED: SARTopo Training [2014-11-02] 4grap0dq0kc5oc3v60jolisqf0
+DELETED: Western States 100 [2014-06-28] rb07ajq9bt1t7sdsag1o2qjcmc
+DELETED: Basic Technical Rescue [2014-08-23] sluvqbe7ot7vavu4jul6ch26ng
+DELETED: Search Practice [2014-07-27] cr0v8125gv15p81knlvlv5048s
+DELETED: Search Strategy Re-Accreditation [2014-03-01] b81subkmsgl151r6h1s9kt08ns
+DELETED: CPR/ AED/ First Aid Recert [2014-09-17] p83vothfdm7aoukbb5dvi7ujn8
+DELETED: Drivers Training: Classroom [2014-12-04] gnma1r70jq6rgr6havkmbtonj0
+DELETED: Drivers Training: Classroom [2014-07-09] br16km6ms3gec3pf67gdvsopk0
+DELETED: Mental Health Skills Night [2014-07-02] ge8qiqis7hbvqqnskh130psejg
+DELETED: Pizza and Skills night [2014-08-13] 5qpj3k1d8ggvi48vq127f3spuk
+DELETED: Pizza and Skills Night [2014-09-11] 7e2ndelim1iob9u10t3h84ud30
+DELETED: Holiday Party [2014-12-13] ddiu438tsunlmo56no0chpu0gs
+DELETED: Skills Night: Technical Rescue Practice [2014-09-01] ogvi0mju5addeurndgvul8p5hc
+DELETED: Drivers Ed Class [2014-02-12] 4babnkgppmq7flghj91d96qevs
+DELETED: Trainee Applications Due [2014-04-05] 3l07kbq53io04488lumqj3jg1s
+DELETED: Bay Area Joint MRA training [2014-02-01] 13njt42dv9bd94322q24hhjqgo
+DELETED: Technical Rope Skills Night [2014-08-20] h4drhoj7af9934b4l6mbok49go
+DELETED: Explorers Academy [2014-10-25] nmflsp9j6k9dalvnrgbnfen21k
+DELETED: SAR Basic [2014-03-22] 235k26312r2h5ni3ha44vqvcc4
+DELETED: MLPI Interviewing Techniques [2014-09-27] v4ga1itaj5igs8k8611pra6as0
+DELETED: Tracking Workout [2014-02-10] 0db3r3ueb9j4iv0gfac5ph5jsk
+DELETED: Low Angle Instructors Skills Night [2014-07-23] dvgs4ido6tos7mgvlfnsbcag0c
+DELETED: Medical Skills [2014-10-25] cd8du6vbtuiv2bc9rs58iq7s0k
+DELETED: Navigation Skills [2014-05-17] 65fob3l0bnt1kkd9t31ssfn3gg
+DELETED: Guest Mock Search [2014-01-25] 9curgbcu7tcfbircvs49173h60
+DELETED: Tracking Skills [2014-05-18] anbh4792bo6dtvlkfgmfd3u1g4
+DELETED: Drivers Training: Practical [2014-07-12] ljphlcgriba7ergks07hpdfdec
+DELETED: SO Driver's Practical [2014-12-06] j0vttffo9un1p33cf5ebqe93kg
+DELETED: Snow Skills [2014-01-18] 14032688565rn1b9s5jrl80qvk
+DELETED: Trainee Interviews -- Day 1 [2014-04-26] ddb7kcj41f880sg0l2hrr6pgag
+DELETED: Trainee Interviews -- Day 2 [2014-04-27] 17gf87klnidep99nu6emd6cvug
+DELETED: Trainee Interviews -- Day 3 [2014-05-04] af4nlkmp4rmcf74qi8qago0cr0
+DELETED: Vertical Gardening [2014-03-10] 9oafpgftu5gul0a7hkl7c1rgs0
+DELETED: Alcatraz High Angle Ivy Removal [2014-10-12] kpmv2aic0d8ev9v5fs4egmhed0
+DELETED: SAREX [2014-09-05] kjf98l2mclkc6s9jl71epvthf0
+DELETED: Skills Night: Purcell Prusiks [2014-06-04] as0hq6hmt849aibejsb235mcho
+DELETED: Skills weekend [2014-11-22] lrgc2kebdhp8ejburhnhsih1bc
+DELETED: PRS Instructors Skills Night [2014-06-18] rnokf8ekirkd01qht773c9355k
+DELETED: Technical rescue evolutions [2014-12-06] mtsom8i9n80ga532ppno3q3pv0
+DELETED: Intro to Snow Camping [2014-12-20] e6a3m3o1klgs06b8fc6a3e26r8
+DELETED: Small Alpine - Chiquito Pass [2014-07-11] g57diipm58lt0hmb7uj01okfro
+DELETED: Small Alpine - Castle Crags [2014-03-14] t9ftlo9mk3ta9nb2mjum86d728
+DELETED: Technical Rescue Evolutions [2014-11-09] f9vdcbkhu2psfukum7o9v18480
+DELETED: Personal Rock Skills [2014-06-21] 7lk0csqk0q3lbat9no80resdpg
+DELETED: Advanced Technical Rescue [2014-09-19] rilvqu1u7n515r5bai2c6ij228
+DELETED: Operations Leader Training [2014-10-05] hv0tmlomvksfnrok8c4cu3hpg0
+DELETED: Low Angle Rescue [2014-07-26] bklvfachr0ij0lpb5pk4fq8s90
+DELETED: CRMRA Recert Prep Training  [2014-02-08] 8qc2l7ah5a2iqamntckp1kbehs
+DELETED: Bradley Hut winter trip [2014-02-21] h5pvsajt4nd6bthdoov7s3m0p0
+DELETED: DO training skills night [2014-11-05] jl8qv4r46jc16kpak8t82i85n0
+DELETED: IKAR/MRA Conference [2014-10-05] 2qe61o2bp7cngj6blj3uvoufg0
+DELETED: Trainee Class Announced [2014-05-12] pkjq209nbj8jqlkgi7nem7btbo
+DELETED: STAR Camp Hug-A-Tree [2014-06-24] oaduobafqbdi468qrh0ufq9h28
+DELETED: Guiding line practice [2014-09-09] n8kei63ngf3jjf5bvjhlgqoveg
+DELETED: BAMRU Dues Renewal [2014-12-15] k3hqivifnf7nkl14akjgnsugtk
+DELETED: General Meeting  (not 3rd Monday) [2014-01-13] hmo8u0kqvd710lptpg8ior06vo
+DELETED: Qrtly Leadership Mtg [2014-01-22] bv94o9v6la333n78em27pcv97o
+DELETED: General Meeting (Not 3rd Monday) [2014-02-10] 0vc0so9v6vphmu1qj1e03t63pg
+DELETED: General Meeting [2014-03-17] 232gp4mh1552hjgt89b2scokkg
+DELETED: General Meeting (not 3rd Monday) [2014-04-14] 5t69v10bm705a0bf3njn392nfg
+DELETED: Qrtly Leadership Mtg [2014-04-23] 9p6mlbupkp9ejni3nsk0h70698
+DELETED: Leadership Meeting [2014-05-05] c5fsigk5v5fv82bpgifavj6gi4
+DELETED: General Meeting [2014-05-19] clbhehj2srr2eo7kq07i1c4q2k
+DELETED: General Meeting [2014-06-16] j7hv5q5e3ie761vqtbsg4qgloc
+DELETED: General Meeting [2014-07-21] 1o1go2rfnmjgnhhnp1bsnov2fg
+DELETED: Qrtly Leadership Mtg [2014-07-30] lc1j19oiunu3h87fbn3aq071os
+DELETED: General Meeting [2014-08-18] q4mdp7uk0q5kg0704mg6kf84f0
+DELETED: General Meeting [2014-09-15] sirqbsosi9dvarjceoegv0m7s4
+DELETED: General Meeting [2014-10-20] tn33l24mgumt17muicj6prqceg
+DELETED: Qrtly Leadership Meeting [2014-10-29] 270ffr4l5702ro4ffrdi6tf0a4
+DELETED: General Meeting [2014-11-17] loi6muh1anec4d1g031g9h80g8
