@@ -10,7 +10,7 @@ require 'yaml'
 load "./lib/rake/dev.rake"
 load "./lib/rake/site.rake"
 load "./lib/rake/data.rake"
-load "./lib/rake/cron.rake"
+load "./lib/rake/crondev.rake"
 load "./lib/rake/total.rake"
 load "./lib/rake/admin.rake"
 
