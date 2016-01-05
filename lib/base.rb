@@ -40,7 +40,7 @@ SCOPE         ||= "https://www.googleapis.com/auth/calendar" + (READONLY ? ".rea
 
 # ----- bnet data files -----
 
-BNET_DATA_SRC_URL   ||= "http://bamru.net/public/calendar.csv"
+BNET_DATA_SRC_URL   ||= "http://bamru.net/public/calendar2.csv"
 BNET_DATA_CSV_FILE  ||= "cal_data/bnet.csv"
 BNET_DATA_YAML_FILE ||= "cal_data/bnet.yaml"
 

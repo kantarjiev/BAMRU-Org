@@ -10,7 +10,7 @@ class Bnet
     class << self
       def execute
         csv_text = download_latest_csv
-        csv_text = old_text     # CST:XXX
+#        csv_text = old_text     ## CST:Testing
         if has_changed?(csv_text)
           save_new_text(csv_text)
         else
@@ -31,7 +31,7 @@ class Bnet
       end
 
       def do_not_save_message
-        log "Load BAMRU.net data: Events up-to-date -- nothing saved"
+        log "BNet data: Events up-to-date - nothing saved"
       end
 
       def abort_message
@@ -42,12 +42,13 @@ class Bnet
       def save_new_text(csv_text)
         File.open(BNET_DATA_CSV_FILE, 'w') {|f| f.puts csv_text}
         count = CSV.parse(csv_text, headers: true).length
-        log "Load BAMRU.net data: Saved #{count} events to #{BNET_DATA_CSV_FILE}"
+        log "BNet data: Saved #{count} events to #{BNET_DATA_CSV_FILE}"
       end
 
       def old_text
         File.exist?(BNET_DATA_CSV_FILE) ? File.read(BNET_DATA_CSV_FILE) : ""
       end
     end
+
   end
 end
