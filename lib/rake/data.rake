@@ -17,7 +17,7 @@ namespace :data do
     end
 
     desc "Generate test data (use this in place of Download)"
-    task :genData do
+    task :gen_data do
       Bnet::GenTestData.execute
     end
   end
