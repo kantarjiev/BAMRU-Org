@@ -62,7 +62,7 @@ class Gcal
         num_events += 1 unless error
       end
       puts ' ' unless event_keys.length == 0 || VERBOSE
-      log "Add GCal events: Created #{num_events} Gcal events"
+      log "Add GCal events: Created #{num_events} events"
     end
 
     def delete_events(event_keys)
@@ -73,7 +73,7 @@ class Gcal
         num_events += 1 unless error
       end
       puts ' ' unless event_keys.length == 0 || VERBOSE
-      log "Remove GCal events: Removed #{num_events} Gcal events"
+      log "Remove GCal events: Removed #{num_events} events"
     end
   end
 end
