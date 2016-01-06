@@ -14,44 +14,44 @@ class Bnet
 
       def create_data
 
-        x1 = '[LBBFFLLLD]'
+        x1 = '[LBBFFLXYD]'
         b1 = (Time.now + 1.day).change({ hour: 9 })
         f1 = (Time.now + 2.day).change({ hour: 18 })
         d1 = b1.strftime("%Y-%m-%d,%H%M")+f1.strftime(",%Y-%m-%d,%H%M")
 
-        x2 = '[LBBF L   ]'
+        x2 = '[LBBF-L---]'
         b2 = (Time.now + 2.day).change({ hour: 8 })
         f2 = (Time.now + 4.day).change({ hour: 0 })
         d2 = b2.strftime("%Y-%m-%d,%H%M")+f2.strftime(",%Y-%m-%d,")
 
-        x3 = '[LBB FL   ]'
+        x3 = '[LBB-FL---]'
         b3 = (Time.now + 3.day).change({ hour: 8 })
         f3 = (Time.now + 0.day).change({ hour: 17 })
         d3 = b3.strftime("%Y-%m-%d,%H%M")+f3.strftime(",,%H%M")
 
-        x4 = '[LBB  L   ]'
+        x4 = '[LBB--L---]'
         b4 = (Time.now + 4.day).change({ hour: 11 })
         f4 = (Time.now + 0.day).change({ hour: 0 })
         d4 = b4.strftime("%Y-%m-%d,%H%M")+f4.strftime(",,")
 
-        x5 = '[ B FFL  D]'
+        x5 = '[-B-FFL--D]'
         b5 = (Time.now + 5.day).change({ hour: 0 })
         f5 = (Time.now + 8.day).change({ hour: 14 })
         d5 = b5.strftime("%Y-%m-%d,")+f5.strftime(",%Y-%m-%d,%H%M")
 
-        x6 = '[ B F L   ]'
+        x6 = '[-B-F-L---]'
         b6 = (Time.now + 6.day).change({ hour: 0 })
         f6 = (Time.now + 10.day).change({ hour: 0 })
         d6 = b6.strftime("%Y-%m-%d,")+f6.strftime(",%Y-%m-%d,")
 
-        x7 = '[ B  FL   ]'
+        x7 = '[-B--FL---]'
         b7 = (Time.now + 7.day).change({ hour: 0 })
         f7 = (Time.now + 0.day).change({ hour: 10 })
         d7 = b7.strftime("%Y-%m-%d,")+f7.strftime(",,%H%M")
 
-        x8 = '[ B   L   ]'
+        x8 = '[-B---LXYD]'
         b8 = (Time.now + 8.day).change({ hour: 0 })
-        f8 = (Time.now + 9.day).change({ hour: 0 })
+        f8 = (Time.now + 0.day).change({ hour: 0 })
         d8 = b8.strftime("%Y-%m-%d,")+f8.strftime(",,")
 
         csv_text =
@@ -64,7 +64,7 @@ class Bnet
            "training,'C5:Training  #{x5}',TBA,#{d5},Loc 5,,,Desc C6",
            "training,'C6:Training  #{x6}',TBA,#{d6},Loc 6",
            "training,'C7:Training  #{x7}','',#{d7},Loc 7",
-          "community,'C8:Community #{x8}',,#{d8},Loc 8"
+          "community,'C8:Community #{x8}',,#{d8},Loc 8,37.7207,-122.0962,Desc C8",
           ].join("\n")
       end
 

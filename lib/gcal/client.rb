@@ -51,8 +51,8 @@ class Gcal
     def create_event(event)
       event_opts = {
         'summary'     => event.title,
-        'description' => event.description,
-        'location'    => event.location,
+        'description' => event.gcal_description,
+        'location'    => event.gcal_location,
         'start'       => start_for(event),
         'end'         => end_for(event),
       }
