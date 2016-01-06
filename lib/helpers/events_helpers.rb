@@ -109,7 +109,7 @@ module EventsHelpers
   def date_display(event)
     start  = event.begin_date
     finish = event.finish_date
-    return "#{start} - #{finish}" if finish != start && finish_date.present?
+    return "#{start} - #{finish}" if finish != start && event.finish_date.present?
     start
   end
 end
