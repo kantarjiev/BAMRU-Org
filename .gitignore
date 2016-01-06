@@ -7,6 +7,8 @@
 /tmp/
 /coverage
 /coverage/
+/cal_data/*.log
+/cal_data/*.csv
 /cal_data/*.yml
 /cal_data/*.yaml
 /cal_data/*.json
