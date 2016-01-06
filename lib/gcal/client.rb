@@ -40,9 +40,9 @@ class Gcal
       if VERBOSE_PLUS
         puts "GCal Events:"
         puts "No events found" if results.data.items.empty?
-        results.data.items.each do |event|
-          start = event.start.date || event.start.date_time
-          puts "- #{event.summary} (#{start})"
+        results.data.items.each do |g_event|
+          start = g_event.start.date || g_event.start.date_time
+          puts "- #{g_event.summary} (#{start})"
         end
       end
       results.data.items
@@ -56,30 +56,40 @@ class Gcal
         'start'       => start_for(event),
         'end'         => end_for(event),
       }
-      #cst: improve error handling? what's the right behavior 'execute!' or 'execute'
+
       result = @client.execute(
         :api_method => @calendar_api.events.insert,
         :parameters => {
           'calendarId' => 'primary'},
         :body_object => event_opts)
-      error = result.data.kind != "calendar#event"
-      log_create(event)
-      error
+
+      if result.status == 200
+        log_create(event)
+        error_msg = nil
+      else
+        error_msg = JSON.parse(result.response.body)["error"]["message"]
+        log_error('CREATE', event, error_msg)
+      end
+
+      error_msg
     end
+
 
     def delete_event(google_event_id, event)
       result = @client.execute(:api_method => @calendar_api.events.delete,
                                :parameters => {
                                  'calendarId' => 'primary',
                                  'eventId' => google_event_id})
-      if result.body == ""
+
+      if result.status == 204
         log_delete(event, google_event_id)
-        error = nil
+        error_msg = nil
       else
-        error = JSON.parse(result.response.body)["error"]["message"]
-        log_error(event, error)
+        error_msg = JSON.parse(result.response.body)["error"]["message"]
+        log_error('DELETE', event, error_msg)
       end
-      error
+
+      error_msg
     end
 
     private
@@ -111,28 +121,23 @@ class Gcal
     # ----- date utilities -----
 
     def start_for(event)
-      if event.kind == 'meeting'
-        {"dateTime" => "#{event.start}T19:30:00-#{offset_for(event.start)}:00"}
+      if event.begin_time.blank?
+        {"date" => event.begin_date}
       else
-        {"date" => event.start}
+        {"dateTime" => "#{event.begin_date}T#{event.begin_time}"}
       end
     end
 
     def end_for(event)
-      fin_date = event.finish.blank? ? event.start : event.finish
-      if event.kind == 'meeting'
-        {"dateTime" => "#{fin_date}T21:30:00-#{offset_for(fin_date)}:00"}
-      else
-        # Gcal all-day events are EXCLUSIVE of the end-date
+      if event.finish_time.blank?
+        # GCal all-day events are EXCLUSIVE of the end date
         # solution is to add one day to the end-date
-        lcl_date = Time.parse(fin_date) + 1.day
+        lcl_date = Time.parse(event.finish_date) + 1.day
         {"date" => lcl_date.strftime("%Y-%m-%d")}
+      else
+        {"dateTime" => "#{event.finish_date}T#{event.finish_time}"}
       end
     end
 
-    def offset_for(date)
-      @tz ||= TZInfo::Timezone.get('America/Los_Angeles')
-      @tz.local_to_utc(Time.parse(date)).to_s.match(/ (\d\d)/)[1]
-    end
   end
 end

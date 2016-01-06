@@ -14,8 +14,10 @@ describe Event do
     it { should respond_to :title                    }
     it { should respond_to :location                 }
     it { should respond_to :leaders                  }
-    it { should respond_to :start                    }
-    it { should respond_to :finish                   }
+    it { should respond_to :begin_date               }
+    it { should respond_to :begin_time               }
+    it { should respond_to :finish_date              }
+    it { should respond_to :finish_time              }
     it { should respond_to :description              }
     it { should respond_to :lat                      }
     it { should respond_to :lon                      }

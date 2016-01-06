@@ -37,42 +37,52 @@ class Gcal
     def events
       # Sort events to find duplicates
       sorted_events = json_events.sort_by do |e|
-        # use to_s to handle embedded hash and nil
-        e["description"].to_s + e["start"].to_s + e["location"].to_s
+        # use to_s to handle data that contains embedded hash and nil
+        e["description"].to_s + e["begin_date"].to_s + e["begin_time"].to_s + e["location"].to_s
       end
 
-      event = nil
+      prev_event = nil
       sorted_events.map do |e|
-        start, finish = normalize_gcal_to_bnet_dates(e)
+        begin_date, begin_time, finish_date, finish_time = normalize_gcal_to_bnet_dates(e)
         opts  = {
-          gcal_id:  e["id"],
-          location: e["location"],
-          title:    e["summary"],
-          start:    start,
-          finish:   finish
+          gcal_id:     e["id"],
+          location:    e["location"],
+          title:       e["summary"],
+          begin_date:  begin_date,
+          begin_time:  begin_time,
+          finish_date: finish_date,
+          finish_time: finish_time,
+          description: e["description"]
         }
-
-        # TODO: use intention revealing constructor method
-        # add an Event contstructor method like `Event.new_or_duplicate`
-        # which is more descriptive than `Event.new`
-        event = Event.new(opts, event) # duplicate if this event matches the previous
+        prev_event = Event.new(opts, prev_event)
       end
     end
 
+    # date/time/zone YY-MM-DD HH:MM Z
     def normalize_gcal_to_bnet_dates(g_event)
-      # Gcal dates are hashes and Gcal end date is exclusive
-      # Convert back to Bnet so the hash id is consistent
-      g_start = g_event["start"]
-      start = g_start["date"] || g_start["dateTime"].split('T').first
-
-      g_finish = g_event["end"]
-      if g_finish["date"]
-        lcl_date = Time.parse(g_finish["date"]) - 1.day
-        finish = lcl_date.strftime("%Y-%m-%d")
+      # GCal dates are date, dateTime hashes and GCal end date is exclusive
+      # Convert back to BNet format so the hash id is consistent
+      begin_event = g_event["start"]
+      if begin_event["date"]
+        begin_date = begin_event["date"]
+        begin_time = ""
       else
-        finish = g_finish["dateTime"].split('T').first
+        time = Time.parse(begin_event["dateTime"])
+        begin_date = time.strftime('%Y-%m-%d')
+        begin_time = time.strftime('%H:%M:%S%z').insert(-3,':')  #RFC3339
       end
-      [start, finish]
+      
+      finish_event = g_event["end"]
+      if finish_event["date"]
+        time = Time.parse(finish_event["date"]) - 1.day
+        finish_date = time.strftime("%Y-%m-%d")
+        finish_time = ""
+      else
+        time = Time.parse(finish_event["dateTime"])
+        finish_date = time.strftime('%Y-%m-%d')
+        finish_time = time.strftime('%H:%M:%S%z').insert(-3,':')  #RFC3339
+      end
+      [begin_date, begin_time, finish_date, finish_time]
     end
 
   end
