@@ -51,9 +51,6 @@ class Bnet
           csv_event["finish_time"] = time.strftime('%H:%M:%S%z').insert(-3,':')  #RFC3339
         end
 
-        csv_event["location"] = located_at(csv_event)
-        csv_event["description"] = leaders_for(csv_event)
-
         # create normalized event
         new_event = Event.new(csv_event, prev_event)
         list << new_event
@@ -61,26 +58,6 @@ class Bnet
       end
 
       list
-    end
-
-    def located_at(event)
-      if event['lat'].blank? or event['lon'].blank?
-        event['location']
-      elsif event['location'].blank?
-        "#{event['lat']}, #{event['lon']}"
-      else
-        "(#{event['location']}) #{event['lat']}, #{event['lon']}"
-      end
-    end
-
-    def leaders_for(event)
-      if event['leaders'].blank? or event['leaders'] == 'TBA'
-        event['description']
-      elsif event['description'].blank?
-        "Leaders: #{event['leaders']}"
-      else
-        "#{event['description']}\n\nLeaders: #{event['leaders']}"
-      end
     end
 
   end
