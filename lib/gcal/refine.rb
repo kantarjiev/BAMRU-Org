@@ -38,23 +38,27 @@ class Gcal
       # Sort events to find duplicates
       sorted_events = json_events.sort_by do |e|
         # use to_s to handle data that contains embedded hash and nil
-        e["description"].to_s + e["begin_date"].to_s + e["begin_time"].to_s + e["location"].to_s
+        e["title"].to_s + e["begin_date"].to_s + e["begin_time"].to_s +
+          e["finish_date"].to_s + e["finish_time"].to_s +
+          e["gcal_location"].to_s + e["gcal_description"].to_s
       end
 
       prev_event = nil
       sorted_events.map do |e|
         begin_date, begin_time, finish_date, finish_time = normalize_gcal_to_bnet_dates(e)
         opts  = {
-          gcal_id:     e["id"],
-          location:    e["location"],
           title:       e["summary"],
           begin_date:  begin_date,
           begin_time:  begin_time,
           finish_date: finish_date,
           finish_time: finish_time,
-          description: e["description"]
+          gcal_id:          e["id"],
+          gcal_location:    e["location"],
+          gcal_description: e["description"]
         }
-        prev_event = Event.new(opts, prev_event)
+
+        event = Event.new(opts, prev_event)
+        prev_event = event
       end
     end
 
