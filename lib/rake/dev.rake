@@ -5,19 +5,4 @@ namespace :dev do
     log cmd
     system cmd
   end
-
-  desc "Run all specs"
-  task :rspec do
-    cmd = "bundle exec rspec -c"
-    log cmd
-    system cmd
-    exit($?.exitstatus)
-  end
-
-  desc "Start Guard spec runner"
-  task :guard do
-    cmd = "bundle exec guard"
-    log cmd
-    system cmd
-  end
 end

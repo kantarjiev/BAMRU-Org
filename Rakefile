@@ -10,6 +10,7 @@ require 'yaml'
 load "./lib/rake/dev.rake"
 load "./lib/rake/site.rake"
 load "./lib/rake/data.rake"
+load "./lib/rake/spec.rake"
 load "./lib/rake/crondev.rake"
 load "./lib/rake/total.rake"
 load "./lib/rake/admin.rake"
@@ -26,6 +27,6 @@ log "#{stamp} | #{ARGV.join(' ')}"
 
 # ----- default task -----
 
-task :default => ['dev:rspec']
+task :default => ['spec:unit']
 
 # ----- fini -----
