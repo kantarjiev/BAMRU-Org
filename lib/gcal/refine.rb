@@ -45,7 +45,7 @@ class Gcal
 
       prev_event = nil
       sorted_events.map do |e|
-        begin_date, begin_time, finish_date, finish_time = normalize_gcal_to_bnet_dates(e)
+        begin_date, begin_time, finish_date, finish_time = normalize_gcal_to_canonical_dates(e)
         opts  = {
           title:       e["summary"],
           begin_date:  begin_date,
@@ -62,30 +62,32 @@ class Gcal
       end
     end
 
-    # date/time/zone YY-MM-DD HH:MM Z
-    def normalize_gcal_to_bnet_dates(g_event)
-      # GCal dates are date, dateTime hashes and GCal end date is exclusive
-      # Convert back to BNet format so the hash id is consistent
+    # canonical form: date time YY-MM-DD HH:MM:SS-TZ
+    def normalize_gcal_to_canonical_dates(g_event)
+      # GCal dates are date, dateTime hashes. The GCal end date is exclusive
+      # Convert back to BNet format so the hash ids are consistent
+
       begin_event = g_event["start"]
+      finish_event = g_event["end"]
+
       if begin_event["date"]
-        begin_date = begin_event["date"]
-        begin_time = ""
+        begin_date, begin_time = [begin_event["date"], ""]
       else
-        time = Time.parse(begin_event["dateTime"])
-        begin_date = time.strftime('%Y-%m-%d')
-        begin_time = time.strftime('%H:%M:%S%z').insert(-3,':')  #RFC3339
+        # break properly format datetime into date and time
+        time = begin_event["dateTime"].split('T')
+        begin_date, begin_time = time
       end
       
-      finish_event = g_event["end"]
       if finish_event["date"]
+        # account for GCal exclusive date format
         time = Time.parse(finish_event["date"]) - 1.day
-        finish_date = time.strftime("%Y-%m-%d")
-        finish_time = ""
+        finish_date, finish_time = [time.strftime("%Y-%m-%d"), ""]
       else
-        time = Time.parse(finish_event["dateTime"])
-        finish_date = time.strftime('%Y-%m-%d')
-        finish_time = time.strftime('%H:%M:%S%z').insert(-3,':')  #RFC3339
+        # break properly format datetime into date and time
+        time = finish_event["dateTime"].split('T')
+        finish_date, finish_time = time
       end
+
       [begin_date, begin_time, finish_date, finish_time]
     end
 
