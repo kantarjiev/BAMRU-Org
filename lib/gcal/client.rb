@@ -16,7 +16,7 @@ class Gcal
     extend Rake::Loggers
     include Gcal::Log
 
-    raise "No Gcal credentials" unless File.exists?(CLIENT_SECRET)
+    raise "No GCal credentials" unless File.exists?(CLIENT_SECRET)
 
     # ----- instance methods -----
 
