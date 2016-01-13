@@ -45,7 +45,7 @@ class Gcal
 
       prev_event = nil
       sorted_events.map do |e|
-        begin_date, begin_time, finish_date, finish_time = normalize_gcal_to_cononical_dates(e)
+        begin_date, begin_time, finish_date, finish_time = normalize_gcal_to_canonical_dates(e)
         opts  = {
           title:       e["summary"],
           begin_date:  begin_date,
@@ -62,8 +62,8 @@ class Gcal
       end
     end
 
-    # cononical form: date time YY-MM-DD HH:MM:SS-TZ
-    def normalize_gcal_to_cononical_dates(g_event)
+    # canonical form: date time YY-MM-DD HH:MM:SS-TZ
+    def normalize_gcal_to_canonical_dates(g_event)
       # GCal dates are date, dateTime hashes. The GCal end date is exclusive
       # Convert back to BNet format so the hash ids are consistent
 

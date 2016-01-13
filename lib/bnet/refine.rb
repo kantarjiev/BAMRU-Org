@@ -29,7 +29,7 @@ class Bnet
       prev_event = nil
       CSV.foreach(@from, headers: true) do |csv_event|
         # normalize date and time
-        # cononical form: date time YY-MM-DD HH:MM:SS-TZ
+        # canonical form: date time YY-MM-DD HH:MM:SS-TZ
         # use Time class to correctly account for daylight savings
         csv_event["finish_date"] = csv_event["begin_date"] if csv_event["finish_date"].blank?
         csv_event["begin_time"] = csv_event["finish_time"] if csv_event["begin_time"].blank?
