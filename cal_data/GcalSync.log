@@ -1,10 +1,5 @@
-LOG RESET AT 16-01-15 00:00
+LOG RESET AT 16-01-22 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-01-20 15:20 - MM_ENV=production -----------
-DELETED: "Qrtly Leadership Mtg [2016-01-20]" h54lvue0jc59c0qol2fe2vht0g
-CREATED: "Qrtly Leadership Mtg [2016-01-20]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-01-21 22:40 - MM_ENV=production -----------
-DELETED: "Snow Skills * [2016-01-23]" cqgt6au8fia953ej9592e2bpec
-CREATED: "Snow Skills - Bay Area * [2016-01-23]"
+----------- GCAL SYNC - 16-01-22 10:30 - MM_ENV=production -----------
+DELETED: "Snow Skills * [2016-01-24]" p4b7iuq3upvl0b66elbrftmprs
 CREATED: "Snow Skills * [2016-01-24]"
