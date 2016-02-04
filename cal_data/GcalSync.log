@@ -1,12 +1,5 @@
-LOG RESET AT 16-01-22 00:00
+LOG RESET AT 16-02-01 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-01-22 10:30 - MM_ENV=production -----------
-DELETED: "Snow Skills * [2016-01-24]" p4b7iuq3upvl0b66elbrftmprs
-CREATED: "Snow Skills * [2016-01-24]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-01-28 22:20 - MM_ENV=production -----------
-DELETED: "Snow and Ice Recert Prep: Tech Rescue [2016-02-06]" 1ukgld2ipf582j6a4rtnbcd65s
-DELETED: "Snow and Ice Recert Skills Night [2016-02-10]" rnkior6pca6rhoeumkc4nj2k30
-CREATED: "Snow and Ice Recert Prep: Tech Rescue [2016-02-06]"
-CREATED: "Snow and Ice Recert Skills Night [2016-02-10]"
-CREATED: "SAREX [2016-09-09]"
+----------- GCAL SYNC - 16-02-03 21:10 - MM_ENV=production -----------
+DELETED: "Guest Mock Search G [2016-02-07]" jgu4118fjk5qk3it24ei89j0ic
+CREATED: "Guest Mock Search G [2016-02-07]"
