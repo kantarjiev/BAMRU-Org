@@ -1,7 +1,7 @@
 # Use this file to define cron jobs on your development system.
 #
-# to generate cronfile : `whenever -f cron.rb --update-crontab`
-# to clear cronfile    : `whenever -f cron.rb --clear-crontab`
+# to generate cronfile : `whenever -f crondev.rb --update-crontab`
+# to clear cronfile    : `whenever -f crondev.rb --clear-crontab`
 # for help on whenever : `whenever -h`
 # to see cron settings : `crontab -l`
 # to edit the cronfile : `crontab -e`
