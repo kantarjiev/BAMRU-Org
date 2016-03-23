@@ -1,6 +1,5 @@
-LOG RESET AT 16-03-08 00:00
+LOG RESET AT 16-03-22 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-03-11 12:00 - MM_ENV=production -----------
-CREATED: "BASARC mutual aid mock search [2016-06-11]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-03-12 11:50 - MM_ENV=production -----------
+----------- GCAL SYNC - 16-03-22 21:20 - MM_ENV=production -----------
+DELETED: "SAR Basic *G [2016-04-16]" io2ivv0n2631nd99f4mkjrjrmo
+CREATED: "SAR Basic *G [2016-04-16]"
