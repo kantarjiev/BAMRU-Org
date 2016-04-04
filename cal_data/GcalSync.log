@@ -1,14 +1,4 @@
-LOG RESET AT 16-03-22 00:00
+LOG RESET AT 16-04-01 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-03-22 21:20 - MM_ENV=production -----------
-DELETED: "SAR Basic *G [2016-04-16]" io2ivv0n2631nd99f4mkjrjrmo
-CREATED: "SAR Basic *G [2016-04-16]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-03-24 21:10 - MM_ENV=production -----------
-CREATED: "Shasta Hotlum-Wintun [2016-05-14]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-03-28 08:50 - MM_ENV=production -----------
-CREATED: "Round Top Small Alpine [2016-04-02]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-03-30 14:00 - MM_ENV=production -----------
-CREATED: "Tracking Skills Night [2016-04-27]"
+----------- GCAL SYNC - 16-04-03 21:30 - MM_ENV=production -----------
+CREATED: "Small Alpine Sugarbowl traverse [2016-04-09]"
