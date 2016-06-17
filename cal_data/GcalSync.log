@@ -1,19 +1,5 @@
-LOG RESET AT 16-06-01 00:00
+LOG RESET AT 16-06-15 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-02 20:40 - MM_ENV=production -----------
-CREATED: "PRS Instructor Skills Night [2016-06-13]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-06 22:30 - MM_ENV=production -----------
-DELETED: "Personal Rock Skills * [2016-06-25]" n74gffvfsar4pf7anrnophh4ok
-CREATED: "Personal Rock Skills * [2016-06-25]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-07 09:30 - MM_ENV=production -----------
-CREATED: "TTRS transitions [2016-06-07]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-07 09:40 - MM_ENV=production -----------
-DELETED: "TTRS transitions [2016-06-07]" 5f2eem2mdp2aq0qio5gdotous0
-CREATED: "TTRS transitions [2016-07-05]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-07 10:10 - MM_ENV=production -----------
-DELETED: "TTRS transitions [2016-07-05]" offo8hevln39r3khs8vt82qv7g
-CREATED: "TTRS transitions [2016-07-05]"
+----------- GCAL SYNC - 16-06-16 21:00 - MM_ENV=production -----------
+DELETED: "Advanced Tech [2016-09-23]" jl6fsb7hb0bcjllhk18n5k5s40
+CREATED: "Advanced Tech [2016-09-23]"
