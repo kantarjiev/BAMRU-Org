@@ -1,5 +1,6 @@
-LOG RESET AT 16-06-15 00:00
+LOG RESET AT 16-06-22 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-16 21:00 - MM_ENV=production -----------
-DELETED: "Advanced Tech [2016-09-23]" jl6fsb7hb0bcjllhk18n5k5s40
-CREATED: "Advanced Tech [2016-09-23]"
+----------- GCAL SYNC - 16-06-22 20:00 - MM_ENV=production -----------
+DELETED: "Search Management / SAR Topo * [2016-11-19]" rtq38p4blj9f7voi9v82v6ndug
+DELETED: "Heli Training [2016-11-20]" kd3mk90o31dn136abe3kdhcru0
+CREATED: "Search Management / Heli / Joint-CARDA Training [2016-11-19]"
