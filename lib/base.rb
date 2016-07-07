@@ -31,8 +31,14 @@ VERBOSE_PLUS ||= BASE_FLAGS.match(/verbose\+/)
 
 # ----- gcal keys / environment -----
 
+def gcal_keys_path
+  path1 = File.expand_path("./.gcal_keys")
+  path2 = File.expand_path("~/.gcal_keys")
+  File.exist?(path1) ? path1 : path2
+end
+
 APPLICATION_NAME ||= "BAMRU Google Calendar Publish"
-GCAL_KEYS        ||= File.expand_path("~/.gcal_keys")
+GCAL_KEYS        ||= gcal_keys_path
 
 CLIENT_SECRET ||= "#{GCAL_KEYS}/client_secret.json"
 CREDENTIAL    ||= "#{GCAL_KEYS}/#{MM_ENV}_calendar_credential.json"
