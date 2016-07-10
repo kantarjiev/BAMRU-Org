@@ -1,28 +1,4 @@
-LOG RESET AT 16-06-22 00:00
+LOG RESET AT 16-07-08 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-22 20:00 - MM_ENV=production -----------
-DELETED: "Search Management / SAR Topo * [2016-11-19]" rtq38p4blj9f7voi9v82v6ndug
-DELETED: "Heli Training [2016-11-20]" kd3mk90o31dn136abe3kdhcru0
-CREATED: "Search Management / Heli / Joint-CARDA Training [2016-11-19]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-25 08:50 - MM_ENV=production -----------
-DELETED: "Tracking *G [2016-05-22]" j4gf2ou49qong8oir40rtrh5o0
-CREATED: "Tracking *G [2016-05-22]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-29 11:50 - MM_ENV=production -----------
-DELETED: "Low Angle * [2016-07-23]" tdpbg11vk5km9evin8ua5g644g
-DELETED: "Truck Training [2016-07-24]" 6c3dnuf7okb0q39dqj6u4qcg7g
-CREATED: "Truck Training [2016-07-23]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-29 15:20 - MM_ENV=production -----------
-DELETED: "Truck Training [2016-07-23]" fg1m51acseajs5o7jftdgsh6og
-CREATED: "Truck Training [2016-07-23]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-29 17:20 - MM_ENV=production -----------
-CREATED: "Low Angle * [2016-07-24]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-06-29 19:30 - MM_ENV=production -----------
-DELETED: "DO Skills Night * [2016-07-20]" 4k6249te6rd3piokqil0ai7r1g
-CREATED: "DO Skills Night * [2016-07-20]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-07-06 22:20 - MM_ENV=production -----------
+----------- GCAL SYNC - 16-07-09 19:10 - MM_ENV=production -----------
+CREATED: "TTRS testing: edge transitions [2016-07-30]"
