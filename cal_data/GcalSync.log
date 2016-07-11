@@ -2,3 +2,9 @@ LOG RESET AT 16-07-08 00:00
 ----------------------------------------------------------------------
 ----------- GCAL SYNC - 16-07-09 19:10 - MM_ENV=production -----------
 CREATED: "TTRS testing: edge transitions [2016-07-30]"
+----------------------------------------------------------------------
+----------- GCAL SYNC - 16-07-10 22:30 - MM_ENV=production -----------
+DELETED: "DO Skills Night * [2016-07-20]" moalrmgpckiaomkqhns7fiuri4
+DELETED: "DO Skills Night * [2016-08-10]" ngljaf2sq9see8hrgqjkomv2dk
+CREATED: "DO Skills Night * [2016-07-20]"
+CREATED: "DO Skills Night * [2016-08-10]"
