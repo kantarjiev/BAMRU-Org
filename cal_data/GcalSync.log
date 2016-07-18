@@ -1,10 +1,7 @@
-LOG RESET AT 16-07-08 00:00
+LOG RESET AT 16-07-15 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-07-09 19:10 - MM_ENV=production -----------
-CREATED: "TTRS testing: edge transitions [2016-07-30]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-07-10 22:30 - MM_ENV=production -----------
-DELETED: "DO Skills Night * [2016-07-20]" moalrmgpckiaomkqhns7fiuri4
-DELETED: "DO Skills Night * [2016-08-10]" ngljaf2sq9see8hrgqjkomv2dk
-CREATED: "DO Skills Night * [2016-07-20]"
-CREATED: "DO Skills Night * [2016-08-10]"
+----------- GCAL SYNC - 16-07-18 16:10 - MM_ENV=production -----------
+DELETED: "Truck Training [2016-07-23]" u3le606hq6a0a2s6juthghn8t0
+DELETED: "Basic Tech * [2016-08-20]" 14h2r59ja7mkpt4g6925kj55gs
+CREATED: "Truck Training [2016-07-23]"
+CREATED: "Basic Tech * [2016-08-20]"
