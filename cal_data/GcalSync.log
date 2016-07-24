@@ -1,11 +1,5 @@
-LOG RESET AT 16-07-15 00:00
+LOG RESET AT 16-07-22 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-07-18 16:10 - MM_ENV=production -----------
-DELETED: "Truck Training [2016-07-23]" u3le606hq6a0a2s6juthghn8t0
-DELETED: "Basic Tech * [2016-08-20]" 14h2r59ja7mkpt4g6925kj55gs
-CREATED: "Truck Training [2016-07-23]"
-CREATED: "Basic Tech * [2016-08-20]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-07-19 09:30 - MM_ENV=production -----------
-DELETED: "Advanced Tech [2016-09-23]" 7brnnqm85hvc9ovcgkhuar8el8
-CREATED: "Advanced Tech [2016-09-23]"
+----------- GCAL SYNC - 16-07-23 20:40 - MM_ENV=production -----------
+DELETED: "Truck Training [2016-07-23]" 7bbk8u5a09ij4l68ru76cdahmo
+DELETED: "Low Angle * [2016-07-24]" 5hu9h8bc6orhvumspmvvuoo3dk
