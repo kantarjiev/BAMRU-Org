@@ -1,13 +1,5 @@
-LOG RESET AT 16-09-08 00:00
+LOG RESET AT 16-09-15 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-09-08 21:50 - MM_ENV=production -----------
-DELETED: "Medical Skills *G [2016-10-22]" 2eln4qcg704u6208kqco0ir7nk
-CREATED: "Medical Skills *G [2016-10-22]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-09-12 08:50 - MM_ENV=production -----------
-DELETED: "Practice Search G [2016-10-01]" redr5r3slc8ii9dgnkumb12q8o
-CREATED: "Practice Search G [2016-10-01]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-09-14 18:40 - MM_ENV=production -----------
-DELETED: "Grand Canyon [2016-10-08]" 36l8pvc7ehuali8sk7haiv3abc
-CREATED: "Grand Canyon [2016-10-08]"
+----------- GCAL SYNC - 16-09-21 21:10 - MM_ENV=production -----------
+DELETED: "Search Management / Heli / Joint-CARDA Training [2016-11-19]" duopsgu8jn751mtuupo3qgb2o4
+CREATED: "Search Management / Heli / Joint-CARDA Training [2016-11-19]"
