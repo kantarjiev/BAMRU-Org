@@ -1,12 +1,5 @@
-LOG RESET AT 16-10-15 00:00
+LOG RESET AT 16-10-22 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-10-17 12:10 - MM_ENV=production -----------
-DELETED: "Medical Skills *G [2016-10-22]" ck81bab399tbe2gtm7pf90o51s
-CREATED: "Medical Skills *G [2016-10-22]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-10-19 12:20 - MM_ENV=production -----------
-CREATED: "Evolutions Training: Technical Pickoffs [2016-11-05]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-10-19 13:40 - MM_ENV=production -----------
-DELETED: "Skills Night [2016-11-01]" bomfvnbf31q2is4k2mgl9j7v80
-CREATED: "Sign-off Skills Night [2016-11-01]"
+----------- GCAL SYNC - 16-10-24 14:40 - MM_ENV=production -----------
+DELETED: "Evolutions Training: Technical Pickoffs [2016-11-05]" 2eju0fdpebkt6jo5o3n5efiaig
+CREATED: "Evolutions Training: Technical Pickoffs [2016-11-06]"
