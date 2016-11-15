@@ -1,13 +1,5 @@
-LOG RESET AT 16-11-01 00:00
+LOG RESET AT 16-11-08 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-11-02 23:00 - MM_ENV=production -----------
-DELETED: "Skills Weekend / Make up Training * [2016-12-10]" hsq1fged3nk460queibn97k59g
-CREATED: "Skills Weekend / Make up Training * [2016-12-10]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-11-07 11:30 - MM_ENV=production -----------
-DELETED: "Skills Weekend / Make up Training * [2016-12-10]" ppg2mlf6ukv14qnc1245b5gqn0
-CREATED: "Skills Weekend * [2016-12-10]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-11-07 18:30 - MM_ENV=production -----------
-DELETED: "Skills Weekend * [2016-12-10]" f7g7vaqq4ijao7hsnd905avq4g
+----------- GCAL SYNC - 16-11-14 23:50 - MM_ENV=production -----------
+DELETED: "Skills Weekend (day 1) [2016-12-10]" lm8p3ogojlh4qqnsrt6pv2k340
 CREATED: "Skills Weekend (day 1) [2016-12-10]"
