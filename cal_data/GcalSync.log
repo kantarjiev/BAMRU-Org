@@ -1,9 +1,7 @@
-LOG RESET AT 16-11-22 00:00
+LOG RESET AT 16-12-08 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-11-22 00:10 - MM_ENV=production -----------
-DELETED: "Guest Mock search G [2017-02-12]" 8rb1ccr3427qhen9oeivg7kf9o
-DELETED: "DO Skills Night * [2017-07-12]" 9prbm4kljl3cotvrg446pi2gcc
-DELETED: "DO Skills Night * [2017-08-16]" vejif4eg4t7d9r61hrgvuh1sso
-CREATED: "Guest Mock Search G [2017-02-12]"
-CREATED: "DO Skills Night * [2017-07-12]"
-CREATED: "DO Skills Night * [2017-08-16]"
+----------- GCAL SYNC - 16-12-09 18:20 - MM_ENV=production -----------
+DELETED: "Skills Weekend (day 1) - Truck familiarization [2016-12-10]" v3e09kdpng4tmao4noldb3vo3c
+CREATED: "Skills Weekend (day 1) - Truck familiarization [2016-12-10]"
+CREATED: "Holiday Party [2017-12-02]"
+CREATED: "Skills Weekend / Make Up Training * [2017-12-09]"
