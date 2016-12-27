@@ -1,4 +1,17 @@
-LOG RESET AT 16-12-15 00:00
+LOG RESET AT 16-12-22 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-12-20 18:10 - MM_ENV=production -----------
-CREATED: "Alcatraz - High Angle Gardening [2017-01-15]"
+----------- GCAL SYNC - 16-12-27 06:10 - MM_ENV=production -----------
+DELETED: "SAR Basic *G [2017-04-08]" q93aqcuk2qmtbillqro8qve7l4
+DELETED: "Tracking Training *G [2017-05-21]" g2k6esuvkcrngnc9cn78lnie4k
+DELETED: "Truck/Gear Familiarity Training * [2017-07-22]" 7h1io9bq2u5anp6fsgdlhdfcrs
+DELETED: "Low Angle Rescue * [2017-07-23]" 5n1tcuf5dq9i2dam8umnjh5lj0
+DELETED: "Tech Evolutions Training [2017-09-23]" fd2pnqc1qhl2n096m5qik09hd8
+DELETED: "Medical Skills *G [2017-10-21]" m50b9t5ukdgeo0d4a09gdema48
+DELETED: " Search Management / Adv Search Strategy * [2017-11-18]" b06bqef9pvpf76219ulbr4k7eo
+CREATED: "SAR Basic *G [2017-04-08]"
+CREATED: "Tracking Training *G [2017-05-21]"
+CREATED: "Truck/Gear Familiarity Training * [2017-07-22]"
+CREATED: "Low Angle Rescue * [2017-07-23]"
+CREATED: "Tech Evolutions Training [2017-09-23]"
+CREATED: "Medical Skills *G [2017-10-21]"
+CREATED: " Search Management / Adv Search Strategy * [2017-11-18]"
