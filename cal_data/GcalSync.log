@@ -1,25 +1,82 @@
-LOG RESET AT 16-12-22 00:00
+LOG RESET AT 17-01-01 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 16-12-27 06:10 - MM_ENV=production -----------
-DELETED: "SAR Basic *G [2017-04-08]" q93aqcuk2qmtbillqro8qve7l4
-DELETED: "Tracking Training *G [2017-05-21]" g2k6esuvkcrngnc9cn78lnie4k
-DELETED: "Truck/Gear Familiarity Training * [2017-07-22]" 7h1io9bq2u5anp6fsgdlhdfcrs
-DELETED: "Low Angle Rescue * [2017-07-23]" 5n1tcuf5dq9i2dam8umnjh5lj0
-DELETED: "Tech Evolutions Training [2017-09-23]" fd2pnqc1qhl2n096m5qik09hd8
-DELETED: "Medical Skills *G [2017-10-21]" m50b9t5ukdgeo0d4a09gdema48
-DELETED: " Search Management / Adv Search Strategy * [2017-11-18]" b06bqef9pvpf76219ulbr4k7eo
-CREATED: "SAR Basic *G [2017-04-08]"
-CREATED: "Tracking Training *G [2017-05-21]"
-CREATED: "Truck/Gear Familiarity Training * [2017-07-22]"
-CREATED: "Low Angle Rescue * [2017-07-23]"
-CREATED: "Tech Evolutions Training [2017-09-23]"
-CREATED: "Medical Skills *G [2017-10-21]"
-CREATED: " Search Management / Adv Search Strategy * [2017-11-18]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-12-29 08:30 - MM_ENV=production -----------
-DELETED: "Snow Skills * [2017-03-18]" lsjqfrnefl4e3panf2d72eqoio
-CREATED: "Snow Skills * [2017-03-18]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 16-12-29 08:40 - MM_ENV=production -----------
-DELETED: "Recert Skills Night [2017-01-25]" 3vgm199jh1h4atn9cm09p1q060
-CREATED: "Recert Skills Night [2017-01-25]"
+----------- GCAL SYNC - 17-01-04 19:20 - MM_ENV=production -----------
+DELETED: "General Meeting  (not 3rd Monday) [2015-01-12]" fsak5dg63c6tkf3vpjg76hlmg4
+DELETED: "Qrtly Leadership Mtg [2015-01-21]" 6veuauqjqlso5psdqdtuc8q19s
+DELETED: "Snow Skills [2015-01-24]" c7729l146lsa5sroh3ol5rad28
+DELETED: "Recert Skills Night [2015-01-28]" p9uajgf3mgjf05mte664m1l6nk
+DELETED: "Bay Area Joint MRA training [2015-02-07]" bh3506gekltvg3rg4n0q9l89n8
+DELETED: "MRA Recert Training [2015-02-07]" jp3nfu7l84720gj8dqibf7rejg
+DELETED: "Guest Mock Search [2015-02-08]" 0v4s8fvgtu1k906pephkgj8r40
+DELETED: "General Meeting (Not 3rd Monday) [2015-02-09]" npr8lkqlsohkum1r3k2645s85c
+DELETED: "BASARC MLPI (weekend 1) [2015-02-14]" flkjq39o4rv3uth394p1ahmka0
+DELETED: "Recert Skills Night [2015-02-18]" ot0nhc3o8uk9q6cjnrnmh0f5u0
+DELETED: "BASARC MLPI (weekend 2) [2015-02-21]" m9p7nr46hjod26his757p6jv2g
+DELETED: "CRMRA Recert Prep Training  [2015-02-21]" p7c94fobn7ijcjnpdjtraijqi4
+DELETED: "SO Driver's Training Practical Component [2015-02-28]" llkglp38o6curbarj5a0f6ru64
+DELETED: "Tech Rescue Re-Accreditation [2015-03-07]" ite0fb913ngfq767f973b715vs
+DELETED: "General Meeting [2015-03-16]" lv0gealgi3taovhvn81n7lq830
+DELETED: "Marin SAR Training [2015-03-28]" 7akvifb5u7buhc7jtv5fq973fo
+DELETED: "Glacier / Crevasse Rescue [2015-03-28]" i0j7q35hu98j7utf7jamh06e0s
+DELETED: "General Meeting (not 3rd Monday) [2015-04-13]" 46nu8pmqch64qahj2bcp10u8j0
+DELETED: "SAR Basic * [2015-04-18]" uidtj4f3tnoikj8v6ra4noo6mg
+DELETED: "Trainee Applications Due [2015-04-27]" hg2fjg6bi7fe5m34b6n0h30cqk
+DELETED: "Shasta Ski Mountaineering Training [2015-05-01]" b0rirsjthhsmmbki94s7h0q8qk
+DELETED: "Qrtly Leadership Mtg [2015-05-06]" hk0uo10706bdn3cgn2h8phjmvo
+DELETED: "Trainee Interviews -- Day 1 [2015-05-09]" hgrf2rvd10cgh221mt5kl3dqjg
+DELETED: "Trainee Interviews -- Day 2 [2015-05-10]" nu06sknp9coetd5115q5o2uvuo
+DELETED: "Trainee Class Announced [2015-05-15]" 541r2m6ol65v0cusp1vk9hlpf4
+DELETED: "General Meeting [2015-05-18]" 5s1cpp16a6etgubc7h89472hcg
+DELETED: "Navigation Skills * [2015-05-31]" del655983ekm38jaqdsec2julg
+DELETED: "Skills Night: Purcell Prusiks [2015-06-10]" 9veao6gn36v2j4cg7jf2tndsvs
+DELETED: "General Meeting [2015-06-15]" 1sv85s46fndpt2k2rqckd9jmfs
+DELETED: "Personal Rock Skills * [2015-06-20]" l19061s16fh6dj6i4mvtr943co
+DELETED: "Western States 100 [2015-06-27]" s4c6ea7gf3brnepclgjt5o2h6g
+DELETED: "Small Alpine - Chiquito Pass [2015-07-10]" m15imdrvuimoa28fqa27fh1b0o
+DELETED: "Drivers Training: Classroom [2015-07-15]" a69j00ng879cfdntn1qadha3f4
+DELETED: "Drivers Training: Practical [2015-07-18]" 21hpeg3ne83s8a0aibh9d5h4h8
+DELETED: "General Meeting [2015-07-20]" r2897a0glu3vt65kkcti8qpdbc
+DELETED: "Lost Person Behavior Skills Night [2015-07-22]" bnrqnr0ru2tqbrt9j6ofpg4lkk
+DELETED: "Low Angle Rescue * [2015-07-25]" gbrmplf2iv9calcd4ed9tsveeg
+DELETED: "Search Practice/Helicopter Safety [2015-07-26]" b0on42h2ht2a45p7vfair2vefo
+DELETED: "Qrtly Leadership Mtg [2015-07-29]" k642bde2u9p1gnlv2c43c9g4ls
+DELETED: "DO Skills Night * [2015-08-04]" a6i7fjd87nj31a4lni4q0oi9fg
+DELETED: "CANCELLED: Small Alpine: Billy's Peak [2015-08-07]" ef3g6mtnr7cm44hb8lpjf0rv3o
+DELETED: "Low Angle Skills Night [2015-08-11]" tuihjj5a0255k6fejhqnnlc4vg
+DELETED: "Small Alpine Three Sister's Peak [2015-08-14]" a6hptkl93aoupe69752u1uer5c
+DELETED: "Starr King Small Alpine [2015-08-14]" kgvk1tt2el7ka0qurvulkj9hc8
+DELETED: "General Meeting [2015-08-17]" irpkajp445s9orgokfm7a03k00
+DELETED: "Qrtly Leadership Mtg (backup date) [2015-08-19]" klicvton2b7ltc195pugjhmnto
+DELETED: "Basic Technical Rescue * [2015-08-22]" s8pndrcdc2r4ivpcrqcq76kpmg
+DELETED: "Tech Rescue Skills Night [2015-09-09]" q9q49k3evi3eai5v87cqpauueo
+DELETED: "SAREX [2015-09-11]" nkrdq12057hfb0jcs1v28b4e4k
+DELETED: "Search Management / OP 0 [2015-09-19]" qa3ate32i0mp8mr4du29tgggbo
+DELETED: "General Meeting [2015-09-21]" nvcdg1kh53s40ho5mbplf60nog
+DELETED: "Small Alpine: Tenaya Canyon Ascent [2015-09-25]" cnqs8nrg3rahl059s8iv90gfdg
+DELETED: "Small Alpine: Tenaya Canyon Descent  [2015-09-25]" vc1bjaa1tvg5iun64jhraav81c
+DELETED: "Tech Rescue Skills Night [2015-09-30]" 96de6oesshmgtgqeps9anj2i4s
+DELETED: "Search Practice [2015-10-03]" dkjhertic1gkgdr509sgrdfqlc
+DELETED: "Operations Leader Training [2015-10-04]" osodhlj0td6kjs598ad29dtdj4
+DELETED: "Early Election Nominations Close [2015-10-05]" 2qb0r0j84m712fmreoa61387lo
+DELETED: "Early Election Polls Close [2015-10-15]" gqmm48rj0u0auuomh9oitnrpmc
+DELETED: "Dog Flanking Training [2015-10-17]" 0l44vg62apom5b16nbbujd9e7g
+DELETED: "Truck On-Road Training [2015-10-18]" 1796vsqpea07c0q21v8ag998r8
+DELETED: "General Meeting [2015-10-19]" p67g1b23rkk3c6ibqhgu8rquck
+DELETED: "Medical Skills * [2015-10-24]" k9al6bhie04oml8diddp0910h8
+DELETED: "Balloon Dome Small Alpine [2015-10-29]" t7eko6l39rfdmb44rckfcb1qr0
+DELETED: "General Election Nominations Close [2015-11-02]" oimlc8ic4455kga7oc0f82jgdk
+DELETED: " Qrtly Leadership Mtg [2015-11-11]" 562tb99vuk27c8paj7ct1gcrs4
+DELETED: "General Election Polls Close [2015-11-12]" vcc163s2evmm1vbionceu68o8k
+DELETED: "Skills Night: Nov. 12th [2015-11-12]" ltfvrakss3pd6v6pjhbsk0jkp0
+DELETED: "General Meeting [2015-11-16]" mmh5ktacivqhr251hi3kjb7fuo
+DELETED: "Adv. Search / Tracking / Low Angle * [2015-11-21]" ag0f0citcmt8rsmskoe3kgsok8
+DELETED: "Practice Search * [2015-11-22]" rol70ukrc1qm6vhj1i9vdc290k
+DELETED: "SO Drivers Training Classroom [2015-12-03]" mk74lrqt5rug1gk5853arklfug
+DELETED: "Holiday Party [2015-12-05]" fput4l40470u3p3ab9bbrlpemg
+DELETED: "SO Drivers Training Practical [2015-12-12]" b8dv8bobeh1n64bqspck5sk644
+DELETED: "New Truck Training [2015-12-12]" q2gj6saerea5eeh3i90mk66qpo
+DELETED: "General Meeting (not 3rd Monday) [2015-12-14]" 2ibq0tc6iag9bjclfea3suh49g
+DELETED: "BAMRU Dues Renewal [2015-12-15]" bj2rkdr16cojsel6uu7tseddg8
+DELETED: "Skills/Sign Off Weekend - Sunday [2015-12-20]" c2tpsaloav19uqielk8v2jod88
+DELETED: "Ski Interagency Training [2017-01-21]" es0j54lbg99f4stcolu5vd3ce4
+CREATED: "Ski Interagency Training [2017-01-21]"
