@@ -1,9 +1,11 @@
-LOG RESET AT 17-02-01 00:00
+LOG RESET AT 17-02-08 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 17-02-07 08:30 - MM_ENV=production -----------
-DELETED: "Snow Skills * [2017-03-18]" 7ei6b65mni6kblpa196ulub7ao
-CREATED: "Snow Skills * [2017-03-18]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 17-02-07 16:00 - MM_ENV=production -----------
-DELETED: "Wilderness Search Recert Training [2017-02-11]" 1nc8np2clo8l6234hcb9j1tses
-CREATED: "Wilderness Search Recert Training [2017-02-11]"
+----------- GCAL SYNC - 17-02-08 18:10 - MM_ENV=production -----------
+DELETED: "Wilderness Search Recert Skills Night [2017-02-22]" l1a3pifuuhfal3mhbiuubbkbhg
+DELETED: "Wilderness Search Recert Training [2017-02-25]" ji6or844vpkbc7b8u3vervgagg
+DELETED: "Onboarding Skills Night * [2017-05-10]" upkbfnodskalg7bj6ovjkuf0c0
+DELETED: "Navigation / Tracking Skills Night *G [2017-05-17]" tqmnt1ogprhgnsoq7fmaoc4q4o
+CREATED: "Wilderness Search Recert Skills Night [2017-02-22]"
+CREATED: "Wilderness Search Recert Training [2017-02-25]"
+CREATED: "Onboarding Skills Night * [2017-05-10]"
+CREATED: "Navigation / Tracking Skills Night *G [2017-05-17]"
