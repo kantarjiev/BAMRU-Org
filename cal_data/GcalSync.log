@@ -1,23 +1,3 @@
-LOG RESET AT 17-02-08 00:00
+LOG RESET AT 17-02-15 00:00
 ----------------------------------------------------------------------
------------ GCAL SYNC - 17-02-08 18:10 - MM_ENV=production -----------
-DELETED: "Wilderness Search Recert Skills Night [2017-02-22]" l1a3pifuuhfal3mhbiuubbkbhg
-DELETED: "Wilderness Search Recert Training [2017-02-25]" ji6or844vpkbc7b8u3vervgagg
-DELETED: "Onboarding Skills Night * [2017-05-10]" upkbfnodskalg7bj6ovjkuf0c0
-DELETED: "Navigation / Tracking Skills Night *G [2017-05-17]" tqmnt1ogprhgnsoq7fmaoc4q4o
-CREATED: "Wilderness Search Recert Skills Night [2017-02-22]"
-CREATED: "Wilderness Search Recert Training [2017-02-25]"
-CREATED: "Onboarding Skills Night * [2017-05-10]"
-CREATED: "Navigation / Tracking Skills Night *G [2017-05-17]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 17-02-09 13:10 - MM_ENV=production -----------
-DELETED: "Wilderness Search Recert Training [2017-02-11]" hlkih7g87tb9q5ajo77gi6jrbo
-CREATED: "Wilderness Search Recert Training [2017-02-11]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 17-02-10 15:50 - MM_ENV=production -----------
-DELETED: "Guest Mock Search G [2017-02-12]" 1qt8n8kdfuht542htu7h6d095s
-CREATED: "Guest Mock Search G [2017-02-12]"
-----------------------------------------------------------------------
------------ GCAL SYNC - 17-02-13 10:50 - MM_ENV=production -----------
-DELETED: "NorCal MRA Joint Accreditation Training [2017-02-18]" 25fqu8hbltqu3qs12r8p5952uk
-CREATED: "NorCal MRA Joint Reaccreditation Training [2017-02-18]"
+----------- GCAL SYNC - 17-02-21 16:20 - MM_ENV=production -----------
