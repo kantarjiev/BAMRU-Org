@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+MM_ENV=production bundle exec rake total:rebuild site:deploy_calendar
