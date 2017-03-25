@@ -21,7 +21,7 @@ if sys_role == :dev_host
   end
 
   every 10.minutes do
-    run_scripts 'rebuild_and_deploy', app: "BORG"
+    run_scripts 'build_deploy', app: "BORG"
   end
 end
 
