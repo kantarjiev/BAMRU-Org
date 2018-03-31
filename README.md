@@ -46,3 +46,7 @@ The development/editing workflow generally follows this cycle:
 You'll need a GitHub account, Ubuntu or UbuntuVM, Command Line savvy and basic
 coding skills (HTML, CSS, JS, Ruby).  Read the [docs](/docs/index.md) for more 
 info.
+
+## Test
+
+Added by bmrdev on dev.bamru.info
