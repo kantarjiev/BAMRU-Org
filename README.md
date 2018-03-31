@@ -1,9 +1,9 @@
 # BAMRU.org Static Website
 
-[Build Status](https://travis-ci.org/andyl/BAMRU-Org.svg)
-[Documentation Status](https://readthedocs.org/projects/bamru-org/badge/?version=latest)
-[Code Climate](https://codeclimate.com/github/andyl/BAMRU-Org/badges/gpa.svg)
-[Test Coverage](https://codeclimate.com/github/andyl/BAMRU-Org/badges/coverage.svg)
+[![Build Status](https://travis-ci.org/andyl/BAMRU-Org.svg)](https://travis-ci.org/andyl/BAMRU-Org)
+[![Documentation Status](https://readthedocs.org/projects/bamru-org/badge/?version=latest)](http://bamru-org.readthedocs.org/en/latest/)
+[![Code Climate](https://codeclimate.com/github/andyl/BAMRU-Org/badges/gpa.svg)](https://codeclimate.com/github/andyl/BAMRU-Org)
+[![Test Coverage](https://codeclimate.com/github/andyl/BAMRU-Org/badges/coverage.svg)](https://codeclimate.com/github/andyl/BAMRU-Org/coverage)
 
 ## Overview
 
