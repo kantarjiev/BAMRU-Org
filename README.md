@@ -45,4 +45,4 @@ info.
 
 ## Test
 
-Added by bmrdev on dev.bamru.info
+Added by techbamru on dev.bamru.info
