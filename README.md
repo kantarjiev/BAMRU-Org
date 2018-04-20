@@ -1,13 +1,9 @@
 # BAMRU.org Static Website
 
-[![Build Status](https://travis-ci.org/andyl/BAMRU-Org.svg)]
-(https://travis-ci.org/andyl/BAMRU-Org)
-[![Documentation Status](https://readthedocs.org/projects/bamru-org/badge/?version=latest)]
-(http://bamru-org.readthedocs.org/en/latest/)
-[![Code Climate](https://codeclimate.com/github/andyl/BAMRU-Org/badges/gpa.svg)]
-(https://codeclimate.com/github/andyl/BAMRU-Org)
-[![Test Coverage](https://codeclimate.com/github/andyl/BAMRU-Org/badges/coverage.svg)]
-(https://codeclimate.com/github/andyl/BAMRU-Org/coverage)
+[![Build Status](https://travis-ci.org/andyl/BAMRU-Org.svg)](https://travis-ci.org/andyl/BAMRU-Org)
+[![Documentation Status](https://readthedocs.org/projects/bamru-org/badge/?version=latest)](http://bamru-org.readthedocs.org/en/latest/)
+[![Code Climate](https://codeclimate.com/github/andyl/BAMRU-Org/badges/gpa.svg)](https://codeclimate.com/github/andyl/BAMRU-Org)
+[![Test Coverage](https://codeclimate.com/github/andyl/BAMRU-Org/badges/coverage.svg)](https://codeclimate.com/github/andyl/BAMRU-Org/coverage)
 
 ## Overview
 
@@ -46,3 +42,7 @@ The development/editing workflow generally follows this cycle:
 You'll need a GitHub account, Ubuntu or UbuntuVM, Command Line savvy and basic
 coding skills (HTML, CSS, JS, Ruby).  Read the [docs](/docs/index.md) for more 
 info.
+
+## Test
+
+Added by techbamru on dev.bamru.info
